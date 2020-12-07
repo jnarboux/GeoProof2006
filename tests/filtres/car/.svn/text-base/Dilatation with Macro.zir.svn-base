@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="Streckung">
+<Parameter name="A">A</Parameter>
+<Parameter name="B">B</Parameter>
+<Objects>
+<Point name="A" hidden="super" mainparameter="true" x="-3.11864406779661" y="-0.8505392912172578">Punkt in -3.11864406779661, -0.8505392912172578</Point>
+<Point name="B" hidden="super" mainparameter="true" x="-0.5053930000000001" y="2.3790450000000005">Punkt in -0.5053930000000001, 2.3790450000000005</Point>
+<Expression name="AD1" hidden="super" showname="true" showvalue="true" x="-3.439137" y="0.850539" value="1.2000000000000006" prompt="E">Ausdruck &quot;1.2000000000000006&quot; in -3.44, 0.85</Expression>
+<Circle name="k1" hidden="super" fixed="d(A,B)*AD1" midpoint="A" acute="true">Kreis um A mit Radius 4.985317</Circle>
+<Line name="g1" hidden="super" from="A" to="B">Gerade durch A und B</Line>
+<Intersection name="S1" showname="true" target="true" first="g1" second="k1" which="first">Schnitt zwischen g1 und k1</Intersection>
+</Objects>
+<PromptFor object0="AD1" prompt0="E"/>
+</Macro>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="A" showname="true" x="-2.305084745762712" y="-0.012326656394453295">Punkt in -2.305084745762712, -0.012326656394453295</Point>
+<Point name="B" showname="true" x="-0.5053930000000001" y="2.3790450000000005">Punkt in -0.5053930000000001, 2.3790450000000005</Point>
+<Expression name="E" showname="true" showvalue="true" x="-3.439137" y="0.850539" value="1.2000000000000004" prompt="E">Ausdruck &quot;1.2000000000000004&quot; in -3.44, 0.85</Expression>
+<Circle name="k1" fixed="d(A,B)*E" midpoint="A" acute="true">Kreis um A mit Radius 7.78514</Circle>
+<Line name="g1" from="A" to="B">Gerade durch A und B</Line>
+<Intersection name="S" showname="true" first="g1" second="k1" which="first">Schnitt zwischen g1 und k1</Intersection>
+<Point name="A*" color="1" showname="true" x="3.562404000000001" y="-2.7981510000000003">Punkt in 3.562404000000001, -2.7981510000000003</Point>
+<Point name="B*" color="1" showname="true" x="4.967643000000001" y="1.7134050000000003">Punkt in 4.967643000000001, 1.7134050000000003</Point>
+<Expression name="AD2" color="1" hidden="super" showname="true" showvalue="true" x="-3.439137" y="0.850539" value="4.0/3.0" prompt="E">Ausdruck &quot;4.0/3.0&quot; in -3.44, 0.85</Expression>
+<Circle name="k2" color="1" hidden="super" fixed="d(&quot;A*&quot;,&quot;B*&quot;)*AD2" midpoint="A*" acute="true">Kreis um A* mit Radius 6.300453</Circle>
+<Line name="g2" color="1" hidden="super" from="A*" to="B*">Gerade durch A* und B*</Line>
+<Intersection name="S*" color="1" showname="true" first="g2" second="k2" which="first">Schnitt zwischen g2 und k2</Intersection>
+</Objects>
+</Construction>
+</CaR>

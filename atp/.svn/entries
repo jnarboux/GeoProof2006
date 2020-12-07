@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/atp"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="order.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="23348d3f077e5b38e557ee65a742d102"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="prop.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ba7f6984aba44082e5bf7dd89e9276e6"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="fol.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1aaca46252b11ae415202ce084e0f798"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="OCamlMakefile"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1769c1fff9f25d2727549da613b266c2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="README"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="7bbba4cfe3d0392174d5172fb1c00192"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="geom.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="2a646ad32ae35dfdd79c20c3890ab679"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="cooper.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="91c37c719d48453d3506dfb78f8376e3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="formulas.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="de663d3dfdda280b9918a3cb142e9990"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Makefile.odoc"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1209759242df86a6ff3f638b23e756c3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="LICENSE.txt"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="feeade0490e3ab80ac2f16d99b1e7780"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="intro.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bcb9e29bbd530d6e4462fb587cfe9d23"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="grobner.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c7eac6cc2c3591dd90dea1198cb235dc"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="atp.dot"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="56b1549f5ee064aaf5722c0469ad222b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="lib.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="32ec56b6fc460bb0b52706262337eb77"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Makefile"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c42af51156fc621bcb8c577106e0ec65"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+</wc-entries>

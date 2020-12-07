@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="M" showname="true" x="-2.5609756098000007" y="-0.3780487805000001">Punkt in -2.5609756098000007, -0.3780487805000001</Point>
+<Point name="P2" x="2.3170731707317067" y="-2.4268292682926833">Punkt in 2.3170731707317067, -2.4268292682926833</Point>
+<Circle name="k1" through="P2" midpoint="M" acute="true">Kreis um M durch P2</Circle>
+<Point name="P*" color="1" showname="true" x="4.682926829300001" y="1.9146341463000005">Punkt in 4.682926829300001, 1.9146341463000005</Point>
+<Line name="g1" color="2" from="M" to="P*">Gerade durch M und P*</Line>
+<Circle name="k5" color="2" through="M" midpoint="P*" partial="true" acute="true">Kreis um P* durch M</Circle>
+<Intersection name="A" color="2" showname="true" first="k1" second="k5" which="second">Schnitt zwischen k1 und k5</Intersection>
+<Circle name="k6" color="2" through="M" midpoint="A" partial="true" acute="true">Kreis um A durch M</Circle>
+<Segment name="s4" color="3" from="M" to="A">Strecke von M nach A</Segment>
+<Intersection name="P" color="3" showname="true" first="g1" second="k6" awayfrom="M" which="first">Schnitt zwischen g1 und k6</Intersection>
+<Segment name="s5" color="3" from="A" to="P">Strecke von A nach P</Segment>
+<Segment name="s6" from="A" to="P*">Strecke von A nach P*</Segment>
+<Text name="Text1" x="4.121951219512194" y="0.2317073170731705">AM=AP
+MP*=AP*
+PMA=AMP*
+MAP=MP*A
+MA/MP*=MP/MA
+MA^2=MP.MP*</Text>
+<Angle name="a" background="true" first="P" root="A" second="M" filled="true" acute="true">Winkel P - A - M</Angle>
+<Angle name="a*" background="true" first="M" root="P*" second="A" filled="true" acute="true">Winkel M - P* - A</Angle>
+<Angle name="w3" color="1" background="true" first="P*" root="M" second="A" filled="true" acute="true">Winkel P* - M - A</Angle>
+</Objects>
+</Construction>
+</CaR>

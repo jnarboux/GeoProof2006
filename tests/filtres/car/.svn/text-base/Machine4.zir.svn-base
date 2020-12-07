@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.65685424949238"/>
+<Track track="M2" on="k3" move="P7" animate="nopaint"/>
+<Objects>
+<Point name="P5" x="-3.9075500770416034" y="-0.8258859784283514">Punkt in -3.907550077041602, -0.8258859784283512</Point>
+<Circle name="k3" hidden="true" background="true" fixed="2.8291220572109137" midpoint="P5" filled="true" acute="true">Kreis um P5 mit Radius 2.829122</Circle>
+<Point name="P6" type="thick" x="2.132512" y="-2.8474580000000005">Punkt in 2.132512, -2.8474580000000005</Point>
+<Circle name="k4" hidden="true" background="true" fixed="1.9226423034423645" midpoint="P6" filled="true" acute="true">Kreis um P6 mit Radius 1.922642</Circle>
+<PointOn name="P7" type="thick" on="k3" alpha="0.5157401998508927" shape="circle">Punkt auf k3</PointOn>
+<Circle name="k5" hidden="true" fixed="5.16" midpoint="P7" acute="true">Kreis um P7 mit Radius 5.155572</Circle>
+<Intersection name="S1" type="thick" first="k4" second="k5" shape="circle" which="first">Schnitt zwischen k4 und k5</Intersection>
+<Segment name="s1" type="thick" from="P5" to="P7">Strecke von P5 nach P7</Segment>
+<Segment name="s2" type="thick" from="P7" to="S1">Strecke von P7 nach S1</Segment>
+<Segment name="s3" type="thick" from="S1" to="P6">Strecke von S1 nach P6</Segment>
+<Midpoint name="M1" type="thick" first="P7" second="S1" shape="circle">Mitte zwischen P7 und S1</Midpoint>
+<Point name="P4" type="thick" x="2.6009240000000005" y="4.154083000000002">Punkt in 2.6009240000000005, 4.154083000000001</Point>
+<Circle name="k6" hidden="true" background="true" fixed="4.10164745133272" midpoint="P4" filled="true" acute="true">Kreis um P4 mit Radius 4.101647</Circle>
+<Circle name="k7" hidden="true" fixed="3.2600000000000002" midpoint="M1" acute="true">Kreis um M1 mit Radius 3.259233</Circle>
+<Intersection name="S3" type="thick" first="k6" second="k7" shape="circle" which="second">Schnitt zwischen k6 und k7</Intersection>
+<Segment name="s4" type="thick" from="M1" to="S3">Strecke von M1 nach S3</Segment>
+<Midpoint name="M2" color="1" type="thick" hidden="true" first="M1" second="S3">Mitte zwischen M1 und S3</Midpoint>
+<Segment name="s5" type="thick" from="S3" to="P4">Strecke von S3 nach P4</Segment>
+</Objects>
+</Construction>
+</CaR>

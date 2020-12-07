@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Bisectors of the sides of a quadrilateral form a
+parallelogram.</P>
+</Comment>
+<Objects>
+<Point name="P2" type="thick" x="-3.604651162790698" y="2.232558139534884">Point at -3.604651162790698, 2.232558139534884</Point>
+<Point name="P3" type="thick" x="-1.4806201550387597" y="3.4263565891472894">Point at -1.4806201550387597, 3.4263565891472894</Point>
+<Segment name="s1" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Point name="P4" type="thick" x="0.9003215434083603" y="1.535369774919614">Point at 0.9003215434083603, 1.535369774919614</Point>
+<Segment name="s2" from="P3" to="P4">Strecke von P3 nach P4</Segment>
+<Point name="P5" type="thick" x="-3.4083601286173644" y="0.265273311897106">Point at -3.4083601286173644, 0.265273311897106</Point>
+<Segment name="s3" from="P4" to="P5">Strecke von P4 nach P5</Segment>
+<Segment name="s4" from="P5" to="P2">Strecke von P5 nach P2</Segment>
+<Midpoint name="M6" color="1" first="P2" second="P3">Mitte zwischen P2 und P3</Midpoint>
+<Midpoint name="M7" color="1" first="P3" second="P4">Mitte zwischen P3 und P4</Midpoint>
+<Midpoint name="M8" color="1" first="P4" second="P5">Mitte zwischen P4 und P5</Midpoint>
+<Midpoint name="M9" color="1" first="P5" second="P2">Mitte zwischen P5 und P2</Midpoint>
+<Segment name="s5" color="1" from="M6" to="M7">Strecke von M6 nach M7</Segment>
+<Segment name="s6" color="1" from="M7" to="M8">Strecke von M7 nach M8</Segment>
+<Segment name="s7" color="1" from="M8" to="M9">Strecke von M8 nach M9</Segment>
+<Segment name="s8" color="1" from="M9" to="M6">Strecke von M9 nach M6</Segment>
+<Segment name="s9" color="3" type="thin" from="P2" to="P4">Strecke von P2 nach P4</Segment>
+<Segment name="s10" color="3" type="thin" from="P5" to="P3">Strecke von P5 nach P3</Segment>
+<Point name="P10" color="1" type="thick" x="-0.37984496124030986" y="-1.9069767441860466">Point at -0.37984496124030986, -1.9069767441860466</Point>
+<Point name="P11" color="1" type="thick" x="2.5241157556270113" y="-2.483922829581993">Point at 2.5241157556270113, -2.483922829581993</Point>
+<Segment name="s11" color="1" from="P10" to="P11">Strecke von P10 nach P11</Segment>
+<Point name="P12" color="1" type="thick" x="3.589147286821705" y="-0.7286821705426365">Point at 3.589147286821705, -0.7286821705426365</Point>
+<Segment name="s12" color="1" from="P11" to="P12">Strecke von P11 nach P12</Segment>
+<Parallel name="p1" color="1" hidden="true" point="P10" line="s12">Parallele durch P10 zu s12</Parallel>
+<Parallel name="p2" color="1" hidden="true" point="P12" line="s11">Parallele durch P12 zu s11</Parallel>
+<Intersection name="S1" color="1" first="p1" second="p2">Schnitt zwischen p1 und p2</Intersection>
+<Segment name="s13" color="1" from="P10" to="S1">Strecke von P10 nach S1</Segment>
+<Segment name="s14" color="1" from="S1" to="P12">Strecke von S1 nach P12</Segment>
+<Point name="P13" type="thick" x="1.077170418006431" y="-3.0144694533762055">Point at 1.077170418006431, -3.0144694533762055</Point>
+<Ray name="r1" hidden="true" from="P13" to="P10">Strahl von P13 in Richtung P10</Ray>
+<Ray name="r2" hidden="true" from="P13" to="P11">Strahl von P13 in Richtung P11</Ray>
+<Circle name="k1" hidden="true" through="P13" midpoint="P10" partial="true">Kreis um P10 durch P13</Circle>
+<Intersection name="S2" first="r1" second="k1" which="first">Schnitt zwischen r1 und k1</Intersection>
+<Intersection name="S3" first="r1" second="k1" which="second">Schnitt zwischen r1 und k1</Intersection>
+<Circle name="k2" hidden="true" through="P13" midpoint="P11" partial="true">Kreis um P11 durch P13</Circle>
+<Intersection name="S4" first="r2" second="k2" which="first">Schnitt zwischen r2 und k2</Intersection>
+<Intersection name="S5" first="r2" second="k2" which="second">Schnitt zwischen r2 und k2</Intersection>
+<Segment name="s15" from="P13" to="S2">Strecke von P13 nach S2</Segment>
+<Segment name="s16" from="P13" to="S4">Strecke von P13 nach S4</Segment>
+<Line name="g1" hidden="true" from="S2" to="S1">Gerade durch S2 und S1</Line>
+<Line name="g2" hidden="true" from="S4" to="P12">Gerade durch S4 und P12</Line>
+<Intersection name="S6" first="g1" second="g2">Schnitt zwischen g1 und g2</Intersection>
+<Segment name="s17" from="S2" to="S6">Strecke von S2 nach S6</Segment>
+<Segment name="s18" from="S6" to="S4">Strecke von S6 nach S4</Segment>
+<Segment name="s19" color="3" type="thin" from="P13" to="S6">Strecke von P13 nach S6</Segment>
+<Segment name="s20" color="3" type="thin" from="S4" to="S2">Strecke von S4 nach S2</Segment>
+</Objects>
+</Construction>
+</CaR>

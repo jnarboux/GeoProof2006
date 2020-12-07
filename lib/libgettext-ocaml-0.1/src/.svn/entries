@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/lib/libgettext-ocaml-0.1/src"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="pa_gettext.ml4"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="84d3b3c6289a007b8cc351db3f20d687"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="META"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="360d14dcb386397baf476b8947e5014b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="camlgettext.idl"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="83f4655c22e5cbdfbb742410c38c83da"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Makefile"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="fb6d772ab2bc9d08c5ae69f04a14d91f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+</wc-entries>

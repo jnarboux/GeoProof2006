@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Animate animate="P7" via0="k1"/>
+<Objects>
+<Point name="P1" hidden="true" x="-1.2830188679000003" y="-0.36477987420000013">Punkt in -1.2830188679000003, -0.36477987420000013</Point>
+<Point name="P2" hidden="true" x="-1.2327044025000005" y="4.566037735800001">Punkt in -1.2327044025000005, 4.566037735800001</Point>
+<Circle name="k1" through="P2" midpoint="P1" acute="true">Kreis um P1 durch P2</Circle>
+<PointOn name="P3" color="1" on="k1" alpha="2.682350302440355">Punkt auf k1</PointOn>
+<PointOn name="P4" color="1" on="k1" alpha="0.6940777743122848">Punkt in 2.465408805031446, 2.7547169811320753</PointOn>
+<PointOn name="P5" color="1" on="k1" alpha="-1.12769377183319">Punkt in 0.8301886792452837, -4.817610062893081</PointOn>
+<Segment name="s1" color="1" from="P3" to="P5">Strecke von P3 nach P5</Segment>
+<Segment name="s2" color="1" from="P5" to="P4">Strecke von P5 nach P4</Segment>
+<Segment name="s3" color="1" from="P4" to="P3">Strecke von P4 nach P3</Segment>
+<Line name="g1" color="1" type="thin" from="P3" to="P5">Gerade durch P3 und P5</Line>
+<Line name="g2" color="1" type="thin" from="P5" to="P4">Gerade durch P5 und P4</Line>
+<Line name="g3" color="1" type="thin" from="P4" to="P3">Gerade durch P4 und P3</Line>
+<PointOn name="P7" color="2" on="k1" alpha="2.6529231125881134">Punkt auf k1</PointOn>
+<Plumb name="l4" color="2" hidden="true" point="P7" line="g2">Lot durch P7 zu g2</Plumb>
+<Plumb name="l5" color="2" hidden="true" point="P7" line="g3">Lot durch P7 zu g3</Plumb>
+<Plumb name="l6" color="2" hidden="true" point="P7" line="g1">Lot durch P7 zu g1</Plumb>
+<Intersection name="S1" color="2" first="g2" second="l4">Schnitt zwischen g2 und l4</Intersection>
+<Intersection name="S2" color="2" first="l5" second="g3">Schnitt zwischen l5 und g3</Intersection>
+<Intersection name="S3" color="2" first="g1" second="l6">Schnitt zwischen g1 und l6</Intersection>
+<Segment name="s4" color="2" from="P7" to="S3">Strecke von P7 nach S3</Segment>
+<Segment name="s5" color="2" from="P7" to="S2">Strecke von P7 nach S2</Segment>
+<Segment name="s6" color="2" from="P7" to="S1">Strecke von P7 nach S1</Segment>
+<Line name="g4" color="3" type="thick" from="S3" to="S1">Gerade durch S3 und S1</Line>
+<Angle name="w1" color="2" showvalue="true" first="P4" root="S2" second="P7" display="small" acute="true">Winkel P4 - S2 - P7</Angle>
+<Angle name="w2" color="2" showvalue="true" first="P7" root="S3" second="P5" display="small" acute="true">Winkel P7 - S3 - P5</Angle>
+<Angle name="w3" color="2" showvalue="true" first="P4" root="S1" second="P7" display="small" acute="true">Winkel P4 - S1 - P7</Angle>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.767766952966368"/>
+<Comment>
+<P>Pascalsche Gerade. Bei einem beliebigen Sechseck, dessen
+Eckpunkte auf einem Kreis liegen, schneiden sich die
+angegeben drei Paare von Geraden auf einer gemeinsamen
+Geraden.</P>
+</Comment>
+<Objects>
+<Point name="P1" x="-0.5147892775121842" y="-0.2549663874470723">Punkt in -0.5147892775121841, -0.25496638744707223</Point>
+<Point name="P2" x="-0.5279572443423046" y="-0.6169388023775244">Punkt in -0.5279572443423046, -0.6169388023775244</Point>
+<Circle name="k1" midpoint="P1" through="P2">Kreis um P1 durch P2</Circle>
+<PointOn name="OP1" on="k1" x="-0.7867471696751194" y="-0.015725234190957393" shape="diamond">Punkt auf k1</PointOn>
+<PointOn name="OP2" on="k1" x="-0.46584967362142704" y="0.10392404108514464" shape="diamond">Punkt auf k1</PointOn>
+<PointOn name="OP3" on="k1" x="-0.25573999759665245" y="-0.0018045911659844704" shape="diamond">Punkt auf k1</PointOn>
+<PointOn name="OP4" on="k1" x="-0.15335366562990083" y="-0.2786670833082058" shape="diamond">Punkt auf k1</PointOn>
+<PointOn name="OP5" on="k1" x="-0.3120022886510303" y="-0.5550911309615796" shape="diamond">Punkt auf k1</PointOn>
+<PointOn name="OP6" on="k1" x="-0.7978277631890802" y="-0.4809899263689112" shape="diamond">Punkt auf k1</PointOn>
+<Segment name="s1" color="1" from="OP6" to="OP1">Strecke von OP6 nach OP1</Segment>
+<Segment name="s2" color="1" from="OP3" to="OP4">Strecke von OP3 nach OP4</Segment>
+<Segment name="s3" color="2" from="OP1" to="OP2">Strecke von OP1 nach OP2</Segment>
+<Segment name="s4" color="2" from="OP5" to="OP4">Strecke von OP5 nach OP4</Segment>
+<Segment name="s5" color="3" from="OP2" to="OP3">Strecke von OP2 nach OP3</Segment>
+<Segment name="s6" color="3" from="OP6" to="OP5">Strecke von OP6 nach OP5</Segment>
+<Line name="g1" color="3" type="thin" from="OP2" to="OP3">Gerade durch OP2 und OP3</Line>
+<Line name="g2" color="3" type="thin" from="OP6" to="OP5">Gerade durch OP6 und OP5</Line>
+<Line name="g3" color="1" type="thin" from="OP1" to="OP6">Gerade durch OP1 und OP6</Line>
+<Line name="g4" color="1" type="thin" from="OP3" to="OP4">Gerade durch OP3 und OP4</Line>
+<Line name="g5" color="2" type="thin" from="OP1" to="OP2">Gerade durch OP1 und OP2</Line>
+<Line name="g6" color="2" type="thin" from="OP5" to="OP4">Gerade durch OP5 und OP4</Line>
+<Intersection name="S1" first="g4" second="g3" shape="circle">Schnitt zwischen g4 und g3</Intersection>
+<Intersection name="S2" first="g5" second="g6" shape="circle">Schnitt zwischen g5 und g6</Intersection>
+<Intersection name="S3" first="g1" second="g2" shape="circle">Schnitt zwischen g1 und g2</Intersection>
+<Line name="g7" type="thick" from="S1" to="S3">Gerade durch S1 und S3</Line>
+</Objects>
+</Construction>
+</CaR>

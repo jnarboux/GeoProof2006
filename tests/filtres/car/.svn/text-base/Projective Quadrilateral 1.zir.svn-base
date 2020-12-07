@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" type="thick" x="-2.3117338003502628" y="-1.387040280210158">Punkt in -2.3117338003502628, -1.387040280210158</Point>
+<Point name="P2" type="thick" x="-1.695271453590193" y="-3.48861646234676">Punkt in -1.695271453590193, -3.48861646234676</Point>
+<Line name="g1" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Point name="P3" type="thick" x="-0.0980735551663745" y="-0.43432574430823045">Punkt in -0.0980735551663745, -0.43432574430823045</Point>
+<Line name="g2" from="P1" to="P3">Gerade durch P1 und P3</Line>
+<Point name="P6" type="thick" x="1.1068301225919441" y="-1.499124343257443">Punkt in 1.1068301225919441, -1.499124343257443</Point>
+<Line name="g5" from="P2" to="P6">Gerade durch P2 und P6</Line>
+<Line name="g6" from="P6" to="P3">Gerade durch P6 und P3</Line>
+<Intersection name="S3" color="2" first="g1" second="g6">Schnitt zwischen g1 und g6</Intersection>
+<Intersection name="S4" color="2" first="g2" second="g5">Schnitt zwischen g2 und g5</Intersection>
+<Segment name="s1" color="3" from="P1" to="P6">Strecke von P1 nach P6</Segment>
+<Segment name="s2" color="3" from="P3" to="P2">Strecke von P3 nach P2</Segment>
+<Intersection name="S5" color="2" first="s1" second="s2">Schnitt zwischen s1 und s2</Intersection>
+<Ray name="r1" color="2" type="thin" hidden="true" from="S4" to="S5">Strahl von S4 in Richtung S5</Ray>
+<Ray name="r2" color="2" type="thin" hidden="true" from="S3" to="S5">Strahl von S3 in Richtung S5</Ray>
+<Intersection name="S6" color="2" hidden="true" first="g1" second="r1">Schnitt zwischen g1 und r1</Intersection>
+<Intersection name="S7" color="2" hidden="true" first="g5" second="r2">Schnitt zwischen g5 und r2</Intersection>
+<Segment name="s3" color="2" type="thin" from="S4" to="S6">Strecke von S4 nach S6</Segment>
+<Segment name="s4" color="2" type="thin" from="S3" to="S7">Strecke von S3 nach S7</Segment>
+<Line name="h" color="2" type="thin" showname="true" from="S3" to="S4">Gerade durch S3 und S4</Line>
+</Objects>
+</Construction>
+</CaR>

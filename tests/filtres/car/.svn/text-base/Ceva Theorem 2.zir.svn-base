@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-5.389885807504078" y="-2.362153344208809">Punkt in -5.389885807504078, -2.362153344208809</Point>
+<Point name="P2" x="5.833605220228385" y="-2.388254486133768">Punkt in 5.833605220228385, -2.388254486133768</Point>
+<Segment name="c" showname="true" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="2.4665579119086463" y="5.5464926590538335">Punkt in 2.4665579119086463, 5.5464926590538335</Point>
+<Segment name="a" showname="true" xoffset="16" yoffset="31" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="b" showname="true" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Plumb name="l1" color="1" hidden="true" point="P2" line="b">Lot durch P2 zu b</Plumb>
+<Plumb name="l2" color="1" hidden="true" point="P1" line="a">Lot durch P1 zu a</Plumb>
+<Plumb name="l3" color="1" hidden="true" point="P3" line="c">Lot durch P3 zu c</Plumb>
+<Intersection name="S1" color="1" first="b" second="l1">Schnitt zwischen b und l1</Intersection>
+<Intersection name="S2" color="1" first="a" second="l2">Schnitt zwischen a und l2</Intersection>
+<Intersection name="S3" color="1" first="c" second="l3">Schnitt zwischen c und l3</Intersection>
+<Segment name="s4" color="1" from="P1" to="S2">Strecke von P1 nach S2</Segment>
+<Segment name="s5" color="1" from="S1" to="P2">Strecke von S1 nach P2</Segment>
+<Segment name="s6" color="1" from="S3" to="P3">Strecke von S3 nach P3</Segment>
+<Angle name="w1" color="1" showvalue="true" first="P3" root="S2" second="P1" display="small">Winkel P3 - S2 - P1</Angle>
+<Angle name="w2" color="1" showvalue="true" first="P2" root="S1" second="P3" display="small">Winkel P2 - S1 - P3</Angle>
+<Angle name="w3" color="1" first="S2" root="P1" second="P3">Winkel S2 - P1 - P3</Angle>
+<Angle name="w4" color="1" first="P3" root="P2" second="S1">Winkel P3 - P2 - S1</Angle>
+<Angle name="w6" color="1" first="P1" root="P3" second="P2">Winkel P1 - P3 - P2</Angle>
+<Segment name="a&apos;" color="2" showname="true" xoffset="35" yoffset="-8" from="S2" to="P3">Strecke von S2 nach P3</Segment>
+<Segment name="b&apos;&apos;" color="2" showname="true" xoffset="-31" yoffset="-19" from="P3" to="S1">Strecke von P3 nach S1</Segment>
+<Segment name="b&apos;" showname="true" xoffset="-18" yoffset="-37" from="S1" to="P1">Strecke von S1 nach P1</Segment>
+<Segment name="a&apos;&apos;" showname="true" xoffset="2" yoffset="-1" from="S2" to="P2">Strecke von S2 nach P2</Segment>
+<Segment name="c&apos;&apos;" showname="true" xoffset="-7" yoffset="31" from="P1" to="S3">Strecke von P1 nach S3</Segment>
+<Segment name="c&apos;" showname="true" xoffset="-1" yoffset="-5" from="P2" to="S3">Strecke von P2 nach S3</Segment>
+<Text name="Text1" x="-3.9543230016313213" y="-4.34584013050571">b / a&apos; = a / b&apos;&apos;
+b / a = a&apos; / b&apos;&apos;
+a&apos; / b&apos;&apos; * b&apos; / c&apos;&apos; * c&apos; / a&apos;&apos; = b / a * c / b * a / c = 1</Text>
+</Objects>
+</Construction>
+</CaR>

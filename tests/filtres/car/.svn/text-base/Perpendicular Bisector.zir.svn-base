@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.0"/>
+<Objects>
+<Point name="Punkt 1" x="-0.3145695364238411" y="0.20198675496688745">Punkt in -0.5066225165562914, 0.18543046357615878</Point>
+<Point name="Punkt 2" x="0.036423841059602724" y="-0.08278145695364236">Punkt in 0.1556291390728477, -0.2781456953642384</Point>
+<Segment name="Strecke 1" from="Punkt 1" to="Punkt 2">Strecke von Punkt 1 nach Punkt 2</Segment>
+<Circle name="Kreis 1" color="1" midpoint="Punkt 2" through="Punkt 1" partial="true">Kreis um Punkt 2 durch Punkt 1</Circle>
+<Circle name="Kreis 2" color="1" midpoint="Punkt 1" through="Punkt 2" partial="true">Kreis um Punkt 1 durch Punkt 2</Circle>
+<Intersection name="Schnitt 1" color="2" first="Kreis 1" second="Kreis 2" other="Schnitt 2">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<OtherIntersection name="Schnitt 2" color="2">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Line name="Gerade 1" color="2" from="Schnitt 2" to="Schnitt 1">Gerade durch Schnitt 2 und Schnitt 1</Line>
+</Objects>
+</Construction>
+</CaR>

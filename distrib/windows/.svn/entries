@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="28"
+   name=""
+   committed-date="2006-08-24T12:35:00.801797Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/distrib/windows"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="15"
+   name="geoproof_splash.bmp"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2006-06-10T13:25:53.802712Z"
+   checksum="2ca383ffc0041cdc8798c673f55306ce"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="15"
+   name="geoproof_splash.svg"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2006-06-10T13:25:53.802712Z"
+   checksum="738e2bb56d134f094e328fb8de545bc2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="28"
+   name="geoproof.ico"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2006-08-24T12:35:00.801797Z"
+   checksum="6c5973f12f444974cc7c9d4de4d374a6"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="6"
+   name="resource.rc"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:59:30.503244Z"
+   checksum="da74ec4b99d7c48d14fc0cd5e571ce61"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="6"
+   name="geoproof.nsi.in"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:59:30.503244Z"
+   checksum="a5d03f5769566c76f20a69809e0d6af5"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="15"
+   name="geoproof_logo.bmp"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2006-06-10T13:25:53.802712Z"
+   checksum="7b939ae4cf6d83635cc4e6cc6b92da11"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="15"
+   name="geoproof_splash.png"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2006-06-10T13:25:53.802712Z"
+   checksum="2ca383ffc0041cdc8798c673f55306ce"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   name="dlls"
+   kind="dir"/>
+</wc-entries>

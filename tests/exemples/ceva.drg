@@ -1,0 +1,91 @@
+<DrGeoCamlDocument Version="0.3">
+  <View Origin_x="853.45200" Origin_y="689.06387" Scale_x="151.28075" Scale_y="151.28075"/>
+  <Hierarchy>
+    <Axes name="Grid" grid_shown="true"/>
+    <Point name="A" x="-4.610167980365233866465365369280" y="-4.017152797793057966212297218516"/>
+    <PointLabel name="Label_1" point="A"/>
+    <Point name="B" x="-5.360000000000000000000000000000" y="-0.460000000000000000000000000000"/>
+    <PointLabel name="Label_2" point="B"/>
+    <Point name="C" x="-3.763718437225300319036606469585" y="-1.016867695522040739092704432010"/>
+    <PointLabel name="Label_3" point="C"/>
+    <Line name="Line_1" first="A" second="C"/>
+    <Line name="Line_2" first="C" second="B"/>
+    <Line name="Line_3" first="B" second="A"/>
+    <Point name="D" x="-2.684891646711475870190359110467" y="-0.577345669757149296970159211628"/>
+    <PointLabel name="Label_4" point="D"/>
+    <Line name="Line_4" first="A" second="D"/>
+    <IntersectionLineLine name="E" first="Line_2" second="Line_4"/>
+    <PointLabel name="Label_5" point="E"/>
+    <Line name="Line_5" first="C" second="D"/>
+    <IntersectionLineLine name="F" first="Line_5" second="Line_3"/>
+    <PointLabel name="Label_6" point="F"/>
+    <Line name="Line_6" first="B" second="D"/>
+    <IntersectionLineLine name="G" first="Line_1" second="Line_6"/>
+    <PointLabel name="Label_7" point="G"/>
+  </Hierarchy>
+  <Attributs>
+    <Attributs name="Grid" width="1" shown="false" grid-style="true">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="A" width="2" shown="true" point-style="RectangularEmpty">
+      <Color red="255" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Label_1" width="2" shown="true" text="A">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="B" width="2" shown="true" point-style="RectangularEmpty">
+      <Color red="255" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Label_2" width="2" shown="true" text="B">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="C" width="2" shown="true" point-style="RectangularEmpty">
+      <Color red="255" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Label_3" width="2" shown="true" text="C">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Line_1" width="2" shown="true" line-style="SolidLine">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Line_2" width="2" shown="true" line-style="SolidLine">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Line_3" width="2" shown="true" line-style="SolidLine">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="D" width="2" shown="true" point-style="RectangularEmpty">
+      <Color red="255" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Label_4" width="2" shown="true" text="P">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Line_4" width="2" shown="true" line-style="SolidLine">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="E" width="2" shown="true" point-style="RectangularEmpty">
+      <Color red="255" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Label_5" width="2" shown="true" text="D">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Line_5" width="2" shown="true" line-style="SolidLine">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="F" width="2" shown="true" point-style="RectangularEmpty">
+      <Color red="255" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Label_6" width="2" shown="true" text="E">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Line_6" width="2" shown="true" line-style="SolidLine">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="G" width="2" shown="true" point-style="RectangularEmpty">
+      <Color red="255" green="0" blue="0"/>
+    </Attributs>
+    <Attributs name="Label_7" width="2" shown="true" text="F">
+      <Color red="0" green="0" blue="0"/>
+    </Attributs>
+  </Attributs>
+</DrGeoCamlDocument>

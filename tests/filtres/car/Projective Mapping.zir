@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="Proj">
+<Parameter name="P">P</Parameter>
+<Parameter name="A">A</Parameter>
+<Objects>
+<Point name="P" hidden="true" mainparameter="true" x="1.47" y="-0.56">Punkt in 1.47, -0.56</Point>
+<Point name="A" hidden="true" mainparameter="true" x="2.3" y="1.06">Punkt in 2.3, 1.06</Point>
+<Point name="P3" showname="true" target="true" x="(1.0+x(P))*x(A)/(1.0+x(P)*x(A)+y(P)*y(A))" y="(1.0+y(P))*y(A)/(1.0+x(P)*x(A)+y(P)*y(A))" fixed="true">Punkt in &quot;(1.0+x(P))*x(A)/(1.0+x(P)*x(A)+y(P)*y(A))&quot;, &quot;(1.0+y(P))*y(A)/(1.0+x(P)*x(A)+y(P)*y(A))&quot;</Point>
+</Objects>
+</Macro>
+<Macro Name="Proj - P">
+<Parameter name="P" fixed="P">P</Parameter>
+<Parameter name="A">A</Parameter>
+<Objects>
+<Point name="P" hidden="true" mainparameter="true" x="1.47" y="-0.56">Punkt in 1.47, -0.56</Point>
+<Point name="A" hidden="true" mainparameter="true" x="2.3" y="1.06">Punkt in 2.3, 1.06</Point>
+<Point name="P3" showname="true" target="true" x="(1.0+x(P))*x(A)/(1.0+x(P)*x(A)+y(P)*y(A))" y="(1.0+y(P))*y(A)/(1.0+x(P)*x(A)+y(P)*y(A))" fixed="true">Punkt in &quot;(1.0+x(P))*x(A)/(1.0+x(P)*x(A)+y(P)*y(A))&quot;, &quot;(1.0+y(P))*y(A)/(1.0+x(P)*x(A)+y(P)*y(A))&quot;</Point>
+</Objects>
+</Macro>
+<Construction>
+<Window x="1.1313708498984758" y="1.0343145750507623" w="1.9999999999999993"/>
+<Objects>
+<Point name="A" showname="true" x="0.53" y="0.82">Punkt in 0.5281019048761877, 0.817375496298905</Point>
+<Point name="P14" x="1.75" y="0.7">Punkt in 1.7491699395532903, 0.6997784693601283</Point>
+<Line name="g24" hidden="true" from="A" to="P14">Gerade durch A und P14</Line>
+<Plumb name="l16" hidden="true" point="A" line="g24" valid="true">Lot durch A zu g24</Plumb>
+<Circle name="k18" hidden="true" through="P14" midpoint="A" acute="true">Kreis um A durch P14</Circle>
+<Intersection name="S37" first="l16" second="k18" which="first">Schnitt zwischen l16 und k18</Intersection>
+<Plumb name="l17" hidden="true" point="S37" line="l16" valid="true">Lot durch S37 zu l16</Plumb>
+<Plumb name="l18" hidden="true" point="P14" line="g24" valid="true">Lot durch P14 zu g24</Plumb>
+<Intersection name="S39" first="l17" second="l18">Schnitt zwischen l17 und l18</Intersection>
+<Segment name="s16" from="A" to="S37">Strecke von A nach S37</Segment>
+<Segment name="s17" from="S37" to="S39">Strecke von S37 nach S39</Segment>
+<Segment name="s18" xoffset="2" from="S39" to="P14">Strecke von S39 nach P14</Segment>
+<Segment name="s19" from="P14" to="A">Strecke von P14 nach A</Segment>
+<Segment name="s20" type="thin" from="S37" to="P14">Strecke von S37 nach P14</Segment>
+<Segment name="s21" type="thin" from="A" to="S39">Strecke von A nach S39</Segment>
+<Intersection name="S40" first="s20" second="s21">Schnitt zwischen s20 und s21</Intersection>
+<Point name="O" showname="true" x="0.0" y="0.0" fixed="true">Punkt in &quot;0.0&quot;, &quot;0.0&quot;</Point>
+<Point name="P" type="thick" showname="true" x="0.45" y="-0.04">Punkt in 0.45083593162210156, -0.04443728230436361</Point>
+<Segment name="s7" from="O" to="P" arrow="true">Strecke von O nach P</Segment>
+<Point name="A*" color="1" showname="true" x="(1.0+x(P))*x(A)/(1.0+x(P)*x(A)+y(P)*y(A))" y="(1.0+y(P))*y(A)/(1.0+x(P)*x(A)+y(P)*y(A))" fixed="true">Punkt in &quot;(1.0+x(P))*x(A)/(1.0+x(P)*x(A)+y(P)*y(A))&quot;, &quot;(1.0+y(P))*y(A)/(1.0+x(P)*x(A)+y(P)*y(A))&quot;</Point>
+<Point name="P10" color="1" x="(1.0+x(P))*x(S37)/(1.0+x(P)*x(S37)+y(P)*y(S37))" y="(1.0+y(P))*y(S37)/(1.0+x(P)*x(S37)+y(P)*y(S37))" fixed="true">Punkt in &quot;(1.0+x(P))*x(S37)/(1.0+x(P)*x(S37)+y(P)*y(S37))&quot;, &quot;(1.0+y(P))*y(S37)/(1.0+x(P)*x(S37)+y(P)*y(S37))&quot;</Point>
+<Point name="P11" color="1" x="(1.0+x(P))*x(S39)/(1.0+x(P)*x(S39)+y(P)*y(S39))" y="(1.0+y(P))*y(S39)/(1.0+x(P)*x(S39)+y(P)*y(S39))" fixed="true">Punkt in &quot;(1.0+x(P))*x(S39)/(1.0+x(P)*x(S39)+y(P)*y(S39))&quot;, &quot;(1.0+y(P))*y(S39)/(1.0+x(P)*x(S39)+y(P)*y(S39))&quot;</Point>
+<Point name="P12" color="1" x="(1.0+x(P))*x(P14)/(1.0+x(P)*x(P14)+y(P)*y(P14))" y="(1.0+y(P))*y(P14)/(1.0+x(P)*x(P14)+y(P)*y(P14))" fixed="true">Punkt in &quot;(1.0+x(P))*x(P14)/(1.0+x(P)*x(P14)+y(P)*y(P14))&quot;, &quot;(1.0+y(P))*y(P14)/(1.0+x(P)*x(P14)+y(P)*y(P14))&quot;</Point>
+<Point name="P15" color="1" x="(1.0+x(P))*x(S40)/(1.0+x(P)*x(S40)+y(P)*y(S40))" y="(1.0+y(P))*y(S40)/(1.0+x(P)*x(S40)+y(P)*y(S40))" fixed="true">Punkt in &quot;(1.0+x(P))*x(S40)/(1.0+x(P)*x(S40)+y(P)*y(S40))&quot;, &quot;(1.0+y(P))*y(S40)/(1.0+x(P)*x(S40)+y(P)*y(S40))&quot;</Point>
+<Segment name="s8" color="1" from="A*" to="P10">Strecke von A* nach P10</Segment>
+<Segment name="s9" color="1" from="P10" to="P11">Strecke von P10 nach P11</Segment>
+<Segment name="s10" color="1" from="P11" to="P12">Strecke von P11 nach P12</Segment>
+<Segment name="s11" color="1" from="P12" to="A*">Strecke von P12 nach A*</Segment>
+<Segment name="s12" color="1" type="thin" from="A*" to="P11">Strecke von A* nach P11</Segment>
+<Segment name="s13" color="1" type="thin" from="P10" to="P12">Strecke von P10 nach P12</Segment>
+</Objects>
+</Construction>
+</CaR>

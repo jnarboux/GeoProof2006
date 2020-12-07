@@ -1,0 +1,126 @@
+TODO
+
+Bugs :
+
+- the symmetric of a segment is nothing
+- the number of layers option is not taken into account
+- the icons' size option is not taken into account
+- property is not changed when clicking near more than one object
+- negative hypothesis using the wu method
+- check utf8 for text label
+
+Features :
+
+- midpoint of a segment
+- parallel segments
+
+- adapt window size to screen size, changing icons size
+- a beamer mode
+- better notation for vectors in natural language
+- adapt grid to coordinate system
+- add more facts : cocyclic points etc...
+- tab key to disable screen clearing
+- add icons in the contextual menu
+- use better svg shapes for points (reuse the 3d points of the icons) 
+
+- new object types and objects : half-lines, arcs
+- smart lines (draw a bit further than crossing points)
+- smart labels (dodge figure elements)
+- smart positioning of the figure (generic sketches)
+- mark angles
+- mark congruent segments  
+- snap to grid / nearest object
+- label attached to lines
+- bitmap attached to objects
+- allow to add a description of the construction
+- depending on some option, automatically add marks for perpendicular bissectors and angle bissectors
+
+- generate a nice "options" window
+- generate a selection window to select objects by type etc ...
+
+- add options for default color of each object type
+
+- add the ability to draw all the points in the foreground for example, or in general to change the depth of the object,
+	perhaps this should be dealt with by the layer system.
+
+- allow to edit several documents
+- allow to have several pages in the same document
+- allow to have several views of the same document
+
+- exercice / teacher /student features
+
+- shadows
+- code documentation
+
+- a text interface, i.e. merging geocaml features   
+
+- pointer should change its shape depending on its position
+ (displaying: this point, this circle, this vector, this label ...)
+- a partial representation of the object during construction should be made
+
+- make point on line position not absolute but relative to the two points
+
+- parametric curves
+- rotations
+- homotheties
+- inversions
+- loci
+- polygons
+- regular polygons
+- fillable polygons/shapes
+
+- allow the user to limit himself to compass-ruler constructions.
+
+- allow scriptiong
+- allow animations
+
+- print
+
+- export : 
+	car
+	java applet
+	postscript
+	metapost
+	kig
+
+- import 
+	Cabri
+	Dr Geo
+	Geoplan
+	...
+
+- help / doc
+
+- text labels for coordinates, equations, ...
+
+- double click for creating free points
+
+- ask  for confirmation before deleting objects
+- tips of the day
+- macros
+
+- show dependency tree and attributes
+
+Some feature related to Coq :
+
+- a tool to collect counter examples
+- generate generic sketches
+
+- pouvoir selectionner un théorème de géometrie en Coq dans CoqIde,
+  exprimé  avec des "let" et des noms de définitions que j'aurai
+  standardisé, et que la figure se dessine dans une autre fenêtre (ou
+  un tab).
+
+- que le but du théorème s'affiche en une couleur et les hypothese en d'autres,
+par exemple si le but est de prouver qu'un point est un milieu, le mettre en rouge et mettre des marques pour dire que les deux segments sont de même longueur en rouge aussi, mettre un petit carré si on sait que deux droites sont perpendiculaire
+- d'avoir un menu "fait" pour pouvoir saisir un fait géométrique au moyen de la souris quand on a fini la figure :
+par exemple trois point alignes, on selectionne les trois points et on les affiche en rouge, et ca genere en coq le predicat
+(Aligne A B C)
+
+- que la figure se mette a jour quand un nouveau point est rajouté pendant la preuve
+
+- permettre de se restreindre aux constructions a la regle et au compas , etc ...
+
+- générer une preuve d'existence de construction, grâce à la saisie de la construction graphiquement par l'utilisateur.
+
+- que l'utilisateur puisse construire un point graphiquement et celui ci apparait dans le contexte Coq.

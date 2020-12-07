@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Eine schwierigere Aufgabe aus der Mathematikolympiade.</P>
+<P>H1, H2, H3 sind die Fußpunkte der Höhen. T1, T2, T3 sind
+die Berührpunkte des Innkreises. Die braunen Geraden
+entstehen durch Spiegelung von H1H2 an T1T2 etc.</P>
+<P>Zu zeigen ist, dass sich diese Geraden auf dem Innkreis
+schneiden.</P>
+</Comment>
+<Objects>
+<Point name="P1" x="-3.6370597243491596" y="-2.327718223583461">Punkt in -3.637059724349158, -2.327718223583461</Point>
+<Point name="P2" x="-1.1562021439509957" y="2.802450229709036">Punkt in -1.1562021439509955, 2.8024502297090352</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="3.6676875957120973" y="-1.0566615620214392">Punkt in 3.6676875957120973, -1.0566615620214392</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Ray name="r1" color="1" hidden="true" from="P1" to="P2">Strahl von P1 in Richtung P2</Ray>
+<Circle name="k1" color="1" hidden="true" midpoint="P1" through="P3">Kreis um P1 durch P3</Circle>
+<Intersection name="S1" color="1" hidden="true" first="r1" second="k1" other="S2">Schnitt zwischen r1 und k1</Intersection>
+<OtherIntersection name="S2" color="1">Schnitt zwischen r1 und k1</OtherIntersection>
+<Midpoint name="M4" color="1" hidden="true" first="S1" second="P3">Mitte zwischen S1 und P3</Midpoint>
+<Line name="g1" color="1" hidden="true" from="P1" to="M4">Gerade durch P1 und M4</Line>
+<Ray name="r2" color="1" hidden="true" from="P2" to="P3">Strahl von P2 in Richtung P3</Ray>
+<Circle name="k2" color="1" hidden="true" midpoint="P2" through="P1">Kreis um P2 durch P1</Circle>
+<Intersection name="S3" color="1" hidden="true" first="r2" second="k2" other="S4">Schnitt zwischen r2 und k2</Intersection>
+<OtherIntersection name="S4" color="1">Schnitt zwischen r1 und k1</OtherIntersection>
+<Midpoint name="M5" color="1" hidden="true" first="S3" second="P1">Mitte zwischen S3 und P1</Midpoint>
+<Line name="g2" color="1" hidden="true" from="P2" to="M5">Gerade durch P2 und M5</Line>
+<Intersection name="S5" color="1" first="g1" second="g2">Schnitt zwischen g1 und g2</Intersection>
+<Plumb name="l1" color="1" hidden="true" point="S5" line="s2">Lot durch S5 zu s2</Plumb>
+<Intersection name="T2" color="1" showname="true" first="s2" second="l1">Schnitt zwischen s2 und l1</Intersection>
+<Circle name="k3" color="1" midpoint="S5" through="T2">Kreis um S5 durch T2</Circle>
+<Plumb name="l2" color="1" hidden="true" point="S5" line="s1">Lot durch S5 zu s1</Plumb>
+<Plumb name="l3" color="1" hidden="true" point="S5" line="s3">Lot durch S5 zu s3</Plumb>
+<Intersection name="T1" color="1" showname="true" first="s1" second="l2">Schnitt zwischen s1 und l2</Intersection>
+<Intersection name="T3" color="1" showname="true" first="s3" second="l3">Schnitt zwischen s3 und l3</Intersection>
+<Plumb name="l4" color="2" hidden="true" point="P1" line="s2">Lot durch P1 zu s2</Plumb>
+<Plumb name="l5" color="2" hidden="true" point="P2" line="s3">Lot durch P2 zu s3</Plumb>
+<Plumb name="l6" color="2" hidden="true" point="P3" line="s1">Lot durch P3 zu s1</Plumb>
+<Intersection name="H1" color="2" showname="true" first="s1" second="l6">Schnitt zwischen s1 und l6</Intersection>
+<Intersection name="H3" color="2" showname="true" first="s3" second="l5">Schnitt zwischen s3 und l5</Intersection>
+<Intersection name="H2" color="2" showname="true" first="l4" second="s2">Schnitt zwischen l4 und s2</Intersection>
+<Segment name="s4" color="2" from="P1" to="H2">Strecke von P1 nach H2</Segment>
+<Segment name="s5" color="2" from="P3" to="H1">Strecke von P3 nach H1</Segment>
+<Segment name="s6" color="2" from="P2" to="H3">Strecke von P2 nach H3</Segment>
+<Line name="g12" color="3" hidden="true" from="H2" to="H3">Gerade durch H2 und H3</Line>
+<Line name="g13" color="3" hidden="true" from="T2" to="T3">Gerade durch T2 und T3</Line>
+<Intersection name="S24" color="3" hidden="true" first="g12" second="g13">Schnitt zwischen g12 und g13</Intersection>
+<Plumb name="l10" color="3" hidden="true" point="H2" line="g13">Lot durch H2 zu g13</Plumb>
+<Intersection name="S25" color="3" hidden="true" first="g13" second="l10">Schnitt zwischen g13 und l10</Intersection>
+<Circle name="k7" color="3" hidden="true" midpoint="S25" through="H2">Kreis um S25 durch H2</Circle>
+<Intersection name="S26" color="3" hidden="true" first="l10" second="k7" other="S27" awayfrom="H2">Schnitt zwischen l10 und k7</Intersection>
+<OtherIntersection name="S27" color="3" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g14" color="3" target="true" from="S24" to="S26">Gerade durch S24 und S26</Line>
+<Line name="g15" color="3" hidden="true" from="H1" to="H3">Gerade durch H1 und H3</Line>
+<Line name="g16" color="3" hidden="true" from="T1" to="T3">Gerade durch T1 und T3</Line>
+<Intersection name="S28" color="3" hidden="true" first="g15" second="g16">Schnitt zwischen g15 und g16</Intersection>
+<Plumb name="l11" color="3" hidden="true" point="H1" line="g16">Lot durch H1 zu g16</Plumb>
+<Intersection name="S29" color="3" hidden="true" first="g16" second="l11">Schnitt zwischen g16 und l11</Intersection>
+<Circle name="k8" color="3" hidden="true" midpoint="S29" through="H1">Kreis um S29 durch H1</Circle>
+<Intersection name="S30" color="3" hidden="true" first="l11" second="k8" other="S31" awayfrom="H1">Schnitt zwischen l11 und k8</Intersection>
+<OtherIntersection name="S31" color="3" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g17" color="3" target="true" from="S28" to="S30">Gerade durch S28 und S30</Line>
+<Line name="g18" color="3" hidden="true" from="H1" to="H2">Gerade durch H1 und H2</Line>
+<Line name="g19" color="3" hidden="true" from="T1" to="T2">Gerade durch T1 und T2</Line>
+<Intersection name="S32" color="3" hidden="true" first="g18" second="g19">Schnitt zwischen g18 und g19</Intersection>
+<Plumb name="l12" color="3" hidden="true" point="H1" line="g19">Lot durch H1 zu g19</Plumb>
+<Intersection name="S33" color="3" hidden="true" first="g19" second="l12">Schnitt zwischen g19 und l12</Intersection>
+<Circle name="k9" color="3" hidden="true" midpoint="S33" through="H1">Kreis um S33 durch H1</Circle>
+<Intersection name="S34" color="3" hidden="true" first="l12" second="k9" other="S35" awayfrom="H1">Schnitt zwischen l12 und k9</Intersection>
+<OtherIntersection name="S35" color="3" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g20" color="3" target="true" from="S32" to="S34">Gerade durch S32 und S34</Line>
+</Objects>
+</Construction>
+</CaR>

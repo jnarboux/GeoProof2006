@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/tests/filtres/car"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="Orthocenter 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="17bd1b1aba7e2654022bc4de31d2e78d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Stick.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="dc30a1c8a630e0b373bfbad2bf46c054"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Ellipse 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bab3623db07ee4d8e7d21609ad7c8b94"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Equilaterals on Sides.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="6a9d031d9f98c4e49c325191f2b1a5a3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Projektion.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d8afebfa53ca0e1a05e79dbe886bd271"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Projective Quadrilateral.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c3a32fa0b8aed0505f362410accb9576"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="formesdroites.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0aa28200b50b6e22c6b87380b1d0e42c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Projective Mapping.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="cf160846dae47a8c02cc3b1cad7a94fc"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Interpolation.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="79a9655cf52e96497b9523a3999ddeaf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Projection Lindner.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d02c7c6927d2672c6694a03388de00b0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Nice Ring.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="daeb414a8ab9011b744811a3a78b140c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Flower.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="596751a6e9ebad58f24a2bd125f03091"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Compasses Only.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e50f943abf3a5c91d39e9ac93a1f43b0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Cube 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="79fc489c173e3f809aa2a4feadde2c6d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Cube 4.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c816e3473f3fcb498f36d9cfebee75b9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="ohd.zirz"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bd275f4d4021807ee5c9440627d91760"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Rolling.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ddf3083155ae903856f60636f11bbaf3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Quadrilateral Bisectors.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="824ebfc0cbf549be4814ec215fde3d7e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Seitenmitten.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="5fb9fc34fef0ff7d2307d98c880cabe5"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Simpson2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a93e610758a6d3c68bc44482df9055ae"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Perimeter 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c6de4b5a6511840c04fb46591e6006a9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 0.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="11225708d3ba327ef5837731359ca201"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="88b390f699f2b97fd2437592aeb5e3c0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Seitendreiecke.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="2589b940c13749b20f36722bbfe95c29"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 4.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="7b6485b19bf5f0dd7a201630c4ebd85f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Cubo2.jpg"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9c91bdb9055938e85c7b459abe338ed3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 6.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="6be7cc2b578e21ee123ecc90871ec81b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Maschine.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="00db23db4bf61aaa3170936b811648ec"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 8.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="94ebcf065c7cec9a3b058230905bf0ed"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Path.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="fc4da6d1e02b9e35972681792fe7196b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Euler1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="f3a80a3bc23c6f34b2c8dea224ca4704"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Euler3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="3bbbff90ecef3491e63f5e261bbd3165"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Euler5.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="77affafe50aac42c3ce072d204132f08"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pascal.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="63274325d84a994b580aefcdc979b3fa"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Angle Bisector 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="47dd5da5a1fdaf453b93fb81c061bf1b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Angle Bisector 4.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="2fcdee9bc58bd4c1e48693afc7d7637a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Orthocenter and Incenter.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ad372c0ceed40fab43c3970bea05e31c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Reflecting at Cirle 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="3f3e5987edd357601b0d04192b90a092"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Schwerpunte.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b108181f1fb89abc7298d693e8294a13"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Reflecting at Cirle 3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="08505cdfd878d19e8d0777d6ddde7b9d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Segment Angle.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="19c3364042a10f963cdb1634e720b8a2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Lissajous.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b8d711868d0ac35ef077f3a6a9bc3293"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Ceva Theorem 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bb540e916fc91c12ec3ae9865d3240cc"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Ceva Theorem 3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0e063c80f6f57fa9b5448707791bd1a2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Reflection Job.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="91cb1fadbc600c8eff7c6eb9a08060f2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Machine2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="5851c2a829d37194318b7e0d898bfffb"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Parabel1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="585a9192cc19022aaacb058b1281cfc0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Machine4.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ea8c5d944bb03e4c4bfe601e3fd84aa7"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Dilatation.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="99bf5fe4840c4fdb0c7a00c97dcd869b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Segment and Tangents.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="de7b9cc585a3b274df67ae727070ba70"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Center with Compasses.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a817e3920ffeaaaf142c0ec25be473a4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Stick 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1f0f2443a1cdeceb72173c84fdf89c8a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Rotation.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="05ee8c7c9b436496046c38029ecfc839"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b60e22470dc173999facd7987dcd4f69"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="8473fc56e8bf9d52ad32c5ce28750bea"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Nautilus.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="08053abc41bccfead63f758a5913109a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Affine Mapping.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a185cd715960271cb074b0b00e71a78e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras5.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9b99154dae38da5c42bc366ac1964808"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Projective Quadrilateral 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="957595293d376a059ba258b9c8b13996"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras7.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e704ce679aa6a2441c87565f0f8ab33f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Common Circle.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="73fc46dcc620db67eef37fecf714c04c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras9.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="60576fef023795712a991c71cd6f1406"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Center with Compasses 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a3d6d846ca181aa97ecdf1672a188d94"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Moving Orthocenter.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d23b6c2377dd32070bad11c4550350ad"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Conic 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="00e3796070cb173a5da2295aca165186"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Equilateral.job"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="3a20c800b63d9f80728ee3d0cd139dcd"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c8a536205aae41ce145d3dc37c3198ba"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Problem 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b0ad9fcd630e40ba424c42a96bb50958"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Affine Mapping 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="2a9d3f3821aff5b01bae06d4193f66f8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Cycloid.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0beb0a2983723515b5dc0215dc698845"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="IMO41-2.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9d4bc5d231008f001306e2c7d74b1ffe"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="IMO41.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="edfca82d5715ec830e1bb2a9870d7735"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Napoleon2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1f15b63a714de6ab69856b2a3a1ed62e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Fibonacci 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="48e3184db6c8bad7493b10d28b990526"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Projection 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="85dcd528cd5dee15624fce288bb14387"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Napoleon4.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="8d5b954446dff4a0e30560aea3b37808"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Fibonacci 3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="48eaa2db727ac4b678c0d9692b8ad4de"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Sinus.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="124d7591722cc00cfe62cf8563626771"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Napoleon6.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="04c56ab123686617486a5d7b05aeba91"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Fibonacci 5.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="eadcd930f09e63840c728f129b9849d3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="bwm1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="f7c001fb0d0919438c1e9452d6fcd2e9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Ellipse 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b85100e17a5d03f486d16e37a3c140de"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Ellipse 3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="17e6e0ddbe93271192d86cc78d5c1fc7"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Macro Rotation.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="5ef9bafa73dd3f08178ecb45e3df2e25"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Cevas Theorem.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="52789e085aa93afdfdd95eaa1f81849e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Construct from b c H.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="786aee11ed17ea87d9ffa52a7b12b3dd"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="First Test.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="100bf319d444baa366944d208470bb97"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Hinge.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="36378c442334accd50923bd10f4d9374"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Angle Trisection.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="62d33afd00e1ec3ecab2350efb128192"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Bernoulli.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ee47fa514bff3de04d8370df74280ffc"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="SSA.job"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0f206a0695a3dde6de92d76cf9f24003"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Funktion.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9834e483a236a591c04aeb6c7bb4cd75"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="081eabe78a19d07ef0aa9fe2f3d5f753"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Cube 3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e0f7e20b7444767a179330ba5db7fc83"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Quadrilateral in Circle.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="14d38fc179e2d73b836cdeeaa6af83fd"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Centers.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1066f0ba400c52c842f0c1412c77caaa"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Projective Mapping 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b94598a11a52df89e0e51da4e8eb8051"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Simpson1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e6af1050c6ba09aff50fe41c00b5ac29"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Bezier.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d13ffc9e43d2bbb74433334eea8a0f8d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b18e7cd993c2975994acfdda3bee0266"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="SSW.job"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="2d5ed2c924b1699ba5d8d8f8ea5b6753"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Parallelogram.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d58fa834a0ed80d251942b43a6ea808e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Cindarella-Maschine.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="627a66d3529e1a459bf7bc55f69b14be"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b0d31b9bcb5235b5f2534c6700b18635"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Nautilus1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c612b2ce6ec85d543e3fa0698cfb228c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 5.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="8b112710c64e99af2394098417c327c3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 7.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="75848cdaa5f450a39974bd409ef8d072"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Fermat Point.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0b6509a5dc2a3408d6665d6a2f7216e1"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare 9.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c56e25154086335f0a301db59e8282f0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Reflection.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="152dcb08453341def7305c577e8c8545"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pascal Line 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="06f8ba0d3f5938d85552750bbbe5bb5a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Euler2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="7932dfb3cff1fcf0d6f936dcb2c6b838"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Euler4.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a56b1cfaaced1ed3514ca79d3f798f03"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Schleifen.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0c1a8fbb6db880f5b70fa32fe57906c8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Euler6.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="45de3b7881822357ed8c8f6573ecf32c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Angle Bisector 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="85d9707cb0d9fbd8a4e44fee75e7a793"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Perimeter.job"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="87690e8fba0770be68274efab39b2ec2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Perimeter Descriptive.job"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bfa2297c02bbc287470a2f806c95aa4f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Angle Bisector 5.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="50a18702b7115e4f2130074b8dd83e75"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Circle.job"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="8bdd0df19817e383455a5c6e88fddc96"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Reflecting at Cirle 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0964cc8c7106b06a1fcfacdb91a3230e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Affin.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="073e896d65cb258006420e3757704622"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Ceva Theorem 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="5f19599b64dd0c2c4069057c1a34a754"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Machine1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="899a13ffba8f743a3714870cba6c8bbd"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Center Angle.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="de71539743ef9fa92db11be7bf55361e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Machine3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="af3a1d3b45b8d5c576c73e8ba59bd9d5"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Parabel2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e4048ec15476f6e949a7a387e331c8a6"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="formespoints.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="5355059218c3940b3b5fa9f2a59a1087"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Equilateral 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="4cce54e21c96bb9aa91bc24f4b80012d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Ladder.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="762a1083c0178f67c549a8be330b685a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:22.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Poincare.zir.bak"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="87f7b36962ad7cec72ff2b011b076916"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Rollen.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="117be22d80cfa57bfcaeeea611ac9106"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Empty.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="351bb2285f1249db99825b17473c91fc"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Stick 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="2deb5a50518e2011c10921f3b579b0c4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bf7e78f34a4c6c20ab3d95d75a689ec0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras4.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="522d88ce239d9d05db5a9ad89dbce025"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Dilatation with Macro.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="89edeea986cfcc4d66aea753adcee2e1"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras6.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bc2035d710950fd19f96093a0c9e2651"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Area.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="42544af4fc645b78fa0bab8f14126ccb"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pythagoras8.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="2001914e7e661975e25c19fb77a924ae"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Maschine1.gif"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a2c6c4fa6ba7f32b6e278bde4977f59c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Pascal Line.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c3926f093368ff96846082226cc85742"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Conic 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="091c3e8aec5bee7abd6b00c381e21ad8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Euler.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9e777910ac332142fdf5ae94ae5f31ee"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Problem 3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="15b9a952ad9a5158dbfa673783a4401a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Japanese.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="729442d8e4379dd3ee66a1efd05f1281"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="debug.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="cb15b60e783ea3fce6c6c6a008cbbe67"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Perpendicular Bisector.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b8339ed35963cefb21c681e87231c932"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Reflection Job.job"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ac86ee1515c35e62b37b8b436179ccac"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Orthocenter.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="8a8fa59eb8218c8dac0b8c1e6061f156"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Napoleon1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b302fe292525f0e583209b0edde883be"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Projection 1.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="7d28710736a1359cfb03209c08d4e73f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Napoleon3.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b7f2339bfb5dea4b42eacf26580562ec"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Compasses Only Test.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="83004d45371a5031948b1cea5b015971"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Fibonacci 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="2230944997c941ab06518c2292dd5452"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Planimeter.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="26eda70f5a4e5f0f442d93c15193443d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Napoleon5.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="82ffba7e4e4ad4e17d448b82cbfec467"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Fibonacci 4.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="8f0282647131c04e3940c1b25227061d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Napoleon7.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ea9948214265cf992d04a7124cf71d59"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Rotating Cube 2.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d83497d2176ec28eaf0021d0c5dc34a3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Rotating Circle.zir"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="03e49deb775d890733ad841d8896590b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+</wc-entries>

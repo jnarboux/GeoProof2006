@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="2.0" w="5.0"/>
+<Comment>
+<P>Auf den Seiten eines Dreiecks werden gleichseitige Dreiecke
+errichtet. Die braunen Verbindungsgeraden sind dann alle
+gleich lang und schneiden sich in einem Punkt. Dort sind
+die Winkel je 60 Grad.</P>
+<P>Zum Beweis schreiben wir</P>
+<P>APa = AB + d(BC), </P>
+<P>wobei d die Drehung um 60 Grad ist, und die beteiligten
+Größen Vektoren sind. Wendet man auf diese Gleichung die
+Drehung zweimal an, so erhält man</P>
+<P>d(d(APa) = d(d(AB)) + d(d(d(BC) = d(BA) + CB = CPc.</P>
+<P>Also sind je zwei Transversalen jeweis gleich lang und
+schneiden sich in Winkeln von 120 Grad. Der Schnittpunkt
+der Transversalen ist also der Fermatpunkt, unter dem alle
+Seiten in einem Winkel von 120 Grad erscheinen.</P>
+<P>Die Konstruktion dieses Punktes kann außerdem über den
+eingezeichneten Fasskreis gemacht werden. Mit Hilfe dieses
+Kreises sieht man auch ein, dass der eingezeichnete Winkel
+60 Grad sein muss.</P>
+</Comment>
+<Objects>
+<Point name="A" showname="true" x="-2.5" y="1.1946308724832218">Punkt in -2.5, 1.1946308724832218</Point>
+<Point name="C" showname="true" x="-0.09658246656760738" y="4.667161961367013">Punkt in -0.09658246656760738, 4.667161961367013</Point>
+<Segment name="s1" type="thick" from="A" to="C">Strecke von A nach C</Segment>
+<Point name="B" showname="true" x="0.8892617449664426" y="0.33892617449664453">Punkt in 0.8892617449664426, 0.33892617449664453</Point>
+<Segment name="b" type="thick" xoffset="24" yoffset="27" from="C" to="B">Strecke von C nach B</Segment>
+<Segment name="a" type="thick" from="B" to="A">Strecke von B nach A</Segment>
+<Circle name="k1" color="1" hidden="true" midpoint="C" through="A" partial="true">Kreis um C durch A</Circle>
+<Circle name="k2" color="1" hidden="true" midpoint="A" through="C" partial="true">Kreis um A durch C</Circle>
+<Intersection name="Pb" color="1" showname="true" first="k1" second="k2" other="S2" shape="circle">Schnitt zwischen k1 und k2</Intersection>
+<OtherIntersection name="S2" color="1" hidden="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Segment name="s4" color="1" from="A" to="Pb">Strecke von A nach Pb</Segment>
+<Segment name="s5" color="1" from="Pb" to="C">Strecke von Pb nach C</Segment>
+<Circle name="k7" color="1" hidden="true" midpoint="A" through="B" partial="true">Kreis um A durch B</Circle>
+<Circle name="k8" color="1" hidden="true" midpoint="B" through="A" partial="true">Kreis um B durch A</Circle>
+<Intersection name="Pc" color="1" showname="true" target="true" first="k7" second="k8" other="S8" shape="circle">Schnitt zwischen k7 und k8</Intersection>
+<OtherIntersection name="S8" color="1" hidden="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Segment name="s6" color="1" from="A" to="Pc">Strecke von A nach Pc</Segment>
+<Segment name="s7" color="1" from="Pc" to="B">Strecke von Pc nach B</Segment>
+<Circle name="k9" color="1" hidden="true" midpoint="B" through="C" partial="true">Kreis um B durch C</Circle>
+<Circle name="k10" color="1" hidden="true" midpoint="C" through="B" partial="true">Kreis um C durch B</Circle>
+<Intersection name="Pa" color="1" showname="true" target="true" first="k9" second="k10" other="S10" shape="circle">Schnitt zwischen k9 und k10</Intersection>
+<OtherIntersection name="S10" color="1" hidden="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Segment name="s8" color="1" from="C" to="Pa">Strecke von C nach Pa</Segment>
+<Segment name="s9" color="1" from="Pa" to="B">Strecke von Pa nach B</Segment>
+<Segment name="t" color="2" xoffset="68" yoffset="-38" from="A" to="Pa">Strecke von A nach Pa</Segment>
+<Segment name="s12" color="2" from="C" to="Pc">Strecke von C nach Pc</Segment>
+<Segment name="s13" color="2" from="B" to="Pb">Strecke von B nach Pb</Segment>
+<Intersection name="S11" color="3" first="t" second="s12">Schnitt zwischen t und s12</Intersection>
+<Angle name="w1" color="3" showvalue="true" first="B" root="S11" second="Pa">Winkel B - S11 - Pa</Angle>
+<Midpoint name="M3" hidden="true" first="A" second="B">Mitte zwischen A und B</Midpoint>
+<Midpoint name="M4" hidden="true" first="B" second="Pc">Mitte zwischen B und Pc</Midpoint>
+<Plumb name="l1" hidden="true" point="M3" line="a">Lot durch M3 zu a</Plumb>
+<Plumb name="l2" hidden="true" point="M4" line="s7">Lot durch M4 zu s7</Plumb>
+<Intersection name="S9" color="3" hidden="true" first="l1" second="l2">Schnitt zwischen l1 und l2</Intersection>
+<Circle name="k11" color="3" type="thin" midpoint="S9" through="B">Kreis um S9 durch B</Circle>
+<Angle name="w2" color="3" showvalue="true" first="A" root="S11" second="B">Winkel A - S11 - B</Angle>
+</Objects>
+</Construction>
+</CaR>

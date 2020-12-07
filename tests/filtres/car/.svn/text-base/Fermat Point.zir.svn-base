@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-0.6627416997969524" y="-0.6627416997969515" w="16.000000000000004"/>
+<Comment>
+<P>The point of Fermat.</P>
+<P></P>
+<P>Move G so that the sum of distances to the corners is
+shortest. It becomes shortest in the Fermat point. Why is
+that so?</P>
+</Comment>
+<Objects>
+<Point name="A" showname="true" x="-7.48" y="-8.91">Point at -7.48, -8.91</Point>
+<Point name="B" showname="true" xcoffset="-0.1555915721231767" ycoffset="-0.05186385737439223" x="9.48" y="-8.03">Point at 9.48, -8.03</Point>
+<Point name="C" showname="true" xcoffset="0.6742301458670991" ycoffset="0.20745542949756893" x="-4.27" y="4.21">Point at -4.27, 4.21</Point>
+<Segment name="s1" from="A" to="B">Strecke von A nach B</Segment>
+<Segment name="s2" from="B" to="C">Strecke von B nach C</Segment>
+<Segment name="s3" xcoffset="-0.5186385737439223" ycoffset="-0.25931928687196115" from="C" to="A">Strecke von C nach A</Segment>
+<Point name="G" color="5" showname="true" xcoffset="0.10372771474878446" ycoffset="0.3630470016207456" x="0.82" y="-3.36">Point at 0.82, -3.36</Point>
+<Segment name="s9" color="3" showvalue="true" xcoffset="1.4521880064829826" ycoffset="-1.1928687196110213" from="A" to="G">Strecke von A nach G</Segment>
+<Segment name="s10" color="3" showvalue="true" from="G" to="B">Strecke von G nach B</Segment>
+<Segment name="s11" color="3" showvalue="true" ycoffset="-0.8298217179902757" from="C" to="G">Strecke von C nach G</Segment>
+<Point name="P21" color="3" type="thick" x="13.78" y="8.26">Point at 13.78, 8.26</Point>
+<Point name="P22" color="3" type="thick" x="-15.165656839451737" y="8.257685662872792">Point at -15.165656839451737, 8.257685662872792</Point>
+<Segment name="s24" color="3" type="thick" showvalue="true" from="P21" to="P22" fixed="d(G,A)+d(G,B)+d(G,C)">Line segment from P21 to P22 with length &quot;d(G,A)+d(G,B)+d(G,C)&quot;</Segment>
+<Angle name="a7" color="1" hidden="true" first="C" root="A" fixed="30.0" acute="true">Angle C - A with size 30.0</Angle>
+<Angle name="a8" color="1" hidden="true" first="A" root="C" fixed="30.0" acute="true" inverse="true">Angle A - C with size 30.0</Angle>
+<Intersection name="I39" color="1" hidden="true" first="a8" second="a7">Intersection between a8 and a7</Intersection>
+<Circle name="c22" color="1" hidden="true" through="C" midpoint="I39" acute="true">Circle around I39 through C</Circle>
+<Angle name="a9" color="1" hidden="true" first="A" root="B" fixed="30.0" acute="true">Angle A - B with size 30.0</Angle>
+<Angle name="a10" color="1" hidden="true" first="B" root="A" fixed="30.0" acute="true" inverse="true">Angle B - A with size 30.0</Angle>
+<Intersection name="I40" color="1" hidden="true" first="a10" second="a9">Intersection between a10 and a9</Intersection>
+<Circle name="c23" color="1" hidden="true" through="B" midpoint="I40" acute="true">Circle around I40 through B</Circle>
+<Intersection name="I41" color="1" type="thin" first="c23" second="c22" which="first">Intersection between c23 and c22</Intersection>
+<Segment name="s12" color="1" type="thin" from="A" to="I41">Line segment from A to I41</Segment>
+<Segment name="s13" color="1" type="thin" from="I41" to="C">Line segment from I41 to C</Segment>
+<Segment name="s14" color="1" type="thin" from="I41" to="B">Line segment from I41 to B</Segment>
+<Angle name="a1" color="1" type="thin" first="A" root="I41" second="C" acute="true">Angle A - I41 - C</Angle>
+<Angle name="a2" color="1" type="thin" first="C" root="I41" second="B" acute="true">Angle C - I41 - B</Angle>
+<Angle name="a3" color="1" type="thin" first="B" root="I41" second="A" acute="true">Angle B - I41 - A</Angle>
+</Objects>
+</Construction>
+</CaR>

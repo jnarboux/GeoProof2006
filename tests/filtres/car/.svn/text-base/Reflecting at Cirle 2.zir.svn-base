@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="X*" on="g1" move="X"/>
+<Objects>
+<Point name="M" showname="true" x="-3.67" y="0.1">Punkt in -3.675, 0.10000000000000053</Point>
+<Circle name="k1" fixed="3.67" midpoint="M" acute="true">Kreis um M mit Radius 3.665382</Circle>
+<Point name="Q" type="thick" showname="true" x="3.35" y="2.5">Punkt in 3.3499999999999996, 2.499999999999999</Point>
+<Point name="P" type="thick" showname="true" x="0.28" y="-3.62">Punkt in 0.27500000000000036, -3.625</Point>
+<Line name="g1" color="2" from="Q" to="P">Gerade durch Q und P</Line>
+<PointOn name="X" color="2" showname="true" on="g1" alpha="2.8367019209294524">Punkt auf g1</PointOn>
+<Circle name="k12" hidden="super" through="M" midpoint="X" acute="true">Kreis um X durch M</Circle>
+<Intersection name="S13" hidden="super" first="k1" second="k12" which="second">Schnitt zwischen k1 und k12</Intersection>
+<Circle name="k13" hidden="super" through="M" midpoint="S13" acute="true">Kreis um S13 durch M</Circle>
+<Intersection name="S14" hidden="super" first="k1" second="k12" which="first">Schnitt zwischen k1 und k12</Intersection>
+<Circle name="k14" hidden="super" through="M" midpoint="S14" acute="true">Kreis um S14 durch M</Circle>
+<Intersection name="X*" color="1" showname="true" first="k13" second="k14" awayfrom="M" which="second">Schnitt zwischen k13 und k14</Intersection>
+</Objects>
+</Construction>
+</CaR>

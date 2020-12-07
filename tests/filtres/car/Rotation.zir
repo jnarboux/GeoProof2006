@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="Drehstreckung">
+<Parameter name="A">A</Parameter>
+<Parameter name="B">B</Parameter>
+<Parameter name="C">C</Parameter>
+<Parameter name="A*">A*</Parameter>
+<Parameter name="B*">B*</Parameter>
+<Comment>
+<P>Dreht A* um B* gemäß der Drehabbildung, die A auf C um B
+herum ausführt.</P>
+</Comment>
+<Objects>
+<Point name="A" hidden="true" mainparameter="true" x="-2.0121212121000007" y="-0.8">Punkt in -2.0121212121000007, -0.8</Point>
+<Point name="B" hidden="true" mainparameter="true" x="-5.575757575800002" y="-2.957575757600001">Punkt in -5.575757575800002, -2.957575757600001</Point>
+<Point name="C" hidden="true" mainparameter="true" x="-4.8" y="0.3878787878787877">Punkt in -4.8, 0.3878787878787877</Point>
+<Point name="A*" hidden="true" mainparameter="true" x="5.4787878787878785" y="1.2606060606060607">Punkt in 5.4787878787878785, 1.2606060606060607</Point>
+<Point name="B*" hidden="true" mainparameter="true" x="2.496969697000001" y="0.38787878790000013">Punkt in 2.496969697000001, 0.38787878790000013</Point>
+<Angle name="w1" color="2" hidden="true" first="A*" root="B*" fixed="a(A,B,C)">Fester Winkel A* - B* mit Größe a(A,B,C)</Angle>
+<Circle name="k1" color="2" hidden="true" fixed="d(C,B)/d(A,B)*d(&quot;A*&quot;,&quot;B*&quot;)" midpoint="B*">Kreis um B* mit Radius 2.5612328236</Circle>
+<Intersection name="S1" color="2" target="true" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+</Objects>
+</Macro>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Comment>
+<P>Drehstreckung anhand einer Musterabbildung, die A auf C
+abbildet und B festhält. Die Abbildung wird nun (mit
+Rechenoperationen) an A* wiederholt, wobei B* fest bleibt. </P>
+<P>Dazu wird der Winkel ABC an A*B* angetragen und ein Kreis
+mit Radius (A*B*)*(DB)/(AB) gebildet. Diese Konstruktion
+wird auf ein Makro gespeichert.</P>
+<P>Das Makro wird nun mehrfach angewendet, was eine Spirale
+gibt.</P>
+</Comment>
+<Objects>
+<Point name="A" showname="true" x="-2.0121212121000007" y="-0.8">Punkt in -2.0121212121000007, -0.8</Point>
+<Point name="B" showname="true" x="-5.575757575800002" y="-2.957575757600001">Punkt in -5.575757575800002, -2.957575757600001</Point>
+<Point name="C" showname="true" x="-3.5151515151515156" y="-0.07272727272727231">Punkt in -3.5151515151515156, -0.07272727272727231</Point>
+<Point name="A*" color="1" showname="true" x="4.50909090909091" y="-1.5999999999999996">Punkt in 4.50909090909091, -1.5999999999999996</Point>
+<Point name="B*" color="1" showname="true" x="2.496969697000001" y="0.38787878790000013">Punkt in 2.496969697000001, 0.38787878790000013</Point>
+<Angle name="w1" color="2" first="A*" root="B*" fixed="a(A,B,C)">Fester Winkel A* - B* mit Größe a(A,B,C)</Angle>
+<Circle name="k1" color="2" fixed="d(C,B)/d(A,B)*d(&quot;A*&quot;,&quot;B*&quot;)" midpoint="B*">Kreis um B* mit Radius 3.2074293921</Circle>
+<Intersection name="C*" color="2" showname="true" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+<Point name="P6" color="3" x="-3.0545454545454547" y="2.7393939393939393">Punkt in -3.0545454545454547, 2.7393939393939393</Point>
+<Point name="P7" color="3" x="-0.4121212121212121" y="4.048484848484848">Punkt in -0.4121212121212121, 4.048484848484848</Point>
+<Segment name="s1" color="3" from="P6" to="P7">Strecke von P6 nach P7</Segment>
+<Angle name="w2" color="2" hidden="true" first="P7" root="P6" fixed="a(A,B,C)">Fester Winkel P7 - P6 mit Größe a(A,B,C)</Angle>
+<Circle name="k2" color="2" hidden="true" fixed="d(C,B)/d(A,B)*d(P7,P6)" midpoint="P6">Kreis um P6 mit Radius 2.5612328236</Circle>
+<Intersection name="S3" color="3" first="w2" second="k2" which="first">Schnitt zwischen w2 und k2</Intersection>
+<Angle name="w3" color="2" hidden="true" first="S3" root="P6" fixed="a(A,B,C)">Fester Winkel S3 - P6 mit Größe a(A,B,C)</Angle>
+<Circle name="k3" color="2" hidden="true" fixed="d(C,B)/d(A,B)*d(S3,P6)" midpoint="P6">Kreis um P6 mit Radius 2.5612328236</Circle>
+<Intersection name="S4" color="3" first="w3" second="k3" which="first">Schnitt zwischen w3 und k3</Intersection>
+<Angle name="w4" color="2" hidden="true" first="S4" root="P6" fixed="a(A,B,C)">Fester Winkel S4 - P6 mit Größe a(A,B,C)</Angle>
+<Circle name="k4" color="2" hidden="true" fixed="d(C,B)/d(A,B)*d(S4,P6)" midpoint="P6">Kreis um P6 mit Radius 2.5612328236</Circle>
+<Intersection name="S5" color="3" first="w4" second="k4" which="first">Schnitt zwischen w4 und k4</Intersection>
+<Angle name="w5" color="2" hidden="true" first="S5" root="P6" fixed="a(A,B,C)">Fester Winkel S5 - P6 mit Größe a(A,B,C)</Angle>
+<Circle name="k5" color="2" hidden="true" fixed="d(C,B)/d(A,B)*d(S5,P6)" midpoint="P6">Kreis um P6 mit Radius 2.5612328236</Circle>
+<Intersection name="S6" color="3" first="w5" second="k5" which="first">Schnitt zwischen w5 und k5</Intersection>
+<Angle name="w6" color="2" hidden="true" first="S6" root="P6" fixed="a(A,B,C)">Fester Winkel S6 - P6 mit Größe a(A,B,C)</Angle>
+<Circle name="k6" color="2" hidden="true" fixed="d(C,B)/d(A,B)*d(S6,P6)" midpoint="P6">Kreis um P6 mit Radius 2.5612328236</Circle>
+<Intersection name="S7" color="3" first="w6" second="k6" which="first">Schnitt zwischen w6 und k6</Intersection>
+<Angle name="w7" color="2" hidden="true" first="S7" root="P6" fixed="a(A,B,C)">Fester Winkel S7 - P6 mit Größe a(A,B,C)</Angle>
+<Circle name="k7" color="2" hidden="true" fixed="d(C,B)/d(A,B)*d(S7,P6)" midpoint="P6">Kreis um P6 mit Radius 2.5612328236</Circle>
+<Intersection name="S8" color="3" first="w7" second="k7" which="first">Schnitt zwischen w7 und k7</Intersection>
+<Angle name="w8" color="2" hidden="true" first="S8" root="P6" fixed="a(A,B,C)">Fester Winkel S8 - P6 mit Größe a(A,B,C)</Angle>
+<Circle name="k8" color="2" hidden="true" fixed="d(C,B)/d(A,B)*d(S8,P6)" midpoint="P6">Kreis um P6 mit Radius 2.5612328236</Circle>
+<Intersection name="S9" color="3" first="w8" second="k8" which="first">Schnitt zwischen w8 und k8</Intersection>
+<Segment name="s2" color="3" from="P6" to="S3">Strecke von P6 nach S3</Segment>
+<Segment name="s3" color="3" from="P6" to="S4">Strecke von P6 nach S4</Segment>
+<Segment name="s4" color="3" from="P6" to="S5">Strecke von P6 nach S5</Segment>
+<Segment name="s5" color="3" from="P6" to="S6">Strecke von P6 nach S6</Segment>
+<Segment name="s6" color="3" from="P6" to="S7">Strecke von P6 nach S7</Segment>
+<Segment name="s7" color="3" from="P6" to="S8">Strecke von P6 nach S8</Segment>
+<Segment name="s8" color="3" from="P6" to="S9">Strecke von P6 nach S9</Segment>
+<Segment name="s9" from="A" to="B">Strecke von A nach B</Segment>
+<Segment name="s10" from="B" to="C">Strecke von B nach C</Segment>
+<Text name="Text1" x="-4.242424242424242" y="-3.151515151515152">A wird um B auf C
+affin abgebildet.</Text>
+<Text name="Text2" x="1.2848484848484851" y="3.8545454545454545">Diese berechnete Konstruktion
+führt dasselbe an A* um B* aus.</Text>
+<Text name="Text3" x="-6.86060606060606" y="4.96969696969697">Das Makro wird wiederholt
+angewendet.</Text>
+<Segment name="s11" color="1" from="B*" to="A*">Strecke von B* nach A*</Segment>
+</Objects>
+</Construction>
+</CaR>

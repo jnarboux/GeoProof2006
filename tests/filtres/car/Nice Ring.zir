@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="Drehstreckung">
+<Parameter name="P2">A</Parameter>
+<Parameter name="P1">B</Parameter>
+<Parameter name="P3">C</Parameter>
+<Parameter name="P4">M</Parameter>
+<Parameter name="P5">P</Parameter>
+<Comment>
+<P>Winkel ABC, Faktor CB/BA.</P>
+</Comment>
+<Objects>
+<Point name="P1" hidden="true" mainparameter="true" x="2.036363636363637" y="-1.951515151515152">Punkt in 2.036363636363637, -1.951515151515152</Point>
+<Point name="P2" hidden="true" mainparameter="true" x="1.9151515151515162" y="5.321212121212123">Punkt in 1.915151515151516, 5.321212121212123</Point>
+<Point name="P3" hidden="true" mainparameter="true" x="-0.2666666666666666" y="3.9636363636363643">Punkt in -0.2666666666666666, 3.963636363636364</Point>
+<Point name="P4" hidden="true" mainparameter="true" x="6.375757575757575" y="1.054545454545454">Punkt in 6.375757575757575, 1.0545454545454538</Point>
+<Point name="P5" hidden="true" mainparameter="true" x="6.836363636363637" y="4.787878787878788">Punkt in 6.836363636363636, 4.787878787878788</Point>
+<Angle name="w1" color="2" hidden="true" first="P5" root="P4" fixed="a(P2,P1,P3)">Fester Winkel P5 - P4 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k1" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(P5,P4)" midpoint="P4">Kreis um P4 mit Radius 3.2827230164</Circle>
+<Intersection name="S1" color="2" target="true" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+</Objects>
+</Macro>
+<Macro Name="Drehstreckung - P2 P1 P3 P1">
+<Parameter name="P2" fixed="P2">A</Parameter>
+<Parameter name="P1" fixed="P1">B</Parameter>
+<Parameter name="P3" fixed="P3">C</Parameter>
+<Parameter name="P4" fixed="P1">M</Parameter>
+<Parameter name="P5">P</Parameter>
+<Comment>
+<P>Winkel ABC, Faktor CB/BA.</P>
+</Comment>
+<Objects>
+<Point name="P1" hidden="true" mainparameter="true" x="2.036363636363637" y="-1.951515151515152">Punkt in 2.036363636363637, -1.951515151515152</Point>
+<Point name="P2" hidden="true" mainparameter="true" x="1.9151515151515162" y="5.321212121212123">Punkt in 1.915151515151516, 5.321212121212123</Point>
+<Point name="P3" hidden="true" mainparameter="true" x="-0.2666666666666666" y="3.9636363636363643">Punkt in -0.2666666666666666, 3.963636363636364</Point>
+<Point name="P4" hidden="true" mainparameter="true" x="6.375757575757575" y="1.054545454545454">Punkt in 6.375757575757575, 1.0545454545454538</Point>
+<Point name="P5" hidden="true" mainparameter="true" x="6.836363636363637" y="4.787878787878788">Punkt in 6.836363636363636, 4.787878787878788</Point>
+<Angle name="w1" color="2" hidden="true" first="P5" root="P4" fixed="a(P2,P1,P3)">Fester Winkel P5 - P4 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k1" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(P5,P4)" midpoint="P4">Kreis um P4 mit Radius 3.2827230164</Circle>
+<Intersection name="S1" color="2" target="true" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+</Objects>
+</Macro>
+<Macro Name="Test">
+<Parameter name="P4">P4</Parameter>
+<Parameter name="P5">P5</Parameter>
+<Objects>
+<Point name="P4" hidden="true" mainparameter="true" x="-2.1078582434514637" y="-1.4668721109399074">Punkt in -2.1078582434514637, -1.4668721109399074</Point>
+<Point name="P5" hidden="true" mainparameter="true" x="-2.798151001540832" y="1.3682588597842837">Punkt in -2.798151001540832, 1.3682588597842837</Point>
+<Circle name="k1" hidden="true" through="P5" midpoint="P4" acute="true">Kreis um P4 durch P5</Circle>
+<Line name="g1" hidden="true" from="P4" to="P5">Gerade durch P4 und P5</Line>
+<Circle name="k2" hidden="true" fixed="k1*0.1" midpoint="P4" acute="true">Kreis um P4 mit Radius 0.291796</Circle>
+<Intersection name="S1" target="true" first="g1" second="k2" which="first">Schnitt zwischen g1 und k2</Intersection>
+<Angle name="w1" hidden="true" first="P4" root="S1" fixed="160.0" acute="true">Fester Winkel P4 - S1 mit Größe 160.0</Angle>
+<Circle3 name="k3" target="true" from="P4" to="P5" midpoint="S1" acute="true">Kreis um P4 mit Radius von P5 nach S1</Circle3>
+<Intersection name="S2" target="true" first="w1" second="k3" which="first">Schnitt zwischen w1 und k3</Intersection>
+</Objects>
+</Macro>
+<Construction>
+<Window x="0.0" y="0.0" w="5.65685424949238"/>
+<Objects>
+<Point name="P4" type="thick" x="-0.6188546251370708" y="-0.7060172483958129">Punkt in -0.6188546251370708, -0.7060172483958129</Point>
+<Point name="P5" type="thick" x="-3.1988682735958447" y="1.7171036781972244">Punkt in -3.1988682735958447, 1.7171036781972244</Point>
+<Circle name="k12" through="P5" midpoint="P4" acute="true">Kreis um P4 durch P5</Circle>
+<Line name="g1" hidden="true" from="P4" to="P5">Gerade durch P4 und P5</Line>
+<Circle name="k13" hidden="true" fixed="k12*0.1" midpoint="P4" acute="true">Kreis um P4 mit Radius 0.960214</Circle>
+<Intersection name="S7" first="g1" second="k13" which="first">Schnitt zwischen g1 und k13</Intersection>
+<Angle name="w1" hidden="true" first="P4" root="S7" fixed="160.0" acute="true">Fester Winkel P4 - S7 mit Größe 160.0</Angle>
+<Circle3 name="k14" from="P4" to="P5" midpoint="S7" acute="true">Kreis um P4 mit Radius von P5 nach S7</Circle3>
+<Intersection name="S9" hidden="true" first="w1" second="k14" which="first">Schnitt zwischen w1 und k14</Intersection>
+<Line name="g2" hidden="true" from="S7" to="S9">Gerade durch S7 und S9</Line>
+<Circle name="k15" hidden="true" through="S9" midpoint="S7" acute="true">Kreis um S7 durch S9</Circle>
+<Line name="g3" hidden="true" from="S7" to="S9">Gerade durch S7 und S9</Line>
+<Circle name="k16" hidden="true" fixed="k15*0.1" midpoint="S7" acute="true">Kreis um S7 mit Radius 0.291796</Circle>
+<Intersection name="S11" first="g3" second="k16" which="first">Schnitt zwischen g3 und k16</Intersection>
+<Angle name="w2" hidden="true" first="S7" root="S11" fixed="160.0" acute="true">Fester Winkel S7 - S11 mit Größe 160.0</Angle>
+<Circle3 name="k17" from="S7" to="S9" midpoint="S11" acute="true">Kreis um S7 mit Radius von S9 nach S11</Circle3>
+<Intersection name="S12" hidden="true" first="w2" second="k17" which="first">Schnitt zwischen w2 und k17</Intersection>
+<Circle name="k18" hidden="true" through="S12" midpoint="S11" acute="true">Kreis um S11 durch S12</Circle>
+<Line name="g4" hidden="true" from="S11" to="S12">Gerade durch S11 und S12</Line>
+<Circle name="k19" hidden="true" fixed="k18*0.1" midpoint="S11" acute="true">Kreis um S11 mit Radius 0.291796</Circle>
+<Intersection name="S13" first="g4" second="k19" which="first">Schnitt zwischen g4 und k19</Intersection>
+<Angle name="w3" hidden="true" first="S11" root="S13" fixed="160.0" acute="true">Fester Winkel S11 - S13 mit Größe 160.0</Angle>
+<Circle3 name="k20" from="S11" to="S12" midpoint="S13" acute="true">Kreis um S11 mit Radius von S12 nach S13</Circle3>
+<Intersection name="S14" hidden="true" first="w3" second="k20" which="first">Schnitt zwischen w3 und k20</Intersection>
+<Circle name="k21" hidden="true" through="S14" midpoint="S13" acute="true">Kreis um S13 durch S14</Circle>
+<Line name="g5" hidden="true" from="S13" to="S14">Gerade durch S13 und S14</Line>
+<Circle name="k22" hidden="true" fixed="k21*0.1" midpoint="S13" acute="true">Kreis um S13 mit Radius 0.291796</Circle>
+<Intersection name="S15" first="g5" second="k22" which="first">Schnitt zwischen g5 und k22</Intersection>
+<Angle name="w4" hidden="true" first="S13" root="S15" fixed="160.0" acute="true">Fester Winkel S13 - S15 mit Größe 160.0</Angle>
+<Circle3 name="k23" from="S13" to="S14" midpoint="S15" acute="true">Kreis um S13 mit Radius von S14 nach S15</Circle3>
+<Intersection name="S16" hidden="true" first="w4" second="k23" which="first">Schnitt zwischen w4 und k23</Intersection>
+<Circle name="k24" hidden="true" through="S16" midpoint="S15" acute="true">Kreis um S15 durch S16</Circle>
+<Line name="g6" hidden="true" from="S15" to="S16">Gerade durch S15 und S16</Line>
+<Circle name="k25" hidden="true" fixed="k24*0.1" midpoint="S15" acute="true">Kreis um S15 mit Radius 0.291796</Circle>
+<Intersection name="S17" first="g6" second="k25" which="first">Schnitt zwischen g6 und k25</Intersection>
+<Angle name="w5" hidden="true" first="S15" root="S17" fixed="160.0" acute="true">Fester Winkel S15 - S17 mit Größe 160.0</Angle>
+<Circle3 name="k26" from="S15" to="S16" midpoint="S17" acute="true">Kreis um S15 mit Radius von S16 nach S17</Circle3>
+<Intersection name="S18" hidden="true" first="w5" second="k26" which="first">Schnitt zwischen w5 und k26</Intersection>
+<Circle name="k27" hidden="true" through="S18" midpoint="S17" acute="true">Kreis um S17 durch S18</Circle>
+<Line name="g7" hidden="true" from="S17" to="S18">Gerade durch S17 und S18</Line>
+<Circle name="k28" hidden="true" fixed="k27*0.1" midpoint="S17" acute="true">Kreis um S17 mit Radius 0.291796</Circle>
+<Intersection name="S19" first="g7" second="k28" which="first">Schnitt zwischen g7 und k28</Intersection>
+<Angle name="w6" hidden="true" first="S17" root="S19" fixed="160.0" acute="true">Fester Winkel S17 - S19 mit Größe 160.0</Angle>
+<Circle3 name="k29" from="S17" to="S18" midpoint="S19" acute="true">Kreis um S17 mit Radius von S18 nach S19</Circle3>
+<Intersection name="S20" hidden="true" first="w6" second="k29" which="first">Schnitt zwischen w6 und k29</Intersection>
+<Circle name="k30" hidden="true" through="S20" midpoint="S19" acute="true">Kreis um S19 durch S20</Circle>
+<Line name="g8" hidden="true" from="S19" to="S20">Gerade durch S19 und S20</Line>
+<Circle name="k31" hidden="true" fixed="k30*0.1" midpoint="S19" acute="true">Kreis um S19 mit Radius 0.291796</Circle>
+<Intersection name="S21" first="g8" second="k31" which="first">Schnitt zwischen g8 und k31</Intersection>
+<Angle name="w7" hidden="true" first="S19" root="S21" fixed="160.0" acute="true">Fester Winkel S19 - S21 mit Größe 160.0</Angle>
+<Circle3 name="k32" from="S19" to="S20" midpoint="S21" acute="true">Kreis um S19 mit Radius von S20 nach S21</Circle3>
+<Intersection name="S22" hidden="true" first="w7" second="k32" which="first">Schnitt zwischen w7 und k32</Intersection>
+<Circle name="k33" hidden="true" through="S22" midpoint="S21" acute="true">Kreis um S21 durch S22</Circle>
+<Line name="g9" hidden="true" from="S21" to="S22">Gerade durch S21 und S22</Line>
+<Circle name="k34" hidden="true" fixed="k33*0.1" midpoint="S21" acute="true">Kreis um S21 mit Radius 0.291796</Circle>
+<Intersection name="S23" first="g9" second="k34" which="first">Schnitt zwischen g9 und k34</Intersection>
+<Angle name="w8" hidden="true" first="S21" root="S23" fixed="160.0" acute="true">Fester Winkel S21 - S23 mit Größe 160.0</Angle>
+<Circle3 name="k35" from="S21" to="S22" midpoint="S23" acute="true">Kreis um S21 mit Radius von S22 nach S23</Circle3>
+<Intersection name="S24" hidden="true" first="w8" second="k35" which="first">Schnitt zwischen w8 und k35</Intersection>
+<Circle name="k36" hidden="true" through="S24" midpoint="S23" acute="true">Kreis um S23 durch S24</Circle>
+<Line name="g10" hidden="true" from="S23" to="S24">Gerade durch S23 und S24</Line>
+<Circle name="k37" hidden="true" fixed="k36*0.1" midpoint="S23" acute="true">Kreis um S23 mit Radius 0.291796</Circle>
+<Intersection name="S25" first="g10" second="k37" which="first">Schnitt zwischen g10 und k37</Intersection>
+<Angle name="w9" hidden="true" first="S23" root="S25" fixed="160.0" acute="true">Fester Winkel S23 - S25 mit Größe 160.0</Angle>
+<Circle3 name="k38" from="S23" to="S24" midpoint="S25" acute="true">Kreis um S23 mit Radius von S24 nach S25</Circle3>
+<Intersection name="S26" hidden="true" first="w9" second="k38" which="first">Schnitt zwischen w9 und k38</Intersection>
+<Circle name="k39" hidden="true" through="S26" midpoint="S25" acute="true">Kreis um S25 durch S26</Circle>
+<Line name="g11" hidden="true" from="S25" to="S26">Gerade durch S25 und S26</Line>
+<Circle name="k40" hidden="true" fixed="k39*0.1" midpoint="S25" acute="true">Kreis um S25 mit Radius 0.291796</Circle>
+<Intersection name="S27" first="g11" second="k40" which="first">Schnitt zwischen g11 und k40</Intersection>
+<Angle name="w10" hidden="true" first="S25" root="S27" fixed="160.0" acute="true">Fester Winkel S25 - S27 mit Größe 160.0</Angle>
+<Circle3 name="k41" from="S25" to="S26" midpoint="S27" acute="true">Kreis um S25 mit Radius von S26 nach S27</Circle3>
+<Intersection name="S28" hidden="true" first="w10" second="k41" which="first">Schnitt zwischen w10 und k41</Intersection>
+<Circle name="k42" hidden="true" through="S28" midpoint="S27" acute="true">Kreis um S27 durch S28</Circle>
+<Line name="g12" hidden="true" from="S27" to="S28">Gerade durch S27 und S28</Line>
+<Circle name="k43" hidden="true" fixed="k42*0.1" midpoint="S27" acute="true">Kreis um S27 mit Radius 0.291796</Circle>
+<Intersection name="S29" first="g12" second="k43" which="first">Schnitt zwischen g12 und k43</Intersection>
+<Angle name="w11" hidden="true" first="S27" root="S29" fixed="160.0" acute="true">Fester Winkel S27 - S29 mit Größe 160.0</Angle>
+<Circle3 name="k44" from="S27" to="S28" midpoint="S29" acute="true">Kreis um S27 mit Radius von S28 nach S29</Circle3>
+<Intersection name="S30" hidden="true" first="w11" second="k44" which="first">Schnitt zwischen w11 und k44</Intersection>
+<Circle name="k45" hidden="true" through="S30" midpoint="S29" acute="true">Kreis um S29 durch S30</Circle>
+<Line name="g13" hidden="true" from="S29" to="S30">Gerade durch S29 und S30</Line>
+<Circle name="k46" hidden="true" fixed="k45*0.1" midpoint="S29" acute="true">Kreis um S29 mit Radius 0.291796</Circle>
+<Intersection name="S31" first="g13" second="k46" which="first">Schnitt zwischen g13 und k46</Intersection>
+<Angle name="w12" hidden="true" first="S29" root="S31" fixed="160.0" acute="true">Fester Winkel S29 - S31 mit Größe 160.0</Angle>
+<Circle3 name="k47" from="S29" to="S30" midpoint="S31" acute="true">Kreis um S29 mit Radius von S30 nach S31</Circle3>
+<Intersection name="S32" hidden="true" first="w12" second="k47" which="first">Schnitt zwischen w12 und k47</Intersection>
+<Circle name="k48" hidden="true" through="S32" midpoint="S31" acute="true">Kreis um S31 durch S32</Circle>
+<Line name="g14" hidden="true" from="S31" to="S32">Gerade durch S31 und S32</Line>
+<Circle name="k49" hidden="true" fixed="k48*0.1" midpoint="S31" acute="true">Kreis um S31 mit Radius 0.291796</Circle>
+<Intersection name="S33" first="g14" second="k49" which="first">Schnitt zwischen g14 und k49</Intersection>
+<Angle name="w13" hidden="true" first="S31" root="S33" fixed="160.0" acute="true">Fester Winkel S31 - S33 mit Größe 160.0</Angle>
+<Circle3 name="k50" from="S31" to="S32" midpoint="S33" acute="true">Kreis um S31 mit Radius von S32 nach S33</Circle3>
+<Intersection name="S34" hidden="true" first="w13" second="k50" which="first">Schnitt zwischen w13 und k50</Intersection>
+<Circle name="k51" hidden="true" through="S34" midpoint="S33" acute="true">Kreis um S33 durch S34</Circle>
+<Line name="g15" hidden="true" from="S33" to="S34">Gerade durch S33 und S34</Line>
+<Circle name="k52" hidden="true" fixed="k51*0.1" midpoint="S33" acute="true">Kreis um S33 mit Radius 0.291796</Circle>
+<Intersection name="S35" first="g15" second="k52" which="first">Schnitt zwischen g15 und k52</Intersection>
+<Angle name="w14" hidden="true" first="S33" root="S35" fixed="160.0" acute="true">Fester Winkel S33 - S35 mit Größe 160.0</Angle>
+<Circle3 name="k53" from="S33" to="S34" midpoint="S35" acute="true">Kreis um S33 mit Radius von S34 nach S35</Circle3>
+<Intersection name="S36" hidden="true" first="w14" second="k53" which="first">Schnitt zwischen w14 und k53</Intersection>
+<Circle name="k54" hidden="true" through="S36" midpoint="S35" acute="true">Kreis um S35 durch S36</Circle>
+<Line name="g16" hidden="true" from="S35" to="S36">Gerade durch S35 und S36</Line>
+<Circle name="k55" hidden="true" fixed="k54*0.1" midpoint="S35" acute="true">Kreis um S35 mit Radius 0.291796</Circle>
+<Intersection name="S37" first="g16" second="k55" which="first">Schnitt zwischen g16 und k55</Intersection>
+<Angle name="w15" hidden="true" first="S35" root="S37" fixed="160.0" acute="true">Fester Winkel S35 - S37 mit Größe 160.0</Angle>
+<Circle3 name="k56" from="S35" to="S36" midpoint="S37" acute="true">Kreis um S35 mit Radius von S36 nach S37</Circle3>
+<Intersection name="S38" hidden="true" first="w15" second="k56" which="first">Schnitt zwischen w15 und k56</Intersection>
+<Circle name="k57" hidden="true" through="S38" midpoint="S37" acute="true">Kreis um S37 durch S38</Circle>
+<Line name="g17" hidden="true" from="S37" to="S38">Gerade durch S37 und S38</Line>
+<Circle name="k58" hidden="true" fixed="k57*0.1" midpoint="S37" acute="true">Kreis um S37 mit Radius 0.291796</Circle>
+<Intersection name="S39" first="g17" second="k58" which="first">Schnitt zwischen g17 und k58</Intersection>
+<Angle name="w16" hidden="true" first="S37" root="S39" fixed="160.0" acute="true">Fester Winkel S37 - S39 mit Größe 160.0</Angle>
+<Circle3 name="k59" from="S37" to="S38" midpoint="S39" acute="true">Kreis um S37 mit Radius von S38 nach S39</Circle3>
+<Intersection name="S40" hidden="true" first="w16" second="k59" which="first">Schnitt zwischen w16 und k59</Intersection>
+<Circle name="k60" hidden="true" through="S40" midpoint="S39" acute="true">Kreis um S39 durch S40</Circle>
+<Line name="g18" hidden="true" from="S39" to="S40">Gerade durch S39 und S40</Line>
+<Circle name="k61" hidden="true" fixed="k60*0.1" midpoint="S39" acute="true">Kreis um S39 mit Radius 0.291796</Circle>
+<Intersection name="S41" first="g18" second="k61" which="first">Schnitt zwischen g18 und k61</Intersection>
+<Angle name="w17" hidden="true" first="S39" root="S41" fixed="160.0" acute="true">Fester Winkel S39 - S41 mit Größe 160.0</Angle>
+<Circle3 name="k62" from="S39" to="S40" midpoint="S41" acute="true">Kreis um S39 mit Radius von S40 nach S41</Circle3>
+<Intersection name="S42" hidden="true" first="w17" second="k62" which="first">Schnitt zwischen w17 und k62</Intersection>
+</Objects>
+</Construction>
+</CaR>

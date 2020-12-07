@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="-1.131370849898476" w="5.65685424949238"/>
+<Animate animate="P7" via0="k1"/>
+<Objects>
+<Point name="P1" hidden="true" x="0.061013836281119005" y="-1.1923846861795955">Punkt in 0.061013836281119005, -1.1923846861795955</Point>
+<Circle name="k1" background="true" fixed="1.5137214356125754" midpoint="P1" filled="true" acute="true">Kreis um P1 mit Radius 1.513721</Circle>
+<PointOn name="P7" color="1" type="thick" on="k1" alpha="-1.2390301424111538">Punkt auf k1</PointOn>
+<Point name="P8" color="1" type="thick" x="1.6095285041258915" y="0.3973616624088101">Punkt in -3.2912172573189524, 3.3651771956856704</Point>
+<Segment name="s4" color="1" type="thick" from="P7" to="P8" fixed="3.2">Strecke von P7 nach P8 mit Länge &quot;3.2&quot;</Segment>
+</Objects>
+</Construction>
+</CaR>

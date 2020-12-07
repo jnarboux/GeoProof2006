@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/lib/libgettext-ocaml-0.1/test/locale/CVS"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="Repository"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="73375b4c65feb6c6b61a5f60b81e979b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Root"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="050d771ce61427b3775e43b61be00d81"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Entries"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="57b8d745384127342f95660d97e1c9c2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Entries.Log"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="851c0f2d88a806d17237a0605228c5d2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+</wc-entries>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-4.99836867862969" y="-3.823817292006526">Punkt in -4.99836867862969, -3.8238172920065256</Point>
+<Point name="P2" x="5.233278955954322" y="-1.5791190864600326">Punkt in 5.233278955954322, -1.5791190864600324</Point>
+<Line name="g1" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Point name="P3" x="-6.460032626427407" y="5.181076672104404">Punkt in -6.460032626427406, 5.181076672104404</Point>
+<Point name="P4" x="5.442088091353996" y="3.9543230016313204">Punkt in 5.442088091353996, 3.9543230016313204</Point>
+<Line name="g2" from="P3" to="P4">Gerade durch P3 und P4</Line>
+<PointOn name="OP1" color="1" on="g2" x="-3.8587232542470216" y="4.912959258743706">Punkt auf g2</PointOn>
+<PointOn name="OP2" color="1" on="g2" x="-1.016185551275954" y="4.619978399007653">Punkt auf g2</PointOn>
+<PointOn name="OP3" color="1" on="g2" x="3.7204731899363894" y="4.131770151558135">Punkt auf g2</PointOn>
+<PointOn name="OP4" color="1" on="g1" x="-3.402826259716168" y="-3.4737748225510083">Punkt auf g1</PointOn>
+<PointOn name="OP5" color="1" on="g1" x="0.2808464072339536" y="-2.665622145618073">Punkt auf g1</PointOn>
+<PointOn name="OP6" color="1" on="g1" x="3.4361020555297497" y="-1.973397692165424">Punkt auf g1</PointOn>
+<Segment name="s1" color="1" hidden="true" from="OP1" to="OP4">Strecke von OP1 nach OP4</Segment>
+<Segment name="s2" color="1" from="OP4" to="OP2">Strecke von OP4 nach OP2</Segment>
+<Segment name="s3" color="3" from="OP4" to="OP3">Strecke von OP4 nach OP3</Segment>
+<Segment name="s4" color="1" from="OP5" to="OP1">Strecke von OP5 nach OP1</Segment>
+<Segment name="s5" color="1" hidden="true" from="OP5" to="OP2">Strecke von OP5 nach OP2</Segment>
+<Segment name="s6" color="1" from="OP5" to="OP3">Strecke von OP5 nach OP3</Segment>
+<Segment name="s7" color="3" from="OP6" to="OP1">Strecke von OP6 nach OP1</Segment>
+<Segment name="s8" color="1" from="OP6" to="OP2">Strecke von OP6 nach OP2</Segment>
+<Segment name="s9" color="1" hidden="true" from="OP6" to="OP3">Strecke von OP6 nach OP3</Segment>
+<Intersection name="S1" color="2" first="s2" second="s4">Schnitt zwischen s2 und s4</Intersection>
+<Intersection name="S4" color="2" first="s3" second="s7">Schnitt zwischen s3 und s7</Intersection>
+<Intersection name="S5" color="2" first="s6" second="s8">Schnitt zwischen s6 und s8</Intersection>
+<Line name="g4" color="2" from="S1" to="S5">Gerade durch S1 und S5</Line>
+</Objects>
+</Construction>
+</CaR>

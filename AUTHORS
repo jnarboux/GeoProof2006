@@ -1,0 +1,16 @@
+
+CREDITS
+
+GeoProof was first devolopped by Nicolas François under the name of DrGeoCaml, the developpment has then been continued by Julien Narboux.
+The pseudo natural language parser has been adapted from a file by Arnaud Doniec for a program called GeoCaml. 
+
+Thanks to George Mariano and Arnaud Doniec for testing, bug reports and discussions. Thanks to Nicolas François for the original prototype, discussions and some coding.
+
+GeoProof uses these librairies :
+
+ - ocaml-gettext
+ - xml-light
+ - lablgtk2
+ - options 
+ - creal
+ - ...

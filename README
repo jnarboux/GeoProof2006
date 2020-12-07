@@ -1,0 +1,84 @@
+This is the README file from project GeoProof, version 0.5
+
+DESCRIPTION
+
+This program is an interactive geometry software similar to Cabri
+Geometre,GeoPlan, Kig... 
+It contains automated theorem proving features.
+Interactive theorem proving is in development.
+To use the features related to Coq, you need Coq version 8.1 beta or later.
+
+INSTALLATION
+
+See the INSTALL file.
+
+FEATURES
+
+GeoProof features :
+
+- five types of geometric objects : points, lines, circles, vectors and segments
+- three transformations : central symetry, translation, and axial symetry
+- nine ways to build a point : 
+  - free point
+  - point on circle
+  - point on line
+  - point on segment
+  - point on half plane
+  - midpoint 
+  - point at intersection of 
+    - two lines
+    - one line and one circle
+    - two circles
+- five ways to build a line
+  - line passing by two points
+  - perpendicular line
+  - parallel line
+  - perpendicular bissector
+  - angle bissector	
+- three ways to build a circle
+  - by center and a point
+  - using a diameter
+  - by three points	
+- text labels
+- three measures :
+  - distances
+  - angles
+  - areas	
+- eight labels for property tests :
+  - collinearity
+  - point equality
+  - orthognality
+  - parallelism
+  - between
+  - congruence of angles
+  - congruence of distances
+  - left-turn
+
+- Automatic theorem proving capability
+
+- GeoProof can read :
+ - our own Xml based format (.drg)	
+ - a description in pseudo natural language
+ - a description of a theorem
+ - Kig (.kig) files (partialy)
+ - Car (.zir) files (partialy)
+
+- GeoProof can export to :
+ - SVG
+ - PNG
+ - BMP
+ - JPG
+ - Latex
+
+- objects attributs : color, style, width and visibility
+- layers that can be displayed independantly, can be visible or hiden and can have a color
+- zoom in,out, to fit
+- unlimited undo and redo
+- fullscreen mode
+- selection of objects by type or visibility
+- options : toolbars visibility and default styles and colors
+- internationalization  : GeoProof is available in french and english. (currently disabled)
+
+LICENCE
+
+GeoProof is distributed under the GPL2 licence.

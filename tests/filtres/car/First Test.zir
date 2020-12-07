@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-0.10696920583468394" y="-0.012965964343598091" w="0.8395589100623547"/>
+<Objects>
+<Point name="O" color="1" showvalue="true" x="0.0" y="0.0" shape="circle" fixed="true">Punkt in &quot;0.0&quot;, &quot;0.0&quot;</Point>
+<Point name="Punkt10" hidden="true" x="0.5" y="0.0" fixed="true">Punkt in &quot;0.5&quot;, &quot;0.0&quot;</Point>
+<Point name="Punkt11" hidden="true" x="0.0" y="0.5" fixed="true">Punkt in &quot;0.0&quot;, &quot;0.5&quot;</Point>
+<Line name="Gerade 3" color="1" from="O" to="Punkt10">Gerade durch Punkt 9 und Punkt10</Line>
+<Line name="Gerade 4" color="1" from="O" to="Punkt11">Gerade durch Punkt 9 und Punkt11</Line>
+<Point name="B" showname="true" xcoffset="-0.08103727714748785" ycoffset="-0.01620745542949757" x="-0.60557" y="-0.16473000000000004">Punkt in -0.60557, -0.16473000000000004</Point>
+<Point name="A" showname="true" xcoffset="-0.03889789303079417" ycoffset="0.119935170178282" x="-0.10441" y="0.47100000000000003">Punkt in -0.10441, 0.47100000000000003</Point>
+<Segment name="c" type="thick" showname="true" from="B" to="A">Strecke von B nach A</Segment>
+<Point name="C" showname="true" x="0.2547660311958406" y="-0.37088388214904683">Punkt in 0.2547660311958406, -0.37088388214904683</Point>
+<Segment name="b" type="thick" showname="true" from="A" to="C">Strecke von A nach C</Segment>
+<Segment name="a" type="thick" showname="true" from="C" to="B">Strecke von C nach B</Segment>
+<Circle name="Circle 1" color="1" hidden="true" through="A" midpoint="C">Circle around Point 3 through Point 2</Circle>
+<Circle name="Circle 3" color="1" hidden="true" through="C" midpoint="A">Circle around Point 2 through Point 3</Circle>
+<Intersection name="Intersection 3" color="1" hidden="true" first="Circle 1" second="Circle 3" which="first">Intersection between Circle 1 and Circle 3</Intersection>
+<Intersection name="Intersection 4" hidden="true" first="Circle 1" second="Circle 3" which="second">Schnitt zwischen Circle 1 und Circle 3</Intersection>
+<Line name="Line 2" color="1" hidden="true" from="Intersection 3" to="Intersection 4">Line through Intersection 3 and Intersection 4</Line>
+<Circle name="Circle 4" color="2" hidden="true" through="C" midpoint="B">Circle around Point 1 through Point 3</Circle>
+<Circle name="Circle 5" color="2" hidden="true" through="B" midpoint="C">Circle around Point 3 through Point 1</Circle>
+<Intersection name="Intersection 5" color="2" hidden="true" first="Circle 5" second="Circle 4" which="first">Intersection between Circle 5 and Circle 4</Intersection>
+<Intersection name="Intersection 6" hidden="true" first="Circle 5" second="Circle 4" which="second">Schnitt zwischen Circle 5 und Circle 4</Intersection>
+<Line name="Line 3" color="2" hidden="true" from="Intersection 5" to="Intersection 6">Line through Intersection 5 and Intersection 6</Line>
+<Intersection name="UM" showname="true" first="Line 3" second="Line 2">Intersection between Line 3 and Line 2</Intersection>
+<Circle name="Circle 6" color="3" through="C" midpoint="UM">Circle around Intersection 7 through Point 3</Circle>
+</Objects>
+</Construction>
+</CaR>

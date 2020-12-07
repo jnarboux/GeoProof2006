@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P4" x="-0.92" y="0.24">Punkt in -0.9221183800623054, 0.23676012461059237</Point>
+<Circle name="k1" fixed="5.23" midpoint="P4" acute="true">Kreis um P4 mit Radius 5.228005</Circle>
+<PointOn name="P5" on="k1" x="-6.1385303968285285" y="0.5861798627544386">Punkt in -6.130841121495327, 0.5856697819314647</PointOn>
+<PointOn name="P6" on="k1" x="1.4083830923145806" y="4.923111377644525">Punkt in 1.370716510903426, 4.847352024922118</PointOn>
+<Segment name="s3" from="P5" to="P6">Strecke von P5 nach P6</Segment>
+<PointOn name="P7" on="k1" x="4.113276489577564" y="-1.1809249732008231">Punkt auf k1</PointOn>
+<Segment name="s4" from="P6" to="P7">Strecke von P6 nach P7</Segment>
+<PointOn name="P8" on="k1" x="-3.4961476326394267" y="-4.31152319282746">Punkt in -3.489096573208723, -4.299065420560748</PointOn>
+<Segment name="s5" from="P7" to="P8">Strecke von P7 nach P8</Segment>
+<Segment name="s6" from="P8" to="P5">Strecke von P8 nach P5</Segment>
+<Point name="P9" color="1" x="-0.6978193146417446" y="-0.48598130841121456">Punkt in -0.6978193146417446, -0.48598130841121456</Point>
+<Circle name="k2" color="1" fixed="4.3500000000000005" midpoint="P9" acute="true">Kreis um P9 mit Radius 4.346249</Circle>
+<Intersection name="S2" color="1" first="s3" second="k2" which="second">Schnitt zwischen s3 und k2</Intersection>
+<Segment name="s7" color="1" from="P9" to="S2">Strecke von P9 nach S2</Segment>
+<Intersection name="S3" color="1" first="s6" second="k2" which="first">Schnitt zwischen s6 und k2</Intersection>
+<Segment name="s8" color="1" from="P9" to="S3">Strecke von P9 nach S3</Segment>
+<Intersection name="S7" color="1" first="s4" second="k2" which="first">Schnitt zwischen s4 und k2</Intersection>
+<Segment name="s10" color="1" from="P9" to="S7">Strecke von P9 nach S7</Segment>
+<Intersection name="S10" color="1" first="s5" second="k2" which="second">Schnitt zwischen s5 und k2</Intersection>
+<Segment name="s11" color="1" from="P9" to="S10">Strecke von P9 nach S10</Segment>
+<Angle name="a" color="1" showname="true" background="true" first="S2" root="P9" second="S3" display="large" filled="true" acute="true">Winkel S2 - P9 - S3</Angle>
+<Angle name="c" color="1" showname="true" background="true" first="S10" root="P9" second="S7" display="large" filled="true" acute="true">Winkel S10 - P9 - S7</Angle>
+<Expression name="AD1" color="1" showname="true" showvalue="true" x="4.58567" y="4.548287" value="a+c" prompt="a+c">Ausdruck &quot;a+c&quot; in 4.59, 4.55</Expression>
+<Intersection name="S11" color="2" first="s3" second="k2" which="first">Schnitt zwischen s3 und k2</Intersection>
+<Segment name="s12" color="2" from="P9" to="S11">Strecke von P9 nach S11</Segment>
+<Intersection name="S14" color="2" first="s4" second="k2" which="second">Schnitt zwischen s4 und k2</Intersection>
+<Segment name="s13" color="2" from="P9" to="S14">Strecke von P9 nach S14</Segment>
+<Intersection name="S16" color="2" first="s6" second="k2" which="second">Schnitt zwischen s6 und k2</Intersection>
+<Segment name="s14" color="2" from="P9" to="S16">Strecke von P9 nach S16</Segment>
+<Intersection name="S17" color="2" first="s5" second="k2" which="first">Schnitt zwischen s5 und k2</Intersection>
+<Segment name="s15" color="2" from="P9" to="S17">Strecke von P9 nach S17</Segment>
+<Angle name="b" color="2" showname="true" background="true" first="S14" root="P9" second="S11" display="large" filled="true" acute="true">Winkel S14 - P9 - S11</Angle>
+<Angle name="d" color="2" showname="true" background="true" first="S16" root="P9" second="S17" display="large" filled="true" acute="true">Winkel S16 - P9 - S17</Angle>
+<Expression name="AD2" color="2" showname="true" showvalue="true" x="4.585669781931465" y="4.1246105919003115" value="b+d" prompt="b+d">Ausdruck &quot;b+d&quot; in 4.59, 4.12</Expression>
+</Objects>
+</Construction>
+</CaR>

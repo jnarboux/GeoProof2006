@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="1.0343145750507619" y="-0.42842712474618905" w="11.313708498984758"/>
+<Comment>
+<P>Zerlegungsbeweis für den Satz des Pythagoras (PERIGAL)</P>
+<P></P>
+<P>Das Quadrat über der größeren der beiden Katheten wird so
+zerlegt, dass aus den Teilflächen und dem Quadrat über der
+kleineren Kathete  das Quadrat über der Hypotenuse gebildet
+werden kann.</P>
+<P></P>
+<P>Bewege den Punkt S!</P>
+</Comment>
+<Animate animate="S" via0="Ani_hin" via1="Ani_her"/>
+<Objects>
+<Point name="A" showname="true" xoffset="-21" yoffset="-14" x="-2.0" y="0.0" shape="dot" fixed="true">Punkt in &quot;-2.0&quot;, &quot;0.0&quot;</Point>
+<Point name="B" showname="true" xoffset="-7" yoffset="-13" x="3.0" y="0.0" shape="dot" fixed="true">Punkt in &quot;3.0&quot;, &quot;0.0&quot;</Point>
+<Segment name="AB" from="A" to="B">Strecke von A nach B</Segment>
+<Midpoint name="P2" first="A" second="B" shape="dot">Mitte zwischen A und B</Midpoint>
+<Circle name="k1" hidden="true" through="A" midpoint="P2" acute="true">Kreis um P2 durch A</Circle>
+<Point name="P5" hidden="true" x="-7.0" y="-6.0" fixed="true">Punkt in &quot;-7.0&quot;, &quot;-6.0&quot;</Point>
+<Point name="P6" hidden="true" x="8.0" y="-6.0" fixed="true">Punkt in &quot;8.0&quot;, &quot;-6.0&quot;</Point>
+<Segment name="Ani_hin" type="thick" background="true" from="P5" to="P6">Strecke von P5 nach P6</Segment>
+<Point name="P7" hidden="true" x="-7.0" y="-4.455" fixed="true">Punkt in &quot;-7.0&quot;, &quot;-4.455&quot;</Point>
+<Segment name="s7" hidden="true" from="P5" to="P7">Strecke von P5 nach P7</Segment>
+<Segment name="s8" hidden="true" from="P7" to="P6">Strecke von P7 nach P6</Segment>
+<PointOn name="S" color="1" type="thick" showname="true" on="Ani_hin" x="-1.228677002073101" y="-6.0">Punkt auf Ani_hin</PointOn>
+<Parallel name="p3" hidden="true" point="S" line="s8">Parallele durch S zu s8</Parallel>
+<Intersection name="S16" hidden="true" first="s7" second="p3">Schnitt zwischen s7 und p3</Intersection>
+<Circle3 name="k6" hidden="true" from="P5" to="S16" midpoint="A">Kreis um A mit Radius von P5 nach S16</Circle3>
+<Intersection name="S17" hidden="true" first="k1" second="k6" which="first">Schnitt zwischen k1 und k6</Intersection>
+<Circle3 name="k7" hidden="true" from="P5" to="S16" midpoint="S17">Kreis um S17 mit Radius von P5 nach S16</Circle3>
+<Intersection name="S19" hidden="true" first="k1" second="k7" which="first">Schnitt zwischen k1 und k7</Intersection>
+<Circle3 name="k8" hidden="true" from="P5" to="S16" midpoint="S19">Kreis um S19 mit Radius von P5 nach S16</Circle3>
+<Intersection name="S21" hidden="true" first="k1" second="k8" which="first">Schnitt zwischen k1 und k8</Intersection>
+<Circle3 name="k9" hidden="true" from="P5" to="S16" midpoint="S21">Kreis um S21 mit Radius von P5 nach S16</Circle3>
+<Intersection name="S23" hidden="true" first="k1" second="k9" which="first">Schnitt zwischen k1 und k9</Intersection>
+<Circle3 name="k10" hidden="true" from="P5" to="S16" midpoint="S23">Kreis um S23 mit Radius von P5 nach S16</Circle3>
+<Intersection name="C" showname="true" xoffset="-13" yoffset="-27" first="k1" second="k10" shape="dot" which="first">Schnitt zwischen k1 und k10</Intersection>
+<Intersection name="S26" hidden="true" first="k1" second="k10" which="second">Schnitt zwischen k1 und k10</Intersection>
+<Segment name="s11" from="A" to="C">Strecke von A nach C</Segment>
+<Segment name="s12" from="C" to="B">Strecke von C nach B</Segment>
+<Segment name="Ani_her" type="thick" background="true" from="P6" to="P5">Strecke von P6 nach P5</Segment>
+<Circle3 name="k11" hidden="true" from="A" to="C" midpoint="C">Kreis um C mit Radius von A nach C</Circle3>
+<Ray name="r1" hidden="true" from="B" to="C">Strahl von B in Richtung C</Ray>
+<Circle3 name="k12" hidden="true" from="A" to="C" midpoint="A">Kreis um A mit Radius von A nach C</Circle3>
+<Intersection name="S27" hidden="true" first="r1" second="k11" which="first">Schnitt zwischen r1 und k11</Intersection>
+<Circle3 name="k13" hidden="true" from="C" to="A" midpoint="S27">Kreis um S27 mit Radius von C nach A</Circle3>
+<Intersection name="S30" hidden="true" first="k12" second="k13" which="second">Schnitt zwischen k12 und k13</Intersection>
+<Polygon name="A11" color="2" type="thin" background="true" solid="true" point1="S27" point2="C" point3="A" point4="S30">Vieleck S27, C, A, S30</Polygon>
+<Ray name="r2" hidden="true" from="A" to="C">Strahl von A in Richtung C</Ray>
+<Circle3 name="k14" hidden="true" from="C" to="B" midpoint="C">Kreis um C mit Radius von C nach B</Circle3>
+<Circle3 name="k15" hidden="true" from="C" to="B" midpoint="B">Kreis um B mit Radius von C nach B</Circle3>
+<Intersection name="S31" hidden="true" first="r2" second="k14" which="first">Schnitt zwischen r2 und k14</Intersection>
+<Circle3 name="k16" hidden="true" from="B" to="C" midpoint="S31">Kreis um S31 mit Radius von B nach C</Circle3>
+<Intersection name="S33" color="5" hidden="true" first="k15" second="k16" which="first">Schnitt zwischen k15 und k16</Intersection>
+<Polygon name="A0*" color="5" type="thin" background="true" solid="true" point1="C" point2="S31" point3="S33" point4="B">Vieleck C, S31, S33, B</Polygon>
+<Plumb name="l4" type="thin" hidden="true" point="A" line="AB" valid="true">Lot durch A zu AB</Plumb>
+<Circle3 name="k17" type="thin" hidden="true" from="A" to="B" midpoint="B">Kreis um B mit Radius von A nach B</Circle3>
+<Circle3 name="k18" type="thin" hidden="true" from="B" to="A" midpoint="A">Kreis um A mit Radius von B nach A</Circle3>
+<Intersection name="S36" color="5" hidden="true" first="l4" second="k18" which="second">Schnitt zwischen l4 und k18</Intersection>
+<Circle3 name="k19" type="thin" hidden="true" from="A" to="B" midpoint="S36">Kreis um S36 mit Radius von A nach B</Circle3>
+<Intersection name="S38" color="5" hidden="true" first="k17" second="k19" which="second">Schnitt zwischen k17 und k19</Intersection>
+<Angle name="w1" color="1" showvalue="true" background="true" first="A" root="C" second="B" display="small" filled="true">Winkel A - C - B</Angle>
+<Midpoint name="P4" first="S36" second="S38" shape="dot">Mitte zwischen S36 und S38</Midpoint>
+<Midpoint name="P3" first="S38" second="B" shape="dot">Mitte zwischen S38 und B</Midpoint>
+<Segment name="s14" type="thin" hidden="true" from="A" to="S38">Strecke von A nach S38</Segment>
+<Intersection name="S37" type="thin" hidden="true" first="s14" second="k1" which="first">Schnitt zwischen s14 und k1</Intersection>
+<Intersection name="S39" type="thin" hidden="true" first="s14" second="k1" which="second">Schnitt zwischen s14 und k1</Intersection>
+<Segment name="s16" type="thin" hidden="true" from="B" to="S31">Strecke von B nach S31</Segment>
+<Parallel name="p9" type="thin" hidden="true" point="C" line="s16">Parallele durch C zu s16</Parallel>
+<Plumb name="l6" type="thin" hidden="true" point="S37" line="p9" valid="true">Lot durch S37 zu p9</Plumb>
+<Midpoint name="M11" type="thin" hidden="true" first="S27" second="B">Mitte zwischen S27 und B</Midpoint>
+<Circle name="k24" type="thin" hidden="true" through="C" midpoint="M11" partial="true" acute="true">Kreis um M11 durch C</Circle>
+<Intersection name="S52" type="thin" hidden="true" first="s12" second="k24" which="first">Schnitt zwischen s12 und k24</Intersection>
+<Intersection name="S53" type="thin" hidden="true" first="s12" second="k24" which="first">Schnitt zwischen s12 und k24</Intersection>
+<Plumb name="l7" type="thin" hidden="true" point="S52" line="s16" valid="true">Lot durch S52 zu s16</Plumb>
+<Intersection name="S54" type="thin" hidden="true" first="l7" second="s16">Schnitt zwischen l7 und s16</Intersection>
+<Circle3 name="k25" type="thin" hidden="true" from="S54" to="B" midpoint="S37">Kreis um S37 mit Radius von S54 nach B</Circle3>
+<Intersection name="S58" type="thin" hidden="true" first="l6" second="k25" which="second">Schnitt zwischen l6 und k25</Intersection>
+<Intersection name="S60" type="thin" hidden="true" first="p9" second="k25" which="second">Schnitt zwischen p9 und k25</Intersection>
+<Intersection name="S61" type="thin" hidden="true" first="l6" second="k25" which="first">Schnitt zwischen l6 und k25</Intersection>
+<Parallel name="p4" hidden="true" point="S58" line="l4">Parallele durch S58 zu l4</Parallel>
+<Intersection name="S43" hidden="true" first="p4" second="s12">Schnitt zwischen p4 und s12</Intersection>
+<Segment name="s10" from="S31" to="S33">Strecke von S31 nach S33</Segment>
+<Intersection name="A4&apos;" xoffset="6" yoffset="66" first="s10" second="p4" shape="dot">Schnitt zwischen s10 und p4</Intersection>
+<Segment name="s13" from="B" to="S33">Strecke von B nach S33</Segment>
+<Segment name="s15" from="S31" to="C">Strecke von S31 nach C</Segment>
+<Intersection name="S46" hidden="true" first="p4" second="s16">Schnitt zwischen p4 und s16</Intersection>
+<Plumb name="l5" hidden="true" point="S46" line="p4" valid="true">Lot durch S46 zu p4</Plumb>
+<Intersection name="A3&apos;" first="l5" second="s15" shape="dot">Schnitt zwischen l5 und s15</Intersection>
+<Intersection name="A1&apos;" xoffset="-100" yoffset="12" first="l5" second="s13" shape="dot">Schnitt zwischen l5 und s13</Intersection>
+<Segment name="s17" from="A3&apos;" to="A1&apos;">Strecke von A3&apos; nach A1&apos;</Segment>
+<Segment name="A2&apos;" from="A4&apos;" to="S43">Strecke von A4&apos; nach S43</Segment>
+<Segment name="s19" from="S30" to="A">Strecke von S30 nach A</Segment>
+<Segment name="s20" from="S30" to="S27">Strecke von S30 nach S27</Segment>
+<Segment name="s21" from="S27" to="C">Strecke von S27 nach C</Segment>
+<Parallel name="p5" hidden="true" point="S61" line="l4">Parallele durch S61 zu l4</Parallel>
+<Intersection name="S4" first="p5" second="s20" shape="dot">Schnitt zwischen p5 und s20</Intersection>
+<Intersection name="S44*" hidden="true" xoffset="-47" yoffset="-100" first="p5" second="r2">Schnitt zwischen p5 und r2</Intersection>
+<Segment name="s22" hidden="true" from="A" to="S27">Strecke von A nach S27</Segment>
+<Intersection name="S51" type="thin" hidden="true" first="s22" second="p5">Schnitt zwischen s22 und p5</Intersection>
+<Plumb name="l8" type="thin" hidden="true" point="S51" line="p5" valid="true">Lot durch S51 zu p5</Plumb>
+<Intersection name="S3" first="l8" second="s19" shape="dot">Schnitt zwischen l8 und s19</Intersection>
+<Intersection name="S1" first="l8" second="s21" shape="dot">Schnitt zwischen l8 und s21</Intersection>
+<Segment name="S2" from="S4" to="S44*">Strecke von S4 nach S44*</Segment>
+<Segment name="s24" from="S3" to="S1">Strecke von S3 nach S1</Segment>
+<Intersection name="S55" type="thin" hidden="true" first="p9" second="k25" which="first">Schnitt zwischen p9 und k25</Intersection>
+<Ray name="r4" type="thin" hidden="true" from="S58" to="S55">Strahl von S58 in Richtung S55</Ray>
+<Segment name="s25" from="A" to="P2">Strecke von A nach P2</Segment>
+<Segment name="s29" from="P2" to="B">Strecke von P2 nach B</Segment>
+<Segment name="s34" from="S38" to="P4">Strecke von S38 nach P4</Segment>
+<Segment name="s35" from="P4" to="S36">Strecke von P4 nach S36</Segment>
+<Segment name="s38" from="B" to="P3">Strecke von B nach P3</Segment>
+<Segment name="s39" from="P3" to="S38">Strecke von P3 nach S38</Segment>
+<Intersection name="S59" type="thin" hidden="true" first="r4" second="s29">Schnitt zwischen r4 und s29</Intersection>
+<Segment name="s40" from="S55" to="S59">Strecke von S55 nach S59</Segment>
+<Polygon name="A1" color="2" background="true" xoffset="-6" yoffset="-12" solid="true" point1="B" point2="P3" point3="S58" point4="S59">Vieleck B, P3, S58, S59</Polygon>
+<Ray name="r5" type="thin" hidden="true" from="S61" to="S55">Strahl von S61 in Richtung S55</Ray>
+<Intersection name="S62" type="thin" hidden="true" first="r5" second="s25">Schnitt zwischen r5 und s25</Intersection>
+<Segment name="s41" from="S55" to="S62">Strecke von S55 nach S62</Segment>
+<Midpoint name="P1" first="S36" second="A" shape="dot">Mitte zwischen S36 und A</Midpoint>
+<Segment name="s36" from="S36" to="P1">Strecke von S36 nach P1</Segment>
+<Segment name="s37" from="P1" to="A">Strecke von P1 nach A</Segment>
+<Polygon name="A6" color="5" background="true" solid="true" point1="S61" point2="P1" point3="A" point4="S62">Vieleck S61, P1, A, S62</Polygon>
+<Ray name="r6" type="thin" hidden="true" from="S55" to="S61">Strahl von S55 in Richtung S61</Ray>
+<Intersection name="S63" type="thin" hidden="true" first="r6" second="s37">Schnitt zwischen r6 und s37</Intersection>
+<Segment name="s42" from="S61" to="S63">Strecke von S61 nach S63</Segment>
+<Polygon name="A2" color="2" background="true" xoffset="-7" yoffset="-2" solid="true" point1="A" point2="S59" point3="S55" point4="S63">Vieleck A, S59, S55, S63</Polygon>
+<Ray name="r7" type="thin" hidden="true" from="S55" to="S58">Strahl von S55 in Richtung S58</Ray>
+<Intersection name="S64" type="thin" hidden="true" first="r7" second="s38">Schnitt zwischen r7 und s38</Intersection>
+<Segment name="s43" from="S58" to="S64">Strecke von S58 nach S64</Segment>
+<Polygon name="A8" color="5" background="true" solid="true" point1="S62" point2="S55" point3="S64" point4="B">Vieleck S62, S55, S64, B</Polygon>
+<Ray name="r8" type="thin" hidden="true" from="S61" to="S60">Strahl von S61 in Richtung S60</Ray>
+<Intersection name="S65" type="thin" first="r8" second="s35" shape="dot">Schnitt zwischen r8 und s35</Intersection>
+<Segment name="s44" from="S60" to="S65">Strecke von S60 nach S65</Segment>
+<Intersection name="S66" hidden="true" first="s35" second="s36">Schnitt zwischen s35 und s36</Intersection>
+<Polygon name="A3" color="2" background="true" xoffset="-7" yoffset="-6" solid="true" point1="S63" point2="S61" point3="S65" point4="S66">Vieleck S63, S61, S65, S66</Polygon>
+<Ray name="r9" type="thin" hidden="true" from="S60" to="S58">Strahl von S60 in Richtung S58</Ray>
+<Intersection name="S67" type="thin" first="r9" second="s39" shape="dot">Schnitt zwischen r9 und s39</Intersection>
+<Segment name="s45" from="S58" to="S67">Strecke von S58 nach S67</Segment>
+<Intersection name="S68" hidden="true" first="s34" second="s39">Schnitt zwischen s34 und s39</Intersection>
+<Polygon name="A4" color="2" background="true" xoffset="1" yoffset="-4" solid="true" point1="S60" point2="S67" point3="S68" point4="S65">Vieleck S60, S67, S68, S65</Polygon>
+<Ray name="r10" hidden="true" from="S59" to="S58">Strahl von S59 in Richtung S58</Ray>
+<Segment name="s46" from="S60" to="S58">Strecke von S60 nach S58</Segment>
+<Intersection name="S69" type="thin" hidden="true" first="s46" second="r10">Schnitt zwischen s46 und r10</Intersection>
+<Polygon name="A0" color="5" background="true" solid="true" point1="S55" point2="S69" point3="S60" point4="S61">Vieleck S55, S69, S60, S61</Polygon>
+<Ray name="r11" type="thin" hidden="true" from="S58" to="S60">Strahl von S58 in Richtung S60</Ray>
+<Intersection name="S70" type="thin" hidden="true" first="r11" second="s34">Schnitt zwischen r11 und s34</Intersection>
+<Segment name="s47" from="S60" to="S70">Strecke von S60 nach S70</Segment>
+<Polygon name="A15" color="5" background="true" solid="true" point1="S70" point2="S68" point3="P3" point4="S58">Vieleck S70, S68, P3, S58</Polygon>
+<Ray name="r14" type="thin" hidden="true" from="S60" to="S61">Strahl von S60 in Richtung S61</Ray>
+<Intersection name="S73" type="thin" hidden="true" first="s36" second="r14">Schnitt zwischen s36 und r14</Intersection>
+<Segment name="s50" from="S61" to="S73">Strecke von S61 nach S73</Segment>
+<Polygon name="A18" color="5" background="true" solid="true" point1="S73" point2="S66" point3="P4" point4="S60">Vieleck S73, S66, P4, S60</Polygon>
+<Segment name="s51" from="S61" to="S60">Strecke von S61 nach S60</Segment>
+<Ray name="r15" type="thin" hidden="true" from="S62" to="S61">Strahl von S62 in Richtung S61</Ray>
+<Intersection name="S74" type="thin" hidden="true" first="s51" second="r15">Schnitt zwischen s51 und r15</Intersection>
+<Polygon name="A19" color="2" background="true" solid="true" point1="S55" point2="S58" point3="S60" point4="S74">Vieleck S55, S58, S60, S74</Polygon>
+<Segment name="s52" from="S61" to="S55">Strecke von S61 nach S55</Segment>
+<Segment name="s53" from="S55" to="S58">Strecke von S55 nach S58</Segment>
+<Polygon name="A1*" color="2" background="true" solid="true" point1="S4" point2="S27" point3="S1" point4="S51">Vieleck S4, S27, S1, S51</Polygon>
+<Polygon name="A2*" color="2" background="true" solid="true" point1="S51" point2="S3" point3="S30" point4="S4">Vieleck S51, S3, S30, S4</Polygon>
+<Polygon name="A3*" color="2" background="true" solid="true" point1="S51" point2="S44*" point3="A" point4="S3">Vieleck S51, S44*, A, S3</Polygon>
+<Polygon name="A4*" color="2" background="true" solid="true" point1="S44*" point2="C" point3="S1" point4="S51">Vieleck S44*, C, S1, S51</Polygon>
+</Objects>
+</Construction>
+</CaR>

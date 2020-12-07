@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="4.440892098500626E-16" y="0.5656854249492379" w="8.0"/>
+<Track track="S8" track0="S4" track1="S11" track2="s2" on="s2" move="P3"/>
+<Objects>
+<Point name="P1" hidden="true" x="-1.0" y="0.0" fixed="true">Point at &quot;-1.0&quot;, &quot;0.0&quot;</Point>
+<Point name="P2" hidden="true" x="1.0" y="0.0" fixed="true">Point at &quot;1.0&quot;, &quot;0.0&quot;</Point>
+<Line name="g1" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<PointOn name="P3" hidden="true" on="s2" x="-4.369744409395141" y="0.0">Point on s2</PointOn>
+<Plumb name="l1" hidden="true" point="P3" line="g1" valid="true">Lot durch P3 zu g1</Plumb>
+<Circle name="k1" hidden="true" fixed="2.0" midpoint="P3" acute="true">Kreis um P3 mit Radius 1.203059</Circle>
+<Intersection name="S1" hidden="true" first="l1" second="k1" which="first">Schnitt zwischen l1 und k1</Intersection>
+<Intersection name="S2" hidden="true" first="l1" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Midpoint name="M1" hidden="true" first="S1" second="P3">Mitte zwischen S1 und P3</Midpoint>
+<Circle name="k2" through="S1" midpoint="M1" acute="true">Kreis um M1 durch S1</Circle>
+<Point name="P4" type="thick" x="x(P3)+cos(0.0-x(P3)/3.141592653589793*180.0-90.0)" y="1.0+sin(0.0-x(P3)/3.141592653589793*180.0-90.0)" fixed="true">Point at &quot;x(P3)+cos(0.0-x(P3)/3.141592653589793*180.0-90.0)&quot;, &quot;1.0+sin(0.0-x(P3)/3.141592653589793*180.0-90.0)&quot;</Point>
+<Segment name="s1" hidden="true" from="M1" to="P4">Strecke von M1 nach P4</Segment>
+<Plumb name="l2" hidden="true" point="M1" line="s1" valid="true">Lot durch M1 zu s1</Plumb>
+<Plumb name="l3" hidden="true" point="M1" line="l2" valid="true">Lot durch M1 zu l2</Plumb>
+<Intersection name="S3" type="thick" first="l2" second="k2" which="first">Schnitt zwischen l2 und k2</Intersection>
+<Intersection name="S4" color="3" type="thick" first="l2" second="k2" which="second">Schnitt zwischen l2 und k2</Intersection>
+<Intersection name="S5" type="thick" first="l3" second="k2" which="first">Schnitt zwischen l3 und k2</Intersection>
+<Intersection name="S6" first="l3" second="k2" which="second">Schnitt zwischen l3 und k2</Intersection>
+<PointOn name="P5" type="thick" on="g1" x="-8.0" y="0.0" fixed="true">Point on g1</PointOn>
+<PointOn name="P6" type="thick" on="g1" x="8.0" y="0.0" fixed="true">Point on g1</PointOn>
+<Segment name="s2" type="thick" from="P5" to="P6">Strecke von P5 nach P6</Segment>
+<Circle name="k3" fixed="2.0" midpoint="M1" partial="true" acute="true">Kreis um M1 mit Radius 1.729182</Circle>
+<Intersection name="S8" color="1" type="thick" first="l2" second="k3" which="second">Schnitt zwischen l2 und k3</Intersection>
+<Circle name="k5" fixed="0.5" midpoint="M1" partial="true" acute="true">Kreis um M1 mit Radius 0.569841</Circle>
+<Intersection name="S9" hidden="true" first="l1" second="l2">Schnitt zwischen l1 und l2</Intersection>
+<Intersection name="S11" color="2" type="thick" first="l2" second="k5" which="second">Schnitt zwischen l2 und k5</Intersection>
+</Objects>
+</Construction>
+</CaR>

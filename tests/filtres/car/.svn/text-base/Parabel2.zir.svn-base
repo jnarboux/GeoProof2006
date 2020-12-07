@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.7999999999999998" w="1.9999999999999993" showgrid="true"/>
+<Track track="A" on="g1" move="X"/>
+<Objects>
+<Point name="P1" x="0.0" y="1.0" fixed="true">Punkt in &quot;0.0&quot;, &quot;1.0&quot;</Point>
+<Point name="P3" x="-1.0" y="0.0">Punkt in -0.9968652037617551, -0.0031347962382446415</Point>
+<Point name="P4" x="1.0" y="0.0">Punkt in 1.0031347962382442, -0.00940438871473348</Point>
+<Line name="g1" from="P3" to="P4">Gerade durch P3 und P4</Line>
+<PointOn name="X" color="1" type="thick" on="g1" x="0.5999999999999999" y="0.0">Punkt auf g1</PointOn>
+<Point name="A" color="1" showname="true" x="x(X)" y="x(X)*x(X)/2.0+1.0/2.0" fixed="true">Punkt in &quot;x(X)&quot;, &quot;x(X)*x(X)/2.0+1.0/2.0&quot;</Point>
+<Point name="P7" color="1" x="x(A)+1.0" y="y(A)+x(X)" fixed="true">Punkt in &quot;x(A)+1.0&quot;, &quot;y(A)+x(X)&quot;</Point>
+<Line name="g2" color="1" from="A" to="P7">Gerade durch A und P7</Line>
+<Plumb name="l1" color="2" point="P1" line="g2" valid="true">Lot durch P1 zu g2</Plumb>
+<Intersection name="S1" color="2" hidden="true" first="g1" second="l1">Schnitt zwischen g1 und l1</Intersection>
+<Midpoint name="M1" color="2" first="P1" second="S1">Mitte zwischen P1 und S1</Midpoint>
+<Plumb name="l2" color="2" point="M1" line="l1" valid="true">Lot durch M1 zu l1</Plumb>
+<Text name="Text1" x="-1.435736677115987" y="0.8219435736677114">y=(x^2+1)/2</Text>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-4.99836867862969" y="-3.5106035889070153">Punkt in -4.99836867862969, -3.510603588907015</Point>
+<Point name="P2" x="7.243066884176183" y="-3.301794453507341">Punkt in 7.243066884176182, -3.3017944535073407</Point>
+<Line name="g1" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<PointOn name="OP1" color="1" on="g1" x="-2.3083409134574526" y="-3.4647182538934165">Punkt auf g1</PointOn>
+<PointOn name="OP2" color="1" on="g1" x="0.974456621545861" y="-3.408721707454127">Punkt auf g1</PointOn>
+<PointOn name="OP3" color="1" on="g1" x="3.0659362590136556" y="-3.3730461486060626">Punkt auf g1</PointOn>
+<Point name="P3" color="1" type="thick" x="-2.3360522022838497" y="-4.815660685154977">Punkt in -2.3360522022838497, -4.815660685154976</Point>
+<Line name="g2" color="1" from="OP1" to="P3">Gerade durch OP1 und P3</Line>
+<Parallel name="p1" color="1" point="OP3" line="g2">Parallele durch OP3 zu g2</Parallel>
+<Point name="P4" color="1" type="thick" x="2.075040783000001" y="-5.494290375200001">Punkt in 2.0750407830000004, -5.494290375200001</Point>
+<Line name="g3" color="1" from="OP2" to="P4">Gerade durch OP2 und P4</Line>
+<Parallel name="p2" color="3" point="OP3" line="g3">Parallele durch OP3 zu g3</Parallel>
+<Point name="P5" color="1" type="thick" x="-3.823817292000001" y="-5.1288743883000025">Punkt in -3.823817292000001, -5.128874388300002</Point>
+<Line name="g4" color="3" from="OP1" to="P5">Gerade durch OP1 und P5</Line>
+<Parallel name="p3" color="1" point="OP2" line="g4">Parallele durch OP2 zu g4</Parallel>
+<Intersection name="S1" color="2" first="g2" second="g3">Schnitt zwischen g2 und g3</Intersection>
+<Intersection name="S2" color="2" first="p2" second="g4">Schnitt zwischen p2 und g4</Intersection>
+<Intersection name="S3" color="2" first="p1" second="p3">Schnitt zwischen p1 und p3</Intersection>
+<Line name="g5" color="2" from="S1" to="S3">Gerade durch S1 und S3</Line>
+</Objects>
+</Construction>
+</CaR>

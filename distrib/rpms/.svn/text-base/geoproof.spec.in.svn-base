@@ -1,0 +1,82 @@
+%define name geoproof
+%define iconname %{name}.png
+%define version @VERSION@
+%define release 1mdk
+
+Summary: GeoProof is a dynamic geometry software
+Name: %{name}
+Version: %{version}
+Release: %{release}
+URL: http://home.gna.org/geoproof/
+License: GPL
+Group: Sciences/Mathematics
+BuildRoot: %{_tmppath}/%{name}-buildroot
+BuildRequires: ocaml-lablgtk2-devel 
+BuildRequires: ocaml-xml-light-devel
+BuildRequires: ocaml-creal-devel
+BuildRequires: gtk+2-devel
+Source0:http://download.gna.org/geoproof/%{name}-%{version}.tar.bz2
+
+%description
+GeoProof is a dynamic geometry software.
+This program is an interactive geometry software similar to Cabri
+Geometre,GeoPlan, Kig... 
+It contains automatic theorem proving features. 
+Interactive theorem proving is planned.
+
+%prep
+%setup -q -n %{name}
+
+%build
+%configure
+%make
+
+%install
+rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_bindir}
+make install BINDIR=$RPM_BUILD_ROOT%{_bindir}
+
+# menu entry
+mkdir -p %{buildroot}%{_menudir}
+cat > %{buildroot}%{_menudir}/%{name} << _EOF_
+?package(%{name}): \
+ command="%{_bindir}/%{name}" \
+ icon="geoproof.png" \
+ longtitle="GeoProof Interactive Geometry Tool" \
+ needs="x11" \
+ section="Applications/Sciences/Mathematics" \
+ title="GeoProof" \
+ startup_notify="yes"
+_EOF_
+
+# icons
+mkdir -p %{buildroot}%{_iconsdir} \
+	 %{buildroot}%{_miconsdir}
+install -m 0644 -D      icons/%{iconname} %{buildroot}%{_liconsdir}/%{iconname}
+convert -geometry 32x32 icons/%{iconname} %{buildroot}%{_iconsdir}/%{iconname}
+convert -geometry 16x16 icons/%{iconname} %{buildroot}%{_miconsdir}/%{iconname}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%post
+%update_menus
+
+%postun
+%clean_menus
+
+%files
+%defattr(-,root,root)
+%doc AUTHORS INSTALL README README.i18n TODO FAQ
+%{_bindir}/%{name}
+%{_menudir}/%{name}
+%{_iconsdir}/%{iconname}
+%{_miconsdir}/%{iconname}
+%{_liconsdir}/%{iconname}
+
+%changelog
+
+* Fri Oct 21 2005 Julien <Julien.Narboux@inria.fr> @VERSION@-1mdk
+- initial spec
+
+# end of file

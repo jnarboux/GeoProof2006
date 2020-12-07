@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction job="true" last="s3" target="g1">
+<Window x="0.0" y="0.0" w="8.0"/>
+<Assignment>
+<P>Konstruieren Sie die Winkelhalbierende.</P>
+</Assignment>
+<Objects>
+<Point name="P1" x="-3.9874608150470223" y="-2.0438871473354228">Punkt in -3.9874608150470223, -2.0438871473354228</Point>
+<Point name="P2" x="-1.730407523510972" y="2.8965517241379315">Punkt in -1.730407523510972, 2.8965517241379315</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="3.3354231974921635" y="-0.012539184952977678">Punkt in 3.3354231974921635, -0.012539184952977678</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Ray name="r2" color="1" type="thin" from="P1" to="P2">Strahl von P1 in Richtung P2</Ray>
+<Circle name="k3" color="1" type="thin" through="P3" midpoint="P1">Kreis um P1 durch P3</Circle>
+<Intersection name="S3" color="1" first="r2" second="k3" which="first">Schnitt zwischen r2 und k3</Intersection>
+<Circle name="k4" color="1" type="thin" through="P3" midpoint="S3" partial="true">Kreis um S3 durch P3</Circle>
+<Circle name="k5" color="1" type="thin" through="S3" midpoint="P3" partial="true">Kreis um P3 durch S3</Circle>
+<Intersection name="S5" color="1" first="k4" second="k5" which="first">Schnitt zwischen k4 und k5</Intersection>
+<Intersection name="S6" color="1" first="k4" second="k5" which="second">Schnitt zwischen k4 und k5</Intersection>
+<Line name="g1" color="1" from="S5" to="S6">Gerade durch S5 und S6</Line>
+</Objects>
+</Construction>
+</CaR>

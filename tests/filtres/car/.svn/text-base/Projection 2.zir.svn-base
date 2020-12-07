@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Zentralprojektion eines Würfels. Der Augenpunkt befindet
+sich in der vorderen braunen Ebene, der Bildpunkt in der
+hinteren blauen Ebene.</P>
+<P></P>
+<P>Verschieben Sie den Augenpunkt A, um die unterschiedlichen
+Projektionsbilder zu sehen. </P>
+<P></P>
+<P>Die Größe und Position des Würfels kann ebenfalls durch
+Verschieben der Punkt verändert werden.</P>
+</Comment>
+<Objects>
+<Point name="P1" color="1" x="-3.232695139911635" y="-0.25773195876288657">Punkt in -3.232695139911635, -0.25773195876288657</Point>
+<Point name="P2" color="1" x="0.9861111111111109" y="-2.6666666666666665">Punkt in 0.9861111111111107, -2.6666666666666665</Point>
+<Line name="g1" color="1" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Point name="P3" color="2" hidden="true" x="-3.236111111111111" y="2.0138888888888893">Punkt in -3.236111111111111, 2.013888888888889</Point>
+<Line name="g2" color="2" from="P1" to="P3">Gerade durch P1 und P3</Line>
+<Parallel name="p1" color="3" point="P2" line="g2">Parallele durch P2 zu g2</Parallel>
+<Point name="P4" color="2" type="thick" x="2.3888888889000013" y="0.34722222220000015">Punkt in 2.388888888900001, 0.3472222222000001</Point>
+<Line name="g3" color="2" from="P1" to="P4">Gerade durch P1 und P4</Line>
+<Parallel name="p2" color="3" point="P2" line="g3">Parallele durch P2 zu g3</Parallel>
+<Point name="A" color="3" type="thick" showname="true" x="1.8924889543446248" y="1.0088365243004414">Punkt in 1.8924889543446248, 1.0088365243004414</Point>
+<PointOn name="OP1" type="thick" on="g1" x="-1.0460578402297256" y="-1.5062999591359265">Punkt auf g1</PointOn>
+<Point name="E1" type="thick" showname="true" x="0.3472222222222223" y="0.4722222222222223">Punkt in 0.3472222222222223, 0.4722222222222223</Point>
+<Line name="g4" hidden="true" from="A" to="E1">Gerade durch A und E1</Line>
+<Parallel name="p3" type="thin" hidden="true" point="OP1" line="p2">Parallele durch OP1 zu p2</Parallel>
+<Parallel name="p4" type="thin" hidden="true" point="E1" line="g2">Parallele durch E1 zu g2</Parallel>
+<Parallel name="p5" type="thin" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Intersection name="S1" type="thin" hidden="true" first="p2" second="p5">Schnitt zwischen p2 und p5</Intersection>
+<Intersection name="S2" type="thin" hidden="true" first="p3" second="p4">Schnitt zwischen p3 und p4</Intersection>
+<Line name="g5" type="thin" hidden="true" from="S1" to="S2">Gerade durch S1 und S2</Line>
+<Intersection name="S3" type="thin" hidden="true" first="g3" second="g5">Schnitt zwischen g3 und g5</Intersection>
+<Parallel name="p6" type="thin" hidden="true" point="S3" line="g2">Parallele durch S3 zu g2</Parallel>
+<Intersection name="S4" hidden="true" first="g4" second="p6">Schnitt zwischen g4 und p6</Intersection>
+<Parallel name="p7" hidden="true" point="E1" line="g3">Parallele durch E1 zu g3</Parallel>
+<Parallel name="p8" hidden="true" point="E1" line="p1">Parallele durch E1 zu p1</Parallel>
+<PointOn name="OP2" on="p7" x="0.6880842856425842" y="0.5089033301343235">Punkt auf p7</PointOn>
+<PointOn name="OP3" on="p8" x="0.34659154150959787" y="0.8916248961174706">Punkt auf p8</PointOn>
+<Segment name="s1" color="1" from="E1" to="OP3">Strecke von E1 nach OP3</Segment>
+<Segment name="s2" color="1" from="E1" to="OP2">Strecke von E1 nach OP2</Segment>
+<Parallel name="p9" hidden="true" point="OP3" line="p7">Parallele durch OP3 zu p7</Parallel>
+<Parallel name="p10" hidden="true" point="OP2" line="p8">Parallele durch OP2 zu p8</Parallel>
+<Intersection name="S5" hidden="true" first="p9" second="p10">Schnitt zwischen p9 und p10</Intersection>
+<Segment name="s3" color="1" from="OP3" to="S5">Strecke von OP3 nach S5</Segment>
+<Segment name="s4" color="1" from="S5" to="OP2">Strecke von S5 nach OP2</Segment>
+<Line name="g6" hidden="true" from="A" to="OP2">Gerade durch A und OP2</Line>
+<Parallel name="p11" type="thin" hidden="true" point="OP1" line="p2">Parallele durch OP1 zu p2</Parallel>
+<Parallel name="p12" type="thin" hidden="true" point="OP2" line="g2">Parallele durch OP2 zu g2</Parallel>
+<Parallel name="p13" type="thin" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Intersection name="S6" type="thin" hidden="true" first="p2" second="p13">Schnitt zwischen p2 und p13</Intersection>
+<Intersection name="S7" type="thin" hidden="true" first="p11" second="p12">Schnitt zwischen p11 und p12</Intersection>
+<Line name="g7" type="thin" hidden="true" from="S6" to="S7">Gerade durch S6 und S7</Line>
+<Intersection name="S8" type="thin" hidden="true" first="g3" second="g7">Schnitt zwischen g3 und g7</Intersection>
+<Parallel name="p14" type="thin" hidden="true" point="S8" line="g2">Parallele durch S8 zu g2</Parallel>
+<Intersection name="S9" hidden="true" target="true" first="g6" second="p14">Schnitt zwischen g6 und p14</Intersection>
+<Line name="g8" hidden="true" from="A" to="S5">Gerade durch A und S5</Line>
+<Parallel name="p15" type="thin" hidden="true" point="OP1" line="p2">Parallele durch OP1 zu p2</Parallel>
+<Parallel name="p16" type="thin" hidden="true" point="S5" line="g2">Parallele durch S5 zu g2</Parallel>
+<Parallel name="p17" type="thin" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Intersection name="S10" type="thin" hidden="true" first="p2" second="p17">Schnitt zwischen p2 und p17</Intersection>
+<Intersection name="S11" type="thin" hidden="true" first="p15" second="p16">Schnitt zwischen p15 und p16</Intersection>
+<Line name="g9" type="thin" hidden="true" from="S10" to="S11">Gerade durch S10 und S11</Line>
+<Intersection name="S12" type="thin" hidden="true" first="g3" second="g9">Schnitt zwischen g3 und g9</Intersection>
+<Parallel name="p18" type="thin" hidden="true" point="S12" line="g2">Parallele durch S12 zu g2</Parallel>
+<Intersection name="S13" hidden="true" target="true" first="g8" second="p18">Schnitt zwischen g8 und p18</Intersection>
+<Line name="g10" hidden="true" from="A" to="OP3">Gerade durch A und OP3</Line>
+<Parallel name="p19" type="thin" hidden="true" point="OP1" line="p2">Parallele durch OP1 zu p2</Parallel>
+<Parallel name="p20" type="thin" hidden="true" point="OP3" line="g2">Parallele durch OP3 zu g2</Parallel>
+<Parallel name="p21" type="thin" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Intersection name="S14" type="thin" hidden="true" first="p2" second="p21">Schnitt zwischen p2 und p21</Intersection>
+<Intersection name="S15" type="thin" hidden="true" first="p19" second="p20">Schnitt zwischen p19 und p20</Intersection>
+<Line name="g11" type="thin" hidden="true" from="S14" to="S15">Gerade durch S14 und S15</Line>
+<Intersection name="S16" type="thin" hidden="true" first="g3" second="g11">Schnitt zwischen g3 und g11</Intersection>
+<Parallel name="p22" type="thin" hidden="true" point="S16" line="g2">Parallele durch S16 zu g2</Parallel>
+<Intersection name="S17" hidden="true" target="true" first="g10" second="p22">Schnitt zwischen g10 und p22</Intersection>
+<Segment name="s5" color="2" from="S4" to="S9">Strecke von S4 nach S9</Segment>
+<Segment name="s6" color="2" from="S4" to="S17">Strecke von S4 nach S17</Segment>
+<Segment name="s7" color="2" from="S17" to="S13">Strecke von S17 nach S13</Segment>
+<Segment name="s8" color="2" from="S13" to="S9">Strecke von S13 nach S9</Segment>
+<PointOn name="OP4" type="thick" on="g1" x="-1.2942812889187" y="-1.3645645853634323">Punkt auf g1</PointOn>
+<Parallel name="p23" hidden="true" point="E1" line="g1">Parallele durch E1 zu g1</Parallel>
+<Line name="g12" hidden="true" from="OP1" to="E1">Gerade durch OP1 und E1</Line>
+<Parallel name="p24" hidden="true" point="OP4" line="g12">Parallele durch OP4 zu g12</Parallel>
+<Intersection name="S18" hidden="true" first="p23" second="p24">Schnitt zwischen p23 und p24</Intersection>
+<Parallel name="p25" hidden="true" point="S18" line="s2">Parallele durch S18 zu s2</Parallel>
+<Parallel name="p26" hidden="true" point="S18" line="s1">Parallele durch S18 zu s1</Parallel>
+<Parallel name="p27" hidden="true" point="OP3" line="p23">Parallele durch OP3 zu p23</Parallel>
+<Intersection name="S19" hidden="true" first="p26" second="p27">Schnitt zwischen p26 und p27</Intersection>
+<Parallel name="p28" hidden="true" point="OP2" line="p27">Parallele durch OP2 zu p27</Parallel>
+<Intersection name="S20" hidden="true" first="p25" second="p28">Schnitt zwischen p25 und p28</Intersection>
+<Parallel name="p29" hidden="true" point="S19" line="p25">Parallele durch S19 zu p25</Parallel>
+<Parallel name="p30" hidden="true" point="S20" line="p26">Parallele durch S20 zu p26</Parallel>
+<Intersection name="S21" hidden="true" first="p29" second="p30">Schnitt zwischen p29 und p30</Intersection>
+<Segment name="s9" color="1" from="S18" to="S20">Strecke von S18 nach S20</Segment>
+<Segment name="s10" from="S20" to="S21">Strecke von S20 nach S21</Segment>
+<Segment name="s11" color="1" type="thick" from="S21" to="S19">Strecke von S21 nach S19</Segment>
+<Segment name="s12" color="1" type="thick" from="S19" to="S18">Strecke von S19 nach S18</Segment>
+<Segment name="s13" color="1" from="S18" to="E1">Strecke von S18 nach E1</Segment>
+<Segment name="s14" color="1" type="thick" from="S19" to="OP3">Strecke von S19 nach OP3</Segment>
+<Segment name="s15" color="1" from="S21" to="S5">Strecke von S21 nach S5</Segment>
+<Segment name="s16" color="1" from="S20" to="OP2">Strecke von S20 nach OP2</Segment>
+<Line name="g13" hidden="true" from="A" to="S18">Gerade durch A und S18</Line>
+<Parallel name="p31" type="thin" hidden="true" point="OP4" line="p2">Parallele durch OP4 zu p2</Parallel>
+<Parallel name="p32" type="thin" hidden="true" point="S18" line="g2">Parallele durch S18 zu g2</Parallel>
+<Parallel name="p33" type="thin" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Intersection name="S22" type="thin" hidden="true" first="p2" second="p33">Schnitt zwischen p2 und p33</Intersection>
+<Intersection name="S23" type="thin" hidden="true" first="p31" second="p32">Schnitt zwischen p31 und p32</Intersection>
+<Line name="g14" type="thin" hidden="true" from="S22" to="S23">Gerade durch S22 und S23</Line>
+<Intersection name="S24" type="thin" hidden="true" first="g3" second="g14">Schnitt zwischen g3 und g14</Intersection>
+<Parallel name="p34" type="thin" hidden="true" point="S24" line="g2">Parallele durch S24 zu g2</Parallel>
+<Intersection name="S25" hidden="true" target="true" first="g13" second="p34">Schnitt zwischen g13 und p34</Intersection>
+<Line name="g15" hidden="true" from="A" to="S20">Gerade durch A und S20</Line>
+<Parallel name="p35" type="thin" hidden="true" point="OP4" line="p2">Parallele durch OP4 zu p2</Parallel>
+<Parallel name="p36" type="thin" hidden="true" point="S20" line="g2">Parallele durch S20 zu g2</Parallel>
+<Parallel name="p37" type="thin" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Intersection name="S26" type="thin" hidden="true" first="p2" second="p37">Schnitt zwischen p2 und p37</Intersection>
+<Intersection name="S27" type="thin" hidden="true" first="p35" second="p36">Schnitt zwischen p35 und p36</Intersection>
+<Line name="g16" type="thin" hidden="true" from="S26" to="S27">Gerade durch S26 und S27</Line>
+<Intersection name="S28" type="thin" hidden="true" first="g3" second="g16">Schnitt zwischen g3 und g16</Intersection>
+<Parallel name="p38" type="thin" hidden="true" point="S28" line="g2">Parallele durch S28 zu g2</Parallel>
+<Intersection name="S29" hidden="true" target="true" first="g15" second="p38">Schnitt zwischen g15 und p38</Intersection>
+<Line name="g17" hidden="true" from="A" to="S19">Gerade durch A und S19</Line>
+<Parallel name="p39" type="thin" hidden="true" point="OP4" line="p2">Parallele durch OP4 zu p2</Parallel>
+<Parallel name="p40" type="thin" hidden="true" point="S19" line="g2">Parallele durch S19 zu g2</Parallel>
+<Parallel name="p41" type="thin" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Intersection name="S30" type="thin" hidden="true" first="p2" second="p41">Schnitt zwischen p2 und p41</Intersection>
+<Intersection name="S31" type="thin" hidden="true" first="p39" second="p40">Schnitt zwischen p39 und p40</Intersection>
+<Line name="g18" type="thin" hidden="true" from="S30" to="S31">Gerade durch S30 und S31</Line>
+<Intersection name="S32" type="thin" hidden="true" first="g3" second="g18">Schnitt zwischen g3 und g18</Intersection>
+<Parallel name="p42" type="thin" hidden="true" point="S32" line="g2">Parallele durch S32 zu g2</Parallel>
+<Intersection name="S33" hidden="true" target="true" first="g17" second="p42">Schnitt zwischen g17 und p42</Intersection>
+<Line name="g19" hidden="true" from="A" to="S21">Gerade durch A und S21</Line>
+<Parallel name="p43" type="thin" hidden="true" point="OP4" line="p2">Parallele durch OP4 zu p2</Parallel>
+<Parallel name="p44" type="thin" hidden="true" point="S21" line="g2">Parallele durch S21 zu g2</Parallel>
+<Parallel name="p45" type="thin" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Intersection name="S34" type="thin" hidden="true" first="p2" second="p45">Schnitt zwischen p2 und p45</Intersection>
+<Intersection name="S35" type="thin" hidden="true" first="p43" second="p44">Schnitt zwischen p43 und p44</Intersection>
+<Line name="g20" type="thin" hidden="true" from="S34" to="S35">Gerade durch S34 und S35</Line>
+<Intersection name="S36" type="thin" hidden="true" first="g3" second="g20">Schnitt zwischen g3 und g20</Intersection>
+<Parallel name="p46" type="thin" hidden="true" point="S36" line="g2">Parallele durch S36 zu g2</Parallel>
+<Intersection name="S37" hidden="true" target="true" first="g19" second="p46">Schnitt zwischen g19 und p46</Intersection>
+<Segment name="s17" color="2" from="S4" to="S25">Strecke von S4 nach S25</Segment>
+<Segment name="s19" color="2" from="S25" to="S29">Strecke von S25 nach S29</Segment>
+<Segment name="s20" color="2" from="S29" to="S9">Strecke von S29 nach S9</Segment>
+<Segment name="s21" color="2" from="S29" to="S37">Strecke von S29 nach S37</Segment>
+<Segment name="s22" color="2" from="S37" to="S13">Strecke von S37 nach S13</Segment>
+<Segment name="s23" color="2" type="thick" from="S37" to="S33">Strecke von S37 nach S33</Segment>
+<Segment name="s24" color="2" type="thick" from="S33" to="S25">Strecke von S33 nach S25</Segment>
+<Segment name="s25" color="2" type="thick" from="S33" to="S17">Strecke von S33 nach S17</Segment>
+<Segment name="s31" type="thin" from="A" to="S17">Strecke von A nach S17</Segment>
+<Segment name="s32" type="thin" from="A" to="S37">Strecke von A nach S37</Segment>
+<Segment name="s33" type="thin" from="A" to="S25">Strecke von A nach S25</Segment>
+<PointOn name="OP5" type="thin" hidden="true" on="p2" x="4.328949582222185" y="-2.306934587769018" shape="diamond">Punkt auf p2</PointOn>
+<PointOn name="OP6" type="thin" hidden="true" on="p1" x="0.9790089127849888" y="2.0562952202045968" shape="diamond">Punkt auf p1</PointOn>
+<PointOn name="OP7" type="thin" hidden="true" on="g3" x="3.1024222041178993" y="0.4240075126243835" shape="diamond">Punkt auf g3</PointOn>
+<PointOn name="OP8" type="thin" hidden="true" on="g2" x="-3.236738298957207" y="2.4309688065424218" shape="diamond">Punkt auf g2</PointOn>
+<Angle name="w1" first="OP5" root="P2" second="OP6">Winkel OP5 - P2 - OP6</Angle>
+<Angle name="w2" first="OP7" root="P1" second="OP8">Winkel OP7 - P1 - OP8</Angle>
+<Parallel name="p47" hidden="true" point="A" line="p1">Parallele durch A zu p1</Parallel>
+<Parallel name="p48" hidden="true" point="A" line="p2">Parallele durch A zu p2</Parallel>
+<Intersection name="S38" hidden="true" first="p1" second="p48" shape="diamond">Schnitt zwischen p1 und p48</Intersection>
+<Intersection name="S39" hidden="true" first="p2" second="p47" shape="diamond">Schnitt zwischen p2 und p47</Intersection>
+<Segment name="s34" color="3" type="thin" from="S38" to="A">Strecke von S38 nach A</Segment>
+<Segment name="s35" color="3" type="thin" from="A" to="S39">Strecke von A nach S39</Segment>
+</Objects>
+</Construction>
+</CaR>

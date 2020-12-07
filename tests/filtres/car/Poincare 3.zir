@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" hidden="true" x="-0.5492537313000002" y="-0.44179104480000025">Punkt in -0.5492537313000002, -0.44179104480000014</Point>
+<Circle name="k1" color="3" type="thin" background="true" fixed="5.0" midpoint="P1" filled="true">Kreis um P1 mit Radius 5.0151528022</Circle>
+<Point name="P8" color="1" type="thick" x="-2.9500805152979077" y="-0.5925925925925929">Punkt in -2.9500805152979064, -0.5925925925925926</Point>
+<Point name="P9" color="1" type="thick" x="0.9146537842190021" y="2.1900161030595813">Punkt in 0.9146537842190021, 2.1900161030595813</Point>
+<Line name="g101" color="1" hidden="true" from="P1" to="P8">Gerade durch P1 und P8</Line>
+<Midpoint name="M85" color="1" hidden="true" first="P1" second="P8">Mitte zwischen P1 und P8</Midpoint>
+<Plumb name="l95" color="1" hidden="true" point="M85" line="g101">Lot durch M85 zu g101</Plumb>
+<Intersection name="S129" color="1" hidden="true" first="l95" second="k1" which="first">Schnitt zwischen l95 und k1</Intersection>
+<Intersection name="S130" color="1" hidden="true" first="l95" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g102" color="1" hidden="true" from="P1" to="S130">Gerade durch P1 und S130</Line>
+<Midpoint name="M86" color="1" hidden="true" first="P1" second="S130">Mitte zwischen P1 und S130</Midpoint>
+<Plumb name="l96" color="1" hidden="true" point="M86" line="g102">Lot durch M86 zu g102</Plumb>
+<Intersection name="S131" color="1" hidden="true" first="g101" second="l96">Schnitt zwischen g101 und l96</Intersection>
+<Line name="g103" color="1" hidden="true" from="P1" to="P9">Gerade durch P1 und P9</Line>
+<Midpoint name="M87" color="1" hidden="true" first="P1" second="P9">Mitte zwischen P1 und P9</Midpoint>
+<Plumb name="l97" color="1" hidden="true" point="M87" line="g103">Lot durch M87 zu g103</Plumb>
+<Intersection name="S132" color="1" hidden="true" first="l97" second="k1" which="first">Schnitt zwischen l97 und k1</Intersection>
+<Intersection name="S133" color="1" hidden="true" first="l97" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g104" color="1" hidden="true" from="P1" to="S133">Gerade durch P1 und S133</Line>
+<Midpoint name="M88" color="1" hidden="true" first="P1" second="S133">Mitte zwischen P1 und S133</Midpoint>
+<Plumb name="l98" color="1" hidden="true" point="M88" line="g104">Lot durch M88 zu g104</Plumb>
+<Intersection name="S134" color="1" hidden="true" first="g103" second="l98">Schnitt zwischen g103 und l98</Intersection>
+<Line name="g105" color="1" hidden="true" from="S131" to="P8">Gerade durch S131 und P8</Line>
+<Midpoint name="M89" color="1" hidden="true" first="S131" second="P8">Mitte zwischen S131 und P8</Midpoint>
+<Plumb name="l99" color="1" hidden="true" point="M89" line="g105">Lot durch M89 zu g105</Plumb>
+<Line name="g106" color="1" hidden="true" from="S131" to="S134">Gerade durch S131 und S134</Line>
+<Midpoint name="M90" color="1" hidden="true" first="S131" second="S134">Mitte zwischen S131 und S134</Midpoint>
+<Plumb name="l100" color="1" hidden="true" point="M90" line="g106">Lot durch M90 zu g106</Plumb>
+<Intersection name="S135" color="1" hidden="true" first="l99" second="l100">Schnitt zwischen l99 und l100</Intersection>
+<Circle name="k18" color="1" target="true" through="P8" midpoint="S135">Kreis um S135 durch P8</Circle>
+<Point name="P10" color="1" type="thick" x="2.2570532915360495" y="-1.1912225705329158">Punkt in 2.2570532915360495, -1.1912225705329158</Point>
+<Line name="g107" color="1" hidden="true" from="P1" to="P10">Gerade durch P1 und P10</Line>
+<Midpoint name="M91" color="1" hidden="true" first="P1" second="P10">Mitte zwischen P1 und P10</Midpoint>
+<Plumb name="l101" color="1" hidden="true" point="M91" line="g107">Lot durch M91 zu g107</Plumb>
+<Intersection name="S136" color="1" hidden="true" first="l101" second="k1" which="first">Schnitt zwischen l101 und k1</Intersection>
+<Intersection name="S137" color="1" hidden="true" first="l101" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g108" color="1" hidden="true" from="P1" to="S137">Gerade durch P1 und S137</Line>
+<Midpoint name="M92" color="1" hidden="true" first="P1" second="S137">Mitte zwischen P1 und S137</Midpoint>
+<Plumb name="l102" color="1" hidden="true" point="M92" line="g108">Lot durch M92 zu g108</Plumb>
+<Intersection name="S138" color="1" hidden="true" first="g107" second="l102">Schnitt zwischen g107 und l102</Intersection>
+<Line name="g109" color="1" hidden="true" from="P1" to="P9">Gerade durch P1 und P9</Line>
+<Midpoint name="M93" color="1" hidden="true" first="P1" second="P9">Mitte zwischen P1 und P9</Midpoint>
+<Plumb name="l103" color="1" hidden="true" point="M93" line="g109">Lot durch M93 zu g109</Plumb>
+<Intersection name="S139" color="1" hidden="true" first="l103" second="k1" which="first">Schnitt zwischen l103 und k1</Intersection>
+<Intersection name="S140" color="1" hidden="true" first="l103" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g110" color="1" hidden="true" from="P1" to="S140">Gerade durch P1 und S140</Line>
+<Midpoint name="M94" color="1" hidden="true" first="P1" second="S140">Mitte zwischen P1 und S140</Midpoint>
+<Plumb name="l104" color="1" hidden="true" point="M94" line="g110">Lot durch M94 zu g110</Plumb>
+<Intersection name="S141" color="1" hidden="true" first="g109" second="l104">Schnitt zwischen g109 und l104</Intersection>
+<Line name="g111" color="1" hidden="true" from="S138" to="P10">Gerade durch S138 und P10</Line>
+<Midpoint name="M95" color="1" hidden="true" first="S138" second="P10">Mitte zwischen S138 und P10</Midpoint>
+<Plumb name="l105" color="1" hidden="true" point="M95" line="g111">Lot durch M95 zu g111</Plumb>
+<Line name="g112" color="1" hidden="true" from="S138" to="S141">Gerade durch S138 und S141</Line>
+<Midpoint name="M96" color="1" hidden="true" first="S138" second="S141">Mitte zwischen S138 und S141</Midpoint>
+<Plumb name="l106" color="1" hidden="true" point="M96" line="g112">Lot durch M96 zu g112</Plumb>
+<Intersection name="S142" color="1" hidden="true" first="l105" second="l106">Schnitt zwischen l105 und l106</Intersection>
+<Circle name="k19" color="1" target="true" through="P10" midpoint="S142">Kreis um S142 durch P10</Circle>
+<Line name="g113" color="1" hidden="true" from="P1" to="P10">Gerade durch P1 und P10</Line>
+<Midpoint name="M97" color="1" hidden="true" first="P1" second="P10">Mitte zwischen P1 und P10</Midpoint>
+<Plumb name="l107" color="1" hidden="true" point="M97" line="g113">Lot durch M97 zu g113</Plumb>
+<Intersection name="S143" color="1" hidden="true" first="l107" second="k1" which="first">Schnitt zwischen l107 und k1</Intersection>
+<Intersection name="S144" color="1" hidden="true" first="l107" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g114" color="1" hidden="true" from="P1" to="S144">Gerade durch P1 und S144</Line>
+<Midpoint name="M98" color="1" hidden="true" first="P1" second="S144">Mitte zwischen P1 und S144</Midpoint>
+<Plumb name="l108" color="1" hidden="true" point="M98" line="g114">Lot durch M98 zu g114</Plumb>
+<Intersection name="S145" color="1" hidden="true" first="g113" second="l108">Schnitt zwischen g113 und l108</Intersection>
+<Line name="g115" color="1" hidden="true" from="P1" to="P8">Gerade durch P1 und P8</Line>
+<Midpoint name="M99" color="1" hidden="true" first="P1" second="P8">Mitte zwischen P1 und P8</Midpoint>
+<Plumb name="l109" color="1" hidden="true" point="M99" line="g115">Lot durch M99 zu g115</Plumb>
+<Intersection name="S146" color="1" hidden="true" first="l109" second="k1" which="first">Schnitt zwischen l109 und k1</Intersection>
+<Intersection name="S147" color="1" hidden="true" first="l109" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g116" color="1" hidden="true" from="P1" to="S147">Gerade durch P1 und S147</Line>
+<Midpoint name="M100" color="1" hidden="true" first="P1" second="S147">Mitte zwischen P1 und S147</Midpoint>
+<Plumb name="l110" color="1" hidden="true" point="M100" line="g116">Lot durch M100 zu g116</Plumb>
+<Intersection name="S148" color="1" hidden="true" first="g115" second="l110">Schnitt zwischen g115 und l110</Intersection>
+<Line name="g117" color="1" hidden="true" from="S145" to="P10">Gerade durch S145 und P10</Line>
+<Midpoint name="M101" color="1" hidden="true" first="S145" second="P10">Mitte zwischen S145 und P10</Midpoint>
+<Plumb name="l111" color="1" hidden="true" point="M101" line="g117">Lot durch M101 zu g117</Plumb>
+<Line name="g118" color="1" hidden="true" from="S145" to="S148">Gerade durch S145 und S148</Line>
+<Midpoint name="M102" color="1" hidden="true" first="S145" second="S148">Mitte zwischen S145 und S148</Midpoint>
+<Plumb name="l112" color="1" hidden="true" point="M102" line="g118">Lot durch M102 zu g118</Plumb>
+<Intersection name="S149" color="1" hidden="true" first="l111" second="l112">Schnitt zwischen l111 und l112</Intersection>
+<Circle name="k20" color="1" target="true" through="P10" midpoint="S149">Kreis um S149 durch P10</Circle>
+<Line name="g119" color="3" hidden="true" from="P1" to="P9">Gerade durch P1 und P9</Line>
+<Midpoint name="M103" color="3" hidden="true" first="P1" second="P9">Mitte zwischen P1 und P9</Midpoint>
+<Plumb name="l113" color="3" hidden="true" point="M103" line="g119">Lot durch M103 zu g119</Plumb>
+<Intersection name="S150" color="3" hidden="true" first="l113" second="k1" which="first">Schnitt zwischen l113 und k1</Intersection>
+<Intersection name="S151" color="3" hidden="true" first="l113" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g120" color="3" hidden="true" from="P1" to="S151">Gerade durch P1 und S151</Line>
+<Midpoint name="M104" color="3" hidden="true" first="P1" second="S151">Mitte zwischen P1 und S151</Midpoint>
+<Plumb name="l114" color="3" hidden="true" point="M104" line="g120">Lot durch M104 zu g120</Plumb>
+<Intersection name="S152" color="3" hidden="true" first="g119" second="l114">Schnitt zwischen g119 und l114</Intersection>
+<Line name="g121" color="3" hidden="true" from="P1" to="P10">Gerade durch P1 und P10</Line>
+<Midpoint name="M105" color="3" hidden="true" first="P1" second="P10">Mitte zwischen P1 und P10</Midpoint>
+<Plumb name="l115" color="3" hidden="true" point="M105" line="g121">Lot durch M105 zu g121</Plumb>
+<Intersection name="S153" color="3" hidden="true" first="l115" second="k1" which="first">Schnitt zwischen l115 und k1</Intersection>
+<Intersection name="S154" color="3" hidden="true" first="l115" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g122" color="3" hidden="true" from="P1" to="S154">Gerade durch P1 und S154</Line>
+<Midpoint name="M106" color="3" hidden="true" first="P1" second="S154">Mitte zwischen P1 und S154</Midpoint>
+<Plumb name="l116" color="3" hidden="true" point="M106" line="g122">Lot durch M106 zu g122</Plumb>
+<Intersection name="S155" color="3" hidden="true" first="g121" second="l116">Schnitt zwischen g121 und l116</Intersection>
+<Line name="g123" color="3" hidden="true" from="S152" to="P9">Gerade durch S152 und P9</Line>
+<Midpoint name="M107" color="3" hidden="true" first="S152" second="P9">Mitte zwischen S152 und P9</Midpoint>
+<Plumb name="l117" color="3" hidden="true" point="M107" line="g123">Lot durch M107 zu g123</Plumb>
+<Line name="g124" color="3" hidden="true" from="S152" to="S155">Gerade durch S152 und S155</Line>
+<Midpoint name="M108" color="3" hidden="true" first="S152" second="S155">Mitte zwischen S152 und S155</Midpoint>
+<Plumb name="l118" color="3" hidden="true" point="M108" line="g124">Lot durch M108 zu g124</Plumb>
+<Intersection name="S156" color="3" hidden="true" first="l117" second="l118">Schnitt zwischen l117 und l118</Intersection>
+<Line name="g125" color="3" hidden="true" from="P1" to="P10">Gerade durch P1 und P10</Line>
+<Midpoint name="M109" color="3" hidden="true" first="P1" second="P10">Mitte zwischen P1 und P10</Midpoint>
+<Plumb name="l119" color="3" hidden="true" point="M109" line="g125">Lot durch M109 zu g125</Plumb>
+<Intersection name="S157" color="3" hidden="true" first="l119" second="k1" which="first">Schnitt zwischen l119 und k1</Intersection>
+<Intersection name="S158" color="3" hidden="true" first="l119" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g126" color="3" hidden="true" from="P1" to="S158">Gerade durch P1 und S158</Line>
+<Midpoint name="M110" color="3" hidden="true" first="P1" second="S158">Mitte zwischen P1 und S158</Midpoint>
+<Plumb name="l120" color="3" hidden="true" point="M110" line="g126">Lot durch M110 zu g126</Plumb>
+<Intersection name="S159" color="3" hidden="true" first="g125" second="l120">Schnitt zwischen g125 und l120</Intersection>
+<Line name="g127" color="3" hidden="true" from="P1" to="P8">Gerade durch P1 und P8</Line>
+<Midpoint name="M111" color="3" hidden="true" first="P1" second="P8">Mitte zwischen P1 und P8</Midpoint>
+<Plumb name="l121" color="3" hidden="true" point="M111" line="g127">Lot durch M111 zu g127</Plumb>
+<Intersection name="S160" color="3" hidden="true" first="l121" second="k1" which="first">Schnitt zwischen l121 und k1</Intersection>
+<Intersection name="S161" color="3" hidden="true" first="l121" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g128" color="3" hidden="true" from="P1" to="S161">Gerade durch P1 und S161</Line>
+<Midpoint name="M112" color="3" hidden="true" first="P1" second="S161">Mitte zwischen P1 und S161</Midpoint>
+<Plumb name="l122" color="3" hidden="true" point="M112" line="g128">Lot durch M112 zu g128</Plumb>
+<Intersection name="S162" color="3" hidden="true" first="g127" second="l122">Schnitt zwischen g127 und l122</Intersection>
+<Line name="g129" color="3" hidden="true" from="S159" to="P10">Gerade durch S159 und P10</Line>
+<Midpoint name="M113" color="3" hidden="true" first="S159" second="P10">Mitte zwischen S159 und P10</Midpoint>
+<Plumb name="l123" color="3" hidden="true" point="M113" line="g129">Lot durch M113 zu g129</Plumb>
+<Line name="g130" color="3" hidden="true" from="S159" to="S162">Gerade durch S159 und S162</Line>
+<Midpoint name="M114" color="3" hidden="true" first="S159" second="S162">Mitte zwischen S159 und S162</Midpoint>
+<Plumb name="l124" color="3" hidden="true" point="M114" line="g130">Lot durch M114 zu g130</Plumb>
+<Intersection name="S163" color="3" hidden="true" first="l123" second="l124">Schnitt zwischen l123 und l124</Intersection>
+<Line name="g131" color="3" hidden="true" from="S163" to="P10">Gerade durch S163 und P10</Line>
+<Line name="g132" color="3" hidden="true" from="S156" to="P10">Gerade durch S156 und P10</Line>
+<Plumb name="l125" color="3" hidden="true" target="true" point="P10" line="g132">Lot durch P10 zu g132</Plumb>
+<Plumb name="l126" color="3" hidden="true" target="true" point="P10" line="g131">Lot durch P10 zu g131</Plumb>
+<Circle name="k21" color="3" hidden="true" fixed="5.267658526859933" midpoint="P10">Kreis um P10 mit Radius 5.26766</Circle>
+<Intersection name="S164" color="3" hidden="true" first="l125" second="k21" which="first">Schnitt zwischen l125 und k21</Intersection>
+<Intersection name="S165" color="3" hidden="true" first="l125" second="k21" which="second">Schnitt zwischen l93 und k17</Intersection>
+<Intersection name="S166" color="3" hidden="true" first="l126" second="k21" which="first">Schnitt zwischen l126 und k21</Intersection>
+<Intersection name="S167" color="3" hidden="true" first="l126" second="k21" which="second">Schnitt zwischen l94 und k17</Intersection>
+<Angle name="w3" color="3" showvalue="true" target="true" first="S165" root="P10" second="S166" acute="true">Winkel S165 - P10 - S166</Angle>
+<Line name="g133" color="3" hidden="true" from="P1" to="P8">Gerade durch P1 und P8</Line>
+<Midpoint name="M115" color="3" hidden="true" first="P1" second="P8">Mitte zwischen P1 und P8</Midpoint>
+<Plumb name="l127" color="3" hidden="true" point="M115" line="g133">Lot durch M115 zu g133</Plumb>
+<Intersection name="S168" color="3" hidden="true" first="l127" second="k1" which="first">Schnitt zwischen l127 und k1</Intersection>
+<Intersection name="S169" color="3" hidden="true" first="l127" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g134" color="3" hidden="true" from="P1" to="S169">Gerade durch P1 und S169</Line>
+<Midpoint name="M116" color="3" hidden="true" first="P1" second="S169">Mitte zwischen P1 und S169</Midpoint>
+<Plumb name="l128" color="3" hidden="true" point="M116" line="g134">Lot durch M116 zu g134</Plumb>
+<Intersection name="S170" color="3" hidden="true" first="g133" second="l128">Schnitt zwischen g133 und l128</Intersection>
+<Line name="g135" color="3" hidden="true" from="P1" to="P9">Gerade durch P1 und P9</Line>
+<Midpoint name="M117" color="3" hidden="true" first="P1" second="P9">Mitte zwischen P1 und P9</Midpoint>
+<Plumb name="l129" color="3" hidden="true" point="M117" line="g135">Lot durch M117 zu g135</Plumb>
+<Intersection name="S171" color="3" hidden="true" first="l129" second="k1" which="first">Schnitt zwischen l129 und k1</Intersection>
+<Intersection name="S172" color="3" hidden="true" first="l129" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g136" color="3" hidden="true" from="P1" to="S172">Gerade durch P1 und S172</Line>
+<Midpoint name="M118" color="3" hidden="true" first="P1" second="S172">Mitte zwischen P1 und S172</Midpoint>
+<Plumb name="l130" color="3" hidden="true" point="M118" line="g136">Lot durch M118 zu g136</Plumb>
+<Intersection name="S173" color="3" hidden="true" first="g135" second="l130">Schnitt zwischen g135 und l130</Intersection>
+<Line name="g137" color="3" hidden="true" from="S170" to="P8">Gerade durch S170 und P8</Line>
+<Midpoint name="M119" color="3" hidden="true" first="S170" second="P8">Mitte zwischen S170 und P8</Midpoint>
+<Plumb name="l131" color="3" hidden="true" point="M119" line="g137">Lot durch M119 zu g137</Plumb>
+<Line name="g138" color="3" hidden="true" from="S170" to="S173">Gerade durch S170 und S173</Line>
+<Midpoint name="M120" color="3" hidden="true" first="S170" second="S173">Mitte zwischen S170 und S173</Midpoint>
+<Plumb name="l132" color="3" hidden="true" point="M120" line="g138">Lot durch M120 zu g138</Plumb>
+<Intersection name="S174" color="3" hidden="true" first="l131" second="l132">Schnitt zwischen l131 und l132</Intersection>
+<Line name="g139" color="3" hidden="true" from="P1" to="P9">Gerade durch P1 und P9</Line>
+<Midpoint name="M121" color="3" hidden="true" first="P1" second="P9">Mitte zwischen P1 und P9</Midpoint>
+<Plumb name="l133" color="3" hidden="true" point="M121" line="g139">Lot durch M121 zu g139</Plumb>
+<Intersection name="S175" color="3" hidden="true" first="l133" second="k1" which="first">Schnitt zwischen l133 und k1</Intersection>
+<Intersection name="S176" color="3" hidden="true" first="l133" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g140" color="3" hidden="true" from="P1" to="S176">Gerade durch P1 und S176</Line>
+<Midpoint name="M122" color="3" hidden="true" first="P1" second="S176">Mitte zwischen P1 und S176</Midpoint>
+<Plumb name="l134" color="3" hidden="true" point="M122" line="g140">Lot durch M122 zu g140</Plumb>
+<Intersection name="S177" color="3" hidden="true" first="g139" second="l134">Schnitt zwischen g139 und l134</Intersection>
+<Line name="g141" color="3" hidden="true" from="P1" to="P10">Gerade durch P1 und P10</Line>
+<Midpoint name="M123" color="3" hidden="true" first="P1" second="P10">Mitte zwischen P1 und P10</Midpoint>
+<Plumb name="l135" color="3" hidden="true" point="M123" line="g141">Lot durch M123 zu g141</Plumb>
+<Intersection name="S178" color="3" hidden="true" first="l135" second="k1" which="first">Schnitt zwischen l135 und k1</Intersection>
+<Intersection name="S179" color="3" hidden="true" first="l135" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g142" color="3" hidden="true" from="P1" to="S179">Gerade durch P1 und S179</Line>
+<Midpoint name="M124" color="3" hidden="true" first="P1" second="S179">Mitte zwischen P1 und S179</Midpoint>
+<Plumb name="l136" color="3" hidden="true" point="M124" line="g142">Lot durch M124 zu g142</Plumb>
+<Intersection name="S180" color="3" hidden="true" first="g141" second="l136">Schnitt zwischen g141 und l136</Intersection>
+<Line name="g143" color="3" hidden="true" from="S177" to="P9">Gerade durch S177 und P9</Line>
+<Midpoint name="M125" color="3" hidden="true" first="S177" second="P9">Mitte zwischen S177 und P9</Midpoint>
+<Plumb name="l137" color="3" hidden="true" point="M125" line="g143">Lot durch M125 zu g143</Plumb>
+<Line name="g144" color="3" hidden="true" from="S177" to="S180">Gerade durch S177 und S180</Line>
+<Midpoint name="M126" color="3" hidden="true" first="S177" second="S180">Mitte zwischen S177 und S180</Midpoint>
+<Plumb name="l138" color="3" hidden="true" point="M126" line="g144">Lot durch M126 zu g144</Plumb>
+<Intersection name="S181" color="3" hidden="true" first="l137" second="l138">Schnitt zwischen l137 und l138</Intersection>
+<Line name="g145" color="3" hidden="true" from="S181" to="P9">Gerade durch S181 und P9</Line>
+<Line name="g146" color="3" hidden="true" from="S174" to="P9">Gerade durch S174 und P9</Line>
+<Plumb name="l139" color="3" hidden="true" target="true" point="P9" line="g146">Lot durch P9 zu g146</Plumb>
+<Plumb name="l140" color="3" hidden="true" target="true" point="P9" line="g145">Lot durch P9 zu g145</Plumb>
+<Circle name="k22" color="3" hidden="true" fixed="5.267658526859933" midpoint="P9">Kreis um P9 mit Radius 5.26766</Circle>
+<Intersection name="S182" color="3" hidden="true" first="l139" second="k22" which="first">Schnitt zwischen l139 und k22</Intersection>
+<Intersection name="S183" color="3" hidden="true" first="l139" second="k22" which="second">Schnitt zwischen l93 und k17</Intersection>
+<Intersection name="S184" color="3" hidden="true" first="l140" second="k22" which="first">Schnitt zwischen l140 und k22</Intersection>
+<Intersection name="S185" color="3" hidden="true" first="l140" second="k22" which="second">Schnitt zwischen l94 und k17</Intersection>
+<Angle name="w4" color="3" showvalue="true" target="true" first="S183" root="P9" second="S184" acute="true">Winkel S183 - P9 - S184</Angle>
+<Line name="g147" color="3" hidden="true" from="P1" to="P10">Gerade durch P1 und P10</Line>
+<Midpoint name="M127" color="3" hidden="true" first="P1" second="P10">Mitte zwischen P1 und P10</Midpoint>
+<Plumb name="l141" color="3" hidden="true" point="M127" line="g147">Lot durch M127 zu g147</Plumb>
+<Intersection name="S186" color="3" hidden="true" first="l141" second="k1" which="first">Schnitt zwischen l141 und k1</Intersection>
+<Intersection name="S187" color="3" hidden="true" first="l141" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g148" color="3" hidden="true" from="P1" to="S187">Gerade durch P1 und S187</Line>
+<Midpoint name="M128" color="3" hidden="true" first="P1" second="S187">Mitte zwischen P1 und S187</Midpoint>
+<Plumb name="l142" color="3" hidden="true" point="M128" line="g148">Lot durch M128 zu g148</Plumb>
+<Intersection name="S188" color="3" hidden="true" first="g147" second="l142">Schnitt zwischen g147 und l142</Intersection>
+<Line name="g149" color="3" hidden="true" from="P1" to="P8">Gerade durch P1 und P8</Line>
+<Midpoint name="M129" color="3" hidden="true" first="P1" second="P8">Mitte zwischen P1 und P8</Midpoint>
+<Plumb name="l143" color="3" hidden="true" point="M129" line="g149">Lot durch M129 zu g149</Plumb>
+<Intersection name="S189" color="3" hidden="true" first="l143" second="k1" which="first">Schnitt zwischen l143 und k1</Intersection>
+<Intersection name="S190" color="3" hidden="true" first="l143" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g150" color="3" hidden="true" from="P1" to="S190">Gerade durch P1 und S190</Line>
+<Midpoint name="M130" color="3" hidden="true" first="P1" second="S190">Mitte zwischen P1 und S190</Midpoint>
+<Plumb name="l144" color="3" hidden="true" point="M130" line="g150">Lot durch M130 zu g150</Plumb>
+<Intersection name="S191" color="3" hidden="true" first="g149" second="l144">Schnitt zwischen g149 und l144</Intersection>
+<Line name="g151" color="3" hidden="true" from="S188" to="P10">Gerade durch S188 und P10</Line>
+<Midpoint name="M131" color="3" hidden="true" first="S188" second="P10">Mitte zwischen S188 und P10</Midpoint>
+<Plumb name="l145" color="3" hidden="true" point="M131" line="g151">Lot durch M131 zu g151</Plumb>
+<Line name="g152" color="3" hidden="true" from="S188" to="S191">Gerade durch S188 und S191</Line>
+<Midpoint name="M132" color="3" hidden="true" first="S188" second="S191">Mitte zwischen S188 und S191</Midpoint>
+<Plumb name="l146" color="3" hidden="true" point="M132" line="g152">Lot durch M132 zu g152</Plumb>
+<Intersection name="S192" color="3" hidden="true" first="l145" second="l146">Schnitt zwischen l145 und l146</Intersection>
+<Line name="g153" color="3" hidden="true" from="P1" to="P8">Gerade durch P1 und P8</Line>
+<Midpoint name="M133" color="3" hidden="true" first="P1" second="P8">Mitte zwischen P1 und P8</Midpoint>
+<Plumb name="l147" color="3" hidden="true" point="M133" line="g153">Lot durch M133 zu g153</Plumb>
+<Intersection name="S193" color="3" hidden="true" first="l147" second="k1" which="first">Schnitt zwischen l147 und k1</Intersection>
+<Intersection name="S194" color="3" hidden="true" first="l147" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g154" color="3" hidden="true" from="P1" to="S194">Gerade durch P1 und S194</Line>
+<Midpoint name="M134" color="3" hidden="true" first="P1" second="S194">Mitte zwischen P1 und S194</Midpoint>
+<Plumb name="l148" color="3" hidden="true" point="M134" line="g154">Lot durch M134 zu g154</Plumb>
+<Intersection name="S195" color="3" hidden="true" first="g153" second="l148">Schnitt zwischen g153 und l148</Intersection>
+<Line name="g155" color="3" hidden="true" from="P1" to="P9">Gerade durch P1 und P9</Line>
+<Midpoint name="M135" color="3" hidden="true" first="P1" second="P9">Mitte zwischen P1 und P9</Midpoint>
+<Plumb name="l149" color="3" hidden="true" point="M135" line="g155">Lot durch M135 zu g155</Plumb>
+<Intersection name="S196" color="3" hidden="true" first="l149" second="k1" which="first">Schnitt zwischen l149 und k1</Intersection>
+<Intersection name="S197" color="3" hidden="true" first="l149" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Line name="g156" color="3" hidden="true" from="P1" to="S197">Gerade durch P1 und S197</Line>
+<Midpoint name="M136" color="3" hidden="true" first="P1" second="S197">Mitte zwischen P1 und S197</Midpoint>
+<Plumb name="l150" color="3" hidden="true" point="M136" line="g156">Lot durch M136 zu g156</Plumb>
+<Intersection name="S198" color="3" hidden="true" first="g155" second="l150">Schnitt zwischen g155 und l150</Intersection>
+<Line name="g157" color="3" hidden="true" from="S195" to="P8">Gerade durch S195 und P8</Line>
+<Midpoint name="M137" color="3" hidden="true" first="S195" second="P8">Mitte zwischen S195 und P8</Midpoint>
+<Plumb name="l151" color="3" hidden="true" point="M137" line="g157">Lot durch M137 zu g157</Plumb>
+<Line name="g158" color="3" hidden="true" from="S195" to="S198">Gerade durch S195 und S198</Line>
+<Midpoint name="M138" color="3" hidden="true" first="S195" second="S198">Mitte zwischen S195 und S198</Midpoint>
+<Plumb name="l152" color="3" hidden="true" point="M138" line="g158">Lot durch M138 zu g158</Plumb>
+<Intersection name="S199" color="3" hidden="true" first="l151" second="l152">Schnitt zwischen l151 und l152</Intersection>
+<Line name="g159" color="3" hidden="true" from="S199" to="P8">Gerade durch S199 und P8</Line>
+<Line name="g160" color="3" hidden="true" from="S192" to="P8">Gerade durch S192 und P8</Line>
+<Plumb name="l153" color="3" hidden="true" target="true" point="P8" line="g160">Lot durch P8 zu g160</Plumb>
+<Plumb name="l154" color="3" hidden="true" target="true" point="P8" line="g159">Lot durch P8 zu g159</Plumb>
+<Circle name="k23" color="3" hidden="true" fixed="5.267658526859933" midpoint="P8">Kreis um P8 mit Radius 5.26766</Circle>
+<Intersection name="S200" color="3" hidden="true" first="l153" second="k23" which="first">Schnitt zwischen l153 und k23</Intersection>
+<Intersection name="S201" color="3" hidden="true" first="l153" second="k23" which="second">Schnitt zwischen l93 und k17</Intersection>
+<Intersection name="S202" color="3" hidden="true" first="l154" second="k23" which="first">Schnitt zwischen l154 und k23</Intersection>
+<Intersection name="S203" color="3" hidden="true" first="l154" second="k23" which="second">Schnitt zwischen l94 und k17</Intersection>
+<Angle name="w5" color="3" showvalue="true" target="true" first="S201" root="P8" second="S202" acute="true">Winkel S201 - P8 - S202</Angle>
+<Expression name="E1" showname="true" showvalue="true" x="-5.681159420289855" y="4.869565217391304" value="w4+w3+w5" prompt="Winkelsumme">Ausdruck &quot;&quot;w4&quot;+&quot;w3&quot;+&quot;w5&quot;&quot; in -5.68, 4.87</Expression>
+</Objects>
+</Construction>
+</CaR>

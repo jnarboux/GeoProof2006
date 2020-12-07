@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/distrib/windows/dlls/lib/pango/1.4.0/modules"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="pango-hangul-fc.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a372bd796f2bd09155b1606de159827d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pango-basic-x.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="4a11f8e299e704c2962713249a69ee83"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pango-arabic-fc.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="4440ebf4dfda92528aae49441b7db1be"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pango-basic-fc.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0d11c61d2edfa412dec1aee5e8411d7f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pango-thai-fc.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="682e27d60441dc5a4130d1a415b96958"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pango-indic-fc.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e17296758f13b16f69c52a44043c3bc5"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pango-tibetan-fc.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1bb93959f75e2d9b6c516a0a46447a26"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="pango-syriac-fc.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="63158ce5803e06c84fceb055a34e8d30"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:17.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pango-basic-win32.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="4cda09cde0df6ddf2640d9a0c77af621"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:17.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pango-hebrew-fc.dll"
+   text-time="2006-08-24T14:31:17.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c895d224acd5482f696ef62111dd4c32"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:17.000000Z"/>
+</wc-entries>

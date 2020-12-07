@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.0"/>
+<Comment>
+<P>Ein Beweis des Satzes von Pythagoras. Durch vergleich der
+Flächen findet man </P>
+<P></P>
+<P>(a+b)^2 = 2ab+c^2. </P>
+<P></P>
+<P>Daraus folgt der Satz des Pythagoras </P>
+<P></P>
+<P>a^2 + b^2 = c^2 </P>
+<P></P>
+<P>nach kurzem Umrechnen.</P>
+<P></P>
+<P>Bewegen Sie den Punkt P zur Veranschaulichung des
+Gedankens.</P>
+</Comment>
+<Objects>
+<Point name="Punkt 1" x="-0.5" y="-0.5" fixed="true">Punkt in &quot;-0.5&quot;, &quot;-0.5&quot;</Point>
+<Point name="Punkt 2" x="0.5" y="-0.5" fixed="true">Punkt in &quot;0.5&quot;, &quot;-0.5&quot;</Point>
+<Segment name="Strecke 1" from="Punkt 1" to="Punkt 2">Strecke von Punkt 1 nach Punkt 2</Segment>
+<Plumb name="Lot 1" hidden="true" point="Punkt 1" line="Strecke 1">Lot durch Punkt 1 zu Strecke 1</Plumb>
+<Plumb name="Lot 2" hidden="true" point="Punkt 2" line="Strecke 1">Lot durch Punkt 2 zu Strecke 1</Plumb>
+<Circle name="Kreis 1" hidden="true" midpoint="Punkt 2" through="Punkt 1">Kreis um Punkt 2 durch Punkt 1</Circle>
+<Intersection name="Schnitt 1" first="Lot 2" second="Kreis 1" other="Schnitt 2">Schnitt zwischen Lot 2 und Kreis 1</Intersection>
+<OtherIntersection name="Schnitt 2">Schnitt zwischen Lot 2 und Kreis 1</OtherIntersection>
+<Parallel name="Parallele 1" hidden="true" point="Schnitt 1" line="Strecke 1">Parallele durch Schnitt 1 zu Strecke 1</Parallel>
+<Intersection name="Schnitt 3" first="Lot 1" second="Parallele 1">Schnitt zwischen Lot 1 und Parallele 1</Intersection>
+<Segment name="Strecke 2" from="Punkt 1" to="Schnitt 3">Strecke von Punkt 1 nach Schnitt 3</Segment>
+<Segment name="Strecke 3" from="Schnitt 3" to="Schnitt 1">Strecke von Schnitt 3 nach Schnitt 1</Segment>
+<Segment name="Strecke 4" from="Schnitt 1" to="Punkt 2">Strecke von Schnitt 1 nach Punkt 2</Segment>
+<PointOn name="P" type="thick" showname="true" on="Strecke 1" x="-0.23460410557184752" y="-0.5">Punkt auf Strecke 1</PointOn>
+<Circle3 name="Kreis 2" color="1" hidden="true" midpoint="Schnitt 3" from="Punkt 1" to="P">Kreis um Punkt 1 mit Radius von P nach Schnitt 3</Circle3>
+<Intersection name="Schnitt 8" color="1" first="Strecke 2" second="Kreis 2" other="Schnitt 9">Schnitt zwischen Strecke 2 und Kreis 2</Intersection>
+<OtherIntersection name="Schnitt 9">Schnitt zwischen Strecke 2 und Kreis 2</OtherIntersection>
+<Segment name="Strecke 10" color="1" from="Schnitt 9" to="P">Strecke von Schnitt 9 nach P</Segment>
+<Circle3 name="Kreis 3" color="1" hidden="true" midpoint="Schnitt 1" from="Punkt 1" to="P">Kreis um Punkt 1 mit Radius von P nach Schnitt 1</Circle3>
+<Circle3 name="Kreis 4" color="1" hidden="true" midpoint="Punkt 2" from="Punkt 1" to="P">Kreis um Punkt 1 mit Radius von P nach Punkt 2</Circle3>
+<Intersection name="Schnitt 10" color="1" first="Strecke 3" second="Kreis 3" other="Schnitt 11">Schnitt zwischen Strecke 3 und Kreis 3</Intersection>
+<OtherIntersection name="Schnitt 11">Schnitt zwischen Strecke 3 und Kreis 3</OtherIntersection>
+<Intersection name="Schnitt 12" color="1" first="Strecke 4" second="Kreis 4" other="Schnitt 13">Schnitt zwischen Strecke 4 und Kreis 4</Intersection>
+<OtherIntersection name="Schnitt 13">Schnitt zwischen Strecke 4 und Kreis 4</OtherIntersection>
+<Segment name="Strecke 11" color="1" from="Schnitt 9" to="Schnitt 11">Strecke von Schnitt 9 nach Schnitt 11</Segment>
+<Segment name="Strecke 12" color="1" from="Schnitt 11" to="Schnitt 13">Strecke von Schnitt 11 nach Schnitt 13</Segment>
+<Polygon name="Area 1" color="2" type="thin" background="true" point1="P" point2="Schnitt 13" point3="Punkt 2">Vieleck P, Schnitt 9, Punkt 2</Polygon>
+<Segment name="c" color="2" showname="true" xoffset="-18" yoffset="-26" from="Schnitt 13" to="P">Strecke von Schnitt 13 nach P</Segment>
+<Angle name="Winkel 1" color="1" showvalue="true" first="Schnitt 13" root="P" second="Schnitt 9" display="small">Winkel Schnitt 13 - P - Schnitt 9</Angle>
+<Segment name="a" color="2" showname="true" xoffset="2" yoffset="23" from="P" to="Punkt 2">Strecke von P nach Punkt 2</Segment>
+<Segment name="b" color="2" showname="true" xoffset="21" yoffset="1" from="Punkt 2" to="Schnitt 13">Strecke von Punkt 2 nach Schnitt 13</Segment>
+</Objects>
+</Construction>
+</CaR>

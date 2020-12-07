@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="7.999999999999998"/>
+<Track track="S3" on="k4" move="P5" animate="true"/>
+<Objects>
+<Point name="A" hidden="true" showname="true" x="-7.47" y="-2.36">Punkt in -7.466666666666667, -2.358974358974359</Point>
+<Point name="B" hidden="true" showname="true" x="7.55" y="-2.24">Punkt in 7.5487179487179485, -2.235897435897436</Point>
+<Line name="g1" hidden="true" from="A" to="B">Gerade durch A und B</Line>
+<Point name="P" hidden="true" showname="true" x="-0.57" y="-0.23">Punkt in -0.5743589743589741, -0.22564102564102484</Point>
+<PointOn name="P5" hidden="true" on="k4" x="7.282159916845727" y="2.670736568253153">Punkt auf k4</PointOn>
+<Ray name="r1" hidden="true" from="A" to="P5">Strahl von A in Richtung P5</Ray>
+<Circle name="k4" hidden="true" fixed="d(A,P)+d(B,P)" midpoint="A" acute="true">Kreis um A mit Radius 9.173134</Circle>
+<Segment name="s1" hidden="true" from="B" to="P5">Strecke von B nach P5</Segment>
+<Midpoint name="M2" hidden="true" first="P5" second="B">Mitte zwischen P5 und B</Midpoint>
+<Plumb name="l1" hidden="true" point="M2" line="s1" valid="true">Lot durch M2 zu s1</Plumb>
+<Intersection name="S3" hidden="true" first="r1" second="l1" shape="dot">Schnitt zwischen r1 und l1</Intersection>
+<Plumb name="l2" hidden="true" point="S3" line="g1" valid="true">Lot durch S3 zu g1</Plumb>
+<Circle name="k5" hidden="true" fixed="0.44" midpoint="S3" acute="true">Kreis um S3 mit Radius 0.439187</Circle>
+<Intersection name="S4" hidden="true" first="l2" second="k5" which="first">Schnitt zwischen l2 und k5</Intersection>
+<Point name="P6" x="-4.88" y="-1.87">Punkt in -4.8820512820512825, -1.8666666666666667</Point>
+<Point name="P7" x="4.43" y="-1.87">Punkt in 4.430769230769231, -1.8666666666666667</Point>
+<Segment name="s2" from="P6" to="S4">Strecke von P6 nach S4</Segment>
+<Segment name="s3" from="S4" to="P7">Strecke von S4 nach P7</Segment>
+<Circle name="k6" hidden="true" fixed="0.86" midpoint="S3" acute="true">Kreis um S3 mit Radius 0.856587</Circle>
+<Intersection name="S6" hidden="true" first="l2" second="k6" which="first">Schnitt zwischen l2 und k6</Intersection>
+<Segment name="s4" from="S3" to="S6">Strecke von S3 nach S6</Segment>
+</Objects>
+</Construction>
+</CaR>

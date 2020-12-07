@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="Drehstreckung">
+<Parameter name="P2">A</Parameter>
+<Parameter name="P1">B</Parameter>
+<Parameter name="P3">C</Parameter>
+<Parameter name="P4">M</Parameter>
+<Parameter name="P5">P</Parameter>
+<Comment>
+<P>Winkel ABC, Faktor CB/BA.</P>
+</Comment>
+<Objects>
+<Point name="P1" hidden="true" mainparameter="true" x="2.036363636363637" y="-1.951515151515152">Punkt in 2.036363636363637, -1.951515151515152</Point>
+<Point name="P2" hidden="true" mainparameter="true" x="1.915151515151516" y="5.321212121212123">Punkt in 1.915151515151516, 5.321212121212123</Point>
+<Point name="P3" hidden="true" mainparameter="true" x="-0.2666666666666666" y="3.963636363636364">Punkt in -0.2666666666666666, 3.963636363636364</Point>
+<Point name="P4" hidden="true" mainparameter="true" x="6.375757575757575" y="1.0545454545454538">Punkt in 6.375757575757575, 1.0545454545454538</Point>
+<Point name="P5" hidden="true" mainparameter="true" x="6.836363636363636" y="4.787878787878788">Punkt in 6.836363636363636, 4.787878787878788</Point>
+<Angle name="w1" color="2" hidden="true" first="P5" root="P4" fixed="a(P2,P1,P3)">Fester Winkel P5 - P4 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k1" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(P5,P4)" midpoint="P4">Kreis um P4 mit Radius 3.2827230164</Circle>
+<Intersection name="S1" color="2" target="true" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+</Objects>
+</Macro>
+<Macro Name="Drehstreckung - P2 P1 P3 P1">
+<Parameter name="P2" fixed="P2">A</Parameter>
+<Parameter name="P1" fixed="P1">B</Parameter>
+<Parameter name="P3" fixed="P3">C</Parameter>
+<Parameter name="P4" fixed="P1">M</Parameter>
+<Parameter name="P5">P</Parameter>
+<Comment>
+<P>Winkel ABC, Faktor CB/BA.</P>
+</Comment>
+<Objects>
+<Point name="P1" hidden="true" mainparameter="true" x="2.036363636363637" y="-1.951515151515152">Punkt in 2.036363636363637, -1.951515151515152</Point>
+<Point name="P2" hidden="true" mainparameter="true" x="1.915151515151516" y="5.321212121212123">Punkt in 1.915151515151516, 5.321212121212123</Point>
+<Point name="P3" hidden="true" mainparameter="true" x="-0.2666666666666666" y="3.963636363636364">Punkt in -0.2666666666666666, 3.963636363636364</Point>
+<Point name="P4" hidden="true" mainparameter="true" x="6.375757575757575" y="1.0545454545454538">Punkt in 6.375757575757575, 1.0545454545454538</Point>
+<Point name="P5" hidden="true" mainparameter="true" x="6.836363636363636" y="4.787878787878788">Punkt in 6.836363636363636, 4.787878787878788</Point>
+<Angle name="w1" color="2" hidden="true" first="P5" root="P4" fixed="a(P2,P1,P3)">Fester Winkel P5 - P4 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k1" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(P5,P4)" midpoint="P4">Kreis um P4 mit Radius 3.2827230164</Circle>
+<Intersection name="S1" color="2" target="true" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+</Objects>
+</Macro>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" type="thick" showname="true" x="-0.9212121212121209" y="-3.648484848484849">Punkt in -0.9212121212121209, -3.648484848484849</Point>
+<Point name="P2" type="thick" showname="true" x="-2.9818181818181815" y="4.496969696969697">Punkt in -2.9818181818181815, 4.496969696969697</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" type="thick" showname="true" x="-4.33939393939394" y="2.8484848484848486">Punkt in -4.33939393939394, 2.8484848484848486</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Point name="P4" color="2" type="thick" showname="true" x="3.418181818181818" y="1.248484848484849">Punkt in 3.418181818181818, 1.248484848484849</Point>
+<Point name="P5" color="2" type="thick" showname="true" x="3.66060606060606" y="4.933333333333333">Punkt in 3.66060606060606, 4.933333333333333</Point>
+<Segment name="s4" color="2" from="P4" to="P5">Strecke von P4 nach P5</Segment>
+<Angle name="w2" color="2" first="P5" root="P4" fixed="a(P2,P1,P3)">Fester Winkel P5 - P4 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k1" color="2" showname="true" fixed="d(P3,P1)/d(P2,P1)*d(P5,P4)" midpoint="P4">Kreis um P4 mit Radius 3.1287757722</Circle>
+<Intersection name="S1" color="2" showname="true" first="w2" second="k1" which="first">Schnitt zwischen w2 und k1</Intersection>
+<Angle name="w28" color="2" hidden="true" first="P3" root="P1" fixed="a(P2,P1,P3)">Fester Winkel P3 - P1 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k27" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(P3,P1)" midpoint="P1">Kreis um P1 mit Radius 3.2827230164</Circle>
+<Intersection name="A" color="3" showname="true" first="w28" second="k27" which="first">Schnitt zwischen w28 und k27</Intersection>
+<Angle name="w29" color="2" hidden="true" first="A" root="P1" fixed="a(P2,P1,P3)">Fester Winkel A - P1 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k28" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(A,P1)" midpoint="P1">Kreis um P1 mit Radius 3.2827230164</Circle>
+<Intersection name="S29" color="1" first="w29" second="k28" which="first">Schnitt zwischen w29 und k28</Intersection>
+<Angle name="w30" color="2" hidden="true" first="S29" root="P1" fixed="a(P2,P1,P3)">Fester Winkel S29 - P1 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k29" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(S29,P1)" midpoint="P1">Kreis um P1 mit Radius 3.2827230164</Circle>
+<Intersection name="S30" color="1" first="w30" second="k29" which="first">Schnitt zwischen w30 und k29</Intersection>
+<Angle name="w31" color="2" hidden="true" first="S30" root="P1" fixed="a(P2,P1,P3)">Fester Winkel S30 - P1 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k30" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(S30,P1)" midpoint="P1">Kreis um P1 mit Radius 3.2827230164</Circle>
+<Intersection name="S31" color="1" first="w31" second="k30" which="first">Schnitt zwischen w31 und k30</Intersection>
+<Angle name="w32" color="2" hidden="true" first="S31" root="P1" fixed="a(P2,P1,P3)">Fester Winkel S31 - P1 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k31" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(S31,P1)" midpoint="P1">Kreis um P1 mit Radius 3.2827230164</Circle>
+<Intersection name="S32" color="1" first="w32" second="k31" which="first">Schnitt zwischen w32 und k31</Intersection>
+<Angle name="w33" color="2" hidden="true" first="S32" root="P1" fixed="a(P2,P1,P3)">Fester Winkel S32 - P1 mit Größe a(P2,P1,P3)</Angle>
+<Circle name="k32" color="2" hidden="true" fixed="d(P3,P1)/d(P2,P1)*d(S32,P1)" midpoint="P1">Kreis um P1 mit Radius 3.2827230164</Circle>
+<Intersection name="S33" color="1" first="w33" second="k32" which="first">Schnitt zwischen w33 und k32</Intersection>
+<Angle name="w1" first="P2" root="P1" second="P3">Winkel P2 - P1 - P3</Angle>
+<Angle name="w3" color="2" first="P5" root="P4" second="S1">Winkel P5 - P4 - S1</Angle>
+</Objects>
+</Construction>
+</CaR>

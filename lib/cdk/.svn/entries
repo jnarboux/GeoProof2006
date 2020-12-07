@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/lib/cdk"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="weak2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bd4b49be4c77ebe91e34f815bbc1bb30"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="sort2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="335ed867dcf0e843bd41991521f172c0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="zlib.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a7430d8251e6807bbf09a65c84d770fa"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="genlex2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c023e781180c1a60cdda352f0a1b11af"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="file.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bcdc50f79cbd4f5d9590a353e2bdeeae"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="netbase.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="240bcbfbba6b8b4b344d4bda7a0d8d0e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="weak2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="da21c7b6dfba8fd9a7cb7a0c4c68c152"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="sort2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="6056543926eb81e4564df2742e90f6bf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="printf2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="6ca2964d0ea5a3e564c50ff0bd5240dc"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="sysenv.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d3d2e6ff2a5bd124a20e5868cd445460"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="printexc2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="46697fc0539aad5bc275819e3d3d788b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="string2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="65cde8c21ab979d78090f6ebb78b39fd"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="file.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="19f3ce8c369b7de8f1e2fb537fed6099"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="netbase.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d3d4977104f3d96e0cba98a09126e354"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="filepath.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="3228f07b56a9523133d66ce46954cc71"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="array2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="fd8fc9b74f7ceb3f75646f226250e0ef"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="sysenv.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a105b2f1893e38019ad595d77f385a7b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="zlib.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e765e8fa0f450c74c83744d99366e4bf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="genlex2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="33035e40cfec56a76e2b3460c6d6fb5e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="unix2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="8d8d749346e5ed241659c199b3c3a1d3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="dprintf.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="fc9cd9858e92e7f89661270b36f7cfa0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name=".cvsignore"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="760a7ff979c7107fab7fb023c96064b4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="hashtbl2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="91be746b33fa2b0db1962aff732a9419"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="filename2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d218b70eafadcb1978124f35e30cba67"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="heap.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="3cd3c5028c089b3674288928972182cd"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="printexc2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e0008479964da939306d6739d8e99042"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="hashtbl2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="3f1762a43026307e480cb81785b34257"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="list2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ed422ece56e8ab7b74dbef95fd231a14"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="printf2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="db57195fbc1087b97cd6c205d8f9cf8e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="string2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="acbbc5ce88231e3de14be6b7a8f15bc6"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="filename2.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="c95425e74510a4b90a4c0ea9c738dc04"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="filepath.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="6594e13919c1c1ed0bf421b4966c15e4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="list2.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="f252afe33ea63e5a2c04eaad68f23668"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+</wc-entries>

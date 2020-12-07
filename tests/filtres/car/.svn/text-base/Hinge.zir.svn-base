@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.04799999999999999" y="0.0" w="1.0"/>
+<Track track="Schnitt 2" on="Kreis 1" move="P" animate="true"/>
+<Objects>
+<Point name="Punkt 1" x="-0.509933774834437" y="-0.04966887417218546" fixed="true">Punkt in &quot;-0.509933774834437&quot;, &quot;-0.04966887417218546&quot;</Point>
+<Point name="Punkt 2" hidden="true" x="-0.5927152317880796" y="0.21192052980132448">Punkt in -0.35430463576158944, 0.33112582781456945</Point>
+<Circle name="Kreis 1" hidden="true" through="Punkt 2" fixed="0.2743752647134649" midpoint="Punkt 1">Kreis um Punkt 1 durch Punkt 2 mit Radius &quot;0.2743752647134649&quot;</Circle>
+<PointOn name="P" type="thick" showname="true" on="Kreis 1" alpha="-0.42958528348858804">Punkt auf Kreis 1</PointOn>
+<Segment name="Strecke 1" from="Punkt 1" to="P">Strecke von Punkt 1 nach P</Segment>
+<Point name="Punkt 4" x="0.11258278145695357" y="-0.04966887417218546" shape="circle" fixed="true">Punkt in &quot;0.11258278145695357&quot;, &quot;-0.04966887417218546&quot;</Point>
+<Ray name="Strahl 1" hidden="true" from="P" to="Punkt 4">Strahl von P in Richtung Punkt 4</Ray>
+<Point name="Punkt 5" hidden="true" x="0.4626647332240792" y="0.7014347640240626">Punkt in -0.10264900662251653, 0.29801324503311255</Point>
+<Circle name="Kreis 2" hidden="true" through="Punkt 5" fixed="1.1277553048369888" midpoint="P">Kreis um P durch Punkt 5 mit Radius &quot;1.1277553048369888&quot;</Circle>
+<Intersection name="Q" first="Strahl 1" second="Kreis 2" which="first">Schnitt zwischen Strahl 1 und Kreis 2</Intersection>
+<Intersection name="Schnitt 2" first="Strahl 1" second="Kreis 2" which="first">Schnitt zwischen Strahl 1 und Kreis 2</Intersection>
+<Segment name="Strecke 2" from="P" to="Q">Strecke von P nach Q</Segment>
+</Objects>
+</Construction>
+</CaR>

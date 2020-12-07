@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="Rotation">
+<Parameter name="P1">P1</Parameter>
+<Parameter name="P2">P2</Parameter>
+<Objects>
+<Point name="P1" hidden="true" mainparameter="true" x="1.9878787878787882" y="0.9575757575757573">Point at 1.9878787878787882, 0.9575757575757573</Point>
+<Point name="P2" hidden="true" mainparameter="true" x="-3.539393939393939" y="-1.006060606060607">Point at -3.539393939393939, -1.006060606060607</Point>
+<Angle name="w1" hidden="true" first="P1" root="P2" fixed="43.273606091500035">Angle P1 - P2 with size 43.273606091500035</Angle>
+<Circle name="k1" hidden="true" through="P1" midpoint="P2">Kreis um P2 durch P1</Circle>
+<Intersection name="S1" target="true" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+</Objects>
+<PromptFor object0="w1" prompt0="w1"/>
+</Macro>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="A" showname="true" x="0.09696969700000002" y="1.3212121212000005">Point at 0.09696969700000002, 1.3212121212000005</Point>
+<Point name="B" showname="true" x="-3.62" y="-0.99">Point at -3.62, -0.99</Point>
+<Text name="Text1" x="-2.400000000000001" y="-2.412121212121212">Start the macro &quot;Rotation&quot;, then select A and B. 
+Enter an angle for the rotation.</Text>
+<Segment name="s2" from="B" to="A">Strecke von B nach A</Segment>
+</Objects>
+</Construction>
+</CaR>

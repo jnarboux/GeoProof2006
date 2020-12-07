@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-4.3100000000000005" y="2.82" shape="diamond">Point à -4.3100000000000005, 2.82</Point>
+<Point name="P2" x="-5.68" y="2.44" shape="circle">Point à -5.68, 2.44</Point>
+<Point name="P3" x="-5.11" y="4.17" shape="dcross">Point à -5.11, 4.17</Point>
+<Point name="P4" x="-2.6272189349112427" y="2.9112426035502956">Point à -2.6272189349112427, 2.9112426035502956</Point>
+<Point name="P5" x="-3.0300000000000002" y="1.02" shape="cross">Point à -3.0300000000000002, 1.02</Point>
+</Objects>
+</Construction>
+</CaR>

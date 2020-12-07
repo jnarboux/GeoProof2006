@@ -1,0 +1,20 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:535: checking for ocamlc
+configure:578: checking for ocamlopt
+configure:610: checking ocamlopt version
+configure:625: checking for ocamlc.opt
+configure:654: checking ocamlc.opt version
+configure:669: checking for ocamlopt.opt
+configure:698: checking ocamlc.opt version
+configure:713: checking for ocamldep
+configure:747: checking for ocamllex
+configure:780: checking for ocamllex.opt
+configure:815: checking for ocamlyacc
+configure:849: checking for ocamlweb
+configure:879: checking platform
+configure:894: checking for ocamlfind
+configure:928: checking for camlp4
+configure:962: checking for camlidl
+configure:996: checking for ocamlmklib

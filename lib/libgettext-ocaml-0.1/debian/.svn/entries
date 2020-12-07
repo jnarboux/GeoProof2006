@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/lib/libgettext-ocaml-0.1/debian"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="control"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9faffe4f20e5af121260fddb738f0db1"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libgettext-ocaml-dev.dirs"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="5faf375da20acd8e4c64da1c9f5b6580"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libgettext-ocaml.dirs"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d22d7957a6820f68fde40e654d331df1"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="changelog"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="31ef0cd442721b48b41fc0e03c636a0c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="copyright"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bc7677c79d76575ccf9dc754c16b675d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="rules"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ac7088d10e78c8b06308780f3807b81a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+</wc-entries>

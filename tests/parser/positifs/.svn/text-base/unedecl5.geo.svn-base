@@ -1,0 +1,1 @@
+soit D1 la droite passant par A1 et B1.

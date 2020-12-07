@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17"
+   name=""
+   committed-date="2006-08-14T09:30:09.721759Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/doc/icons"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="17"
+   name="preferences.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="b22a534bf57fe32fbc8fb38c0fb299a0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testeqpoints.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="47373ea8294d27b3941b371edd95f1c8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testeqpoints.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="0323a8ff9e8f4254fdd326b4e4391e67"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testleftturn.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4d5a698d2a78e12119f5f355ced17708"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="button-red_benji_park_01.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="fe6e4fdbaecaeba43b7fc4b4cd05341a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="area.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3a9bd842e3ff3519cc15e9b30d73046e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="congruent_segments.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="464c9c5c32d82aea272698b0ce0064ed"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testcollinear.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="9d1c738af11f561ff95e2b905df97847"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stock_ok.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="075e67bcece119a422b7d41fea307283"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="lightbulb.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="274071963ce0341883dc10dc537d43a5"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="select.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="841969328c08f1fba7651a6bef2dce92"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="anglebisector.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d8f37000abd080f67d6c120046d88110"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="half_line.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c956250801bc4f5ad1d84ada520531ae"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="eraser.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="59b07e9594122ca219c4fa896a0f4aef"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stop.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="0a12d27e5ae952a876fd57fec2dc0254"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="labelpoint.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="b5d3d70fd930b6612cfe35caf133ca01"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stock_stop.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="2c4e92299a24c2d77c1da8588096ac9f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="new.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="6fa70743e38b14fc2a633c6e5b3b2f06"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="filesave.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="39cfeb42ece608c0b794e779bcb436e9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="viewmagfit.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="6fc8775cee5dd00793e441b09b651faf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="viewmagfit.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="9dcd2e9b4733393c5f7679f0ce8edfbb"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:04.000000Z"/>
+<entry
+   committed-rev="17"
+   name="mediatrice.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4336f4de1974cfba6f2cd3c8c147ebb0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="revert.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d8677553a73af908d7c249f4393265b0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stock_close.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="6ace732b0640d5542dac5137020bcc49"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="label.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="ebd95604ee961fac3c485dd2d394af96"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="eraser.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="5b49cf7ca63fb63ccb785a9b76ab9c70"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="quit.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="b64b4d0d93691fa58b220c150084d2ff"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="trash.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="ea7a72b07ea8dc47ef77f63123c2e1a2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="midpoint.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="be134bb4a83a88eba4ac44fc5778d271"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="save_as.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="1e385c652f87a88de606a41fe7adfc1c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="quit.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="0a24ae75218f71636b18994bbb814673"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="grid.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="70a17ecbeca63945a2ae5d7b2c6d6420"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="angle.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="ae2d04745aaafaaae155a2480a8bcd35"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="button-blue_benji_park_01.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d4740ecc16d756c9da7782e86ab55327"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="line.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d6a8ca0b5a9734bafc1035ab6dccd530"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="new.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="1e48403e040ff0c1d1ab91901c1ef7ba"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testparallel.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="ebfb2b04f33683d856aeef9de9edab4b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="translation.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="be219ba93fd6e850dbcc805fb9213d0e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="fileopen.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c41b38ce7493dd8f977e1f127bb7e8a8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="move.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c41dd9beb91194207688179a14d83707"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="undo.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="72085ec37c6d7d4ceb0aa973e6b88d86"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:05.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testcollinear.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="f76fb8af7e2e565143f0830ec564558f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="viewmagminus.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4b39180dac32eecde5891229186e4b98"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stock_ok.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="6a1ced63668f293455c56f18a78ca538"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="save_as.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d6a39d8631a2bfd33b55d146753021bf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="trash.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="2aa90902aa4c6546652a906fa2c9fa8a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="midpoint.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="f9a0a6f2bf5be2628650dec8a78067c4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="edit.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="ec7a7f3aa18bcebf047aa0613126762f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stock_stop.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="771e2ea33899798fb8202465fca9469a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="circlebcp.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="1b2c593d723829ad92daccbb3e7ed513"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stock_directory_open.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3bd2f2747a86ddabfdbf4d9c6174ea22"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="distance.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="6d080c848070fee1dff518c1293e788a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="parallel.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c09b9d728a82c8c79fc412a29e388925"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="distance.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d2ed175ac8354a4229d95358f7c8ce98"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="congruent_angles.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="eb3092e17dc568dbaf246553c88422c4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testperpendicular.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="ea40da4e0c82b2d661bb2ee6c5ef10a2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:06.000000Z"/>
+<entry
+   committed-rev="17"
+   name="fileopen.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="7f0d894cc6063eaa5f4f8c363d9afdff"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="segment.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c74438e70248b43e6c88bdb306cb56df"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="point_coords.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="9baaa31d3108bca8bcd96f489af33087"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="circlelineintersection.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3ad250419753a6b3fda8b8573fba126a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="left_turn.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="199a0a5b3e2bd9699117db0e05daedac"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="left_turn.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4a346c265ae341181681e8f50f4741b3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="segment.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="30ecca0cea9c7d1470a7f1349f75df2a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="point_coords.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="cbdf5dcc3f7814e650f2098e952fa691"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="intersection.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="db3531aa5fa028b21ccee4ab8e690eeb"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="viewmagminus.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4656175a61a9b62965059c976b360bd8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="viewmag1.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="99453545970547522f58b2455efd235c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="pointing_finger.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="74429042240005f50c80318ea0c7edb4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="mirrorpoint.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="99f5cef04a77db1e183bb63004b652d0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stop.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="88ae1a692dc3f867ca5598004b6e6e36"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="point.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="fc3d1116e9816934b8f4b06ebe22f1df"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="perpendicular.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4e672099b98c11cf0581429cc8fe809f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="rooster.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="e53cd63643df21b9d0d946901ae35444"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testparallel.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="e8d63e2ca596ae4ef68b9ed51d3f1efb"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="save.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="2353e89dc7e3202333792cc49fecae46"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="vector.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="10e344bb88470fab8d28896bb45b0533"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:07.000000Z"/>
+<entry
+   committed-rev="17"
+   name="viewmagplus.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="03e9fd29679a1ae5b7c13f1e22166dd6"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="vector.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4c3b1bb69cfd64c179536f847f2b66f4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="circlebtp.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="f0bcee8255413aae1467ed98404fa6a4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="button-yellow_benji_park_01.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="1b0323331af1adec52d81241f7dc6ba3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="label.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4bf0f13d2f190a1d73557fdaf8c5e8d5"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="pointing_finger.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="04be1b4323ac159f6698cf89719f0cb9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="grid.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d89a781bd345f3ac27514a58761b5d1f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stock_directory_open.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="022c59b48c686d2e4235bbb9169248a3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="point.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="74d183cee0087055465672092cc68893"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testbetween.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="740d18c916a9f560c3594ca298c0c7a0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="filesave.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d474e081028256ad70e8225d1211a24b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="parallel.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="f564b9e8becc35694760b07bf859058b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="circlelineintersection.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="fb7bfd74909ca189f894be2a836e2bd9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="open.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3bd2f2747a86ddabfdbf4d9c6174ea22"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="pointline.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="b208f2cefc9c4827a06b64a5822ea0cf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="viewmagplus.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="a094a0bf4f2d34a82c46a647bbe6c566"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="mediatrice.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="418e578eda4162a8cae98a4f604f20cf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="button-red_benji_park_01.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="dfcba34bbb5aebf8e7e453c9d9e284b9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="pointcircle.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="f4e708562a5c152674b0db641d962016"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="convert_png.sh"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="570ae9db5ee0f76bb728ecafbbed7e6f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="viewmag1.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4b0c1a8bc8932258182b903d99177f05"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="select.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c4153db01817dd0cd45b8b63d82e4da6"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="fde264a512b66efc22c1164b77915b7d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="mirrorpoint.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="a977f4011b1b259ad2c3126ca90aa13b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:08.000000Z"/>
+<entry
+   committed-rev="17"
+   name="angle.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="b77df823ba8cac2bfb5a03e1ec8d2caa"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testbetween.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="9a7d6678fbe59e28daa7e51d023db67d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="filenew.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="a0cded4ae207dc50d83f8522720f7470"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="between.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="f4a53ea6e8cc769b7b2ff881a0429f9f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="circlediam.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="84b6921691594356ee8cbfe9f914829f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testperpendicular.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="6a7ae4601cd7d67aa3e47a64bdafb7e7"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="congruent_angles.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="948e9f65cc4b8bc5d88de1776786ab27"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="translation.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="e3b8ceb6452b003563c2a85fbf1b27a0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="open.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="022c59b48c686d2e4235bbb9169248a3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="pointline.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c9b511f047787b499dd34fb1d831d7e8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="centralsymmetry.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="61b6b5ce9e07fb792321396f02e1f344"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="centralsymmetry.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="a9ceac95f3bd7a18250db2172a325291"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="button-yellow_benji_park_01.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="010d6623f34960a46790396c338169c6"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="move.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="7fa82e1921d32404fadccb0d4b86bba9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="revert.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="0898c89075bc4d36784732704231849e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="area.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="6173c74f22a8a63caad6cb0113849c28"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="intersectionCircles.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="8233d212bf9309425952cf1b54111965"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="lightbulb.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d461cf7de6b06b9c6f3041c384062f0e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="pointcircle.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="db57c0fd7d8f6c77329ff4d407a2e523"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="filesaveas.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d6a39d8631a2bfd33b55d146753021bf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:09.000000Z"/>
+<entry
+   committed-rev="17"
+   name="apropos.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="6b9542f2ae7f939feb7d6d1825123031"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="filesaveas.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="1e385c652f87a88de606a41fe7adfc1c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="circlebcp.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="f3776beafe29feba7c4d474bed939178"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="filenew.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="733699b81dad6027e648f42666fce260"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="between.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="1f1e70a2205e610a1c6528f796cafbbf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="line.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="e044f3b5aedd8b34a724c5f8ea305591"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="redo.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="f3c78f421be670e84f16bf4b90a2ff5b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="window_fullscreen.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="77bdd1c166c1833c022e5d4f275bd99a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="rooster.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="db5bc551c06ef644af62aa7596020760"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="perpendicular.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="b9afc3cf1fd1256fa6f5470d892d211e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="preferences.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c577571606d684f075b69e11a588c0c1"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="testleftturn.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="fe9c657a6f842b3d73c5133a03bd3acd"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="undo.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="431e04d62c40eddd83235be94cad9a9b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="intersection.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d53fa16ad2550405b4cc44103b79f7a3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="circlebtp.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="7b0e7f9ed9f4c2a0962ba7e8447eadef"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="stock_close.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="a89b33815d65d82d7f062af69e89b3fd"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="launch.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="db23cae8b5d3bf334d91aaa2e5beb85e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:10.000000Z"/>
+<entry
+   committed-rev="17"
+   name="congruent_segments.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d6a5fbe05a0e6daee8a78c63bd88e265"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="launch.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4442a5193b6eb4aa265fecf5574c8d1b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="intersectionCircles.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="0391be8ef74cd70465f9ff9bc95e69ce"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="47866760720f8b0d6588f95cdaa40eed"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="anglebisector.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3841a0f4a7b248d53dadb8f4852a75de"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="half_line.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="a73f7e006f653c40e2db98397fa1177f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="button-blue_benji_park_01.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="48c46d49bb65a5e0fbe7b899676a5aec"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="apropos.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="8072d343fa19298aa5f6127dfd3b3458"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="edit.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3f271da16c753ddbc2eb249935efadd7"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="redo.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="da09bfe20870e65efc5da1994b93531e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="window_fullscreen.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="5a541086a13ca779d52abc248a5e94e3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="angle.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="50c8273814d5c1db1a943586e34f42d1"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="labelpoint.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="8b9a8b525c643805a8c3164654bf2082"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="save.svg.ps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="eb97e3ca65bdb0614c00d764e6cdfc92"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="circlediam.svg.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3b91560d1a1dd898682f38a5855032b7"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+</wc-entries>

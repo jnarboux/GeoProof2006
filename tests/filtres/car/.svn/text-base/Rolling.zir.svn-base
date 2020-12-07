@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-2.0" y="1.0" w="5.0"/>
+<Track track="P5" on="g1" move="P" animate="true"/>
+<Objects>
+<Point name="P1" hidden="true" x="-3.0" y="0.0" fixed="true">Punkt in &quot;-3.0&quot;, &quot;0.0&quot;</Point>
+<Point name="P2" hidden="true" x="3.0" y="0.0" fixed="true">Punkt in &quot;3.0&quot;, &quot;0.0&quot;</Point>
+<Line name="g1" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<PointOn name="P" type="thick" hidden="true" on="g1" alpha="-2.336553945249536">Punkt auf g1</PointOn>
+<Plumb name="l1" hidden="true" point="P" line="g1" valid="true">Lot durch P zu g1</Plumb>
+<Point name="P3" hidden="true" x="-7.336553945249536" y="0.0">Punkt in 0.32154340836012896, 2.7282958199356915</Point>
+<Circle name="k1" hidden="true" through="P3" fixed="2.0" midpoint="P" partial="true">Kreis um P durch P3 mit Radius &quot;2.0&quot;</Circle>
+<Intersection name="S1" hidden="true" first="l1" second="k1" which="first">Schnitt zwischen l1 und k1</Intersection>
+<Intersection name="S2" hidden="true" first="l1" second="k1" which="second">Schnitt zwischen l1 und k1</Intersection>
+<Midpoint name="M4" first="S1" second="P">Mitte zwischen S1 und P</Midpoint>
+<Circle name="k2" type="thin" background="true" through="S1" midpoint="M4" filled="true">Kreis um M4 durch S1</Circle>
+<Point name="P5" x="x(P)+cos(0.0-x(P)/3.141592653589793*180.0-90.0)" y="1.0+sin(0.0-x(P)/3.141592653589793*180.0-90.0)" fixed="true">Punkt in &quot;x(P)+cos(0.0-x(P)/3.141592653589793*180.0-90.0)&quot;, &quot;1.0+sin(0.0-x(P)/3.141592653589793*180.0-90.0)&quot;</Point>
+<Segment name="s1" background="true" from="M4" to="P5">Strecke von M4 nach P5</Segment>
+<Line name="g2" hidden="true" from="P5" to="M4">Gerade durch P5 und M4</Line>
+<Plumb name="l2" hidden="true" point="M4" line="g2" valid="true">Lot durch M4 zu g2</Plumb>
+<Intersection name="S3" first="l2" second="k2" which="first">Schnitt zwischen l2 und k2</Intersection>
+<Intersection name="S4" first="l2" second="k2" which="second">Schnitt zwischen l2 und k2</Intersection>
+<Intersection name="S5" first="g2" second="k2" which="first">Schnitt zwischen g2 und k2</Intersection>
+</Objects>
+</Construction>
+</CaR>

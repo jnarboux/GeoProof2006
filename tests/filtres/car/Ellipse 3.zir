@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="S1" on="k1" move="P3" animate="true"/>
+<Objects>
+<Point name="M" showname="true" x="-0.35000000000000003" y="0.09">Punkt in -0.35000000000000003, 0.09</Point>
+<Circle name="k1" fixed="5.18" midpoint="M" acute="true">Kreis um M mit Radius 5.18</Circle>
+<Point name="P2" x="-3.16" y="2.09">Punkt in -3.1604938271604937, 2.08641975308642</Point>
+<PointOn name="P3" on="k1" x="-1.2616391282593438" y="5.189148370054213">Punkt auf k1</PointOn>
+<Line name="g1" color="1" hidden="true" from="P3" to="M">Gerade durch P3 und M</Line>
+<Line name="g2" color="2" hidden="true" from="P3" to="P2">Gerade durch P3 und P2</Line>
+<Midpoint name="M1" color="2" hidden="true" first="P3" second="P2">Mitte zwischen P3 und P2</Midpoint>
+<Plumb name="l1" color="2" hidden="true" point="M1" line="g2" valid="true">Lot durch M1 zu g2</Plumb>
+<Intersection name="S1" color="3" first="g1" second="l1">Schnitt zwischen g1 und l1</Intersection>
+<Circle name="k2" color="3" through="P2" midpoint="S1" acute="true">Kreis um S1 durch P2</Circle>
+</Objects>
+</Construction>
+</CaR>

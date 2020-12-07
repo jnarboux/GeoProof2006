@@ -1,0 +1,560 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{picins}
+\usepackage{pstricks}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{tabls}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{colortbl}
+
+\title{Manuel de référence de \geoproof}
+
+\newcommand{\geoproof}
+   {\emph{GeoProof}}
+
+\newcommand{\inversevideo}[1]
+   {\colorbox{black}{\textcolor{white}{#1}}}
+
+\newcommand{\inversevideoc}[2]
+   {\colorbox{#1}{\textcolor{white}{#2}}}
+
+\newcommand{\puticon}[1]
+  {\begin{tabular}{c}\includegraphics[width=0.5cm]{icons/#1}\end{tabular}}
+
+\begin{document}
+
+
+\label{geoproof-manuel}
+\cleardoublepage
+
+\thispagestyle{empty}
+
+{\fontfamily{phv}\selectfont
+
+\begin{center}
+\vspace{2cm}
+
+{\fontsize{3cm}{4cm}
+\selectfont
+GeoProof}
+\vfill
+\includegraphics[width=10cm]{icons/geoproof.svg.ps}
+\vfill
+\inversevideoc{blue}{\begin{LARGE}\textbf{Manuel de référence}\end{LARGE}}
+\\
+\vspace{1cm}
+Copyright \copyright{} 2006 Julien Narboux
+
+\end{center}
+
+
+\newpage
+
+Bienvenue dans le manuel de référence de \geoproof.\\
+
+Ce manuel est composé de neuf chapitres~:
+\vspace{1cm}
+\begin{enumerate}
+\item Le chapitre <<~\textbf{Installation}~>> décrit la procédure d'installation sous les différents systèmes supportés.
+\item Le chapitre <<~\textbf{Outils de construction}~>> décrit les différents outils qui permettent de créer les figures dynamiques.
+\item Le chapitre <<~\textbf{Outils d'exploration}~>> présente les diverses fonctionnalités qui peuvent être utilisées pour explorer une figure, réaliser des mesures et faire des conjectures.
+\item Le chapitre <<~\textbf{Attributs}~>> décrit les attributs disponibles pour chaque type d'objet. Les attributs définissent l'aspect graphique des objets.
+\item Le chapitre <<~\textbf{Outils de sélection}~>> décrit les différents modes de sélection des objets.
+\item Le chapitre <<~\textbf{Préférences}~>> décrit comment l'utilisateur peut personnaliser certains paramètres du logiciel.
+\item Le chapitre <<~\textbf{Importation/Exportation}~>> décrit les différents modes de lecture et d'écriture des figures.
+\item Le chapitre <<~\textbf{Démonstration automatique}~>> décrit les fonctions liées au démonstrateur automatique intégré.
+\item Le chapitre <<~\textbf{Démonstration interactive}~>> décrit les fonctions liées à l'interaction avec l'assistant de preuve Coq.
+\end{enumerate}
+
+\newpage
+
+\geoproof{} est un logiciel libre de géométrie interactive. Il permet de créer des figures géométriques et de les manipuler à la souris. Avec \geoproof{} on peut étudier ce qui se passe lorsque l'on change la position des points libres de la figure et ainsi faire des conjectures. Il est alors possible d'exporter la conjecture dans l'assistant de preuve Coq afin de la prouver interactivement.
+\geoproof{} est distribué sous la license GPL Version 2.
+
+Pour obtenir la dernière version de \geoproof{} ou nous faire part d'un \emph{bug}, vous pouvez vous rendre sur le site~:
+\begin{center}
+\url{http://home.gna.org/geoproof/}
+\end{center}
+
+Avant d'entrer dans le détail des fonctionnalités de \geoproof. Voici un aperçu de son interface.
+
+\includegraphics[width=\textwidth]{interface-apercu.ps}
+\newpage
+\section{Installation}
+
+\subsection{Windows}
+
+L'installation de \geoproof{} sous windows est très simple puisqu'il suffit de lancer le logiciel d'installation automatique. Après avoir choisi un emplacement pour installer \geoproof{}, vous aurez à choisir si vous désirez installer les fichiers \emph{.dll} de GTK. Si vous n'êtes pas sûr de la réponse laissez cette option cochée puisque ces fichiers sont nécessaires au bon fonctionnement de \geoproof. Si vous êtes certain d'avoir déjà une version des \emph{.dll} de GTK installée sur votre ordinateur vous pouvez désactiver cette option.
+
+\subsection{Linux}
+
+Sous linux, \geoproof{} peut être installé au moyen des fichiers \texttt{.rpm} fournis ou bien en le compilant soi-même à partir des sources. Pour plus d'information sur la procédure de compilation voir le fichier \texttt{INSTALL}.
+
+\subsection{MacOSX}
+
+\geoproof{} ne comporte par encore de procédure d'installation automatique pour MacOsX, il vous faudra donc compiler depuis les sources.
+
+\section{Outils de construction}
+
+Voici une liste des différents outils de construction de \geoproof. Afin de retenir plus facilement la signification de chacun des icônes souvenez vous que l'objet créé apparaît en rouge sur l'icône désignant l'outil. Les outils sont regroupés suivant le type d'objet qu'ils construisent.
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+%\hline
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Points}\end{large}}\\
+\hline
+Point libre & \puticon{point.svg.ps} & Crée un nouveau point libre à la souris. \\ 
+Point libre
+(défini par ses coordonnées) & \puticon{point_coords.svg.ps} & Crée un nouveau point libre en définissant ses coordonnées initiales. \\ 
+Point sur cercle & \puticon{pointcircle.svg.ps} & Crée un point sur un cercle. \\
+Point sur droite & \puticon{pointline.svg.ps} & Crée un point sur une droite. \\
+Point sur segment & \puticon{between.svg.ps} & Crée un point sur un segment. \\
+Point dans demi-plan & \puticon{left_turn.svg.ps} & Crée un point dans un demi-plan.\\
+Milieu d'un segment & \puticon{midpoint.svg.ps} & Crée le milieu d'un segment. \\
+Intersection droites & \puticon{intersection.svg.ps} & Crée l'intersection de deux droites.\\
+Intersection cercles & \puticon{intersectionCircles.svg.ps} & Crée les intersections de deux cercles.\\
+Intersection cercle-droite & \puticon{circlelineintersection.svg.ps} & Crée les intersections entre un cercle et une droite.\\
+\hline
+\end{tabular}
+\end{center}
+
+
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+%\hline
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Droites}\end{large}}\\
+\hline
+Droite simple & \puticon{line.svg.ps} & Crée une droite passant par deux points. \\ 
+Demi-droite & \puticon{half_line.svg.ps} & Crée une demie droite dont l'extrémité est le premier point passant par le deuxième.\\ 
+Segment& \puticon{segment.svg.ps} & Crée un segment dont les extrémités sont les deux points. \\
+Vecteur & \puticon{vector.svg.ps} & Crée un vecteur. \\
+Droite parallèle & \puticon{parallel.svg.ps} & Crée la droite parallèle à une autre passant par un point. \\
+Droite perpendiculaire & \puticon{perpendicular.svg.ps} & Crée la droite perpendiculaire à une autre passant par un point. \\
+Médiatrice & \puticon{mediatrice.svg.ps} & Crée la médiatrice d'un segment.\\
+Bissectrice & \puticon{anglebisector.svg.ps} & Crée la bissectrice de l'angle formé par trois points.\\
+
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+%\hline
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Cercles}\end{large}}\\
+\hline
+Cercle centre-point & \puticon{circlebcp.svg.ps} & Crée un cercle de centre le premier point passant par le second point.\\ 
+Cercle trois points & \puticon{circlebtp.svg.ps} & Crée un cercle passant par trois points.\\ 
+Cercle diamètre & \puticon{circlediam.svg.ps} & Crée un cercle selon son diamètre.\\
+
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+%\hline
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Transformations}\end{large}}\\
+\hline
+Symétrie centrale & \puticon{centralsymmetry.svg.ps} & Crée un objet par symétrie par rapport à un point.\\ 
+Symétrie axiale & \puticon{mirrorpoint.svg.ps} & Crée un objet par symétrie par rapport à une droite.\\ 
+Translation & \puticon{translation.svg.ps} & Crée un objet par translation par rapport à un vecteur.\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Textes}\end{large}}\\
+\hline
+Texte libre & \puticon{label.svg.ps} & Crée un label qui peut être déplacé librement sur la feuille.\\ 
+Texte lié & \puticon{labelpoint.svg.ps} & Crée un label dont la position est relative à celle d'un point.\\ 
+\hline
+\end{tabular}
+\end{center}
+
+
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Outils d'édition}\end{large}}\\
+\hline
+Sélection & \puticon{select.svg.ps} & Permet de sélectionner des objets.\\ 
+Interrompre & \puticon{stop.svg.ps} & Annule la construction en cours.\\
+Annuler & \puticon{undo.svg.ps} & Annule la dernière construction/suppression.\\ 
+Refaire & \puticon{redo.svg.ps} & Refait la dernière action annulée.\\ 
+Supprimer & \puticon{eraser.svg.ps} & Supprime un objet ainsi que tous les
+objets qui en dépendent.\\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Outils d'exploration}
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Visualisation}\end{large}}\\
+\hline
+Déplacement & \puticon{move.svg.ps} & Permet de déplacer les objets libres ou semi-libres\\
+Zoom Avant & \puticon{viewmagplus.svg.ps} & Effectue un grossissement d'un facteur 2.\\ 
+Zoom Arrière & \puticon{viewmagminus.svg.ps} & Effectue un grossissement d'un facteur $\frac{1}{2}$.\\ 
+Zoom Automatique & \puticon{viewmagfit.svg.ps} & Ajuste le zoom de telle manière que tous les objets de taille finie soient visibles en entier.\\ 
+Déplace la feuille & \puticon{pointing_finger.svg.ps} & Permet de déplacer la feuille à la souris.\\ 
+Mode plein écran & \puticon{window_fullscreen.svg.ps} & Active ou désactive le mode plein écran.\\ 
+Repère & \puticon{grid.svg.ps} & Cache ou montre le repère.\\ 
+\hline
+\end{tabular}
+\end{center}
+
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Propriétés}\end{large}}\\
+\hline \label{geoproof-manuel-props}
+Collinéaire & \puticon{testcollinear.svg.ps} & Test si trois points sont colinéaires (sur cette instance de la figure). Crée un label qui est mis à jour en temps réel.\\ 
+Égalité & \puticon{testeqpoints.svg.ps} & Test si deux points sont confondus.\\
+Entre deux & \puticon{testbetween.svg.ps} & Test si un point appartient à un segment.\\
+A gauche de & \puticon{testleftturn.svg.ps} & Test si un point est dans un demi-plan.\\
+Parallèle & \puticon{testparallel.svg.ps} & Test si deux droites sont parallèles.\\
+Perpendiculaire & \puticon{testperpendicular.svg.ps} & Test si deux droites sont perpendiculaires.\\
+Congruence des segments & \puticon{congruent_segments.svg.ps} & Test si deux segments ont même longueur.\\
+Congruence des angles & \puticon{congruent_angles.svg.ps} & Test si deux angles ont même mesure.\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|p{4.3cm}|c|p{5.7cm}|}
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Mesures}\end{large}}\\
+\hline
+Angle & \puticon{angle.svg.ps} & Mesure l'angle formé par trois points, crée un label qui est mis à jour en temps réel.\\ 
+Distance & \puticon{distance.svg.ps} & Mesure la distance entre deux points.\\ 
+Aire & \puticon{area.svg.ps} & Mesure l'aire d'un triangle.\\ 
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Description en langue (pseudo-)naturelle}
+
+La fenêtre principale de \geoproof{} propose trois onglets. L'un d'entre eux permet d'avoir une description de la figure en langue naturelle. La figure \ref{geoproof-langue-naturelle} montre un exemple de description.
+
+\begin{figure}
+\begin{tabular}{cc}
+\textit{Vue en SVG}& \textit{Vue en langue naturelle}\\
+\includegraphics[width=0.45\textwidth]{geoproof-langue-naturelle-1.ps}&
+\includegraphics[width=0.45\textwidth]{geoproof-langue-naturelle-2.ps}\\
+\end{tabular}
+\caption[\emph{GeoProof} : Exemple de traduction en langue naturelle]{Exemple de traduction en langue naturelle}
+\label{geoproof-langue-naturelle}
+\end{figure}
+
+\subsection{Expressions}
+
+\label{geoproof-manuel-expressions}
+Les labels textuels peuvent contenir des champs dynamiques. Les champs
+dynamiques contiennent une expression qui est évaluée en temps réel
+lorsque la figure est déplacée. Les champs dynamiques sont délimités
+par le signe \texttt{\#}. 
+
+Par exemple pour créer un label qui compare les surfaces des triangles ABC
+et DEF, vous pouvez rentrer le texte suivant~:
+\begin{verbatim}
+Le triangle ABC est plus #if area(A,B,C)>area(D,E,F) then 
+"grand" else "petit"# que le triangle DEF.
+\end{verbatim}
+
+Cette fonctionnalité peut aussi faire office
+de calculatrice si l'expression arithmétique ne dépend d'aucun
+élément de la figure. Mais \geoproof{} fournit une calculatrice qui
+calcule en précision arbitraire grâce à la bibliothèque \texttt{creal}
+de Jean-Christophe Filliâtre. La précision des calculs est paramètrable dans le fichier de configuration de \geoproof{} (voir page \pageref{geoproof-conf}). Ainsi, si on essaie de calculer
+$\sin(10^{22})$, on peut saisir le texte  \texttt{\#sin(10\^{}22)\#} et
+on obtient $-0.8522008498$ (si \geoproof{} est configuré pour une
+précision de 10 décimales).
+
+Cet exemple est connu pour mettre en défaut de nombreuses
+<<~calculatrices~>>. La tableau suivant donne les
+résultats\footnote{Sources~: Derek O'Connor, University College,
+  Floating Point Arithmetic or You can't always count on your
+  computer et expériences personnelles.} du même calcul
+réalisé dans différents systèmes.
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Système}&$\sin(10^{22})$\\
+\hline
+\textit{Réponse correcte}           &$-0.852200849$ \ldots\\
+\hline
+KCalc                    &\color{red}{$+0,462613041$}\\
+Google                   &\color{red}{$+0,462613041$}\\
+Scilab 3.0               &\color{red}{$+0.4626130$}\\
+MPFR                     &$-0.852200849$ \ldots\\
+Mupad                    &\color{red}{$-0.9873536182$}\\
+Maple 8 (15 digs)        &$-0.852200849$ \ldots\\
+Maxima 5.9 (bfloat)      &$-0.852200849$ \ldots\\
+Matlab 6.5 (15 digs)     &$-0.852200849$ \ldots\\
+O-Matrix 5.5(e format)   &\color{red}{$+0.226946577$ \ldots}\\
+O-Matrix 5.5(d format)   &\color{red}{$+0.412143367$ \ldots}\\
+Scilab 3.0 (15 digs)     &\color{red}{$+10^{22}$}\\
+DVF 5.0 D (sp)           &\color{red}{$+0.2269466$ \ldots}\\
+DVF 5.0 D (dp)           &\color{red}{$+0.412143367$ \ldots}\\
+Intel Fortran 8 (sp)     &\color{red}{$+9.9999998 * 10^{21}$}\\
+Intel Fortran 8 (dp)     &\color{red}{$+10^{22}$}\\
+Intel Fortran 8 (ep)     &$-0.852200849$ \ldots\\
+Watfor 11.2 (sp)         &\color{red}{$+0.2812271$ \ldots}\\
+Watfor 11.2 (dp)         &\color{red}{$+0.4626130$ \ldots}\\
+TMT Pascal(all precs)    &\color{red}{$+0.0$}\\
+FranzLisp                &\color{red}{$+0.2269465$ \ldots}\\
+Sharp EL-531VH           &\color{red}{$ error2$}\\
+MS Windows Calc (32 digs)&$-0.852200849$ \ldots\\
+PariGP 2.2.7 (28 digs)   &$-0.852200849$ \ldots\\
+HP 48 GX                 &$-0.852200849$ \ldots\\
+HP 700                   &\color{red}{$0.0$}\\
+IBM 3090/600S-VF AIX 370 &\color{red}{$0.0$}\\
+Matlab 4.2c.1 Sparc      &$-0.8522$\\
+Matlab 4.2c.1 MacIntosh  &\color{red}{$0.8740$}\\
+SG Indy                  &\color{red}{$0.87402806$}\\
+Sharp EL5806             &\color{red}{$-0.090748172$}\\
+DEC Station 3100         &\color{red}{$NaN$}\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+% use packages: array
+\begin{tabular}{|l|l|}
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Fonction}\end{large}} & \color{white}{\begin{large}\textbf{Syntaxe}\end{large}}\\
+\hline
+Expressions arithmétiques&\texttt{+ - * / \^ }\\
+Sinus &\texttt{sin}\\ 
+Cosinus &\texttt{cos}\\ 
+Tangente &\texttt{tan}\\
+Arcsinus &\texttt{arcsin}\\
+Arccosinus & \texttt{arccos}\\
+Arctangente & \texttt{arctan}\\
+Racine carrée & \texttt{sqrt}\\
+Exponentielle & \texttt{exp}\\
+Logarithme néperien& \texttt{ln}\\
+Logarithme en base 10& \texttt{log}\\
+Puissance & \texttt{pow}\\
+Valeur absolue & \texttt{abs}\\
+Minimum & \texttt{min}\\
+Maximum & \texttt{max}\\
+$\pi$ & \texttt{pi}\\
+$e$ & \texttt{e}\\
+Mesures&\texttt{signed\_area area angle length}\\
+Tests &\texttt{parallel orthogonal}\\
+&\texttt{eq\_lengths eq\_angles between}\\
+&\texttt{collinear left\_turn}\\
+Opérateurs de comparaisons & \texttt{< > <= >= = <>}\\
+Connecteurs logiques & \texttt{and or not}\\
+Constantes logiques & \texttt{true false}\\
+Chaîne de caractères & \texttt{"texte"}\\
+Définition locale&\texttt{let id = expr in expr}\\
+Condition&\texttt{if cond then expr else expr}\\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Punaise}
+
+Il est possible de décider de fixer un point libre ou semi-libre.
+Les points fixés ne peuvent pas être déplacés. Cette option peut être utile à un enseignant qui prépare un exercice, il peut ainsi limiter les intéractions possibles avec la figure.
+
+\subsection{Trace}
+
+Si l'option trace est activée, l'objet laisse une trace de son apparence quand il bouge. Cet attribut permet, par exemple, de se faire une idée des différentes positions que peut prendre un point lorsque un autre est déplacé. La figure \ref{outil-trace} montre l'exemple de l'étude du lieu du point $E$ milieu du segment $[AD]$ quand $D$ parcourt le cercle de centre $B$ passant par $C$. 
+
+\begin{figure}[]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{geoproof-traces.ps}
+\end{center}
+\caption[\emph{GeoProof} : Utilisation de l'outil <<~trace~>>]{Utilisation de l'outil <<~trace~>>}
+\label{outil-trace}
+\end{figure}
+
+
+\section{Attributs}
+
+Chaque objet \geoproof{} possède des attributs qui définissent son aspect graphique. A sa création, un objet possède les attributs par défaut définis dans le menu <<~configuration~>> de \geoproof.
+Pour changer les attributs d'un objet, il existe deux méthodes~:
+\begin{itemize}
+\item utiliser le menu contextuel de l'objet en réalisant un clique droit sur l'objet ou
+\item sélectionner les objets dont on désire changer les attributs, puis les changer au moyen du menu <<~édition~>>
+\end{itemize}
+
+Les attributs possibles sont les suivants~:
+
+\begin{center}
+\begin{tabular}{|p{2.7cm}|p{9.3cm}|}
+\hline
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Attribut}\end{large}} &
+\color{white}{\begin{large}\textbf{Explication}\end{large}}\\
+\hline
+Couleur & Les couleurs des objets peuvent être les suivantes~:\\
+&noir, \color{gray}{gris}, \color{blue}{bleu}, \color{red}{rouge}, \color{green}{vert}, \color{yellow}{jaune}, \color{orange}{orange}, \color{purple}{violet}, \color{red}{rose}\\
+Style de trait & Les traits peuvent être pleins ou en pointillés~:\\
+&\includegraphics[width=5cm]{styles-traits.ps}\\
+Épaisseur & Il y a quatre épaisseurs de trait possibles~:\\
+&\\%\includegraphics[width=5cm]{epaisseurs-traits.ps}\\
+Aspect & Les points peuvent avoir les aspects suivants~:\\
+&\includegraphics[width=5cm]{styles-points.ps}\\
+Visible/Invisible & Il est possible de cacher temporairement un objet sans le supprimer pour autant. On peut ainsi simplifier une figure, par exemple en omettant les étapes de construction.\\
+Calque & Les objets appartiennent à un calque, chaque calque peut être visible ou caché et avoir une couleur. Si un calque possède une couleur les objets du calque sont affichés avec cette couleur.\\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Outils de sélection}
+
+La sélection de plusieurs objets permet d'en changer les attributs en une seule opération. Les objets sélectionnés apparaissent entourés d'un halo.
+Les outils de sélection suivants sont disponibles via le menu <<~édition~>>~:
+\begin{description}
+\item[Sélection simple] Permet de sélectionner un ou plusieurs objets à la souris en cliquant sur les objets. Cliquer à nouveau sur un objet le désélectionne. 
+\item[Sélection par type d'objet] Avec ce mode il est possible de sélectionner tous les objets d'un même type. Les types possibles sont les suivants~:
+\begin{itemize}
+\item Objets visibles
+\item Objets cachés
+\item Droites
+\item Segments
+\item Points
+\item Vecteurs
+\item Objets libres
+\end{itemize}
+\item[Aucun] Desélectionne tous les objets.
+\item[Tous] Sélectionne tous les objets.
+\item[Inverser] Inverse les objets sélectionnés et désélectionnés.
+\end{description}
+
+\section{Préférences}
+
+\label{geoproof-conf}
+Il est possible de modifier certains paramètres de \geoproof{} grâce au menu <<~Configuration~>>. D'autres paramètres sont modifiables uniquement en éditant le fichier de configuration (\texttt{.geoproof/config.ini}) qui apparaît dans le répertoire de chacun des utilisateurs.
+
+Les paramètres suivants sont disponibles via le menu <<~Configuration~>>~:
+\begin{itemize}
+\item unités de distance et d'angle,
+\item couleur du fond,
+\item attributs par défaut des objets crées,
+\item visibilité des barres d'outils.
+\end{itemize}
+
+Les paramètres suivants sont modifiables via le fichier de configuration~:
+\begin{center}
+\begin{tabular}{|l|p{5cm}|}
+\rowcolor{blue}
+\color{white}{\begin{large}\textbf{Paramètres}\end{large}}\\
+\hline
+\texttt{*\_name\_prefix}& préfixe utilisé pour la génération automatique des noms des objets\\
+\texttt{selection\_precision} & la tolérance (en nombre de pixels) du mécanisme de sélection\\
+\texttt{automatic\_point\_labeling} & ajout automatique ou non d'un label lors de la création des points\\
+\texttt{number\_of\_recent\_files} & nombre de fichiers récents à faire apparaître dans le menu <<~fichier~>>\\
+\texttt{icons\_size} & taille des icônes (en nombre de pixels)\\
+\texttt{precision} & précision des calculs réalisés (en nombre de décimales)\\ 
+\texttt{formal\_language\_for\_Coq\_export} & langage à utiliser pour la communication avec Coq\\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Importation/Exportation}
+
+Il est possible d'exporter les figures créées en utilisant \geoproof{} en trois types de formats~:
+\begin{description}
+\item[une image en mode points] (ou image \emph{bitmap}) au format
+  PNG, JPEG ou BMP. Ce mode d'exportation réalise l'équivalent d'une
+  capture d'écran, la figure peut ainsi être facilement intégrée
+  dans un traitement de texte, ou une page web. Le format PNG est un
+  format libre de droits qui fournit une compression sans pertes.  C'est le plus adapté au graphismes avec des aplats comme les figures géométriques, mais il a l'inconvénient que la transparence n'est pas bien gérée par les versions anciennes de Internet Explorer (<7.0). Le format JPEG produit des images moins lourdes mais la compression n'est pas bien adaptée aux figures géométriques et réduit sensiblement la qualité de l'image produite. 
+\item[une image en mode vectoriel] au format SVG. Le format SVG est le
+  format standard pour le graphisme en mode vectoriel défini par le
+  W3C. Ce format est géré par Firefox (à partir de la version 1.5) et
+  Konqueror et sera bientôt géré  aussi par Safari.
+Il est possible d'ajouter le support SVG à Internet Explorer au moyen d'un plugin. 
+\item[un script dans le langage \emph{Eukleides}] pour insertion de figures dans un
+  document \LaTeX. Le langage \emph{Eukleides}\footnote{\url{http://www.eukleides.org/}} permet de réaliser une
+  description de haut niveau de la figure qui sera insérée directement dans un
+  document \LaTeX. Cette description est facile à éditer en mode
+  texte. Ainsi pour modifier une figure, il n'est pas nécessaire de
+  l'ouvrir à nouveau avec \geoproof. Les labels textuels peuvent
+  contenir du code \LaTeX. La figure \ref{geoproof-exemple-eukleides} montre un exemple de script généré.
+\end{description}
+
+\begin{figure}
+\begin{scriptsize}
+\begin{verbatim}
+frame(-10.00000,6.00000,12.48000,-3.90000,0.93416)
+A = point(-3.22000,4.30000)
+color(red)
+thickness(2)
+draw(A,dot)
+color(black)
+draw("A",A,0.28000,arg(circle(A,1),point(1.40000,1.40000)):)
+...
+E = barycenter(A,C)
+color(red)
+thickness(2)
+draw(E,dot)
+color(black)
+draw("E",E,0.28000,arg(circle(E,1),point(1.40000,1.40000)):)
+Segment_1 = segment(A,B)
+color(black)
+thickness(2)
+draw(Segment_1,full)
+...
+Segment_3 = segment(C,A)
+color(black)
+thickness(2)
+draw(Segment_3,full)
+Line_1 = line(D,E)
+color(blue)
+thickness(2)
+draw(Line_1,dashed)
+\end{verbatim}\end{scriptsize}
+\caption[\emph{GeoProof} : Export dans le langage \emph{Eukleides}]{Extrait d'un script obtenu après exportation dans le langage d'\emph{Eukleides}.}
+\label{geoproof-exemple-eukleides}
+\end{figure}
+
+\geoproof{} permet aussi d'importer des figures générées par les logiciels \emph{Kig}\footnote{\url{http://edu.kde.org/kig/}} (KDE interactive geometry) et \emph{CaR}\footnote{\url{http://mathsrv.ku-eichstaett.de/MGF/homes/grothman/java/zirkel/doc_en/}}. Cette fonctionnalité est pour l'instant \emph{expérimentale}.
+
+\section{Démonstration automatique}
+
+Pour prouver un énoncé au moyen du démonstrateur automatique intégré, il suffit de le lancer via le menu <<~preuve~>>. Il est aussi possible de le lancer en effectuant un clique droit sur un label comportant un champ dynamique avec un \texttt{if}. La condition du \texttt{if} est alors traduite en un prédicat qui devient la conclusion du théorème à prouver. 
+
+\section{Démonstration interactive}
+
+Pour passer en mode démonstration interactive, il suffit de lancer CoqIDE avec l'option \verb|-with-geoproof| et \geoproof{} sur le même ordinateur et d'initier la communication via le menu <<~preuve~>>.
+
+Les définition des objets déjà présents dans \geoproof{} est traduite en syntaxe Coq.
+
+Il est ensuite possible de réaliser une conjecture. Pour cela il faut créer un label dynamique qui teste une propriété (le fait que trois points sont collinéaires par exemple). En utilisant le menu contextuel du label (accessible par un clique droit), le prédicat correspondant à la propriété est traduit en syntaxe Coq et exporté dans CoqIDE.
+
+\geoproof{} passe alors en mode preuve. Dans ce mode, quand un nouvel objet est créé dans \geoproof{}, une tactique est générée dans CoqIDE, celle-ci tente de prouver que le nouvel objet existe. Il est laissé à la charge de l'utilisateur de prouver les conditions de non dégénérescence de la construction utilisée. 
+
+
+}
+\end{document}

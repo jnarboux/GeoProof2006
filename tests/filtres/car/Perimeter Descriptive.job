@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="MP">
+<Parameter name="P1">First Point</Parameter>
+<Parameter name="P2">Second Point</Parameter>
+<Comment>
+<P>Construct the reflexion line between two points.</P>
+</Comment>
+<Objects>
+<Point name="P1" parameter="true" mainparameter="true" x="-1.8092691622103385" y="-0.35650623885918004">Punkt in -1.8092691622103385, -0.35650623885918</Point>
+<Point name="P2" parameter="true" mainparameter="true" x="1.114081996434938" y="0.8377896613190727">Punkt in 1.1140819964349378, 0.8377896613190727</Point>
+<Circle name="k1" hidden="true" midpoint="P1" through="P2">Kreis um P1 durch P2</Circle>
+<Circle name="k2" hidden="true" midpoint="P2" through="P1">Kreis um P2 durch P1</Circle>
+<Intersection name="S1" hidden="true" first="k1" second="k2" other="S2">Schnitt zwischen k1 und k2</Intersection>
+<OtherIntersection name="S2" hidden="true">Schnitt zwischen k3 und k4</OtherIntersection>
+<Line name="g1" target="true" from="S2" to="S1">Gerade durch S2 und S1</Line>
+</Objects>
+</Macro>
+<Construction job="true" last="C" target="k5">
+<Window x="0.0" y="0.0" w="5.0"/>
+<Assignment>
+<P>Konstruieren Sie den Kreis durch die drei Punkte!</P>
+</Assignment>
+<Objects>
+<Point name="A" showname="true" x="-2.807486631000001" y="-0.5347593583000002">Punkt in -2.8074866310000006, -0.5347593583000002</Point>
+<Point name="B" showname="true" x="0.02673796790000001" y="1.4438502674000004">Punkt in 0.026737967900000006, 1.4438502674000004</Point>
+<Point name="C" showname="true" x="2.9500891265597153" y="0.21390374331550846">Punkt in 2.950089126559715, 0.21390374331550843</Point>
+<Circle name="k1" color="1" hidden="true" midpoint="A" through="B">Kreis um A durch B</Circle>
+<Circle name="k2" color="1" hidden="true" midpoint="B" through="A">Kreis um B durch A</Circle>
+<Intersection name="S1" color="1" hidden="true" first="k1" second="k2" other="S2">Schnitt zwischen k1 und k2</Intersection>
+<OtherIntersection name="S2" color="1" hidden="true">Schnitt zwischen k3 und k4</OtherIntersection>
+<Line name="g1" color="1" from="S2" to="S1">Gerade durch S2 und S1</Line>
+<Circle name="k3" color="2" hidden="true" midpoint="B" through="C">Kreis um B durch C</Circle>
+<Circle name="k4" color="2" hidden="true" midpoint="C" through="B">Kreis um C durch B</Circle>
+<Intersection name="S3" color="2" hidden="true" first="k3" second="k4" other="S4">Schnitt zwischen k3 und k4</Intersection>
+<OtherIntersection name="S4" color="2" hidden="true">Schnitt zwischen k3 und k4</OtherIntersection>
+<Line name="g2" color="2" from="S4" to="S3">Gerade durch S4 und S3</Line>
+<Intersection name="S5" first="g1" second="g2">Schnitt zwischen g1 und g2</Intersection>
+<Circle name="k5" midpoint="S5" through="B">Kreis um S5 durch B</Circle>
+</Objects>
+</Construction>
+</CaR>

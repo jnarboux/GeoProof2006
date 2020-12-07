@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Objects>
+<Point name="P1" x="-3.0415944540727913" y="-1.8370883882149052">Point at -3.0415944540727913, -1.8370883882149052</Point>
+<Point name="P2" x="-0.025996533795494162" y="2.9289428076256505">Point at -0.025996533795494162, 2.9289428076256505</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="2.365684575389948" y="-1.3171577123050264">Point at 2.365684575389948, -1.3171577123050264</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Midpoint name="M9" color="2" first="P1" second="P2" shape="diamond">Mitte zwischen P1 und P2</Midpoint>
+<Midpoint name="M10" color="2" first="P2" second="P3" shape="diamond">Mitte zwischen P2 und P3</Midpoint>
+<Midpoint name="M11" color="2" first="P3" second="P1" shape="diamond">Mitte zwischen P3 und P1</Midpoint>
+<Segment name="s10" color="1" from="M9" to="M11">Strecke von M9 nach M11</Segment>
+<Segment name="s11" color="1" from="M11" to="M10">Strecke von M11 nach M10</Segment>
+<Segment name="s12" color="1" from="M10" to="M9">Strecke von M10 nach M9</Segment>
+<Plumb name="l6" color="2" type="thin" point="M10" line="s2" valid="true">Lot durch M10 zu s2</Plumb>
+<Plumb name="l7" color="2" type="thin" point="M9" line="s1" valid="true">Lot durch M9 zu s1</Plumb>
+<Plumb name="l8" color="2" type="thin" point="M11" line="s3" valid="true">Lot durch M11 zu s3</Plumb>
+<Intersection name="P" color="1" showname="true" first="l6" second="l7">Schnitt zwischen l6 und l7</Intersection>
+<Angle name="w1" color="1" showvalue="true" first="P2" root="M10" second="P">Winkel P2 - M10 - P</Angle>
+</Objects>
+</Construction>
+</CaR>

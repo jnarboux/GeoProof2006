@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/tests/parser/positifs"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="commentaires.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="37f86b8fb888803461a5d22134a7e66d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="commentaires2.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ae878143de0a8e788a02273849979b93"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="commentaires3.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="37b43e2712fbe0e4f8e4d6b9c31b465b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="commentaires4.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="95785dca80e667ae9a897901bb3a3f7c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="deux_decl.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d789894cdbabbc25998643681ab1ea09"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="unedecl.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e048951f605916e2b66c46aae229dddf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="fichier_vide.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="unedecl2.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="cbdfc8217bda3eb0c19f159e2112f2a9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="unedecl3.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9f9d349219bb4b73417cbb5118119fe0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="unedecl4.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="5ef7ada30f3a19dd7c2cc8d8e68cc526"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="n_decl.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="6db0ca1e7fb69e7bb932f2c9470a6d73"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   committed-rev="4"
+   name="unedecl5.geo"
+   text-time="2006-08-24T14:31:23.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="22875a22599a8e56b345b42d4dff042b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+</wc-entries>

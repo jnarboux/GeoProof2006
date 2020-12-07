@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P" showname="true" x="-4.737357259400001" y="-3.4845024470000014">Punkt in -4.737357259400001, -3.484502447000001</Point>
+<Point name="A1" showname="true" x="4.345840130500001" y="-3.484502447000001">Punkt in 4.345840130500001, -3.484502447000001</Point>
+<Segment name="s1" from="P" to="A1">Strecke von P nach A1</Segment>
+<Plumb name="l1" hidden="true" point="P" line="s1">Lot durch P zu s1</Plumb>
+<Plumb name="l2" hidden="true" point="A1" line="s1">Lot durch A1 zu s1</Plumb>
+<Circle name="k1" hidden="true" midpoint="A1" through="P">Kreis um A1 durch P</Circle>
+<Intersection name="S1" first="l2" second="k1" other="S2">Schnitt zwischen l2 und k1</Intersection>
+<OtherIntersection name="S2" hidden="true">Schnitt zwischen l2 und k1</OtherIntersection>
+<Plumb name="l3" hidden="true" point="S1" line="l2">Lot durch S1 zu l2</Plumb>
+<Intersection name="S3" first="l1" second="l3">Schnitt zwischen l1 und l3</Intersection>
+<Segment name="s" showname="true" from="P" to="S3">Strecke von P nach S3</Segment>
+<Segment name="s3" from="S3" to="S1">Strecke von S3 nach S1</Segment>
+<Segment name="s4" from="S1" to="A1">Strecke von S1 nach A1</Segment>
+<Segment name="s5" from="P" to="S1">Strecke von P nach S1</Segment>
+<Segment name="s15" from="S3" to="A1">Strecke von S3 nach A1</Segment>
+<Intersection name="S13" color="1" first="s5" second="s15">Schnitt zwischen s5 und s15</Intersection>
+<Plumb name="l8" color="1" type="thin" hidden="true" point="S13" line="s3">Lot durch S13 zu s3</Plumb>
+<Intersection name="S14" first="s3" second="l8">Schnitt zwischen s3 und l8</Intersection>
+<Intersection name="A2" showname="true" first="s1" second="l8">Schnitt zwischen s1 und l8</Intersection>
+<Segment name="s16" from="P" to="S14">Strecke von P nach S14</Segment>
+<Segment name="s17" from="S3" to="A2">Strecke von S3 nach A2</Segment>
+<Intersection name="S16" color="1" type="thin" first="s15" second="s16">Schnitt zwischen s15 und s16</Intersection>
+<Intersection name="S17" color="1" type="thin" first="s5" second="s17">Schnitt zwischen s5 und s17</Intersection>
+<Plumb name="l9" color="1" type="thin" point="S16" line="s3">Lot durch S16 zu s3</Plumb>
+<Intersection name="S18" first="s3" second="l9">Schnitt zwischen s3 und l9</Intersection>
+<Intersection name="A3" showname="true" first="s1" second="l9">Schnitt zwischen s1 und l9</Intersection>
+<Segment name="s18" from="P" to="S18">Strecke von P nach S18</Segment>
+<Segment name="s19" from="S3" to="A3">Strecke von S3 nach A3</Segment>
+<Intersection name="S20" color="1" type="thin" first="s17" second="s18">Schnitt zwischen s17 und s18</Intersection>
+<Intersection name="S21" color="1" type="thin" first="s16" second="s19">Schnitt zwischen s16 und s19</Intersection>
+<Plumb name="l10" color="1" type="thin" point="S20" line="s3">Lot durch S20 zu s3</Plumb>
+<Intersection name="S22" first="s3" second="l10">Schnitt zwischen s3 und l10</Intersection>
+<Intersection name="A4" showname="true" first="s1" second="l10">Schnitt zwischen s1 und l10</Intersection>
+<Segment name="s20" from="P" to="S22">Strecke von P nach S22</Segment>
+<Segment name="s21" from="S3" to="A4">Strecke von S3 nach A4</Segment>
+<Intersection name="S24" color="1" type="thin" first="s19" second="s20">Schnitt zwischen s19 und s20</Intersection>
+<Intersection name="S25" color="1" type="thin" first="s18" second="s21">Schnitt zwischen s18 und s21</Intersection>
+<Plumb name="l11" color="1" type="thin" point="S24" line="s3">Lot durch S24 zu s3</Plumb>
+<Intersection name="S26" first="s3" second="l11">Schnitt zwischen s3 und l11</Intersection>
+<Intersection name="A5" showname="true" first="s1" second="l11">Schnitt zwischen s1 und l11</Intersection>
+<Segment name="s22" from="S14" to="A2">Strecke von S14 nach A2</Segment>
+<Text name="Text1" x="-0.5611745513866229" y="-5.0505709624796085">d(P,An) = 1 / fn
+fn = 1,2,3,5,8,13,...</Text>
+</Objects>
+</Construction>
+</CaR>

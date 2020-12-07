@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Centers of gravity.</P>
+<P></P>
+<P>Constructed for a triangle, for a quadrilateral and
+pentagon. The quadrilateral is diveded into two triangles
+in two ways to find the centroid. The pentagon is devided
+into a triangle and a quadrilateral in two ways.</P>
+</Comment>
+<Objects>
+<Point name="P1" x="-3.9922480620155043" y="0.9147286821705425">Point at -3.9922480620155043, 0.9147286821705425</Point>
+<Point name="P2" x="-2.3488372093023258" y="3.162790697674421">Point at -2.3488372093023258, 3.162790697674421</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="-1.2790697674418605" y="0.48062015503876054">Point at -1.2790697674418605, 0.48062015503876054</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Midpoint name="M6" color="1" hidden="true" first="P1" second="P3" shape="diamond">Mitte zwischen P1 und P3</Midpoint>
+<Midpoint name="M7" color="1" hidden="true" first="P3" second="P2" shape="diamond">Mitte zwischen P3 und P2</Midpoint>
+<Segment name="s6" color="1" hidden="true" from="P1" to="M7">Strecke von P1 nach M7</Segment>
+<Segment name="s7" color="1" hidden="true" from="P2" to="M6">Strecke von P2 nach M6</Segment>
+<Intersection name="S" color="1" showname="true" first="s6" second="s7">Schnitt zwischen s6 und s7</Intersection>
+<Point name="P13" x="-0.45731707317073145" y="2.797256097560976">Point at -0.45731707317073145, 2.797256097560976</Point>
+<Point name="P14" x="-0.28963414634146384" y="-0.08384146341463429">Point at -0.28963414634146384, -0.08384146341463429</Point>
+<Segment name="s80" from="P13" to="P14">Strecke von P13 nach P14</Segment>
+<Point name="P15" x="2.5457317073170733" y="-0.11432926829268286">Point at 2.5457317073170733, -0.11432926829268286</Point>
+<Segment name="s81" from="P14" to="P15">Strecke von P14 nach P15</Segment>
+<Point name="P16" x="3.2012195121951237" y="3.071646341463415">Point at 3.2012195121951237, 3.071646341463415</Point>
+<Segment name="s82" from="P15" to="P16">Strecke von P15 nach P16</Segment>
+<Segment name="s83" from="P16" to="P13">Strecke von P16 nach P13</Segment>
+<Midpoint name="M41" color="1" hidden="true" first="P13" second="P15" shape="diamond">Mitte zwischen P13 und P15</Midpoint>
+<Midpoint name="M42" color="1" hidden="true" first="P15" second="P14" shape="diamond">Mitte zwischen P15 und P14</Midpoint>
+<Segment name="s84" color="1" hidden="true" from="P13" to="M42">Strecke von P13 nach M42</Segment>
+<Segment name="s85" color="1" hidden="true" from="P14" to="M41">Strecke von P14 nach M41</Segment>
+<Intersection name="S26" color="1" first="s84" second="s85">Schnitt zwischen s84 und s85</Intersection>
+<Midpoint name="M43" color="1" hidden="true" first="P15" second="P13" shape="diamond">Mitte zwischen P15 und P13</Midpoint>
+<Midpoint name="M44" color="1" hidden="true" first="P13" second="P16" shape="diamond">Mitte zwischen P13 und P16</Midpoint>
+<Segment name="s86" color="1" hidden="true" from="P15" to="M44">Strecke von P15 nach M44</Segment>
+<Segment name="s87" color="1" hidden="true" from="P16" to="M43">Strecke von P16 nach M43</Segment>
+<Intersection name="S27" color="1" first="s86" second="s87">Schnitt zwischen s86 und s87</Intersection>
+<Segment name="s88" color="1" from="S26" to="S27">Strecke von S26 nach S27</Segment>
+<Midpoint name="M45" color="1" hidden="true" first="P14" second="P16" shape="diamond">Mitte zwischen P14 und P16</Midpoint>
+<Midpoint name="M46" color="1" hidden="true" first="P16" second="P13" shape="diamond">Mitte zwischen P16 und P13</Midpoint>
+<Segment name="s89" color="1" hidden="true" from="P14" to="M46">Strecke von P14 nach M46</Segment>
+<Segment name="s90" color="1" hidden="true" from="P13" to="M45">Strecke von P13 nach M45</Segment>
+<Intersection name="S28" color="1" first="s89" second="s90">Schnitt zwischen s89 und s90</Intersection>
+<Midpoint name="M47" color="1" hidden="true" first="P16" second="P14" shape="diamond">Mitte zwischen P16 und P14</Midpoint>
+<Midpoint name="M48" color="1" hidden="true" first="P14" second="P15" shape="diamond">Mitte zwischen P14 und P15</Midpoint>
+<Segment name="s91" color="1" hidden="true" from="P16" to="M48">Strecke von P16 nach M48</Segment>
+<Segment name="s92" color="1" hidden="true" from="P15" to="M47">Strecke von P15 nach M47</Segment>
+<Intersection name="S29" color="1" first="s91" second="s92">Schnitt zwischen s91 und s92</Intersection>
+<Segment name="s93" color="1" from="S28" to="S29">Strecke von S28 nach S29</Segment>
+<Intersection name="S*" showname="true" first="s88" second="s93">Schnitt zwischen s88 und s93</Intersection>
+<Point name="P17" x="-3.2621951219512213" y="-0.9527439024390248">Point at -3.2621951219512213, -0.9527439024390248</Point>
+<Point name="P18" x="-3.8719512195121975" y="-2.660060975609756">Point at -3.8719512195121975, -2.660060975609756</Point>
+<Segment name="s94" from="P17" to="P18">Strecke von P17 nach P18</Segment>
+<Point name="P19" x="-1.9359756097560978" y="-3.5746951219512213">Point at -1.9359756097560978, -3.5746951219512213</Point>
+<Segment name="s95" from="P18" to="P19">Strecke von P18 nach P19</Segment>
+<Point name="P20" x="1.722560975609757" y="-2.873475609756098">Point at 1.722560975609757, -2.873475609756098</Point>
+<Segment name="s96" from="P19" to="P20">Strecke von P19 nach P20</Segment>
+<Point name="P21" x="1.1432926829268297" y="-0.5716463414634152">Point at 1.1432926829268297, -0.5716463414634152</Point>
+<Segment name="s97" from="P20" to="P21">Strecke von P20 nach P21</Segment>
+<Segment name="s98" from="P21" to="P17">Strecke von P21 nach P17</Segment>
+<Midpoint name="M49" color="1" hidden="true" first="P18" second="P19" shape="diamond">Mitte zwischen P18 und P19</Midpoint>
+<Midpoint name="M50" color="1" hidden="true" first="P19" second="P17" shape="diamond">Mitte zwischen P19 und P17</Midpoint>
+<Segment name="s99" color="1" hidden="true" from="P18" to="M50">Strecke von P18 nach M50</Segment>
+<Segment name="s100" color="1" hidden="true" from="P17" to="M49">Strecke von P17 nach M49</Segment>
+<Intersection name="S31" color="1" first="s99" second="s100">Schnitt zwischen s99 und s100</Intersection>
+<Midpoint name="M51" color="1" hidden="true" first="P21" second="P19" shape="diamond">Mitte zwischen P21 und P19</Midpoint>
+<Midpoint name="M52" color="1" hidden="true" first="P19" second="P17" shape="diamond">Mitte zwischen P19 und P17</Midpoint>
+<Segment name="s101" color="1" hidden="true" from="P21" to="M52">Strecke von P21 nach M52</Segment>
+<Segment name="s102" color="1" hidden="true" from="P17" to="M51">Strecke von P17 nach M51</Segment>
+<Intersection name="S32" color="1" hidden="true" first="s101" second="s102">Schnitt zwischen s101 und s102</Intersection>
+<Midpoint name="M53" color="1" hidden="true" first="P19" second="P21" shape="diamond">Mitte zwischen P19 und P21</Midpoint>
+<Midpoint name="M54" color="1" hidden="true" first="P21" second="P20" shape="diamond">Mitte zwischen P21 und P20</Midpoint>
+<Segment name="s103" color="1" hidden="true" from="P19" to="M54">Strecke von P19 nach M54</Segment>
+<Segment name="s104" color="1" hidden="true" from="P20" to="M53">Strecke von P20 nach M53</Segment>
+<Intersection name="S33" color="1" hidden="true" first="s103" second="s104">Schnitt zwischen s103 und s104</Intersection>
+<Segment name="s105" color="1" hidden="true" from="S32" to="S33">Strecke von S32 nach S33</Segment>
+<Midpoint name="M55" color="1" hidden="true" first="P17" second="P20" shape="diamond">Mitte zwischen P17 und P20</Midpoint>
+<Midpoint name="M56" color="1" hidden="true" first="P20" second="P21" shape="diamond">Mitte zwischen P20 und P21</Midpoint>
+<Segment name="s106" color="1" hidden="true" from="P17" to="M56">Strecke von P17 nach M56</Segment>
+<Segment name="s107" color="1" hidden="true" from="P21" to="M55">Strecke von P21 nach M55</Segment>
+<Intersection name="S34" color="1" hidden="true" first="s106" second="s107">Schnitt zwischen s106 und s107</Intersection>
+<Midpoint name="M57" color="1" hidden="true" first="P20" second="P17" shape="diamond">Mitte zwischen P20 und P17</Midpoint>
+<Midpoint name="M58" color="1" hidden="true" first="P17" second="P19" shape="diamond">Mitte zwischen P17 und P19</Midpoint>
+<Segment name="s108" color="1" hidden="true" from="P20" to="M58">Strecke von P20 nach M58</Segment>
+<Segment name="s109" color="1" hidden="true" from="P19" to="M57">Strecke von P19 nach M57</Segment>
+<Intersection name="S35" color="1" hidden="true" first="s108" second="s109">Schnitt zwischen s108 und s109</Intersection>
+<Segment name="s110" color="1" hidden="true" from="S34" to="S35">Strecke von S34 nach S35</Segment>
+<Intersection name="S36" color="1" first="s105" second="s110">Schnitt zwischen s105 und s110</Intersection>
+<Segment name="s111" color="1" from="S31" to="S36">Strecke von S31 nach S36</Segment>
+<Midpoint name="M59" color="1" hidden="true" first="P17" second="P20" shape="diamond">Mitte zwischen P17 und P20</Midpoint>
+<Midpoint name="M60" color="1" hidden="true" first="P20" second="P21" shape="diamond">Mitte zwischen P20 und P21</Midpoint>
+<Segment name="s112" color="1" hidden="true" from="P17" to="M60">Strecke von P17 nach M60</Segment>
+<Segment name="s113" color="1" hidden="true" from="P21" to="M59">Strecke von P21 nach M59</Segment>
+<Intersection name="S37" color="1" first="s112" second="s113">Schnitt zwischen s112 und s113</Intersection>
+<Midpoint name="M61" color="1" hidden="true" first="P17" second="P19" shape="diamond">Mitte zwischen P17 und P19</Midpoint>
+<Midpoint name="M62" color="1" hidden="true" first="P19" second="P18" shape="diamond">Mitte zwischen P19 und P18</Midpoint>
+<Segment name="s114" color="1" hidden="true" from="P17" to="M62">Strecke von P17 nach M62</Segment>
+<Segment name="s115" color="1" hidden="true" from="P18" to="M61">Strecke von P18 nach M61</Segment>
+<Intersection name="S38" color="1" hidden="true" first="s114" second="s115">Schnitt zwischen s114 und s115</Intersection>
+<Midpoint name="M63" color="1" hidden="true" first="P19" second="P17" shape="diamond">Mitte zwischen P19 und P17</Midpoint>
+<Midpoint name="M64" color="1" hidden="true" first="P17" second="P20" shape="diamond">Mitte zwischen P17 und P20</Midpoint>
+<Segment name="s116" color="1" hidden="true" from="P19" to="M64">Strecke von P19 nach M64</Segment>
+<Segment name="s117" color="1" hidden="true" from="P20" to="M63">Strecke von P20 nach M63</Segment>
+<Intersection name="S39" color="1" hidden="true" first="s116" second="s117">Schnitt zwischen s116 und s117</Intersection>
+<Segment name="s118" color="1" hidden="true" from="S38" to="S39">Strecke von S38 nach S39</Segment>
+<Midpoint name="M65" color="1" hidden="true" first="P18" second="P20" shape="diamond">Mitte zwischen P18 und P20</Midpoint>
+<Midpoint name="M66" color="1" hidden="true" first="P20" second="P17" shape="diamond">Mitte zwischen P20 und P17</Midpoint>
+<Segment name="s119" color="1" hidden="true" from="P18" to="M66">Strecke von P18 nach M66</Segment>
+<Segment name="s120" color="1" hidden="true" from="P17" to="M65">Strecke von P17 nach M65</Segment>
+<Intersection name="S40" color="1" hidden="true" first="s119" second="s120">Schnitt zwischen s119 und s120</Intersection>
+<Midpoint name="M67" color="1" hidden="true" first="P20" second="P18" shape="diamond">Mitte zwischen P20 und P18</Midpoint>
+<Midpoint name="M68" color="1" hidden="true" first="P18" second="P19" shape="diamond">Mitte zwischen P18 und P19</Midpoint>
+<Segment name="s121" color="1" hidden="true" from="P20" to="M68">Strecke von P20 nach M68</Segment>
+<Segment name="s122" color="1" hidden="true" from="P19" to="M67">Strecke von P19 nach M67</Segment>
+<Intersection name="S41" color="1" hidden="true" first="s121" second="s122">Schnitt zwischen s121 und s122</Intersection>
+<Segment name="s123" color="1" hidden="true" from="S40" to="S41">Strecke von S40 nach S41</Segment>
+<Intersection name="S42" color="1" first="s118" second="s123">Schnitt zwischen s118 und s123</Intersection>
+<Segment name="s124" color="1" from="S42" to="S37">Strecke von S42 nach S37</Segment>
+<Intersection name="S**" showname="true" first="s111" second="s124">Schnitt zwischen s111 und s124</Intersection>
+</Objects>
+</Construction>
+</CaR>

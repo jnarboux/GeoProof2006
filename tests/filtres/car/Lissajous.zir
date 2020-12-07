@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="4.440892098500626E-16" w="4.999999999999997"/>
+<Track track="P6" on="k1" move="OP2"/>
+<Objects>
+<Point name="P" x="-2.8551136364000014" y="-2.6207386364000014">Punkt in -2.855113636400001, -2.620738636400001</Point>
+<Point name="P2" x="2.8835227272727293" y="-2.606534090909092">Punkt in 2.8835227272727275, -2.606534090909091</Point>
+<Segment name="b" from="P" to="P2">Strecke von P nach P2</Segment>
+<Plumb name="l1" hidden="true" point="P" line="b" valid="true">Lot durch P zu b</Plumb>
+<PointOn name="OP1" on="l1" alpha="5.397886535696923">Punkt auf l1</PointOn>
+<Segment name="a" from="P" to="OP1">Strecke von P nach OP1</Segment>
+<Plumb name="l2" hidden="true" point="OP1" line="a" valid="true">Lot durch OP1 zu a</Plumb>
+<Plumb name="l3" hidden="true" point="P2" line="b" valid="true">Lot durch P2 zu b</Plumb>
+<Intersection name="S1" first="l2" second="l3">Schnitt zwischen l2 und l3</Intersection>
+<Segment name="s3" from="OP1" to="S1">Strecke von OP1 nach S1</Segment>
+<Segment name="s4" from="S1" to="P2">Strecke von S1 nach P2</Segment>
+<Point name="P3" x="2.87" y="6.87">Punkt in 2.8710644677661152, 6.874062968515739</Point>
+<Point name="P4" x="4.32" y="6.87">Punkt in 4.320839580209892, 6.874062968515739</Point>
+<Ray name="r1" from="P3" to="P4">Strahl von P3 in Richtung P4</Ray>
+<Circle name="k1" through="P4" midpoint="P3">Kreis um P3 durch P4</Circle>
+<PointOn name="OP2" on="k1" alpha="2.1741528100848657">Punkt auf k1</PointOn>
+<Segment name="s5" from="P3" to="OP2">Strecke von P3 nach OP2</Segment>
+<Angle name="w" first="P4" root="P3" second="OP2">Winkel P4 - P3 - OP2</Angle>
+<Point name="P6" color="1" hidden="true" x="x(P)+b/2.0+cos(7.0*w)*b/2.0" y="y(P)+a/2.0+sin(8.0*w)*a/2.0" fixed="true">Punkt in &quot;x(P)+b/2.0+cos(7.0*w)*b/2.0&quot;, &quot;y(P)+a/2.0+sin(8.0*w)*a/2.0&quot;</Point>
+</Objects>
+</Construction>
+</CaR>

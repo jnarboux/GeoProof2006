@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Animate animate="P3" via0="s7" via1="s11" via2="s13" via3="s12"/>
+<Objects>
+<Point name="P1" x="-5.67699836867863" y="-4.241435562805873">Punkt in -5.67699836867863, -4.241435562805873</Point>
+<Point name="P2" x="4.476345840130506" y="-4.241435562805873">Punkt in 4.476345840130506, -4.241435562805873</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<PointOn name="OP1" color="1" on="s1" x="0.009994819927097609" y="-4.241435562805873">Punkt auf s1</PointOn>
+<PointOn name="OP2" color="1" hidden="true" on="s1" x="-2.936378466600001" y="-4.241435562805873">Punkt auf s1</PointOn>
+<Point name="P3" x="1.944535073409459" y="1.65742251223491">Punkt in 1.5008156606851557, 2.8841761827079937</Point>
+<Segment name="s2" from="P1" to="P3">Strecke von P1 nach P3</Segment>
+<Segment name="s3" from="P3" to="P2">Strecke von P3 nach P2</Segment>
+<Segment name="s4" color="1" from="P3" to="OP1">Strecke von P3 nach OP1</Segment>
+<Parallel name="p1" color="1" hidden="true" point="OP2" line="s4">Parallele durch OP2 zu s4</Parallel>
+<Intersection name="S1" color="1" first="s2" second="p1">Schnitt zwischen s2 und p1</Intersection>
+<Segment name="s5" color="1" from="P2" to="S1">Strecke von P2 nach S1</Segment>
+<Intersection name="S2" color="1" hidden="true" first="s4" second="s5">Schnitt zwischen s4 und s5</Intersection>
+<Line name="g1" color="1" hidden="true" from="P1" to="S2">Gerade durch P1 und S2</Line>
+<Intersection name="S3" color="1" first="s3" second="g1">Schnitt zwischen s3 und g1</Intersection>
+<Segment name="s6" color="1" from="P1" to="S3">Strecke von P1 nach S3</Segment>
+<Point name="P4" color="2" x="4.293637846655791" y="1.65742251223491">Punkt in 4.293637846655791, 1.65742251223491</Point>
+<Parallel name="p2" color="2" hidden="true" point="P4" line="s1">Parallele durch P4 zu s1</Parallel>
+<Plumb name="l2" color="2" hidden="true" point="OP1" line="p2">Lot durch OP1 zu p2</Plumb>
+<Intersection name="S4" color="2" first="p2" second="l2">Schnitt zwischen p2 und l2</Intersection>
+<Segment name="s7" color="2" from="P4" to="S4">Strecke von P4 nach S4</Segment>
+<Segment name="s8" color="3" hidden="true" from="P1" to="S4">Strecke von P1 nach S4</Segment>
+<Segment name="s9" color="3" hidden="true" from="S4" to="P2">Strecke von S4 nach P2</Segment>
+<Segment name="s10" color="3" hidden="true" from="S4" to="OP1">Strecke von S4 nach OP1</Segment>
+<Parallel name="p3" color="3" hidden="true" point="OP2" line="s10">Parallele durch OP2 zu s10</Parallel>
+<Intersection name="S5" color="3" hidden="true" first="s8" second="p3">Schnitt zwischen s8 und p3</Intersection>
+<Line name="g2" color="3" hidden="true" from="S5" to="P2">Gerade durch S5 und P2</Line>
+<Intersection name="S6" color="3" hidden="true" first="g2" second="s10">Schnitt zwischen g2 und s10</Intersection>
+<Line name="g3" color="3" hidden="true" from="P1" to="S6">Gerade durch P1 und S6</Line>
+<Intersection name="S7" color="3" hidden="true" first="s9" second="g3">Schnitt zwischen s9 und g3</Intersection>
+<Plumb name="l3" color="3" hidden="true" point="S7" line="s1">Lot durch S7 zu s1</Plumb>
+<Midpoint name="M1" color="3" hidden="true" first="P2" second="P1">Mitte zwischen P2 und P1</Midpoint>
+<Circle name="k1" color="3" hidden="true" midpoint="M1" through="P2">Kreis um M1 durch P2</Circle>
+<Intersection name="S8" color="3" hidden="true" first="l3" second="k1" other="S9">Schnitt zwischen l3 und k1</Intersection>
+<OtherIntersection name="S9" color="3" hidden="true">Schnitt zwischen l3 und k1</OtherIntersection>
+<Line name="g4" color="3" hidden="true" from="P2" to="S8">Gerade durch P2 und S8</Line>
+<Intersection name="S10" color="2" first="l2" second="g4">Schnitt zwischen l2 und g4</Intersection>
+<Segment name="s11" color="2" from="S4" to="S10">Strecke von S4 nach S10</Segment>
+<Angle name="w1" color="3" showvalue="true" first="P1" root="S3" second="P2">Winkel P1 - S3 - P2</Angle>
+<Angle name="w2" color="3" showvalue="true" first="P3" root="OP1" second="P1">Winkel P3 - OP1 - P1</Angle>
+<Segment name="s12" color="2" from="S4" to="P4">Strecke von S4 nach P4</Segment>
+<Segment name="s13" color="2" from="S10" to="S4">Strecke von S10 nach S4</Segment>
+</Objects>
+</Construction>
+</CaR>

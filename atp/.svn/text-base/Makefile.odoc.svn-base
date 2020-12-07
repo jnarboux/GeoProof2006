@@ -1,0 +1,35 @@
+#!/usr/bin/make -f
+
+# $Id: Makefile.odoc,v 1.1 2005/10/26 09:30:28 gmariano Exp $
+
+# Génération automatique de documentation de code
+# Ajout d'une cible 'odoc' 
+
+
+# Doit être appelé par un Makefile (variable SOURCES)
+
+ODOCDIR=./odoc/$(DIR)
+
+ODOC=ocamldoc -v
+
+#DOCS=$(SOURCES)
+
+# elimination des mly
+DOC1 = $(patsubst %.mly, , $(SOURCES))
+# elimination des mll
+DOCS = $(patsubst %.mll, , $(DOC1))
+
+# Génération html
+#
+ODOCOPTS=-html  -keep-code -d $(ODOCDIR)  $(INCDIRS:%=-I %) 
+
+#Génération LateX
+# ODOCOPTS=-latex -d $(ODOCDIR)  $(INCDIRS:%=-I %) 
+
+ocamldoc:
+	mkdir -p $(ODOCDIR)
+	$(ODOC) $(ODOCOPTS) -sort $(DOCS)
+
+odoc-purge:
+	# Nettoyage génération LaTeX
+	rm -rf ocamldoc*	

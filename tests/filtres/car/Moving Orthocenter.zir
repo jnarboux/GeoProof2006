@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="3.999999999999999"/>
+<Track track="S13" on="p1" move="P2"/>
+<Objects>
+<Point name="P1" x="-1.1940298507462686" y="-1.8865671641791044">Punkt in -1.1940298507462686, -1.8865671641791044</Point>
+<Point name="P2" x="-1.5000546527019254" y="1.3351318906611962">Punkt in -0.5492537313432839, 1.3373134328358205</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="2.388059701492537" y="-1.0746268656716422">Punkt in 2.388059701492537, -1.0746268656716422</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Line name="g1" color="1" hidden="true" from="P1" to="P3">Gerade durch P1 und P3</Line>
+<Circle name="k1" color="1" hidden="true" through="P2" midpoint="P1">Kreis um P1 durch P2</Circle>
+<Intersection name="S1" color="1" hidden="true" first="g1" second="k1" which="first">Schnitt zwischen g1 und k1</Intersection>
+<Intersection name="S2" color="1" hidden="true" first="g1" second="k1" which="second">Schnitt zwischen g1 und k1</Intersection>
+<Circle name="k2" color="1" hidden="true" through="P2" midpoint="S1">Kreis um S1 durch P2</Circle>
+<Circle name="k3" color="1" hidden="true" through="S1" midpoint="P2">Kreis um P2 durch S1</Circle>
+<Intersection name="S3" color="1" hidden="true" first="k2" second="k3" which="first">Schnitt zwischen k2 und k3</Intersection>
+<Intersection name="S4" color="1" hidden="true" first="k2" second="k3" which="second">Schnitt zwischen k2 und k3</Intersection>
+<Line name="g2" color="1" hidden="true" from="S3" to="S4">Gerade durch S3 und S4</Line>
+<Intersection name="S5" color="1" hidden="true" first="g2" second="k1" which="first">Schnitt zwischen g2 und k1</Intersection>
+<Intersection name="S6" color="1" hidden="true" first="g2" second="k1" which="second">Schnitt zwischen g2 und k1</Intersection>
+<Line name="g3" color="1" hidden="true" from="P2" to="P1">Gerade durch P2 und P1</Line>
+<Circle name="k4" color="1" hidden="true" through="P3" midpoint="P2">Kreis um P2 durch P3</Circle>
+<Intersection name="S7" color="1" hidden="true" first="g3" second="k4" which="first">Schnitt zwischen g3 und k4</Intersection>
+<Intersection name="S8" color="1" hidden="true" first="g3" second="k4" which="second">Schnitt zwischen g3 und k4</Intersection>
+<Circle name="k5" color="1" hidden="true" through="P3" midpoint="S7">Kreis um S7 durch P3</Circle>
+<Circle name="k6" color="1" hidden="true" through="S7" midpoint="P3">Kreis um P3 durch S7</Circle>
+<Intersection name="S9" color="1" hidden="true" first="k5" second="k6" which="first">Schnitt zwischen k5 und k6</Intersection>
+<Intersection name="S10" color="1" hidden="true" first="k5" second="k6" which="second">Schnitt zwischen k5 und k6</Intersection>
+<Line name="g4" color="1" hidden="true" from="S9" to="S10">Gerade durch S9 und S10</Line>
+<Intersection name="S11" color="1" hidden="true" first="g4" second="k4" which="first">Schnitt zwischen g4 und k4</Intersection>
+<Intersection name="S12" color="1" hidden="true" first="g4" second="k4" which="second">Schnitt zwischen g4 und k4</Intersection>
+<Intersection name="S13" color="2" first="g2" second="g4">Schnitt zwischen g2 und g4</Intersection>
+<Point name="P4" color="3" x="2.197014925373134" y="2.173134328358209">Punkt in 2.197014925373134, 2.173134328358209</Point>
+<Parallel name="p1" color="3" point="P4" line="s3">Parallele durch P4 zu s3</Parallel>
+</Objects>
+</Construction>
+</CaR>

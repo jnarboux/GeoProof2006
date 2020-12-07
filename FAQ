@@ -1,0 +1,5 @@
+This is the frequently asked questions for GeoProof.
+
+- Q1 The icons look strange, is there something wrong ?
+
+You probably have some old version of librsvg. You should update it.

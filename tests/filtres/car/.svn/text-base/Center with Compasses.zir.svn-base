@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.0"/>
+<Objects>
+<Point name="P1" hidden="true" x="-0.16399000000000002" y="-0.022510000000000002">Punkt in -0.16399000000000002, -0.022510000000000002</Point>
+<Point name="P2" hidden="true" x="-0.55627" y="0.47267000000000003">Punkt in -0.55627, 0.47267000000000003</Point>
+<Circle name="k1" midpoint="P1" through="P2">Kreis um P1 durch P2</Circle>
+<PointOn name="OP1" type="thick" on="k1" x="-0.060649416497087036" y="0.6007135189731511">Punkt auf k1</PointOn>
+<PointOn name="OP2" type="thick" on="k1" x="0.2810619192094542" y="0.42583765529439477">Punkt auf k1</PointOn>
+<Circle name="k2" color="1" midpoint="OP1" through="OP2" partial="true">Kreis um OP1 durch OP2</Circle>
+<Intersection name="S1" color="1" first="k2" second="k1" other="S2">Schnitt zwischen k2 und k1</Intersection>
+<OtherIntersection name="S2" color="1">Schnitt zwischen k2 und k1</OtherIntersection>
+<Circle name="k3" color="1" midpoint="S1" through="OP1" partial="true">Kreis um S1 durch OP1</Circle>
+<Circle name="k4" color="1" midpoint="S2" through="OP1" partial="true">Kreis um S2 durch OP1</Circle>
+<Intersection name="S3" color="1" first="k3" second="k4" other="S4">Schnitt zwischen k3 und k4</Intersection>
+<OtherIntersection name="S4" color="1">Schnitt zwischen k3 und k4</OtherIntersection>
+<Circle name="k6" color="2" midpoint="S3" through="OP1" partial="true">Kreis um S3 durch OP1</Circle>
+<Intersection name="S5" color="2" first="k2" second="k6" other="S6">Schnitt zwischen k2 und k6</Intersection>
+<OtherIntersection name="S6" color="2">Schnitt zwischen k2 und k6</OtherIntersection>
+<Circle name="k7" color="3" midpoint="S6" through="OP1" partial="true">Kreis um S6 durch OP1</Circle>
+<Circle name="k8" color="3" midpoint="S5" through="OP1" partial="true">Kreis um S5 durch OP1</Circle>
+<Intersection name="S7" color="3" first="k8" second="k7" other="S8" shape="circle">Schnitt zwischen k8 und k7</Intersection>
+<OtherIntersection name="S8" color="3">Schnitt zwischen k8 und k7</OtherIntersection>
+<Segment name="s1" color="1" from="OP1" to="S1">Strecke von OP1 nach S1</Segment>
+<Segment name="s2" color="1" from="S1" to="S3">Strecke von S1 nach S3</Segment>
+<Segment name="s3" color="2" from="S3" to="OP1">Strecke von S3 nach OP1</Segment>
+<Segment name="s4" color="2" from="S5" to="S3">Strecke von S5 nach S3</Segment>
+<Segment name="s5" color="3" from="S5" to="OP1">Strecke von S5 nach OP1</Segment>
+<Segment name="s6" color="3" from="S5" to="S7">Strecke von S5 nach S7</Segment>
+</Objects>
+</Construction>
+</CaR>

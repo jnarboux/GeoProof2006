@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-5.16" y="0.26">Punkt in -5.164869029275809, 0.258859784283513</Point>
+<Point name="P2" x="-0.7000000000000002" y="3.61">Punkt in -0.7026194144838209, 3.611710323574731</Point>
+<Segment name="s1" break="true" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="3.81" y="-0.33">Punkt in 3.8089368258859793, -0.33281972265023096</Point>
+<Segment name="s2" break="true" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" break="true" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Circle name="k1" color="1" type="thin" through="P3" midpoint="P2" partial="true" acute="true">Kreis um P2 durch P3</Circle>
+<Circle name="k2" color="1" type="thin" through="P2" midpoint="P3" partial="true" acute="true">Kreis um P3 durch P2</Circle>
+<Intersection name="S1" color="1" type="thin" first="k2" second="k1" which="first">Schnitt zwischen k2 und k1</Intersection>
+<Intersection name="S2" color="1" type="thin" first="k2" second="k1" which="second">Schnitt zwischen k2 und k1</Intersection>
+<Line name="g1" color="1" type="thin" break="true" from="S2" to="S1">Gerade durch S2 und S1</Line>
+<Circle name="k3" color="2" type="thin" through="P2" midpoint="P1" partial="true" acute="true">Kreis um P1 durch P2</Circle>
+<Circle name="k4" color="2" type="thin" through="P1" midpoint="P2" partial="true" acute="true">Kreis um P2 durch P1</Circle>
+<Intersection name="S3" color="2" type="thin" first="k3" second="k4" which="first">Schnitt zwischen k3 und k4</Intersection>
+<Intersection name="S4" color="2" type="thin" first="k3" second="k4" which="second">Schnitt zwischen k3 und k4</Intersection>
+<Line name="g2" color="2" type="thin" break="true" from="S4" to="S3">Gerade durch S4 und S3</Line>
+<Intersection name="U" color="3" showname="true" first="g1" second="g2">Schnitt zwischen g1 und g2</Intersection>
+<Circle name="k" color="3" showname="true" through="P2" midpoint="U" acute="true">Kreis um U durch P2</Circle>
+</Objects>
+</Construction>
+</CaR>

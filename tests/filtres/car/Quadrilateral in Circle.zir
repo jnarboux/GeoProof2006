@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-0.6232114467408589" y="-0.6359300476947531">Punkt in -0.6232114467408589, -0.6359300476947531</Point>
+<Point name="P2" x="-1.3608903020667729" y="4.375198728139903">Punkt in -1.3608903020667729, 4.375198728139903</Point>
+<Circle name="k1" midpoint="P1" through="P2">Kreis um P1 durch P2</Circle>
+<PointOn name="A" color="1" showname="true" xoffset="-30" yoffset="-29" on="k1" x="-4.526632961410854" y="2.591899281808976">Punkt auf k1</PointOn>
+<PointOn name="B" color="1" showname="true" xoffset="-3" yoffset="-32" on="k1" x="1.7781676518259637" y="3.823773992548219">Punkt auf k1</PointOn>
+<PointOn name="C" color="1" showname="true" on="k1" x="2.5105291604846514" y="-4.61528319968051">Punkt auf k1</PointOn>
+<PointOn name="D" color="1" showname="true" xoffset="-28" yoffset="-5" on="k1" x="-4.714134702794848" y="-3.6225550014962384">Punkt auf k1</PointOn>
+<Segment name="s1" color="1" from="D" to="A">Strecke von D nach A</Segment>
+<Segment name="s2" color="1" from="A" to="B">Strecke von A nach B</Segment>
+<Segment name="s3" color="1" from="B" to="C">Strecke von B nach C</Segment>
+<Segment name="s4" color="1" from="C" to="D">Strecke von C nach D</Segment>
+<Segment name="s5" from="P1" to="A">Strecke von P1 nach A</Segment>
+<Segment name="s6" from="P1" to="B">Strecke von P1 nach B</Segment>
+<Segment name="s7" from="P1" to="C">Strecke von P1 nach C</Segment>
+<Segment name="s8" from="P1" to="D">Strecke von P1 nach D</Segment>
+<Angle name="w1" color="3" first="A" root="B" second="P1">Winkel A - B - P1</Angle>
+<Angle name="w2" color="3" first="P1" root="A" second="B">Winkel P1 - A - B</Angle>
+<Angle name="w3" type="thin" background="true" first="D" root="A" second="B" display="small" filled="true">Winkel D - A - B</Angle>
+<Angle name="w4" type="thin" background="true" first="B" root="C" second="D" display="small" filled="true">Winkel B - C - D</Angle>
+<Text name="Text1" x="0.8775834658187591" y="4.883942766295709">DAB + BCD = ABC + CDA = 180</Text>
+<Angle name="w5" color="2" type="thin" background="true" first="A" root="B" second="C" display="small" filled="true">Winkel A - B - C</Angle>
+<Angle name="w6" color="2" type="thin" background="true" first="C" root="D" second="A" display="small" filled="true">Winkel C - D - A</Angle>
+</Objects>
+</Construction>
+</CaR>

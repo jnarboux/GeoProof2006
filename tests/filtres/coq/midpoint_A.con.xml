@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<ConstantType name="midpoint_A" params="" id="i36298">
+  <PROD type="Prop">
+    <decl id="i36222" type="Set" binder="A">
+      <CONST uri="cic:/chou_axioms/Point.con" id="i36224" sort="Type"/>
+    </decl>
+    <decl id="i36226" type="Set" binder="B">
+      <CONST uri="cic:/chou_axioms/Point.con" id="i36228" sort="Type"/>
+    </decl>
+    <decl id="i36230" type="Set" binder="C">
+      <CONST uri="cic:/chou_axioms/Point.con" id="i36232" sort="Type"/>
+    </decl>
+    <decl id="i36234" type="Set" binder="A'">
+      <CONST uri="cic:/chou_axioms/Point.con" id="i36236" sort="Type"/>
+    </decl>
+    <decl id="i36238" type="Set" binder="B'">
+      <CONST uri="cic:/chou_axioms/Point.con" id="i36240" sort="Type"/>
+    </decl>
+    <decl id="i36242" type="Prop">
+      <APPLY id="i36244" sort="Type">
+        <CONST uri="cic:/tactics/midpoint.con" id="i36252" sort="Type"/>
+        <REL value="2" binder="A'" id="i36250" idref="i36234" sort="Set"/>
+        <REL value="4" binder="B" id="i36248" idref="i36226" sort="Set"/>
+        <REL value="3" binder="C" id="i36246" idref="i36230" sort="Set"/>
+      </APPLY>
+    </decl>
+    <decl id="i36260" type="Prop">
+      <APPLY id="i36262" sort="Type">
+        <CONST uri="cic:/tactics/midpoint.con" id="i36270" sort="Type"/>
+        <REL value="2" binder="B'" id="i36268" idref="i36238" sort="Set"/>
+        <REL value="6" binder="A" id="i36266" idref="i36222" sort="Set"/>
+        <REL value="4" binder="C" id="i36264" idref="i36230" sort="Set"/>
+      </APPLY>
+    </decl>
+    <target>
+      <APPLY id="i36278" sort="Type">
+        <CONST uri="cic:/chou_axioms/parallel.con" id="i36288" sort="Type"/>
+        <REL value="4" binder="A'" id="i36286" idref="i36234" sort="Set"/>
+        <REL value="3" binder="B'" id="i36284" idref="i36238" sort="Set"/>
+        <REL value="7" binder="A" id="i36282" idref="i36222" sort="Set"/>
+        <REL value="6" binder="B" id="i36280" idref="i36226" sort="Set"/>
+      </APPLY>
+    </target>
+  </PROD>
+</ConstantType>

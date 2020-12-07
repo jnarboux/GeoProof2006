@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Objects>
+<Point name="P2" x="-3.6201550387596906" y="-1.0542635658914734">Punkt in -3.62015503875969, -1.054263565891473</Point>
+<Point name="P3" x="-2.0232558139534884" y="2.2945736434108532">Punkt in -2.0232558139534884, 2.2945736434108532</Point>
+<Segment name="a" showname="true" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Point name="P4" x="1.806201550387597" y="-1.5813953488372097">Punkt in 1.8062015503875966, -1.5813953488372094</Point>
+<Segment name="b" showname="true" from="P3" to="P4">Strecke von P3 nach P4</Segment>
+<Segment name="c" showname="true" from="P4" to="P2">Strecke von P4 nach P2</Segment>
+<Expression name="s" showname="true" showvalue="true" x="1.1550387597" y="2.6821705426" value="(a+b+c)/2" prompt="(a+b+c)/2">Ausdruck &quot;(a+b+c)/2&quot; in 1.15504, 2.68217</Expression>
+<Expression name="F*" showname="true" showvalue="true" x="1.1705426357" y="2.1860465116" value="sqrt(s*(s-a)*(s-b)*(s-c))" prompt="Heron">Ausdruck &quot;sqrt(s*(s-a)*(s-b)*(s-c))&quot; in 1.17054, 2.18605</Expression>
+<Line name="g1" color="1" hidden="true" from="P2" to="P4">Gerade durch P2 und P4</Line>
+<Plumb name="l3" color="1" hidden="true" point="P3" line="g1">Lot durch P3 zu g1</Plumb>
+<Intersection name="S3" color="1" first="l3" second="g1">Schnitt zwischen l3 und g1</Intersection>
+<Segment name="h" color="1" showname="true" from="P3" to="S3">Strecke von P3 nach S3</Segment>
+<Expression name="F" showname="true" showvalue="true" x="1.1860465116" y="1.7054263566" value="h*c/2" prompt="h*c/2">Ausdruck &quot;h*c/2&quot; in 1.18605, 1.70543</Expression>
+</Objects>
+</Construction>
+</CaR>

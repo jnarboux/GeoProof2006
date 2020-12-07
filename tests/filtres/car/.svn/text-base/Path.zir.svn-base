@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Zeichnen Sie die Ortslinie von P bei der Bewegung von Q.</P>
+<P>Die Ortslinie kann auch automatisch gezeichnet werden,
+wobei als Objekt der Kreis angegeben wird.</P>
+</Comment>
+<Track track="P" on="k10" move="OP2"/>
+<Objects>
+<Point name="P10" x="-2.8254211332312402" y="0.10719754977029085">Punkt in -2.8254211332312402, 0.10719754977029083</Point>
+<Point name="P11" hidden="true" x="-3.08576" y="1.7304700000000008">Punkt in -3.08576, 1.7304700000000002</Point>
+<Circle name="k10" color="1" midpoint="P10" through="P11">Kreis um P10 durch P11</Circle>
+<Point name="P12" x="1.4012300000000006" y="0.01531" shape="circle">Punkt in 1.4012300000000002, 0.01531</Point>
+<PointOn name="OP2" type="thick" on="k10" x="-2.009760604564648" y="1.53460347493683">Punkt auf k10</PointOn>
+<Line name="g1" color="2" type="thin" from="P10" to="OP2">Gerade durch P10 und OP2</Line>
+<Plumb name="l1" color="2" type="thin" point="OP2" line="g1">Lot durch OP2 zu g1</Plumb>
+<Plumb name="l2" color="2" type="thin" point="P12" line="l1">Lot durch P12 zu l1</Plumb>
+<Intersection name="P" showname="true" first="l1" second="l2">Schnitt zwischen l1 und l2</Intersection>
+</Objects>
+</Construction>
+</CaR>

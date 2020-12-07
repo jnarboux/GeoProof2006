@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="19"
+   name=""
+   committed-date="2006-08-14T10:12:39.208180Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/doc"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="17"
+   name="geoproof-traces.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="274db6a30d0888894b0ad5f43234b8af"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-expressions.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="611d9ec3bd6d5535dc7ac62865d1c979"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof1.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c8dde642a6f8103c4ea764d3bfc25495"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:00.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof2.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="1f2a083f90f95ac1a331f1c7fe562ede"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:00.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof3.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="bdd3f870950d291e52095aefe39afb47"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:00.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof4.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="21a2bbe5bc401b4ed41613d61ce67446"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:00.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof1.eps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3e8f69d645648e2ae93f39282631dfed"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:01.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof5.png"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="af12c63d390616ab6f987127ee39fba9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:01.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof2.eps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="8835f192ad405f26dcf9b722a9d5d093"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:01.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof3.eps"
+   text-time="2006-08-24T14:31:11.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="22ffe5b6d22d9ee785e40cf1476138f2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:01.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof4.eps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4cad274e7d9672f53bedf1366dc4948c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof5.eps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="ff79cfe909cb246b9739741e539ff2c5"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="interface-apercu.png"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="8a73bc34ca7fc7bc35333c1f8f0f9266"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-langue-naturelle-1.ps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="e492b1ace46a3f60fc64d48b3ec413bf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-langue-naturelle-1.png"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="950dcc7e7cea4afe4296b2bfd60aaf90"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-langue-naturelle-2.png"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="e2194e206871e7d93cbf78568915cb15"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="19"
+   name="epaisseurs-traits.png"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T10:12:39.208180Z"
+   checksum="2672e0a658ddc4c5710633e3d7c2ee29"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="styles-traits.png"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="79ba1e58c177bd3bcf551ae125f1fb8a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="interface-apercu.svg"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="765891911e6f3c2dbf77a50152ac3c47"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="Makefile"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="a3b7b09c0cd862682e26d17c96dd5376"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-interface-apercu.png"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="d7fad4f41680e87b253f2169dcc6e174"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-traces.ps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="a40779979f1ee6fae477f37bb204aa72"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="styles-points.png"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="4e1281a648581de9d06f3dbc06c51f1f"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:02.000000Z"/>
+<entry
+   committed-rev="17"
+   name="interface-apercu.ps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="c06eee84dc0e9e529469d73cc7cd0026"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-interface.png"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="86578bf21f39ddb4377c1429d9b57ee9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-langue-naturelle-2.ps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="77b7ba748866e425d3e78e1dd3c0ef18"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   committed-rev="17"
+   name="geoproof-manuel-fr.tex"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="89c1bba1eabbd934f77fa528665a0640"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   committed-rev="17"
+   name="epaisseurs-traits.ps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="2672e0a658ddc4c5710633e3d7c2ee29"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   committed-rev="17"
+   name="styles-traits.ps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="48cbff643b0542f2d4f6cdbc6f034528"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:03.000000Z"/>
+<entry
+   name="icons"
+   kind="dir"/>
+<entry
+   committed-rev="17"
+   name="run.sh"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3cb6a2be6ff0615d7f1b1ebd451fca7e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+<entry
+   committed-rev="17"
+   name="styles-points.ps"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-08-14T09:30:09.721759Z"
+   checksum="3947a346607228ce50436eb260443506"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:11.000000Z"/>
+</wc-entries>

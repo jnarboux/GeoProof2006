@@ -1,0 +1,11 @@
+Reminder :
+
+When you add a new language you should :
+
+- provide the .po
+- update the "languages" variable in autoconf.ml
+
+To get the .mo you need to compile the .po
+
+For more information see ocaml-gettext and gettext websites.
+

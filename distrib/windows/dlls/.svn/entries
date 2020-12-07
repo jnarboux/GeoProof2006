@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="28"
+   name=""
+   committed-date="2006-08-24T12:35:00.801797Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/distrib/windows/dlls"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="librsvg-2-2.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="f9b76cbf4e30143c1512e1e6ef970aa3"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:13.000000Z"/>
+<entry
+   committed-rev="4"
+   name="intl.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a35525a2f466ec5e323e7721d8d11b68"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:13.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libgtk-win32-2.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0e87e5051904a24d11d29025f0d6e773"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:13.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libpangowin32-1.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a991c5d5d63634c020d62a90c6795708"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:13.000000Z"/>
+<entry
+   committed-rev="28"
+   name="libxml2.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2006-08-24T12:35:00.801797Z"
+   checksum="faee73c713efb4bce218c45a8488f934"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:14.000000Z"/>
+<entry
+   committed-rev="4"
+   name="freetype6.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="aa1de93e1ffe4f5ac87726a854517206"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:14.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libart_lgpl_2-2.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="afe0be89c4b6908272ee09fac5a11c96"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:14.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libgmodule-2.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9eb71b1470f3cf68bbed9d4f52d5f414"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:14.000000Z"/>
+<entry
+   committed-rev="4"
+   name="xmltok.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="949be5445c00147c2d9426683dd50db9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:15.000000Z"/>
+<entry
+   committed-rev="4"
+   name="iconv.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e4341fb69cb24cf63e9063f4d8967ebf"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:15.000000Z"/>
+<entry
+   committed-rev="4"
+   name="zlib1.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="ba845eb55909e3d3899055e81bab58eb"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:15.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libfontconfig-1.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="842aaf2d1be762a54247153815cb3636"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:15.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libpango-1.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="aa5f91c8e9566660235b178a4a278231"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:15.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libgdk-win32-2.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="e271f0321ee95d9fe7a79f6db2350387"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   committed-rev="4"
+   name="xmlparse.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="4bf2029bbeda32417ed67f7b4cd924d2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:16.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="libgobject-2.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="f2907963edcc78e1b332435442f3288e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:17.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libglib-2.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="163eebc9d09da2fa1e24ebd04a6e2ed8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:17.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libatk-1.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="0de6c5ec042a21db2f3cf149cd002f42"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:17.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libpangoft2-1.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="63ec3329c925d3120df3627dec62ef4c"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:18.000000Z"/>
+<entry
+   name="etc"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="libgsf-1-1.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9b86022ea4cf1164acdec7299b47a39d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:18.000000Z"/>
+<entry
+   committed-rev="4"
+   name="libgdk_pixbuf-2.0-0.dll"
+   text-time="2006-08-24T14:31:18.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b2ec1470710d1e93ec45b463ff0d2b49"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:18.000000Z"/>
+</wc-entries>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-0.282842712474619" y="0.0" w="0.7071067811865475"/>
+<Comment>
+<P>Another solution to the problem of constructing an
+equilateral triangle with three corners on given parallels.</P>
+<P></P>
+<P>g* is g rotated by 60 degrees. Thus you get the corner
+point on the third parallel. Why?</P>
+</Comment>
+<Assignment>
+<P>Construct an equilateral triangle with corners on the
+parallel lines. One of the corners (A) is given.</P>
+<P></P>
+<P>You can use the point P, if you need. But there are several
+solutions.</P>
+</Assignment>
+<Objects>
+<Point name="Punkt 1" hidden="true" x="-0.07175572519083974" y="-0.24580152671755728">Point at -0.07175572519083974, -0.24580152671755728</Point>
+<Point name="Punkt 2" hidden="true" x="0.38015267175572526" y="0.20916030534351157">Point at 0.38015267175572526, 0.20916030534351157</Point>
+<Line name="Gerade 1" from="Punkt 1" to="Punkt 2">Gerade durch Punkt 1 und Punkt 2</Line>
+<Point name="Punkt 3" hidden="true" x="0.05038167938931305" y="0.20610687022900762">Point at 0.05038167938931305, 0.20610687022900762</Point>
+<Parallel name="g" showname="true" xcoffset="0.17649018525563745" ycoffset="0.09168321311981166" point="Punkt 3" line="Gerade 1">Parallele durch Punkt 3 zu Gerade 1</Parallel>
+<Point name="Punkt 4" hidden="true" x="-0.3587786259541985" y="0.23969465648854973">Point at -0.3587786259541985, 0.23969465648854973</Point>
+<Parallel name="Parallele 2" point="Punkt 4" line="Gerade 1">Parallele durch Punkt 4 zu Gerade 1</Parallel>
+<PointOn name="A" showname="true" on="Parallele 2" alpha="-0.2622959271119757">Point on Parallele 2</PointOn>
+<PointOn name="P" color="1" showname="true" on="g" alpha="-0.3298689776828806">Point on g</PointOn>
+<Angle name="a1" color="1" first="P" root="A" fixed="60.0" acute="true" inverse="true">Angle P - A with size 60.0</Angle>
+<Circle name="c5" color="1" through="P" midpoint="A" partial="true" acute="true">Circle around A through P</Circle>
+<Intersection name="P*" color="1" showname="true" first="a1" second="c5" which="first">Intersection between a1 and c5</Intersection>
+<Segment name="s7" color="1" from="A" to="P">Line segment from A to P</Segment>
+<PointOn name="Q" color="2" showname="true" on="g" alpha="-0.5137156986857024">Point on g</PointOn>
+<Segment name="s8" color="2" from="Q" to="A">Line segment from Q to A</Segment>
+<Angle name="a3" color="2" first="Q" root="A" fixed="60.0" acute="true" inverse="true">Angle Q - A with size 60.0</Angle>
+<Circle name="c6" color="2" through="Q" midpoint="A" partial="true" acute="true">Circle around A through Q</Circle>
+<Intersection name="Q*" color="2" showname="true" first="a3" second="c6" which="first">Intersection between a3 and c6</Intersection>
+<Line name="g*" color="3" showname="true" xcoffset="0.2544209164074774" ycoffset="-0.07563865082384462" from="Q*" to="P*">Line through Q* and P*</Line>
+<Intersection name="I24" color="4" first="g*" second="Gerade 1">Intersection between g* and Gerade 1</Intersection>
+<Segment name="s9" color="4" type="thick" from="A" to="I24">Line segment from A to I24</Segment>
+<Circle name="c7" color="4" through="I24" midpoint="A" partial="true" acute="true">Circle around A through I24</Circle>
+<Intersection name="I27" color="4" first="g" second="c7" which="first">Intersection between g and c7</Intersection>
+<Segment name="s10" color="4" type="thick" from="I24" to="I27">Line segment from I24 to I27</Segment>
+<Segment name="s11" color="4" type="thick" from="I27" to="A">Line segment from I27 to A</Segment>
+</Objects>
+</Construction>
+</CaR>

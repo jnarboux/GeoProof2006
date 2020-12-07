@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="1.6" w="8.0"/>
+<Objects>
+<Point name="Q" showname="true" xoffset="-12" yoffset="-2" x="0.19575856440000006" y="-0.9004893964000003">Punkt in 0.19575856440000006, -0.9004893964000003</Point>
+<Point name="P4" x="2.8841761827079937" y="-0.9004893964110929">Punkt in 2.884176182707993, -0.9004893964110927</Point>
+<Line name="g1" from="Q" to="P4">Gerade durch Q und P4</Line>
+<Plumb name="l1" hidden="true" point="Q" line="g1">Lot durch Q zu g1</Plumb>
+<Plumb name="l2" hidden="true" point="P4" line="g1">Lot durch P4 zu g1</Plumb>
+<Circle name="k1" hidden="true" midpoint="P4" through="Q">Kreis um P4 durch Q</Circle>
+<Intersection name="S1" first="l2" second="k1" other="S2">Schnitt zwischen l2 und k1</Intersection>
+<OtherIntersection name="S2" hidden="true">Schnitt zwischen l2 und k1</OtherIntersection>
+<Plumb name="l3" hidden="true" point="S1" line="l2">Lot durch S1 zu l2</Plumb>
+<Intersection name="S3" first="l1" second="l3">Schnitt zwischen l1 und l3</Intersection>
+<Segment name="u" showname="true" from="Q" to="S3">Strecke von Q nach S3</Segment>
+<Segment name="s3" from="S3" to="S1">Strecke von S3 nach S1</Segment>
+<Segment name="s4" from="S1" to="P4">Strecke von S1 nach P4</Segment>
+<Segment name="s5" from="Q" to="S1">Strecke von Q nach S1</Segment>
+<Segment name="s6" from="Q" to="P4">Strecke von Q nach P4</Segment>
+<PointOn name="P" type="thick" on="s6" x="1.4225122349102772" y="-0.900489396405062">Punkt auf s6</PointOn>
+<Segment name="t" color="1" showname="true" xoffset="8" yoffset="-1" from="P" to="S3">Strecke von P nach S3</Segment>
+<Plumb name="l4" color="1" hidden="true" point="S3" line="t">Lot durch S3 zu t</Plumb>
+<Intersection name="A&apos;" color="1" showname="true" first="g1" second="l4">Schnitt zwischen g1 und l4</Intersection>
+<Segment name="s" color="1" showname="true" from="A&apos;" to="S3">Strecke von A&apos; nach S3</Segment>
+<Angle name="w1" color="1" showvalue="true" first="A&apos;" root="S3" second="P" display="small">Winkel A&apos; - S3 - P</Angle>
+<Plumb name="l5" hidden="true" showvalue="true" point="P" line="g1">Lot durch P zu g1</Plumb>
+<Intersection name="S5" first="s5" second="l5">Schnitt zwischen s5 und l5</Intersection>
+<Line name="g2" color="3" hidden="true" from="S3" to="S5">Gerade durch S3 und S5</Line>
+<Intersection name="S6" color="3" first="g1" second="g2">Schnitt zwischen g1 und g2</Intersection>
+<Segment name="s9" color="3" from="S3" to="S6">Strecke von S3 nach S6</Segment>
+<Segment name="a" color="2" showname="true" xoffset="19" yoffset="2" from="P" to="S5">Strecke von P nach S5</Segment>
+<Plumb name="l6" color="3" hidden="true" point="S3" line="s9">Lot durch S3 zu s9</Plumb>
+<Intersection name="S7" color="3" first="g1" second="l6">Schnitt zwischen g1 und l6</Intersection>
+<Segment name="s11" color="3" from="S3" to="S7">Strecke von S3 nach S7</Segment>
+<Angle name="w2" color="3" first="S7" root="A&apos;" second="S3">Winkel S7 - A&apos; - S3</Angle>
+<Angle name="w3" color="2" first="P" root="S3" second="S5">Winkel P - S3 - S5</Angle>
+<Segment name="b" showname="true" xoffset="1" yoffset="25" from="Q" to="P">Strecke von Q nach P</Segment>
+<Segment name="x" showname="true" xoffset="7" yoffset="25" from="A&apos;" to="S7">Strecke von A&apos; nach S7</Segment>
+<Text name="Text1" x="-2.8841761827079937" y="4.137030995106035">s / x = t / a = t / b = s / u
+u = x</Text>
+<Angle name="w4" color="2" first="A&apos;" root="S3" second="S7">Winkel A&apos; - S3 - S7</Angle>
+<Angle name="w5" color="3" first="S5" root="P" second="S3" display="small">Winkel S5 - P - S3</Angle>
+</Objects>
+</Construction>
+</CaR>

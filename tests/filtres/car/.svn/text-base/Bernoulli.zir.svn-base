@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.767766952966368"/>
+<Comment>
+<P>Eine Bernoulli-Leminiskate.</P>
+</Comment>
+<Track track="M2" on="k1" move="OP1" animate="nopaint"/>
+<Objects>
+<Point name="P1" x="-0.9810135288439737" y="-0.1821188481764804">Punkt in -0.9810135288439734, -0.18211884817648039</Point>
+<Point name="P2" hidden="true" x="-0.8693139686290657" y="0.6386300942721914">Punkt in -0.8693139686290655, 0.638630094272191</Point>
+<Circle name="k1" hidden="true" through="P2" midpoint="P1">Kreis um P1 durch P2</Circle>
+<Point name="P3" x="0.9324485026635789" y="-0.22582737173883566">Punkt in 0.9324485026635787, -0.2258273717388355</Point>
+<Point name="P4" hidden="true" x="0.33659130888565025" y="0.11661431173991033">Punkt in 0.33659130888565025, 0.11661431173991033</Point>
+<Circle name="k2" hidden="true" through="P4" midpoint="P3">Kreis um P3 durch P4</Circle>
+<PointOn name="OP1" type="thick" on="k1" alpha="-0.778764972067264">Punkt auf k1</PointOn>
+<Line name="g1" type="thin" hidden="true" from="P1" to="P3">Gerade durch P1 und P3</Line>
+<Intersection name="S5" type="thin" hidden="true" first="g1" second="k2" shape="diamond" which="first">Schnitt zwischen g1 und k2</Intersection>
+<Intersection name="S6" type="thin" hidden="true" first="g1" second="k2" which="second">Schnitt zwischen g1 und k2</Intersection>
+<Intersection name="S7" type="thin" hidden="true" first="g1" second="k1" shape="diamond" which="first">Schnitt zwischen g1 und k1</Intersection>
+<Intersection name="S8" type="thin" hidden="true" first="g1" second="k1" which="second">Schnitt zwischen g1 und k1</Intersection>
+<Circle3 name="k5" hidden="true" from="S7" to="S5" midpoint="OP1">Kreis um S7 mit Radius von S5 nach OP1</Circle3>
+<Segment name="s5" type="thick" from="P1" to="OP1">Strecke von P1 nach OP1</Segment>
+<Intersection name="S9" type="thick" first="k2" second="k5" which="first">Schnitt zwischen k2 und k5</Intersection>
+<Intersection name="S10" type="thick" hidden="true" first="k2" second="k5" which="second">Schnitt zwischen k2 und k5</Intersection>
+<Segment name="s6" type="thick" from="OP1" to="S9">Strecke von OP1 nach S9</Segment>
+<Segment name="s7" type="thick" from="S9" to="P3">Strecke von S9 nach P3</Segment>
+<Midpoint name="M2" first="OP1" second="S9" shape="diamond">Mitte zwischen OP1 und S9</Midpoint>
+</Objects>
+</Construction>
+</CaR>

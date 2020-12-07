@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.767766952966368"/>
+<Objects>
+<Point name="P1" x="-1.1849866388000005" y="-0.845031455500001" fixed="true">Point at &quot;-1.1849866388000005&quot;, &quot;-0.845031455500001&quot;</Point>
+<Point name="P2" hidden="true" x="0.845031455500001" y="-0.845031455500001" fixed="true">Point at &quot;0.845031455500001&quot;, &quot;-0.845031455500001&quot;</Point>
+<Line name="g1" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Plumb name="l1" point="P1" line="g1" valid="true">Lot durch P1 zu g1</Plumb>
+<PointOn name="OP1" on="g1" alpha="0.7576144084125269">Point on g1</PointOn>
+<PointOn name="OP2" on="l1" alpha="0.6653408586325404">Point on l1</PointOn>
+<Point name="P3" type="thick" x="-0.21997699714573998" y="-0.7049865209730943">Point at -0.21997699714573998, -0.7049865209730943</Point>
+<Segment name="s1" color="3" type="thick" from="P1" to="P3" arrow="true">Strecke von P1 nach P3</Segment>
+<Point name="P4" type="thick" x="-1.0152902531121397" y="-0.3126098054541464">Point at -1.0152902531121397, -0.3126098054541464</Point>
+<Segment name="s2" color="3" type="thick" from="P1" to="P4" arrow="true">Strecke von P1 nach P4</Segment>
+<Point name="P5" color="2" type="thick" x="-0.49044753878030345" y="-0.17246506858208457">Point at -0.49044753878030345, -0.17246506858208457</Point>
+<Line name="g2" color="1" hidden="true" from="P1" to="P4">Gerade durch P1 und P4</Line>
+<Line name="g3" color="1" hidden="true" from="P1" to="P3">Gerade durch P1 und P3</Line>
+<Plumb name="l5" color="1" hidden="true" point="P5" line="g1" valid="true">Lot durch P5 zu g1</Plumb>
+<Plumb name="l6" color="1" hidden="true" point="P5" line="l1" valid="true">Lot durch P5 zu l1</Plumb>
+<Intersection name="S1" color="1" hidden="true" first="l1" second="l6">Schnitt zwischen l1 und l6</Intersection>
+<Intersection name="S2" color="1" hidden="true" first="g1" second="l5">Schnitt zwischen g1 und l5</Intersection>
+<Line name="g4" color="1" hidden="true" from="OP2" to="P4">Gerade durch OP2 und P4</Line>
+<Line name="g5" color="1" hidden="true" from="OP1" to="P3">Gerade durch OP1 und P3</Line>
+<Parallel name="p1" color="1" hidden="true" point="S2" line="g5">Parallele durch S2 zu g5</Parallel>
+<Parallel name="p2" color="1" hidden="true" point="S1" line="g4">Parallele durch S1 zu g4</Parallel>
+<Intersection name="S3" color="1" hidden="true" first="g2" second="p2">Schnitt zwischen g2 und p2</Intersection>
+<Intersection name="S4" color="1" hidden="true" first="g3" second="p1">Schnitt zwischen g3 und p1</Intersection>
+<Parallel name="p3" color="1" hidden="true" point="S4" line="g2">Parallele durch S4 zu g2</Parallel>
+<Parallel name="p4" color="1" hidden="true" point="S3" line="g3">Parallele durch S3 zu g3</Parallel>
+<Intersection name="S5" color="3" first="p3" second="p4" shape="diamond">Schnitt zwischen p3 und p4</Intersection>
+<Point name="P7" color="2" type="thick" x="-0.5766800730713457" y="0.7922614087989512">Point at -0.5766800730713457, 0.7922614087989512</Point>
+<Point name="P8" color="2" type="thick" x="0.18863366876165505" y="0.9647264773810365">Point at 0.18863366876165505, 0.9647264773810365</Point>
+<Point name="P9" color="2" type="thick" x="0.05389533393190151" y="0.28564526983907773">Point at 0.05389533393190151, 0.28564526983907773</Point>
+<Line name="g6" color="1" hidden="true" from="P1" to="P4">Gerade durch P1 und P4</Line>
+<Line name="g7" color="1" hidden="true" from="P1" to="P3">Gerade durch P1 und P3</Line>
+<Plumb name="l7" color="1" hidden="true" point="P7" line="g1" valid="true">Lot durch P7 zu g1</Plumb>
+<Plumb name="l8" color="1" hidden="true" point="P7" line="l1" valid="true">Lot durch P7 zu l1</Plumb>
+<Intersection name="S6" color="1" hidden="true" first="l1" second="l8">Schnitt zwischen l1 und l8</Intersection>
+<Intersection name="S7" color="1" hidden="true" first="g1" second="l7">Schnitt zwischen g1 und l7</Intersection>
+<Line name="g8" color="1" hidden="true" from="OP2" to="P4">Gerade durch OP2 und P4</Line>
+<Line name="g9" color="1" hidden="true" from="OP1" to="P3">Gerade durch OP1 und P3</Line>
+<Parallel name="p5" color="1" hidden="true" point="S7" line="g9">Parallele durch S7 zu g9</Parallel>
+<Parallel name="p6" color="1" hidden="true" point="S6" line="g8">Parallele durch S6 zu g8</Parallel>
+<Intersection name="S8" color="1" hidden="true" first="g6" second="p6">Schnitt zwischen g6 und p6</Intersection>
+<Intersection name="S9" color="1" hidden="true" first="g7" second="p5">Schnitt zwischen g7 und p5</Intersection>
+<Parallel name="p7" color="1" hidden="true" point="S9" line="g6">Parallele durch S9 zu g6</Parallel>
+<Parallel name="p8" color="1" hidden="true" point="S8" line="g7">Parallele durch S8 zu g7</Parallel>
+<Intersection name="S10" color="3" target="true" first="p7" second="p8" shape="diamond">Schnitt zwischen p7 und p8</Intersection>
+<Line name="g10" color="1" hidden="true" from="P1" to="P4">Gerade durch P1 und P4</Line>
+<Line name="g11" color="1" hidden="true" from="P1" to="P3">Gerade durch P1 und P3</Line>
+<Plumb name="l9" color="1" hidden="true" point="P8" line="g1" valid="true">Lot durch P8 zu g1</Plumb>
+<Plumb name="l10" color="1" hidden="true" point="P8" line="l1" valid="true">Lot durch P8 zu l1</Plumb>
+<Intersection name="S11" color="1" hidden="true" first="l1" second="l10">Schnitt zwischen l1 und l10</Intersection>
+<Intersection name="S12" color="1" hidden="true" first="g1" second="l9">Schnitt zwischen g1 und l9</Intersection>
+<Line name="g12" color="1" hidden="true" from="OP2" to="P4">Gerade durch OP2 und P4</Line>
+<Line name="g13" color="1" hidden="true" from="OP1" to="P3">Gerade durch OP1 und P3</Line>
+<Parallel name="p9" color="1" hidden="true" point="S12" line="g13">Parallele durch S12 zu g13</Parallel>
+<Parallel name="p10" color="1" hidden="true" point="S11" line="g12">Parallele durch S11 zu g12</Parallel>
+<Intersection name="S13" color="1" hidden="true" first="g10" second="p10">Schnitt zwischen g10 und p10</Intersection>
+<Intersection name="S14" color="1" hidden="true" first="g11" second="p9">Schnitt zwischen g11 und p9</Intersection>
+<Parallel name="p11" color="1" hidden="true" point="S14" line="g10">Parallele durch S14 zu g10</Parallel>
+<Parallel name="p12" color="1" hidden="true" point="S13" line="g11">Parallele durch S13 zu g11</Parallel>
+<Intersection name="S15" color="3" target="true" first="p11" second="p12" shape="diamond">Schnitt zwischen p11 und p12</Intersection>
+<Line name="g14" color="1" hidden="true" from="P1" to="P4">Gerade durch P1 und P4</Line>
+<Line name="g15" color="1" hidden="true" from="P1" to="P3">Gerade durch P1 und P3</Line>
+<Plumb name="l11" color="1" hidden="true" point="P9" line="g1" valid="true">Lot durch P9 zu g1</Plumb>
+<Plumb name="l12" color="1" hidden="true" point="P9" line="l1" valid="true">Lot durch P9 zu l1</Plumb>
+<Intersection name="S16" color="1" hidden="true" first="l1" second="l12">Schnitt zwischen l1 und l12</Intersection>
+<Intersection name="S17" color="1" hidden="true" first="g1" second="l11">Schnitt zwischen g1 und l11</Intersection>
+<Line name="g16" color="1" hidden="true" from="OP2" to="P4">Gerade durch OP2 und P4</Line>
+<Line name="g17" color="1" hidden="true" from="OP1" to="P3">Gerade durch OP1 und P3</Line>
+<Parallel name="p13" color="1" hidden="true" point="S17" line="g17">Parallele durch S17 zu g17</Parallel>
+<Parallel name="p14" color="1" hidden="true" point="S16" line="g16">Parallele durch S16 zu g16</Parallel>
+<Intersection name="S18" color="1" hidden="true" first="g14" second="p14">Schnitt zwischen g14 und p14</Intersection>
+<Intersection name="S19" color="1" hidden="true" first="g15" second="p13">Schnitt zwischen g15 und p13</Intersection>
+<Parallel name="p15" color="1" hidden="true" point="S19" line="g14">Parallele durch S19 zu g14</Parallel>
+<Parallel name="p16" color="1" hidden="true" point="S18" line="g15">Parallele durch S18 zu g15</Parallel>
+<Intersection name="S20" color="3" target="true" first="p15" second="p16" shape="diamond">Schnitt zwischen p15 und p16</Intersection>
+<Segment name="s12" color="2" type="thick" from="P1" to="OP1" arrow="true">Strecke von P1 nach OP1</Segment>
+<Segment name="s13" color="2" type="thick" from="P1" to="OP2" arrow="true">Strecke von P1 nach OP2</Segment>
+<Polygon name="A18" color="2" type="thin" background="true" point1="P7" point2="P8" point3="P9" point4="P5">Vieleck P7, P8, P9, P5</Polygon>
+<Segment name="s4" color="2" type="thick" from="P5" to="P7">Strecke von P5 nach P7</Segment>
+<Segment name="s5" color="2" type="thick" from="P7" to="P8">Strecke von P7 nach P8</Segment>
+<Segment name="s6" color="2" type="thick" from="P8" to="P9">Strecke von P8 nach P9</Segment>
+<Segment name="s7" color="2" type="thick" from="P9" to="P5">Strecke von P9 nach P5</Segment>
+<Polygon name="A20" color="3" type="thin" background="true" point1="S5" point2="S10" point3="S15" point4="S20">Vieleck S5, S10, S15, S20</Polygon>
+<Segment name="s8" color="3" type="thick" from="S10" to="S15">Strecke von S10 nach S15</Segment>
+<Segment name="s9" color="3" type="thick" from="S15" to="S20">Strecke von S15 nach S20</Segment>
+<Segment name="s10" color="3" type="thick" from="S20" to="S5">Strecke von S20 nach S5</Segment>
+<Segment name="s11" color="3" type="thick" from="S5" to="S10">Strecke von S5 nach S10</Segment>
+<Text name="Text1" x="0.2034221291095819" y="-0.3724630532992348">Linear Mapping
+Blue is mapped to brown.</Text>
+<Expression name="AD1" showname="true" showvalue="true" x="0.20407500000000003" y="-0.9753200000000001" value="A20/A18" prompt="Determinant">Expression &quot;A20/A18&quot; at 0.2, -0.98</Expression>
+</Objects>
+</Construction>
+</CaR>

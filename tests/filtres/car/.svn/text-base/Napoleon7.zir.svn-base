@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Der Gergonne-Punkt entsteht in diesem Beispiel, wenn der
+fette Punkt P auf der Dreiecksseite liegt.</P>
+</Comment>
+<Objects>
+<Point name="P1" x="-3.9261744966442955" y="-2.9949664429530203">Punkt in -3.926174496644295, -2.99496644295302</Point>
+<Point name="P2" x="-1.6107382550335572" y="2.877516778523489">Punkt in -1.610738255033557, 2.877516778523489</Point>
+<Segment name="s1" type="thick" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="2.9194630872483223" y="-0.37751677852349014">Punkt in 2.919463087248322, -0.3775167785234901</Point>
+<Segment name="s2" type="thick" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" type="thick" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Line name="g14" color="1" hidden="true" from="P2" to="P3">Gerade durch P2 und P3</Line>
+<Circle name="k12" color="1" hidden="true" through="P1" midpoint="P2">Kreis um P2 durch P1</Circle>
+<Intersection name="S33" color="1" hidden="true" first="g14" second="k12" which="first">Schnitt zwischen g14 und k12</Intersection>
+<Intersection name="S34" color="1" hidden="true" first="g14" second="k12" which="second">Schnitt zwischen g11 und k9</Intersection>
+<Circle name="k13" color="1" hidden="true" through="P1" midpoint="S33">Kreis um S33 durch P1</Circle>
+<Circle name="k14" color="1" hidden="true" through="S33" midpoint="P1">Kreis um P1 durch S33</Circle>
+<Intersection name="S35" color="1" hidden="true" first="k13" second="k14" which="first">Schnitt zwischen k13 und k14</Intersection>
+<Intersection name="S36" color="1" hidden="true" first="k13" second="k14" which="second">Schnitt zwischen k10 und k11</Intersection>
+<Line name="g15" color="1" hidden="true" target="true" from="S35" to="S36">Gerade durch S35 und S36</Line>
+<Intersection name="S37" color="1" hidden="true" target="true" first="g15" second="k12" which="first">Schnitt zwischen g15 und k12</Intersection>
+<Intersection name="S38" color="1" hidden="true" target="true" first="g15" second="k12" which="second">Schnitt zwischen g13 und k9</Intersection>
+<Line name="g16" color="1" hidden="true" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Circle name="k15" color="1" hidden="true" through="P3" midpoint="P1">Kreis um P1 durch P3</Circle>
+<Intersection name="S39" color="1" hidden="true" first="g16" second="k15" which="first">Schnitt zwischen g16 und k15</Intersection>
+<Intersection name="S40" color="1" hidden="true" first="g16" second="k15" which="second">Schnitt zwischen g11 und k9</Intersection>
+<Circle name="k16" color="1" hidden="true" through="P3" midpoint="S39">Kreis um S39 durch P3</Circle>
+<Circle name="k17" color="1" hidden="true" through="S39" midpoint="P3">Kreis um P3 durch S39</Circle>
+<Intersection name="S41" color="1" hidden="true" first="k16" second="k17" which="first">Schnitt zwischen k16 und k17</Intersection>
+<Intersection name="S42" color="1" hidden="true" first="k16" second="k17" which="second">Schnitt zwischen k10 und k11</Intersection>
+<Line name="g17" color="1" hidden="true" target="true" from="S41" to="S42">Gerade durch S41 und S42</Line>
+<Intersection name="S43" color="1" hidden="true" target="true" first="g17" second="k15" which="first">Schnitt zwischen g17 und k15</Intersection>
+<Intersection name="S44" color="1" hidden="true" target="true" first="g17" second="k15" which="second">Schnitt zwischen g13 und k9</Intersection>
+<Intersection name="I" color="1" showname="true" xoffset="-15" yoffset="-2" first="g15" second="g17">Schnitt zwischen g15 und g17</Intersection>
+<Plumb name="l1" color="1" hidden="true" point="I" line="s3">Lot durch I zu s3</Plumb>
+<Intersection name="S46" color="1" first="s3" second="l1">Schnitt zwischen s3 und l1</Intersection>
+<Circle name="k18" color="1" through="S46" midpoint="I">Kreis um I durch S46</Circle>
+<Plumb name="l2" color="1" hidden="true" point="I" line="s2">Lot durch I zu s2</Plumb>
+<Intersection name="S47" color="1" first="s2" second="l2">Schnitt zwischen s2 und l2</Intersection>
+<Plumb name="l3" color="1" hidden="true" point="I" line="s1">Lot durch I zu s1</Plumb>
+<Intersection name="S48" color="1" first="l3" second="s1">Schnitt zwischen l3 und s1</Intersection>
+<Segment name="r**" color="1" from="I" to="S48">Strecke von I nach S48</Segment>
+<Segment name="r" color="1" from="I" to="S47">Strecke von I nach S47</Segment>
+<Segment name="r*" color="1" from="I" to="S46">Strecke von I nach S46</Segment>
+<Angle name="w3" color="1" showvalue="true" first="I" root="S47" second="P3" display="small">Winkel I - S47 - P3</Angle>
+<Circle name="k22" color="1" hidden="true" through="I" midpoint="S47">Kreis um S47 durch I</Circle>
+<Intersection name="S54" color="1" hidden="true" first="l2" second="k22" which="first">Schnitt zwischen l2 und k22</Intersection>
+<Intersection name="S55" color="1" hidden="true" first="l2" second="k22" which="second">Schnitt zwischen l2 und k22</Intersection>
+<Ray name="r5" color="1" hidden="true" from="S47" to="S54">Strahl von S47 in Richtung S54</Ray>
+<PointOn name="OP3" color="3" type="thick" on="r5" x="1.0766607753540742" y="2.708751552959918">Punkt auf r5</PointOn>
+<Circle3 name="k23" color="3" hidden="true" from="S47" to="OP3" midpoint="S48">Kreis um S47 mit Radius von OP3 nach S48</Circle3>
+<Circle3 name="k24" color="3" hidden="true" from="S47" to="OP3" midpoint="S46">Kreis um S47 mit Radius von OP3 nach S46</Circle3>
+<Intersection name="S56" color="3" first="l3" second="k23" which="first">Schnitt zwischen l3 und k23</Intersection>
+<Intersection name="S57" color="3" hidden="true" first="l3" second="k23" which="second">Schnitt zwischen l3 und k23</Intersection>
+<Intersection name="S58" color="3" first="l1" second="k24" which="first">Schnitt zwischen l1 und k24</Intersection>
+<Intersection name="S59" color="3" hidden="true" first="l1" second="k24" which="second">Schnitt zwischen l1 und k24</Intersection>
+<Segment name="s27" color="3" type="thick" from="S48" to="S56">Strecke von S48 nach S56</Segment>
+<Segment name="s28" color="3" type="thick" from="S46" to="S58">Strecke von S46 nach S58</Segment>
+<Segment name="s29" color="3" type="thick" from="S47" to="OP3">Strecke von S47 nach OP3</Segment>
+<Segment name="s30" color="3" from="P1" to="S56">Strecke von P1 nach S56</Segment>
+<Segment name="s31" color="3" from="S56" to="P2">Strecke von S56 nach P2</Segment>
+<Segment name="s32" color="3" from="P2" to="OP3">Strecke von P2 nach OP3</Segment>
+<Segment name="s33" color="3" from="OP3" to="P3">Strecke von OP3 nach P3</Segment>
+<Segment name="s34" color="3" from="P3" to="S58">Strecke von P3 nach S58</Segment>
+<Segment name="s35" color="3" from="S58" to="P1">Strecke von S58 nach P1</Segment>
+<Angle name="w4" color="3" background="true" xoffset="-2" first="S47" root="P2" second="OP3" filled="true" acute="true">Winkel S47 - P2 - OP3</Angle>
+<Angle name="w5" color="3" background="true" first="S56" root="P2" second="S48" filled="true" acute="true">Winkel S56 - P2 - S48</Angle>
+<Segment name="s36" color="2" type="thin" from="P1" to="OP3">Strecke von P1 nach OP3</Segment>
+<Segment name="s37" color="2" type="thin" from="P2" to="S58">Strecke von P2 nach S58</Segment>
+<Segment name="s38" color="2" type="thin" from="P3" to="S56">Strecke von P3 nach S56</Segment>
+<Intersection name="G" color="2" showname="true" first="s37" second="s38">Schnitt zwischen s37 und s38</Intersection>
+</Objects>
+</Construction>
+</CaR>

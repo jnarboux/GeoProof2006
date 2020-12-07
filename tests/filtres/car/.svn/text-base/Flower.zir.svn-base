@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" hidden="true" x="-4.228043143297381" y="-1.2942989214175658">Punkt in -4.228043143297381, -1.2942989214175658</Point>
+<Point name="P2" hidden="true" x="-0.11093990755007699" y="-0.08628659476117129">Punkt in -0.11093990755007699, -0.08628659476117129</Point>
+<Circle name="k1" through="P2" midpoint="P1" start="S2" end="P2" acute="true">Kreis um P1 durch P2</Circle>
+<Circle name="k2" hidden="true" through="P1" midpoint="P2" acute="true">Kreis um P2 durch P1</Circle>
+<Intersection name="S2" hidden="true" first="k1" second="k2" which="second">Schnitt zwischen k1 und k2</Intersection>
+<Circle name="k3" through="P2" midpoint="S2" start="P2" end="S3" acute="true">Kreis um S2 durch P2</Circle>
+<Intersection name="S3" hidden="true" first="k2" second="k3" which="first">Schnitt zwischen k2 und k3</Intersection>
+<Circle name="k4" through="P2" midpoint="S3" start="P2" end="S2" acute="true">Kreis um S3 durch P2</Circle>
+<Intersection name="S5" hidden="true" first="k2" second="k4" which="first">Schnitt zwischen k2 und k4</Intersection>
+<Circle name="k5" through="S3" midpoint="S5" start="P2" end="S3" acute="true">Kreis um S5 durch S3</Circle>
+<Intersection name="S7" hidden="true" first="k2" second="k5" which="first">Schnitt zwischen k2 und k5</Intersection>
+<Circle name="k6" through="S5" midpoint="S7" start="P2" end="S5" acute="true">Kreis um S7 durch S5</Circle>
+<Intersection name="S9" hidden="true" first="k2" second="k1" which="first">Schnitt zwischen k2 und k1</Intersection>
+<Intersection name="S10" hidden="true" first="k2" second="k1" which="second">Schnitt zwischen k2 und k1</Intersection>
+<Circle name="k7" through="S7" midpoint="S10" start="P2" end="S7" acute="true">Kreis um S10 durch S7</Circle>
+<Circle name="k8" through="S5" midpoint="S3" start="P2" end="S5" acute="true">Kreis um S3 durch S5</Circle>
+<Circle name="k9" through="P1" midpoint="S10" start="P1" end="P2" acute="true">Kreis um S10 durch P1</Circle>
+<Circle name="k10" through="S7" midpoint="S5" start="S7" end="P2" acute="true">Kreis um S5 durch S7</Circle>
+<Circle name="k11" through="P1" midpoint="S2" start="P1" end="P2" acute="true">Kreis um S2 durch P1</Circle>
+<Circle name="k12" through="P2" midpoint="S7" start="P2" end="S10" acute="true">Kreis um S7 durch P2</Circle>
+<Circle name="k13" through="S10" midpoint="P1" start="S10" end="P2" acute="true">Kreis um P1 durch S10</Circle>
+</Objects>
+</Construction>
+</CaR>

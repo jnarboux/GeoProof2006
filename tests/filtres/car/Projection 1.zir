@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Konstruktion einer 3D-Projektion mit Darstellung in
+Parallelprojektion.</P>
+<P>Der Punkt P wird durch den Augenpunkt A auf P&apos; projiziert.</P>
+</Comment>
+<Objects>
+<Point name="P4" color="1" hidden="true" x="-3.416666666666668" y="-0.708333333333333">Punkt in -3.416666666666667, -0.708333333333333</Point>
+<Point name="P5" color="1" hidden="true" x="1.4027777778000008" y="-0.8333333333000005">Punkt in 1.4027777778000003, -0.8333333333000003</Point>
+<Line name="g2" color="1" from="P4" to="P5">Gerade durch P4 und P5</Line>
+<PointOn name="OP3" color="1" type="thick" on="g2" x="-1.0973415267282136" y="-0.7684887404047555">Punkt auf g2</PointOn>
+<Point name="P7" color="2" hidden="true" x="4.416666666700001" y="2.666666666700001">Punkt in 4.416666666700001, 2.6666666667000007</Point>
+<Line name="g3" color="2" from="P4" to="P7">Gerade durch P4 und P7</Line>
+<Point name="A" type="thick" showname="true" x="2.6388888888888893" y="1.1111111111111116">Punkt in 2.6388888888888893, 1.1111111111111112</Point>
+<Point name="P" type="thick" showname="true" x="0.2638888889000001" y="1.5972222222000005">Punkt in 0.26388888890000006, 1.5972222222000005</Point>
+<Parallel name="p1" color="2" point="OP3" line="g3">Parallele durch OP3 zu g3</Parallel>
+<Parallel name="p2" color="2" point="P5" line="g3">Parallele durch P5 zu g3</Parallel>
+<Point name="P13" color="3" hidden="true" x="-3.4583333333000015" y="2.5">Punkt in -3.458333333300001, 2.5</Point>
+<Line name="g5" color="3" from="P4" to="P13">Gerade durch P4 und P13</Line>
+<Parallel name="p3" color="3" point="OP3" line="g5">Parallele durch OP3 zu g5</Parallel>
+<Parallel name="p4" color="3" point="P5" line="g5">Parallele durch P5 zu g5</Parallel>
+<Parallel name="p5" color="3" type="thin" hidden="true" point="A" line="p4">Parallele durch A zu p4</Parallel>
+<Parallel name="p6" color="2" type="thin" hidden="true" point="A" line="p2">Parallele durch A zu p2</Parallel>
+<Parallel name="p7" color="2" type="thin" hidden="true" point="P" line="p1">Parallele durch P zu p1</Parallel>
+<Parallel name="p8" color="3" type="thin" hidden="true" point="P" line="p3">Parallele durch P zu p3</Parallel>
+<Intersection name="S1" type="thin" first="p3" second="p7">Schnitt zwischen p3 und p7</Intersection>
+<Intersection name="S2" type="thin" first="p1" second="p8">Schnitt zwischen p1 und p8</Intersection>
+<Intersection name="S3" type="thin" first="p2" second="p5">Schnitt zwischen p2 und p5</Intersection>
+<Intersection name="S4" type="thin" first="p4" second="p6">Schnitt zwischen p4 und p6</Intersection>
+<Segment name="s1" color="2" type="thin" from="S1" to="P">Strecke von S1 nach P</Segment>
+<Segment name="s2" color="2" type="thin" from="S4" to="A">Strecke von S4 nach A</Segment>
+<Segment name="s3" color="3" type="thin" from="P" to="S2">Strecke von P nach S2</Segment>
+<Segment name="s4" color="3" type="thin" from="A" to="S3">Strecke von A nach S3</Segment>
+<Line name="g6" hidden="true" from="S3" to="S2">Gerade durch S3 und S2</Line>
+<Line name="g7" hidden="true" from="S4" to="S1">Gerade durch S4 und S1</Line>
+<Intersection name="S5" type="thin" first="g5" second="g7">Schnitt zwischen g5 und g7</Intersection>
+<Intersection name="S6" type="thin" first="g3" second="g6">Schnitt zwischen g3 und g6</Intersection>
+<Parallel name="p9" color="2" type="thin" hidden="true" point="S5" line="g3">Parallele durch S5 zu g3</Parallel>
+<Parallel name="p10" color="3" type="thin" hidden="true" point="S6" line="g5">Parallele durch S6 zu g5</Parallel>
+<Intersection name="P&apos;" showname="true" first="p9" second="p10">Schnitt zwischen p9 und p10</Intersection>
+<Segment name="s5" from="P&apos;" to="A">Strecke von P&apos; nach A</Segment>
+<Segment name="s6" color="2" type="thin" from="P&apos;" to="S5">Strecke von P&apos; nach S5</Segment>
+<Segment name="s7" color="3" type="thin" from="P&apos;" to="S6">Strecke von P&apos; nach S6</Segment>
+<Segment name="s8" type="thin" from="S6" to="S3">Strecke von S6 nach S3</Segment>
+<Segment name="s9" type="thin" from="S4" to="S5">Strecke von S4 nach S5</Segment>
+<PointOn name="OP4" hidden="true" on="p2" x="4.230635888379313" y="0.3850523420096369" shape="diamond">Punkt auf p2</PointOn>
+<PointOn name="OP5" hidden="true" on="p4" x="1.3618278059388558" y="2.319814502530656" shape="diamond">Punkt auf p4</PointOn>
+<PointOn name="OP6" hidden="true" on="p1" x="3.205397752688611" y="1.0853510555246162" shape="diamond">Punkt auf p1</PointOn>
+<PointOn name="OP7" hidden="true" on="p3" x="-1.1392295091448055" y="2.456885908253092" shape="diamond">Punkt auf p3</PointOn>
+<PointOn name="OP8" hidden="true" on="g3" x="2.540512159232546" y="1.8583235012440538" shape="diamond">Punkt auf g3</PointOn>
+<PointOn name="OP9" hidden="true" on="g5" x="-3.4644627130964967" y="2.9719622447076812" shape="diamond">Punkt auf g5</PointOn>
+<Angle name="w1" first="OP4" root="P5" second="OP5" display="small">Winkel OP4 - P5 - OP5</Angle>
+<Angle name="w2" first="OP6" root="OP3" second="OP7" display="small">Winkel OP6 - OP3 - OP7</Angle>
+<Angle name="w3" first="OP8" root="P4" second="OP9" display="small">Winkel OP8 - P4 - OP9</Angle>
+</Objects>
+</Construction>
+</CaR>

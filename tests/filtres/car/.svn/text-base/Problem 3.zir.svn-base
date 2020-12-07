@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Eine etwas komplizierte Aufgabe aus der Internationalen
+Mathematik-Olympiade.</P>
+<P>Die grüne Gerade t ist die gemeinsame Tangente an die
+beiden Kreise.</P>
+<P>Zu zeigen ist EP=EQ.</P>
+</Comment>
+<Objects>
+<Point name="P2" x="-0.987748851454824" y="-0.9264931087289433">Punkt in -0.9877488514548238, -0.926493108728943</Point>
+<Point name="P3" x="-2.274119448698316" y="-2.0980091883614094" shape="circle">Punkt in -2.2741194486983156, -2.098009188361409</Point>
+<Circle name="k1" midpoint="P2" through="P3">Kreis um P2 durch P3</Circle>
+<Point name="P4" x="2.282958199356913" y="-0.490353697749196">Punkt in 2.282958199356913, -0.490353697749196</Point>
+<Point name="P5" x="3.3154700000000012" y="-2.6263400000000012" shape="circle">Punkt in 3.3154700000000004, -2.6263400000000003</Point>
+<Circle name="k2" midpoint="P4" through="P5">Kreis um P4 durch P5</Circle>
+<Intersection name="N" showname="true" first="k1" second="k2" other="M">Schnitt zwischen k1 und k2</Intersection>
+<OtherIntersection name="M" showname="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Line name="g1" color="1" hidden="true" from="P4" to="P2">Gerade durch P4 und P2</Line>
+<Line name="g2" color="1" hidden="true" from="P2" to="M">Gerade durch P2 und M</Line>
+<Parallel name="p1" color="1" hidden="true" point="P4" line="g2">Parallele durch P4 zu g2</Parallel>
+<Intersection name="S3" color="1" hidden="true" first="p1" second="k2" other="S4">Schnitt zwischen p1 und k2</Intersection>
+<OtherIntersection name="S4" color="1" hidden="true">Schnitt zwischen p1 und k2</OtherIntersection>
+<Line name="g3" color="1" hidden="true" from="S3" to="M">Gerade durch S3 und M</Line>
+<Intersection name="S5" color="1" hidden="true" first="g1" second="g3">Schnitt zwischen g1 und g3</Intersection>
+<Midpoint name="M6" color="1" hidden="true" first="S5" second="P2">Mitte zwischen S5 und P2</Midpoint>
+<Circle name="k3" color="1" hidden="true" midpoint="M6" through="P2">Kreis um M6 durch P2</Circle>
+<Intersection name="A" color="1" showname="true" first="k1" second="k3" other="S7">Schnitt zwischen k1 und k3</Intersection>
+<OtherIntersection name="S7" color="1" hidden="true">Schnitt zwischen k1 und k3</OtherIntersection>
+<Line name="t" color="1" showname="true" from="S5" to="A">Gerade durch S5 und A</Line>
+<Line name="g5" color="1" hidden="true" from="P2" to="A">Gerade durch P2 und A</Line>
+<Parallel name="p2" color="1" hidden="true" point="P4" line="g5">Parallele durch P4 zu g5</Parallel>
+<Intersection name="B" color="1" showname="true" first="p2" second="t">Schnitt zwischen p2 und t</Intersection>
+<Parallel name="p3" color="2" point="M" line="t">Parallele durch M zu t</Parallel>
+<Intersection name="S11" color="2" hidden="true" first="p3" second="k1" other="C">Schnitt zwischen p3 und k1</Intersection>
+<OtherIntersection name="C" color="2" showname="true">Schnitt zwischen p3 und k1</OtherIntersection>
+<Intersection name="D" color="2" showname="true" first="p3" second="k2" other="S14">Schnitt zwischen p3 und k2</Intersection>
+<OtherIntersection name="S14" color="2" hidden="true">Schnitt zwischen p3 und k2</OtherIntersection>
+<Line name="g6" color="3" from="C" to="A">Gerade durch C und A</Line>
+<Line name="g7" color="3" from="D" to="B">Gerade durch D und B</Line>
+<Intersection name="E" color="3" showname="true" first="g6" second="g7">Schnitt zwischen g6 und g7</Intersection>
+<Segment name="s1" color="3" from="A" to="N">Strecke von A nach N</Segment>
+<Intersection name="P" color="3" showname="true" first="p3" second="s1">Schnitt zwischen p3 und s1</Intersection>
+<Segment name="s3" color="3" from="B" to="N">Strecke von B nach N</Segment>
+<Intersection name="Q" color="3" showname="true" first="p3" second="s3">Schnitt zwischen p3 und s3</Intersection>
+<Segment name="s4" type="thick" from="P" to="E">Strecke von P nach E</Segment>
+<Segment name="s5" type="thick" from="E" to="Q">Strecke von E nach Q</Segment>
+<Expression name="EP-EQ" showname="true" showvalue="true" x="-4.11179" y="3.30781" value="&quot;s4&quot;-&quot;s5&quot;" prompt="Wert">Ausdruck &quot;s4-s5&quot; in -4.11, 3.31</Expression>
+</Objects>
+</Construction>
+</CaR>

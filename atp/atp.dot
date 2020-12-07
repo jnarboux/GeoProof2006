@@ -1,0 +1,14 @@
+digraph G {
+  size="7.5,10" ;
+  rankdir = TB ;
+  "Prop" -> "Cooper" ;
+  "Prop" -> "Order" ;
+  "Order" -> "Fol" ;
+  "Intro" -> "Lib" ;
+  "Grobner" -> "Prop" ;
+  "Geom" -> "Cooper" ;
+  "Formulas" -> "Lib" ;
+  "Fol" -> "Formulas" ;
+  "Fol" -> "Intro" ;
+  "Cooper" -> "Fol" ;
+}

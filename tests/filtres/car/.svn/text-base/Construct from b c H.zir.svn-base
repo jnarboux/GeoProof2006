@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.5656854249492381" w="5.6568542494923815"/>
+<Comment>
+<P>Construct a triangle with</P>
+<P></P>
+<P>AB = 5</P>
+<P>AC = 4</P>
+<P>Lenght of perpendicular through A to BC = 3</P>
+</Comment>
+<Objects>
+<Point name="A" showname="true" x="-2.97" y="-1.06">Punkt in -2.97, -1.06</Point>
+<Text name="Text7" hidden="true" break="true" x="-4.154252339470967" y="1.7058951096125459">Construct a triangle with
+AB = 5
+AC = 4
+and length of perpendicular through A 
+to BC equal to 3</Text>
+<Point name="P2" x="5.074999999999999" y="-0.6875">Punkt in 5.074999999999999, -0.6875</Point>
+<Line name="g1" from="A" to="P2">Gerade durch A und P2</Line>
+<Circle name="k1" showvalue="true" xoffset="-2" yoffset="17" fixed="5.0" midpoint="A" partial="true" acute="true">Kreis um A mit Radius 5.0</Circle>
+<Intersection name="B" showname="true" first="g1" second="k1" which="first">Schnitt zwischen g1 und k1</Intersection>
+<Text name="Text2" hidden="true" break="true" x="-0.8308504678941936" y="1.3169863799599446">We first generate AB with length 5.</Text>
+<Midpoint name="M1" color="3" first="A" second="B">Mitte zwischen A und B</Midpoint>
+<Circle name="k2" color="3" through="B" midpoint="M1" acute="true">Kreis um M1 durch B</Circle>
+<Text name="Text3" color="3" hidden="true" break="true" x="-2.351130047445271" y="2.801910620451696">Then we draw the Thales circle on
+AB. The foot of the perpendicular must
+be on that circle.</Text>
+<Circle name="k3" color="3" fixed="3.0" midpoint="A" partial="true" acute="true">Kreis um A mit Radius 3.0</Circle>
+<Intersection name="S3" first="k2" second="k3" which="first">Schnitt zwischen k2 und k3</Intersection>
+<Segment name="s2" color="3" showvalue="true" xoffset="31" yoffset="18" from="A" to="S3">Strecke von A nach S3</Segment>
+<Text name="Text4" color="3" hidden="true" break="true" x="-2.6693280989792174" y="2.519067907977077">Now we can find the foot of the
+perpendicular through A to BC,
+since we know its length.</Text>
+<Line name="g2" color="2" from="B" to="S3">Gerade durch B und S3</Line>
+<Circle name="k4" color="2" fixed="4.0" midpoint="A" partial="true" acute="true">Kreis um A mit Radius 4.0</Circle>
+<Intersection name="C" showname="true" first="g2" second="k4" which="first">Schnitt zwischen g2 und k4</Intersection>
+<Segment name="s1" color="2" showvalue="true" from="A" to="C">Strecke von A nach C</Segment>
+<Text name="Text5" color="2" hidden="true" break="true" x="-2.9698484809835004" y="3.632761088345889">Finally, we find the point C as the
+intersection of the BC with a circle
+around A of size 4.</Text>
+<Text name="Text6" hidden="true" x="2.4395183950935895" y="-2.8195882899813594">Done!</Text>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Objects>
+<Point name="B" showname="true" x="-4.636048526863085" y="-0.9705372616984401">Punkt in -4.636048526863085, -0.97053726169844</Point>
+<Point name="A" showname="true" x="-2.5389948006932412" y="2.131715771230503">Punkt in -2.538994800693241, 2.131715771230502</Point>
+<Segment name="s1" from="B" to="A">Strecke von B nach A</Segment>
+<Point name="C" showname="true" x="-0.4939341421143847" y="-2.253032928942808">Punkt in -0.4939341421143846, -2.2530329289428073</Point>
+<Segment name="s2" from="A" to="C">Strecke von A nach C</Segment>
+<Segment name="s3" from="C" to="B">Strecke von C nach B</Segment>
+<Point name="S" type="thick" showname="true" x="0.7365684575000003" y="0.5892547660000003">Punkt in 0.7365684575000002, 0.5892547660000002</Point>
+<Line name="g2" color="1" hidden="true" from="S" to="B">Gerade durch S und B</Line>
+<Circle name="k2" color="1" hidden="true" midpoint="S" through="B" partial="true">Kreis um S durch B</Circle>
+<Intersection name="S3" color="1" hidden="true" first="g2" second="k2" other="S4">Schnitt zwischen g2 und k2</Intersection>
+<OtherIntersection name="S4" color="1" hidden="true">Schnitt zwischen g1 und k1</OtherIntersection>
+<Midpoint name="B*" color="1" showname="true" target="true" first="S" second="S4" shape="diamond">Mitte zwischen S und S4</Midpoint>
+<Line name="g3" color="1" hidden="true" from="S" to="A">Gerade durch S und A</Line>
+<Circle name="k3" color="1" hidden="true" midpoint="S" through="A" partial="true">Kreis um S durch A</Circle>
+<Intersection name="S5" color="1" hidden="true" first="g3" second="k3" other="S6">Schnitt zwischen g3 und k3</Intersection>
+<OtherIntersection name="S6" color="1" hidden="true">Schnitt zwischen g1 und k1</OtherIntersection>
+<Midpoint name="A*" color="1" showname="true" target="true" first="S" second="S6" shape="diamond">Mitte zwischen S und S6</Midpoint>
+<Line name="g4" color="1" hidden="true" from="S" to="C">Gerade durch S und C</Line>
+<Circle name="k4" color="1" hidden="true" midpoint="S" through="C" partial="true">Kreis um S durch C</Circle>
+<Intersection name="S7" color="1" hidden="true" first="g4" second="k4" other="S8">Schnitt zwischen g4 und k4</Intersection>
+<OtherIntersection name="S8" color="1" hidden="true">Schnitt zwischen g1 und k1</OtherIntersection>
+<Midpoint name="C*" color="1" showname="true" target="true" first="S" second="S8" shape="diamond">Mitte zwischen S und S8</Midpoint>
+<Segment name="s4" color="1" from="C*" to="A*">Strecke von C* nach A*</Segment>
+<Segment name="s5" color="1" from="A*" to="B*">Strecke von A* nach B*</Segment>
+<Segment name="s6" color="1" from="B*" to="C*">Strecke von B* nach C*</Segment>
+<Midpoint name="M10" color="2" hidden="true" first="A" second="C">Mitte zwischen A und C</Midpoint>
+<Midpoint name="M11" color="2" hidden="true" first="B" second="C">Mitte zwischen B und C</Midpoint>
+<Plumb name="l1" color="2" hidden="true" point="M10" line="s2">Lot durch M10 zu s2</Plumb>
+<Plumb name="l2" color="2" hidden="true" point="M11" line="s3">Lot durch M11 zu s3</Plumb>
+<Intersection name="U" showname="true" first="l1" second="l2">Schnitt zwischen l1 und l2</Intersection>
+<Circle name="k5" midpoint="U" through="A">Kreis um U durch A</Circle>
+<Line name="g5" color="2" hidden="true" from="S" to="U">Gerade durch S und U</Line>
+<Circle name="k6" color="2" hidden="true" midpoint="S" through="U" partial="true">Kreis um S durch U</Circle>
+<Intersection name="S10" color="2" hidden="true" first="g5" second="k6" other="S11">Schnitt zwischen g5 und k6</Intersection>
+<OtherIntersection name="S11" color="2" hidden="true">Schnitt zwischen g1 und k1</OtherIntersection>
+<Midpoint name="U*" color="1" showname="true" target="true" first="S" second="S11" shape="diamond">Mitte zwischen S und S11</Midpoint>
+<Circle name="k7" color="1" midpoint="U*" through="B*">Kreis um U* durch B*</Circle>
+<Segment name="s11" color="3" type="thin" from="U" to="U*" arrow="true">Strecke von U nach U*</Segment>
+</Objects>
+</Construction>
+</CaR>

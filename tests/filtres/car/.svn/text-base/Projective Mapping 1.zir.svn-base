@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-5.3033707865168545" y="-2.6324237560192616">Punkt in -5.3033707865168545, -2.6324237560192616</Point>
+<Point name="P2" type="thick" x="6.048154093100002" y="-0.08988764040000002">Punkt in 6.048154093100002, -0.08988764040000002</Point>
+<Ray name="r1" from="P1" to="P2">Strahl von P1 in Richtung P2</Ray>
+<Point name="P3" type="thick" x="2.837881219903691" y="2.0417335473515257">Punkt in 2.837881219903691, 2.0417335473515257</Point>
+<Ray name="r2" from="P1" to="P3">Strahl von P1 in Richtung P3</Ray>
+<Point name="P4" type="thick" x="-0.6035313001605136" y="4.918138041733546">Punkt in -0.6035313001605136, 4.918138041733546</Point>
+<Ray name="r3" from="P1" to="P4">Strahl von P1 in Richtung P4</Ray>
+<Point name="P5" type="thick" x="-3.711075441400001" y="5.303370786500001">Punkt in -3.711075441400001, 5.303370786500001</Point>
+<Ray name="r4" from="P1" to="P5">Strahl von P1 in Richtung P5</Ray>
+<Point name="P6" type="thick" x="-7.1011235955000025" y="5.894060995200002">Punkt in -7.1011235955000025, 5.894060995200002</Point>
+<Point name="P7" color="1" type="thick" x="2.0930979133000007" y="-4.224719101100002">Punkt in 2.0930979133000007, -4.224719101100002</Point>
+<Line name="g1" color="1" from="P6" to="P7">Gerade durch P6 und P7</Line>
+<Intersection name="S1" color="1" first="r4" second="g1">Schnitt zwischen r4 und g1</Intersection>
+<Intersection name="S2" color="1" first="r3" second="g1">Schnitt zwischen r3 und g1</Intersection>
+<Intersection name="S3" color="1" first="r2" second="g1">Schnitt zwischen r2 und g1</Intersection>
+<Intersection name="S4" color="1" first="r1" second="g1">Schnitt zwischen r1 und g1</Intersection>
+<Segment name="a" color="1" showname="true" from="S1" to="S2">Strecke von S1 nach S2</Segment>
+<Segment name="b" color="1" showname="true" from="S2" to="S3">Strecke von S2 nach S3</Segment>
+<Segment name="c" color="1" showname="true" from="S3" to="S4">Strecke von S3 nach S4</Segment>
+<Expression name="E1" color="1" showname="true" showvalue="true" x="-5.585874799357946" y="-3.71107544141252" value="b/(b+c)" prompt="e1=b/(b+c)">Ausdruck &quot;b/(b+c)&quot; in -5.58587, -3.71108</Expression>
+<Expression name="E2" color="1" showname="true" showvalue="true" x="-5.585874799357946" y="-4.276083467094702" value="(a+b)/(a+b+c)" prompt="e2=(a+b)/(a+b+c)">Ausdruck &quot;(a+b)/(a+b+c)&quot; in -5.58587, -4.27608</Expression>
+<Point name="P9" color="2" type="thick" x="5.0722311396468704" y="-2.1187800963081855">Punkt in 5.0722311396468704, -2.1187800963081855</Point>
+<Line name="g2" color="2" from="P6" to="P9">Gerade durch P6 und P9</Line>
+<Intersection name="S5" color="2" first="r4" second="g2">Schnitt zwischen r4 und g2</Intersection>
+<Intersection name="S6" color="2" first="r3" second="g2">Schnitt zwischen r3 und g2</Intersection>
+<Intersection name="S7" color="2" first="r2" second="g2">Schnitt zwischen r2 und g2</Intersection>
+<Intersection name="S8" color="2" first="r1" second="g2">Schnitt zwischen r1 und g2</Intersection>
+<Segment name="aa" color="2" showname="true" from="S5" to="S6">Strecke von S5 nach S6</Segment>
+<Segment name="bb" color="2" showname="true" from="S6" to="S7">Strecke von S6 nach S7</Segment>
+<Segment name="cc" color="2" showname="true" from="S7" to="S8">Strecke von S7 nach S8</Segment>
+<Expression name="E3" color="2" showname="true" showvalue="true" x="0.29534510433386885" y="4.224719101123596" value="bb/(bb+cc)" prompt="ee1=bb/(bb+cc)">Ausdruck &quot;bb/(bb+cc)&quot; in 0.29535, 4.22472</Expression>
+<Expression name="E4" color="2" showname="true" showvalue="true" x="0.26966292134831527" y="3.711075441412519" value="(aa+bb)/(aa+bb+cc)" prompt="ee2=(aa+bb)/(aa+bb+cc)">Ausdruck &quot;(aa+bb)/(aa+bb+cc)&quot; in 0.26966, 3.71108</Expression>
+<Expression name="E5" color="1" showname="true" showvalue="true" x="-5.560192616372392" y="-4.815409309791332" value="E1/E2" prompt="e1/e2">Ausdruck &quot;E1/E2&quot; in -5.56019, -4.81541</Expression>
+<Expression name="E6" color="2" showname="true" showvalue="true" x="0.29534510433386885" y="3.197431781701444" value="E3/E4" prompt="ee1/ee2">Ausdruck &quot;E3/E4&quot; in 0.29535, 3.19743</Expression>
+</Objects>
+</Construction>
+</CaR>

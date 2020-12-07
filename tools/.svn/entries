@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/tools"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="OCamlMakefile"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="82523be77ddedeed2689aba79ddc71f8"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="Makefile"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="94c8d4119ca6bc44327852e7f69a3147"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="README"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="cbca4686cac9164089e9ef05345738f5"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+<entry
+   committed-rev="4"
+   name="svg_converter.ml"
+   text-time="2006-08-24T14:30:59.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d9d9a0e4cd562838a3f3ba921afeaa67"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:30:59.000000Z"/>
+</wc-entries>

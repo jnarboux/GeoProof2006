@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="Streckung">
+<Parameter name="A">A</Parameter>
+<Parameter name="X">X</Parameter>
+<Parameter name="S">S</Parameter>
+<Parameter name="P">P</Parameter>
+<Objects>
+<Point name="A" hidden="true" mainparameter="true" x="0.0" y="0.0">Punkt in 0.0, 0.0</Point>
+<Point name="X" hidden="true" mainparameter="true" x="0.54" y="0.0">Punkt in 0.54, 0.0</Point>
+<Point name="S" hidden="true" mainparameter="true" x="-0.78" y="0.66">Punkt in -0.78, 0.66</Point>
+<Point name="P" hidden="true" mainparameter="true" x="0.47000000000000003" y="1.62">Punkt in 0.47, 1.62</Point>
+<Point name="P5" target="true" x="x(S)+x(X)*(x(P)-x(S))" y="y(S)+x(X)*(y(P)-y(S))" fixed="true">Punkt in &quot;x(S)+x(X)*(x(P)-x(S))&quot;, &quot;y(S)+x(X)*(y(P)-y(S))&quot;</Point>
+</Objects>
+</Macro>
+<Macro Name="Mond">
+<Parameter name="P9">P9</Parameter>
+<Parameter name="P10">P10</Parameter>
+<Objects>
+<Point name="P9" hidden="true" mainparameter="true" x="0.15" y="1.23">Punkt in 0.15, 1.23</Point>
+<Point name="P10" hidden="true" mainparameter="true" x="0.34769687964338775" y="1.715304606240713">Punkt in 0.3476968796433877, 1.7153046062407127</Point>
+<Circle name="k1" target="true" through="P10" midpoint="P9">Kreis um P9 durch P10</Circle>
+<Midpoint name="M1" hidden="true" first="P10" second="P9">Mitte zwischen P10 und P9</Midpoint>
+<Circle3 name="k2" target="true" from="P9" to="P10" midpoint="M1">Kreis um M1 mit Radius von P9 nach P10</Circle3>
+</Objects>
+</Macro>
+<Construction>
+<Window x="0.0" y="0.7999999999999998" w="1.9999999999999993"/>
+<Objects>
+<Point name="A" showvalue="true" x="0.0" y="0.0" shape="diamond" fixed="true">Punkt in &quot;0.0&quot;, &quot;0.0&quot;</Point>
+<Point name="B" showvalue="true" x="1.0" y="0.0" shape="diamond" fixed="true">Punkt in &quot;1.0&quot;, &quot;0.0&quot;</Point>
+<Line name="g1" from="A" to="B">Gerade durch A und B</Line>
+<PointOn name="X" type="thick" showname="true" on="g1" alpha="-0.38">Punkt auf g1</PointOn>
+<Point name="S" showname="true" x="-0.45" y="0.79">Punkt in -0.44873699851411586, 0.7940564635958394</Point>
+<Point name="P9" color="1" type="thin" x="0.6000000000000002" y="1.19">Punkt in 0.6000000000000001, 1.19</Point>
+<Point name="P10" hidden="true" x="0.85" y="1.76">Punkt in 0.8528974739970281, 1.7628528974739963</Point>
+<Circle name="k1" through="P10" midpoint="P9" start="S1" end="S2">Kreis um P9 durch P10</Circle>
+<Midpoint name="M1" hidden="true" first="P10" second="P9">Mitte zwischen P10 und P9</Midpoint>
+<Circle3 name="k3" from="P9" to="P10" midpoint="M1" start="S1" end="S2">Kreis um M1 mit Radius von P9 nach P10</Circle3>
+<Intersection name="S1" hidden="true" first="k3" second="k1" which="first">Schnitt zwischen k3 und k1</Intersection>
+<Intersection name="S2" hidden="true" first="k3" second="k1" which="second">Schnitt zwischen k3 und k1</Intersection>
+<Point name="P11" color="1" type="thin" x="x(S)+x(X)*(x(P9)-x(S))" y="y(S)+x(X)*(y(P9)-y(S))" fixed="true">Punkt in &quot;x(S)+x(X)*(x(P9)-x(S))&quot;, &quot;y(S)+x(X)*(y(P9)-y(S))&quot;</Point>
+<Point name="P12" hidden="true" x="x(S)+x(X)*(x(P10)-x(S))" y="y(S)+x(X)*(y(P10)-y(S))" fixed="true">Punkt in &quot;x(S)+x(X)*(x(P10)-x(S))&quot;, &quot;y(S)+x(X)*(y(P10)-y(S))&quot;</Point>
+<Circle name="k4" through="P12" midpoint="P11" start="S3" end="S4">Kreis um P11 durch P12</Circle>
+<Midpoint name="M2" hidden="true" first="P12" second="P11">Mitte zwischen P12 und P11</Midpoint>
+<Circle3 name="k5" from="P11" to="P12" midpoint="M2" start="S3" end="S4">Kreis um M2 mit Radius von P11 nach P12</Circle3>
+<Intersection name="S3" hidden="true" first="k5" second="k4" which="first">Schnitt zwischen k5 und k4</Intersection>
+<Intersection name="S4" hidden="true" first="k5" second="k4" which="second">Schnitt zwischen k5 und k4</Intersection>
+<Segment name="s2" color="1" type="thin" from="P9" to="P11" arrow="true">Strecke von P9 nach P11</Segment>
+</Objects>
+</Construction>
+</CaR>

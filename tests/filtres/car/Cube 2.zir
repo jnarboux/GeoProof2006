@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="4.0" y="0.0" w="2.4999999999999996"/>
+<Animate animate="move this point" via0="c3"/>
+<Objects>
+<Point name="P1" hidden="true" x="3.2025316455696213" y="0.20886075949367092">Punto en 3.2025316455696204, 0.2088607594936709</Point>
+<Point name="P2" hidden="true" x="4.810126582278484" y="0.2088607594936711">Punto en 4.810126582278481, 0.2088607594936711</Point>
+<Circle name="c1" hidden="true" through="P2" midpoint="P1">Circunferencia de centro P1 por P2</Circle>
+<Circle name="c2" hidden="true" through="P1" midpoint="P2">Circunferencia de centro P2 por P1</Circle>
+<Intersection name="I1" hidden="true" first="c1" second="c2" which="first">Intersección entre c1 y c2</Intersection>
+<Intersection name="I2" hidden="true" first="c1" second="c2" which="second">Intersección entre c1 y c2</Intersection>
+<Midpoint name="M1" hidden="true" first="P1" second="I2">Punto medio entre P1 y I2</Midpoint>
+<Line name="r1" hidden="true" from="I2" to="I1">Recta por I2 y I1</Line>
+<Line name="r2" hidden="true" from="M1" to="P2">Recta por M1 y P2</Line>
+<Intersection name="I3" first="r1" second="r2">Intersección entre r1 y r2</Intersection>
+<Line name="r3" hidden="true" from="P1" to="I3">Recta por P1 y I3</Line>
+<Ray name="sr1" from="I3" to="P2">Semirrecta desde I3 que pasa por P2</Ray>
+<Ray name="sr2" from="I3" to="P1">Semirrecta desde I3 que pasa por P1</Ray>
+<Ray name="sr3" from="I3" to="I2">Semirrecta desde I3 que pasa por I2</Ray>
+<Point name="P3" x="-2.5316455696202533" y="3.284810126582279">Punto en -2.5316455696202533, 3.2848101265822787</Point>
+<Point name="P4" x="1.139240506329114" y="3.2974683544303813">Punto en 1.1392405063291138, 3.29746835443038</Point>
+<Line name="r4" from="P3" to="P4" partial="true">Recta por P3 y P4</Line>
+<Point name="P5" x="-1.0886075949367089" y="1.7784810126582289">Punto en -1.0886075949367089, 1.778481012658228</Point>
+<Point name="P6" hidden="true" x="-0.4810126582278482" y="1.5632911392405069">Punto en -0.481012658227848, 1.5632911392405062</Point>
+<Circle name="c3" through="P6" midpoint="P5">Circunferencia de centro P5 por P6</Circle>
+<PointOn name="move this point" showname="true" on="c3" x="-1.7068067562288167" y="1.595975983375433" shape="circle">Punkt auf c3</PointOn>
+<Plumb name="per1" hidden="true" point="move this point" line="r4">Recta perpendicular por move this point a r4</Plumb>
+<Intersection name="I4" hidden="true" first="r4" second="per1">Intersección entre r4 y per1</Intersection>
+<Circle3 name="c4" hidden="true" from="P3" to="I4" midpoint="I3">Circunferencia de centro P3 con radio desde I4 hasta I3</Circle3>
+<Intersection name="I5" hidden="true" first="sr1" second="c4" which="first">Intersección entre sr1 y c4</Intersection>
+<Intersection name="I6" first="sr1" second="c4" which="second">Intersección entre sr1 y c4</Intersection>
+<Circle3 name="c5" hidden="true" from="I4" to="move this point" midpoint="I3">Circunferencia de centro I4 con radio desde move this point hasta I3</Circle3>
+<Intersection name="I7" hidden="true" first="sr2" second="c5" which="first">Intersección entre sr2 y c5</Intersection>
+<Intersection name="I8" first="sr2" second="c5" which="second">Intersección entre sr2 y c5</Intersection>
+<Parallel name="par1" hidden="true" point="I5" line="sr2">Recta paralela por  I5 a sr2</Parallel>
+<Parallel name="par2" hidden="true" point="I7" line="sr1">Recta paralela por  I7 a sr1</Parallel>
+<Intersection name="I9" hidden="true" first="par1" second="par2">Intersección entre par1 y par2</Intersection>
+<Line name="r5" hidden="true" from="move this point" to="P5">Recta por move this point y P5</Line>
+<Plumb name="per2" hidden="true" point="P5" line="r5">Recta perpendicular por P5 a r5</Plumb>
+<Intersection name="I10" hidden="true" first="per2" second="c3" which="first">Intersección entre per2 y c3</Intersection>
+<Intersection name="I11" hidden="true" first="per2" second="c3" which="second">Intersección entre per2 y c3</Intersection>
+<Intersection name="I12" hidden="true" first="r5" second="c3" which="first">Intersección entre r5 y c3</Intersection>
+<Intersection name="I13" hidden="true" first="r5" second="c3" which="second">Intersección entre r5 y c3</Intersection>
+<Plumb name="per3" hidden="true" point="I11" line="r4">Recta perpendicular por I11 a r4</Plumb>
+<Intersection name="I14" hidden="true" first="r4" second="per3">Intersección entre r4 y per3</Intersection>
+<Circle3 name="c6" hidden="true" from="P3" to="I14" midpoint="I3">Circunferencia de centro P3 con radio desde I14 hasta I3</Circle3>
+<Intersection name="I15" hidden="true" first="sr1" second="c6" which="first">Intersección entre sr1 y c6</Intersection>
+<Intersection name="I16" first="sr1" second="c6" which="second">Intersección entre sr1 y c6</Intersection>
+<Circle3 name="c7" hidden="true" from="I11" to="I14" midpoint="I3">Circunferencia de centro I11 con radio desde I14 hasta I3</Circle3>
+<Intersection name="I17" hidden="true" first="sr2" second="c7" which="first">Intersección entre sr2 y c7</Intersection>
+<Intersection name="I18" first="sr2" second="c7" which="second">Intersección entre sr2 y c7</Intersection>
+<Parallel name="par3" hidden="true" point="I15" line="sr2">Recta paralela por  I15 a sr2</Parallel>
+<Parallel name="par4" hidden="true" point="I17" line="sr1">Recta paralela por  I17 a sr1</Parallel>
+<Intersection name="I19" hidden="true" first="par3" second="par4">Intersección entre par3 y par4</Intersection>
+<Plumb name="per4" hidden="true" point="I12" line="r4">Recta perpendicular por I12 a r4</Plumb>
+<Intersection name="I20" hidden="true" first="r4" second="per4">Intersección entre r4 y per4</Intersection>
+<Circle3 name="c8" hidden="true" from="P3" to="I20" midpoint="I3">Circunferencia de centro P3 con radio desde I20 hasta I3</Circle3>
+<Intersection name="I21" hidden="true" first="sr1" second="c8" which="first">Intersección entre sr1 y c8</Intersection>
+<Intersection name="I22" first="sr1" second="c8" which="second">Intersección entre sr1 y c8</Intersection>
+<Circle3 name="c9" hidden="true" from="I20" to="I12" midpoint="I3">Circunferencia de centro I20 con radio desde I12 hasta I3</Circle3>
+<Intersection name="I23" hidden="true" first="sr2" second="c9" which="first">Intersección entre sr2 y c9</Intersection>
+<Intersection name="I24" first="sr2" second="c9" which="second">Intersección entre sr2 y c9</Intersection>
+<Parallel name="par5" hidden="true" point="I21" line="sr2">Recta paralela por  I21 a sr2</Parallel>
+<Parallel name="par6" hidden="true" point="I23" line="sr1">Recta paralela por  I23 a sr1</Parallel>
+<Intersection name="I25" hidden="true" first="par5" second="par6">Intersección entre par5 y par6</Intersection>
+<Plumb name="per5" hidden="true" point="I10" line="r4">Recta perpendicular por I10 a r4</Plumb>
+<Intersection name="I26" hidden="true" first="r4" second="per5">Intersección entre r4 y per5</Intersection>
+<Circle3 name="c10" hidden="true" from="P3" to="I26" midpoint="I3">Circunferencia de centro P3 con radio desde I26 hasta I3</Circle3>
+<Intersection name="I27" hidden="true" first="sr1" second="c10" which="first">Intersección entre sr1 y c10</Intersection>
+<Intersection name="I28" first="sr1" second="c10" which="second">Intersección entre sr1 y c10</Intersection>
+<Circle3 name="c11" hidden="true" from="I26" to="I10" midpoint="I3">Circunferencia de centro I26 con radio desde I10 hasta I3</Circle3>
+<Intersection name="I29" hidden="true" first="sr2" second="c11" which="first">Intersección entre sr2 y c11</Intersection>
+<Intersection name="I30" first="sr2" second="c11" which="second">Intersección entre sr2 y c11</Intersection>
+<Parallel name="par7" hidden="true" point="I27" line="sr2">Recta paralela por  I27 a sr2</Parallel>
+<Parallel name="par8" hidden="true" point="I29" line="sr1">Recta paralela por  I29 a sr1</Parallel>
+<Intersection name="I31" hidden="true" first="par7" second="par8">Intersección entre par7 y par8</Intersection>
+<Segment name="s1" from="I25" to="I19">Segmento entre I25 y I19</Segment>
+<Segment name="s2" from="I19" to="I9">Segmento entre I19 y I9</Segment>
+<Segment name="s3" from="I9" to="I31">Segmento entre I9 y I31</Segment>
+<Segment name="s4" from="I31" to="I25">Segmento entre I31 y I25</Segment>
+<Circle3 name="c12" hidden="true" from="move this point" to="I10" midpoint="I25">Circunferencia de centro move this point con radio desde I10 hasta I25</Circle3>
+<Parallel name="par9" hidden="true" point="I25" line="sr3">Recta paralela por  I25 a sr3</Parallel>
+<Intersection name="I32" hidden="true" first="par9" second="c12" which="first">Intersección entre par9 y c12</Intersection>
+<Intersection name="I33" hidden="true" first="par9" second="c12" which="second">Intersección entre par9 y c12</Intersection>
+<Circle3 name="c13" hidden="true" from="I12" to="I10" midpoint="I19">Circunferencia de centro I12 con radio desde I10 hasta I19</Circle3>
+<Circle3 name="c14" hidden="true" from="I12" to="I10" midpoint="I9">Circunferencia de centro I12 con radio desde I10 hasta I9</Circle3>
+<Circle3 name="c15" hidden="true" from="I12" to="I10" midpoint="I31">Circunferencia de centro I12 con radio desde I10 hasta I31</Circle3>
+<Parallel name="par10" hidden="true" point="I19" line="sr3">Recta paralela por  I19 a sr3</Parallel>
+<Parallel name="par11" hidden="true" point="I9" line="sr3">Recta paralela por  I9 a sr3</Parallel>
+<Parallel name="par12" hidden="true" point="I31" line="par11">Recta paralela por  I31 a par11</Parallel>
+<Intersection name="I34" hidden="true" first="par10" second="c13" which="first">Intersección entre par10 y c13</Intersection>
+<Intersection name="I35" hidden="true" first="par10" second="c13" which="second">Intersección entre par10 y c13</Intersection>
+<Intersection name="I36" hidden="true" first="par11" second="c14" which="first">Intersección entre par11 y c14</Intersection>
+<Intersection name="I37" hidden="true" first="par11" second="c14" which="second">Intersección entre par11 y c14</Intersection>
+<Intersection name="I38" hidden="true" first="par12" second="c15" which="first">Intersección entre par12 y c15</Intersection>
+<Intersection name="I39" hidden="true" first="par12" second="c15" which="second">Intersección entre par12 y c15</Intersection>
+<Segment name="s5" type="thick" from="I32" to="I34">Segmento entre I32 y I34</Segment>
+<Segment name="s6" type="thick" from="I34" to="I36">Segmento entre I34 y I36</Segment>
+<Segment name="s7" type="thick" from="I36" to="I38">Segmento entre I36 y I38</Segment>
+<Segment name="s8" type="thick" from="I38" to="I32">Segmento entre I38 y I32</Segment>
+<Segment name="s9" from="I32" to="I25">Segmento entre I32 y I25</Segment>
+<Segment name="s10" from="I34" to="I19">Segmento entre I34 y I19</Segment>
+<Segment name="s11" from="I36" to="I9">Segmento entre I36 y I9</Segment>
+<Segment name="s12" from="I38" to="I31">Segmento entre I38 y I31</Segment>
+<Intersection name="I41" hidden="true" first="s8" second="s10">Intersección entre s8 y s10</Intersection>
+<Circle name="c16" hidden="true" through="I25" midpoint="I41">Circunferencia de centro I41 por I25</Circle>
+<Line name="r6" hidden="true" from="I25" to="I41">Recta por I25 y I41</Line>
+<Intersection name="I42" hidden="true" target="true" first="r6" second="c16" which="first">Intersección entre r6 y c16</Intersection>
+<Intersection name="I43" hidden="true" target="true" first="r6" second="c16" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c17" hidden="true" through="I42" midpoint="I41">Circunferencia de centro I41 por I42</Circle>
+<Line name="r7" hidden="true" from="I42" to="I41">Recta por I42 y I41</Line>
+<Intersection name="I44" hidden="true" target="true" first="r7" second="c17" which="first">Intersección entre r7 y c17</Intersection>
+<Intersection name="I45" hidden="true" target="true" first="r7" second="c17" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s13" type="thick" from="I44" to="I32">Segmento entre I44 y I32</Segment>
+<Circle name="c18" hidden="true" through="I31" midpoint="I41">Circunferencia de centro I41 por I31</Circle>
+<Line name="r8" hidden="true" from="I31" to="I41">Recta por I31 y I41</Line>
+<Intersection name="I46" type="thick" hidden="true" target="true" first="r8" second="c18" which="first">Intersección entre r8 y c18</Intersection>
+<Intersection name="I47" hidden="true" target="true" first="r8" second="c18" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c19" hidden="true" through="I46" midpoint="I41">Circunferencia de centro I41 por I46</Circle>
+<Line name="r9" hidden="true" from="I46" to="I41">Recta por I46 y I41</Line>
+<Intersection name="I48" hidden="true" target="true" first="r9" second="c19" which="first">Intersección entre r9 y c19</Intersection>
+<Intersection name="I49" hidden="true" target="true" first="r9" second="c19" which="second">Intersección entre r1 y c1</Intersection>
+<Intersection name="I52" hidden="true" first="s10" second="s7">Intersección entre s10 y s7</Intersection>
+<Circle name="c20" hidden="true" through="I31" midpoint="I52">Circunferencia de centro I52 por I31</Circle>
+<Line name="r10" hidden="true" from="I31" to="I52">Recta por I31 y I52</Line>
+<Intersection name="I53" hidden="true" target="true" first="r10" second="c20" which="first">Intersección entre r10 y c20</Intersection>
+<Intersection name="I54" hidden="true" target="true" first="r10" second="c20" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c21" hidden="true" through="I53" midpoint="I52">Circunferencia de centro I52 por I53</Circle>
+<Line name="r11" hidden="true" from="I53" to="I52">Recta por I53 y I52</Line>
+<Intersection name="I55" hidden="true" target="true" first="r11" second="c21" which="first">Intersección entre r11 y c21</Intersection>
+<Intersection name="I56" hidden="true" target="true" first="r11" second="c21" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c22" hidden="true" through="I9" midpoint="I52">Circunferencia de centro I52 por I9</Circle>
+<Line name="r12" hidden="true" from="I9" to="I52">Recta por I9 y I52</Line>
+<Intersection name="I57" hidden="true" target="true" first="r12" second="c22" which="first">Intersección entre r12 y c22</Intersection>
+<Intersection name="I58" hidden="true" target="true" first="r12" second="c22" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c23" hidden="true" through="I57" midpoint="I52">Circunferencia de centro I52 por I57</Circle>
+<Line name="r13" hidden="true" from="I57" to="I52">Recta por I57 y I52</Line>
+<Intersection name="I59" hidden="true" target="true" first="r13" second="c23" which="first">Intersección entre r13 y c23</Intersection>
+<Intersection name="I60" hidden="true" target="true" first="r13" second="c23" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c24" hidden="true" through="I25" midpoint="I52">Circunferencia de centro I52 por I25</Circle>
+<Line name="r14" hidden="true" from="I25" to="I52">Recta por I25 y I52</Line>
+<Intersection name="I61" hidden="true" target="true" first="r14" second="c24" which="first">Intersección entre r14 y c24</Intersection>
+<Intersection name="I62" hidden="true" target="true" first="r14" second="c24" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c25" hidden="true" through="I61" midpoint="I52">Circunferencia de centro I52 por I61</Circle>
+<Line name="r15" hidden="true" from="I61" to="I52">Recta por I61 y I52</Line>
+<Intersection name="I63" hidden="true" target="true" first="r15" second="c25" which="first">Intersección entre r15 y c25</Intersection>
+<Intersection name="I64" hidden="true" target="true" first="r15" second="c25" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s19" type="thick" from="I63" to="I32">Segmento entre I63 y I32</Segment>
+<Segment name="s20" type="thick" from="I55" to="I38">Segmento entre I55 y I38</Segment>
+<Segment name="s21" type="thick" from="I59" to="I36">Segmento entre I59 y I36</Segment>
+<Intersection name="I65" hidden="true" first="s9" second="s7">Intersección entre s9 y s7</Intersection>
+<Circle name="c26" hidden="true" through="I31" midpoint="I65">Circunferencia de centro I65 por I31</Circle>
+<Line name="r16" hidden="true" from="I31" to="I65">Recta por I31 y I65</Line>
+<Intersection name="I66" hidden="true" target="true" first="r16" second="c26" which="first">Intersección entre r16 y c26</Intersection>
+<Intersection name="I67" hidden="true" target="true" first="r16" second="c26" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c27" hidden="true" through="I66" midpoint="I65">Circunferencia de centro I65 por I66</Circle>
+<Line name="r17" hidden="true" from="I66" to="I65">Recta por I66 y I65</Line>
+<Intersection name="I68" hidden="true" target="true" first="r17" second="c27" which="first">Intersección entre r17 y c27</Intersection>
+<Intersection name="I69" hidden="true" target="true" first="r17" second="c27" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c28" hidden="true" through="I9" midpoint="I65">Circunferencia de centro I65 por I9</Circle>
+<Line name="r18" hidden="true" from="I9" to="I65">Recta por I9 y I65</Line>
+<Intersection name="I70" hidden="true" target="true" first="r18" second="c28" which="first">Intersección entre r18 y c28</Intersection>
+<Intersection name="I71" hidden="true" target="true" first="r18" second="c28" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c29" hidden="true" through="I70" midpoint="I65">Circunferencia de centro I65 por I70</Circle>
+<Line name="r19" hidden="true" from="I70" to="I65">Recta por I70 y I65</Line>
+<Intersection name="I72" hidden="true" target="true" first="r19" second="c29" which="first">Intersección entre r19 y c29</Intersection>
+<Intersection name="I73" hidden="true" target="true" first="r19" second="c29" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c30" hidden="true" through="I19" midpoint="I65">Circunferencia de centro I65 por I19</Circle>
+<Line name="r20" hidden="true" from="I19" to="I65">Recta por I19 y I65</Line>
+<Intersection name="I74" hidden="true" target="true" first="r20" second="c30" which="first">Intersección entre r20 y c30</Intersection>
+<Intersection name="I75" hidden="true" target="true" first="r20" second="c30" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c31" hidden="true" through="I74" midpoint="I65">Circunferencia de centro I65 por I74</Circle>
+<Line name="r21" hidden="true" from="I74" to="I65">Recta por I74 y I65</Line>
+<Intersection name="I76" hidden="true" target="true" first="r21" second="c31" which="first">Intersección entre r21 y c31</Intersection>
+<Intersection name="I77" hidden="true" target="true" first="r21" second="c31" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s17" type="thick" from="I68" to="I38">Segmento entre I68 y I38</Segment>
+<Segment name="s18" type="thick" from="I72" to="I36">Segmento entre I72 y I36</Segment>
+<Segment name="s22" type="thick" from="I76" to="I34">Segmento entre I76 y I34</Segment>
+<Intersection name="I78" type="thick" hidden="true" first="s9" second="s6">Intersección entre s9 y s6</Intersection>
+<Circle name="c32" hidden="true" through="I31" midpoint="I78">Circunferencia de centro I78 por I31</Circle>
+<Line name="r22" hidden="true" from="I31" to="I78">Recta por I31 y I78</Line>
+<Intersection name="I79" hidden="true" target="true" first="r22" second="c32" which="first">Intersección entre r22 y c32</Intersection>
+<Intersection name="I80" hidden="true" target="true" first="r22" second="c32" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c33" hidden="true" through="I79" midpoint="I78">Circunferencia de centro I78 por I79</Circle>
+<Line name="r23" hidden="true" from="I79" to="I78">Recta por I79 y I78</Line>
+<Intersection name="I81" hidden="true" target="true" first="r23" second="c33" which="first">Intersección entre r23 y c33</Intersection>
+<Intersection name="I82" hidden="true" target="true" first="r23" second="c33" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c34" hidden="true" through="I9" midpoint="I78">Circunferencia de centro I78 por I9</Circle>
+<Line name="r24" hidden="true" from="I9" to="I78">Recta por I9 y I78</Line>
+<Intersection name="I83" hidden="true" target="true" first="r24" second="c34" which="first">Intersección entre r24 y c34</Intersection>
+<Intersection name="I84" hidden="true" target="true" first="r24" second="c34" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c35" hidden="true" through="I83" midpoint="I78">Circunferencia de centro I78 por I83</Circle>
+<Line name="r25" hidden="true" from="I83" to="I78">Recta por I83 y I78</Line>
+<Intersection name="I85" hidden="true" target="true" first="r25" second="c35" which="first">Intersección entre r25 y c35</Intersection>
+<Intersection name="I86" hidden="true" target="true" first="r25" second="c35" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c36" hidden="true" through="I19" midpoint="I78">Circunferencia de centro I78 por I19</Circle>
+<Line name="r26" hidden="true" from="I19" to="I78">Recta por I19 y I78</Line>
+<Intersection name="I87" hidden="true" target="true" first="r26" second="c36" which="first">Intersección entre r26 y c36</Intersection>
+<Intersection name="I88" hidden="true" target="true" first="r26" second="c36" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c37" hidden="true" through="I87" midpoint="I78">Circunferencia de centro I78 por I87</Circle>
+<Line name="r27" hidden="true" from="I87" to="I78">Recta por I87 y I78</Line>
+<Intersection name="I89" hidden="true" target="true" first="r27" second="c37" which="first">Intersección entre r27 y c37</Intersection>
+<Intersection name="I90" hidden="true" target="true" first="r27" second="c37" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s23" type="thick" from="I81" to="I38">Segmento entre I81 y I38</Segment>
+<Segment name="s24" type="thick" from="I85" to="I36">Segmento entre I85 y I36</Segment>
+<Segment name="s25" type="thick" from="I89" to="I34">Segmento entre I89 y I34</Segment>
+<Intersection name="I91" type="thick" hidden="true" first="s6" second="s12">Intersección entre s6 y s12</Intersection>
+<Circle name="c38" hidden="true" through="I9" midpoint="I91">Circunferencia de centro I91 por I9</Circle>
+<Line name="r28" hidden="true" from="I9" to="I91">Recta por I9 y I91</Line>
+<Intersection name="I92" hidden="true" target="true" first="r28" second="c38" which="first">Intersección entre r28 y c38</Intersection>
+<Intersection name="I93" hidden="true" target="true" first="r28" second="c38" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c39" hidden="true" through="I92" midpoint="I91">Circunferencia de centro I91 por I92</Circle>
+<Line name="r29" hidden="true" from="I92" to="I91">Recta por I92 y I91</Line>
+<Intersection name="I94" hidden="true" target="true" first="r29" second="c39" which="first">Intersección entre r29 y c39</Intersection>
+<Intersection name="I95" hidden="true" target="true" first="r29" second="c39" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c40" hidden="true" through="I19" midpoint="I91">Circunferencia de centro I91 por I19</Circle>
+<Line name="r30" hidden="true" from="I19" to="I91">Recta por I19 y I91</Line>
+<Intersection name="I96" hidden="true" target="true" first="r30" second="c40" which="first">Intersección entre r30 y c40</Intersection>
+<Intersection name="I97" hidden="true" target="true" first="r30" second="c40" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c41" hidden="true" through="I96" midpoint="I91">Circunferencia de centro I91 por I96</Circle>
+<Line name="r31" hidden="true" from="I96" to="I91">Recta por I96 y I91</Line>
+<Intersection name="I98" hidden="true" target="true" first="r31" second="c41" which="first">Intersección entre r31 y c41</Intersection>
+<Intersection name="I99" hidden="true" target="true" first="r31" second="c41" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c42" hidden="true" through="I25" midpoint="I91">Circunferencia de centro I91 por I25</Circle>
+<Line name="r32" hidden="true" from="I25" to="I91">Recta por I25 y I91</Line>
+<Intersection name="I100" hidden="true" target="true" first="r32" second="c42" which="first">Intersección entre r32 y c42</Intersection>
+<Intersection name="I101" hidden="true" target="true" first="r32" second="c42" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c43" hidden="true" through="I100" midpoint="I91">Circunferencia de centro I91 por I100</Circle>
+<Line name="r33" hidden="true" from="I100" to="I91">Recta por I100 y I91</Line>
+<Intersection name="I102" hidden="true" target="true" first="r33" second="c43" which="first">Intersección entre r33 y c43</Intersection>
+<Intersection name="I103" hidden="true" target="true" first="r33" second="c43" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s26" type="thick" from="I94" to="I36">Segmento entre I94 y I36</Segment>
+<Segment name="s27" type="thick" from="I98" to="I34">Segmento entre I98 y I34</Segment>
+<Segment name="s28" type="thick" from="I102" to="I32">Segmento entre I102 y I32</Segment>
+<Intersection name="I104" hidden="true" first="s5" second="s12">Intersección entre s5 y s12</Intersection>
+<Circle name="c44" hidden="true" through="I9" midpoint="I104">Circunferencia de centro I104 por I9</Circle>
+<Line name="r34" hidden="true" from="I9" to="I104">Recta por I9 y I104</Line>
+<Intersection name="I105" hidden="true" target="true" first="r34" second="c44" which="first">Intersección entre r34 y c44</Intersection>
+<Intersection name="I106" hidden="true" target="true" first="r34" second="c44" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c45" hidden="true" through="I105" midpoint="I104">Circunferencia de centro I104 por I105</Circle>
+<Line name="r35" hidden="true" from="I105" to="I104">Recta por I105 y I104</Line>
+<Intersection name="I107" hidden="true" target="true" first="r35" second="c45" which="first">Intersección entre r35 y c45</Intersection>
+<Intersection name="I108" hidden="true" target="true" first="r35" second="c45" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c46" hidden="true" through="I19" midpoint="I104">Circunferencia de centro I104 por I19</Circle>
+<Line name="r36" hidden="true" from="I19" to="I104">Recta por I19 y I104</Line>
+<Intersection name="I109" hidden="true" target="true" first="r36" second="c46" which="first">Intersección entre r36 y c46</Intersection>
+<Intersection name="I110" hidden="true" target="true" first="r36" second="c46" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c47" hidden="true" through="I109" midpoint="I104">Circunferencia de centro I104 por I109</Circle>
+<Line name="r37" hidden="true" from="I109" to="I104">Recta por I109 y I104</Line>
+<Intersection name="I111" hidden="true" target="true" first="r37" second="c47" which="first">Intersección entre r37 y c47</Intersection>
+<Intersection name="I112" hidden="true" target="true" first="r37" second="c47" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c48" hidden="true" through="I25" midpoint="I104">Circunferencia de centro I104 por I25</Circle>
+<Line name="r38" hidden="true" from="I25" to="I104">Recta por I25 y I104</Line>
+<Intersection name="I113" hidden="true" target="true" first="r38" second="c48" which="first">Intersección entre r38 y c48</Intersection>
+<Intersection name="I114" hidden="true" target="true" first="r38" second="c48" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c49" hidden="true" through="I113" midpoint="I104">Circunferencia de centro I104 por I113</Circle>
+<Line name="r39" hidden="true" from="I113" to="I104">Recta por I113 y I104</Line>
+<Intersection name="I115" hidden="true" target="true" first="r39" second="c49" which="first">Intersección entre r39 y c49</Intersection>
+<Intersection name="I116" hidden="true" target="true" first="r39" second="c49" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s29" type="thick" from="I107" to="I36">Segmento entre I107 y I36</Segment>
+<Segment name="s30" type="thick" from="I111" to="I34">Segmento entre I111 y I34</Segment>
+<Segment name="s31" type="thick" from="I115" to="I32">Segmento entre I115 y I32</Segment>
+<Intersection name="I117" type="thick" hidden="true" first="s5" second="s11">Intersección entre s5 y s11</Intersection>
+<Circle name="c50" hidden="true" through="I19" midpoint="I117">Circunferencia de centro I117 por I19</Circle>
+<Line name="r40" hidden="true" from="I19" to="I117">Recta por I19 y I117</Line>
+<Intersection name="I118" hidden="true" target="true" first="r40" second="c50" which="first">Intersección entre r40 y c50</Intersection>
+<Intersection name="I119" hidden="true" target="true" first="r40" second="c50" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c51" hidden="true" through="I118" midpoint="I117">Circunferencia de centro I117 por I118</Circle>
+<Line name="r41" hidden="true" from="I118" to="I117">Recta por I118 y I117</Line>
+<Intersection name="I120" hidden="true" target="true" first="r41" second="c51" which="first">Intersección entre r41 y c51</Intersection>
+<Intersection name="I121" hidden="true" target="true" first="r41" second="c51" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c52" hidden="true" through="I25" midpoint="I117">Circunferencia de centro I117 por I25</Circle>
+<Line name="r42" hidden="true" from="I25" to="I117">Recta por I25 y I117</Line>
+<Intersection name="I122" hidden="true" target="true" first="r42" second="c52" which="first">Intersección entre r42 y c52</Intersection>
+<Intersection name="I123" hidden="true" target="true" first="r42" second="c52" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c53" hidden="true" through="I122" midpoint="I117">Circunferencia de centro I117 por I122</Circle>
+<Line name="r43" hidden="true" from="I122" to="I117">Recta por I122 y I117</Line>
+<Intersection name="I124" hidden="true" target="true" first="r43" second="c53" which="first">Intersección entre r43 y c53</Intersection>
+<Intersection name="I125" hidden="true" target="true" first="r43" second="c53" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c54" hidden="true" through="I31" midpoint="I117">Circunferencia de centro I117 por I31</Circle>
+<Line name="r44" hidden="true" from="I31" to="I117">Recta por I31 y I117</Line>
+<Intersection name="I126" hidden="true" target="true" first="r44" second="c54" which="first">Intersección entre r44 y c54</Intersection>
+<Intersection name="I127" hidden="true" target="true" first="r44" second="c54" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c55" hidden="true" through="I126" midpoint="I117">Circunferencia de centro I117 por I126</Circle>
+<Line name="r45" hidden="true" from="I126" to="I117">Recta por I126 y I117</Line>
+<Intersection name="I128" hidden="true" target="true" first="r45" second="c55" which="first">Intersección entre r45 y c55</Intersection>
+<Intersection name="I129" hidden="true" target="true" first="r45" second="c55" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s32" type="thick" from="I120" to="I34">Segmento entre I120 y I34</Segment>
+<Segment name="s33" type="thick" from="I124" to="I32">Segmento entre I124 y I32</Segment>
+<Segment name="s34" type="thick" from="I128" to="I38">Segmento entre I128 y I38</Segment>
+<Intersection name="I130" type="thick" hidden="true" first="s8" second="s11">Intersección entre s8 y s11</Intersection>
+<Circle name="c56" hidden="true" through="I19" midpoint="I130">Circunferencia de centro I130 por I19</Circle>
+<Line name="r46" hidden="true" from="I19" to="I130">Recta por I19 y I130</Line>
+<Intersection name="I131" hidden="true" target="true" first="r46" second="c56" which="first">Intersección entre r46 y c56</Intersection>
+<Intersection name="I132" hidden="true" target="true" first="r46" second="c56" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c57" hidden="true" through="I131" midpoint="I130">Circunferencia de centro I130 por I131</Circle>
+<Line name="r47" hidden="true" from="I131" to="I130">Recta por I131 y I130</Line>
+<Intersection name="I133" hidden="true" target="true" first="r47" second="c57" which="first">Intersección entre r47 y c57</Intersection>
+<Intersection name="I134" hidden="true" target="true" first="r47" second="c57" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c58" hidden="true" through="I25" midpoint="I130">Circunferencia de centro I130 por I25</Circle>
+<Line name="r48" hidden="true" from="I25" to="I130">Recta por I25 y I130</Line>
+<Intersection name="I135" hidden="true" target="true" first="r48" second="c58" which="first">Intersección entre r48 y c58</Intersection>
+<Intersection name="I136" hidden="true" target="true" first="r48" second="c58" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c59" hidden="true" through="I135" midpoint="I130">Circunferencia de centro I130 por I135</Circle>
+<Line name="r49" hidden="true" from="I135" to="I130">Recta por I135 y I130</Line>
+<Intersection name="I137" hidden="true" target="true" first="r49" second="c59" which="first">Intersección entre r49 y c59</Intersection>
+<Intersection name="I138" hidden="true" target="true" first="r49" second="c59" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c60" hidden="true" through="I31" midpoint="I130">Circunferencia de centro I130 por I31</Circle>
+<Line name="r50" hidden="true" from="I31" to="I130">Recta por I31 y I130</Line>
+<Intersection name="I139" hidden="true" target="true" first="r50" second="c60" which="first">Intersección entre r50 y c60</Intersection>
+<Intersection name="I140" hidden="true" target="true" first="r50" second="c60" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c61" hidden="true" through="I139" midpoint="I130">Circunferencia de centro I130 por I139</Circle>
+<Line name="r51" hidden="true" from="I139" to="I130">Recta por I139 y I130</Line>
+<Intersection name="I141" hidden="true" target="true" first="r51" second="c61" which="first">Intersección entre r51 y c61</Intersection>
+<Intersection name="I142" hidden="true" target="true" first="r51" second="c61" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s35" type="thick" from="I133" to="I34">Segmento entre I133 y I34</Segment>
+<Segment name="s36" type="thick" from="I137" to="I32">Segmento entre I137 y I32</Segment>
+<Segment name="s37" type="thick" from="I141" to="I38">Segmento entre I141 y I38</Segment>
+<Circle name="c62" hidden="true" through="I9" midpoint="I41">Circunferencia de centro I41 por I9</Circle>
+<Line name="r52" hidden="true" from="I9" to="I41">Recta por I9 y I41</Line>
+<Intersection name="I143" hidden="true" target="true" first="r52" second="c62" which="first">Intersección entre r52 y c62</Intersection>
+<Intersection name="I144" hidden="true" target="true" first="r52" second="c62" which="second">Intersección entre r1 y c1</Intersection>
+<Circle name="c63" hidden="true" through="I143" midpoint="I41">Circunferencia de centro I41 por I143</Circle>
+<Line name="r53" hidden="true" from="I143" to="I41">Recta por I143 y I41</Line>
+<Intersection name="I145" hidden="true" target="true" first="r53" second="c63" which="first">Intersección entre r53 y c63</Intersection>
+<Intersection name="I146" hidden="true" target="true" first="r53" second="c63" which="second">Intersección entre r1 y c1</Intersection>
+<Segment name="s38" type="thick" from="I48" to="I38">Segmento entre I48 y I38</Segment>
+<Segment name="s39" type="thick" from="I145" to="I36">Segmento entre I145 y I36</Segment>
+<Segment name="s40" type="thick" from="I141" to="I137">Segmento entre I141 y I137</Segment>
+<Segment name="s41" type="thick" from="I137" to="I133">Segmento entre I137 y I133</Segment>
+<Segment name="s42" type="thick" from="I145" to="I48">Segmento entre I145 y I48</Segment>
+<Segment name="s43" type="thick" from="I48" to="I44">Segmento entre I48 y I44</Segment>
+<Segment name="s44" type="thick" from="I59" to="I55">Segmento entre I59 y I55</Segment>
+<Segment name="s45" type="thick" from="I55" to="I63">Segmento entre I55 y I63</Segment>
+<Segment name="s46" type="thick" from="I76" to="I72">Segmento entre I76 y I72</Segment>
+<Segment name="s47" type="thick" from="I72" to="I68">Segmento entre I72 y I68</Segment>
+<Segment name="s48" type="thick" from="I89" to="I85">Segmento entre I89 y I85</Segment>
+<Segment name="s49" type="thick" from="I85" to="I81">Segmento entre I85 y I81</Segment>
+<Segment name="s50" type="thick" from="I102" to="I98">Segmento entre I102 y I98</Segment>
+<Segment name="s51" type="thick" from="I98" to="I94">Segmento entre I98 y I94</Segment>
+<Segment name="s52" type="thick" from="I115" to="I111">Segmento entre I115 y I111</Segment>
+<Segment name="s53" type="thick" from="I111" to="I107">Segmento entre I111 y I107</Segment>
+<Segment name="s54" type="thick" from="I128" to="I124">Segmento entre I128 y I124</Segment>
+<Segment name="s55" type="thick" from="I124" to="I120">Segmento entre I124 y I120</Segment>
+<Polygon name="A54" type="thin" background="true" point1="I25" point2="I19" point3="I9" point4="I31">Vieleck I25, I19, I9, I31</Polygon>
+</Objects>
+</Construction>
+</CaR>

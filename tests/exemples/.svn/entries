@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/tests/exemples"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="euler-cercle.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="14eddb786951cfb0663e34961f523ab1"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="simson.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="bbd4da61323f4f7a1b3f61a274147c32"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="pappus.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1db7f070306ff2f02a85ac4481cc702b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="centre_de_gravite.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="976b580d0701e67e04ceced232fa9624"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="centroid.drg"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="fd8b4e5a2a85afe93af14f7f44347d6b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="toutattribut.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="74c71e2853751ccbf3c7ae3bc08f9bd1"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="inscrit.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="77a489e255c21695f4818fea7484a26a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="ceva.drg"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b08a9d8ae1bceaaa520b00033a33b965"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="attributs.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a48f6459888f6727f0e82edf5e140df0"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="circonscrit.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="36897e2d592061e4e1d672111de7a366"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="midpoint.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="22b1d34c6e16cd9e7b8ac2e0ddd34b3d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="desargues.drg"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="6d93c1639308165e5eaccaddf814a3df"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="milieu.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="73e1cef1994bf820ff3c60115a181bef"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="triangle_orthique.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9aeb55f1be828a86a97c55edfbd8f288"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="constructions_divers.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="f8e48b5a95a60344888b025ff542bba9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="gaussline.drg"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="fd8b4e5a2a85afe93af14f7f44347d6b"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="orthocentre.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="d518e5dbc12facb0e84c19607f4eff27"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="hexagone.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="90929a2f7a2ac4afd8a2bb1ccf3a11e2"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="bissectrice.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="29837f25c4394041107a42309c4c6ac9"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="euler-droite.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="1de63934d9ae823e4354be680461a242"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="couleurs.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="302cc502d81d7190b3298def83ca5d0e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+<entry
+   committed-rev="4"
+   name="triangle_points_remarquables.geo"
+   text-time="2006-08-24T14:31:21.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="42b9e7ba0f4bf87b97afe47d6b742f30"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:21.000000Z"/>
+</wc-entries>

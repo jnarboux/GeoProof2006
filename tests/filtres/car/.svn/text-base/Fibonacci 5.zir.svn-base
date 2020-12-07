@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P" showname="true" x="-4.398042414400002" y="-1.7879282219000006">Punkt in -4.398042414400002, -1.7879282219000006</Point>
+<Point name="P2" x="3.040783034257748" y="-1.7879282218597066">Punkt in 3.040783034257748, -1.7879282218597066</Point>
+<Segment name="s1" target="true" from="P" to="P2">Strecke von P nach P2</Segment>
+<Plumb name="l1" hidden="true" point="P" line="s1">Lot durch P zu s1</Plumb>
+<Plumb name="l2" hidden="true" point="P2" line="s1">Lot durch P2 zu s1</Plumb>
+<Circle name="k1" hidden="true" midpoint="P2" through="P">Kreis um P2 durch P</Circle>
+<Intersection name="S1" target="true" first="l2" second="k1" other="S2">Schnitt zwischen l2 und k1</Intersection>
+<OtherIntersection name="S2" hidden="true">Schnitt zwischen l2 und k1</OtherIntersection>
+<Plumb name="l3" hidden="true" point="S1" line="l2">Lot durch S1 zu l2</Plumb>
+<Intersection name="S3" target="true" first="l1" second="l3">Schnitt zwischen l1 und l3</Intersection>
+<Segment name="s" showname="true" target="true" from="P" to="S3">Strecke von P nach S3</Segment>
+<Segment name="s3" target="true" from="S3" to="S1">Strecke von S3 nach S1</Segment>
+<Segment name="s4" target="true" from="S1" to="P2">Strecke von S1 nach P2</Segment>
+<Segment name="s5" from="P" to="S1">Strecke von P nach S1</Segment>
+<PointOn name="A" color="1" showname="true" on="s1" x="0.14355628060000036" y="-1.7879282218754">Punkt auf s1</PointOn>
+<Segment name="s6" color="1" from="S3" to="A">Strecke von S3 nach A</Segment>
+<Intersection name="S4" color="3" first="s5" second="s6">Schnitt zwischen s5 und s6</Intersection>
+<Plumb name="l4" color="3" hidden="true" point="S4" line="s1">Lot durch S4 zu s1</Plumb>
+<Intersection name="B" color="3" showname="true" first="s1" second="l4">Schnitt zwischen s1 und l4</Intersection>
+<Segment name="s7" color="3" from="S4" to="B">Strecke von S4 nach B</Segment>
+<Text name="Text1" x="-3.040783034257749" y="-3.5628058727569334">1 / PB = 1 / PA + 1/s
+s / PB = s / PA + 1</Text>
+</Objects>
+</Construction>
+</CaR>

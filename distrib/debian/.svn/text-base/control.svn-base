@@ -1,0 +1,13 @@
+Source: drgeocaml
+Section: math
+Priority: optional
+Maintainer: GeOCaml Devel <geocaml-devel@gna.org>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.6.1
+
+Package: drgeocaml
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GeOCaml, an interactive geometry tool.
+ The aim of GeOCaml is to provide a tool allowing us to handle easily euclidian geometry. 
+ The code is written in OCaml, a high functional language developped at INRIA and XML & XSLT are used to manage data.

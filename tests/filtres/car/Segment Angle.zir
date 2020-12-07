@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-0.5977742448330687" y="0.050874403815580393">Punkt in -0.5977742448330687, 0.050874403815580393</Point>
+<Point name="P2" x="-1.6406995230524641" y="4.095389507154213">Punkt in -1.6406995230524641, 4.095389507154213</Point>
+<Circle name="k1" midpoint="P1" through="P2">Kreis um P1 durch P2</Circle>
+<PointOn name="A" showname="true" xoffset="-22" yoffset="-4" on="k1" x="-3.839459958300267" y="-2.5829952384002164">Punkt auf k1</PointOn>
+<PointOn name="B" showname="true" on="k1" x="2.7704313975757837" y="-2.419143067282241">Punkt auf k1</PointOn>
+<Segment name="s1" color="2" from="A" to="B">Strecke von A nach B</Segment>
+<PointOn name="P" type="thick" showname="true" xoffset="-5" yoffset="-30" on="k1" x="1.501579143624184" y="3.6617622319620544">Punkt auf k1</PointOn>
+<Segment name="s2" color="1" from="A" to="P">Strecke von A nach P</Segment>
+<Segment name="s3" color="1" from="B" to="P">Strecke von B nach P</Segment>
+<Angle name="w1" color="1" showvalue="true" first="A" root="P" second="B">Winkel A - P - B</Angle>
+<PointOn name="OP4" color="3" type="thin" on="k1" x="-1.3472199492888541" y="-4.058155493028209">Punkt auf k1</PointOn>
+<Segment name="s4" color="3" type="thin" from="A" to="OP4">Strecke von A nach OP4</Segment>
+<Segment name="s5" color="3" type="thin" from="OP4" to="B">Strecke von OP4 nach B</Segment>
+<Angle name="w2" color="3" type="thin" showvalue="true" first="B" root="OP4" second="A">Winkel B - OP4 - A</Angle>
+</Objects>
+</Construction>
+</CaR>

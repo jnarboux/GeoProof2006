@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="2.2627416997969525" y="2.2627416997969525" w="22.627416997969522"/>
+<Comment>
+<P></P>
+</Comment>
+<Animate animate="P" via0="s4" via1="s5"/>
+<Objects>
+<Point name="P1" x="-5.0" y="-3.0" fixed="true">Point at &quot;-5.0&quot;, &quot;-3.0&quot;</Point>
+<Point name="P2" hidden="true" x="-5.0" y="4.0">Point at -5.0, 4.0</Point>
+<Line name="g1" hidden="true" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Plumb name="l1" hidden="true" point="P1" line="g1" valid="true">Lot durch P1 zu g1</Plumb>
+<PointOn name="P3" on="l1" x="0.0" y="-3.0" fixed="true">Point on l1</PointOn>
+<Parallel name="p1" hidden="true" point="P3" line="g1">Parallele durch P3 zu g1</Parallel>
+<Segment name="a" showvalue="true" from="P1" to="P3">Strecke von P1 nach P3</Segment>
+<PointOn name="P4" on="g1" x="-5.0" y="5.0">Point on g1</PointOn>
+<Parallel name="p2" hidden="true" point="P4" line="l1">Parallele durch P4 zu l1</Parallel>
+<Segment name="s2" showvalue="true" from="P1" to="P4">Strecke von P1 nach P4</Segment>
+<PointOn name="P" type="thick" showname="true" on="s4" x="10.710596894133863" y="-3.0">Point on s4</PointOn>
+<Circle name="k1" hidden="true" fixed="18.2195" midpoint="P" acute="true">Kreis um P mit Radius 18.2195</Circle>
+<Intersection name="S1" color="1" first="g1" second="k1" which="first">Schnitt zwischen g1 und k1</Intersection>
+<Segment name="s3" color="1" type="thick" from="P" to="S1">Strecke von P nach S1</Segment>
+<PointOn name="P6" color="4" on="g1" x="-5.0" y="26.88979089758704">Point on g1</PointOn>
+<Point name="P7" color="4" x="-30.082186163967247" y="27.591416230857416">Point at -30.082186163967247, 27.591416230857416</Point>
+<Point name="P8" color="4" x="-32.46771229708652" y="-28.257960297464283">Point at -32.46771229708652, -28.257960297464283</Point>
+<Point name="P9" color="4" x="39.799697029761894" y="-26.995034697577605">Point at 39.799697029761894, -26.995034697577605</Point>
+<PointOn name="P10" color="4" on="l1" x="40.22067222972412" y="-3.0">Point on l1</PointOn>
+<Polygon name="A2" color="4" background="true" point1="P1" point2="P6" point3="P7" point4="P8" point5="P9" point6="P10">Vieleck P1, P6, P7, P8, P9, P10</Polygon>
+<PointOn name="P11" color="4" on="p1" x="0.0" y="27.591416230857412">Point on p1</PointOn>
+<Intersection name="S3" color="4" hidden="true" first="p1" second="p2">Schnitt zwischen p1 und p2</Intersection>
+<PointOn name="P12" color="4" on="p2" x="36.572220496718195" y="5.0">Point on p2</PointOn>
+<Point name="P13" color="4" x="40.92229756299452" y="28.433366630781855">Point at 40.92229756299452, 28.433366630781855</Point>
+<Polygon name="A4" color="4" background="true" point1="P11" point2="P13" point3="P12" point4="S3">Vieleck P11, P13, P12, S3</Polygon>
+<PointOn name="P14" hidden="true" on="l1" x="1.3200000000000003" y="-3.0">Point on l1</PointOn>
+<PointOn name="P15" hidden="true" on="l1" x="11.77" y="-3.0">Point on l1</PointOn>
+<Segment name="s4" hidden="true" from="P14" to="P15" arrow="true">Strecke von P14 nach P15</Segment>
+<Segment name="s5" hidden="true" from="P15" to="P14" arrow="true">Strecke von P15 nach P14</Segment>
+<Text name="Text1" x="-5.349893166186597" y="-8.226557032595121">How long can that stick be?</Text>
+</Objects>
+</Construction>
+</CaR>

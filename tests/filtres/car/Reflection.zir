@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.0"/>
+<Objects>
+<Point name="Punkt 1" hidden="true" x="-0.397553516819572" y="0.38837920489296657">Punkt in -0.39755351681957185, 0.3883792048929665</Point>
+<Point name="Punkt 2" hidden="true" x="0.4036697247706422" y="-0.3883792048929665">Punkt in 0.4036697247706422, -0.38837920489296635</Point>
+<Line name="Gerade 1" from="Punkt 1" to="Punkt 2">Gerade durch Punkt 1 und Punkt 2</Line>
+<Point name="P" type="thick" showname="true" x="0.20062695924764884" y="0.2711598746081506">Punkt in 0.20062695924764884, 0.2711598746081506</Point>
+<Plumb name="Lot 1" hidden="true" point="P" line="Gerade 1">Lot durch P zu Gerade 1</Plumb>
+<Intersection name="Schnitt 1" hidden="true" first="Gerade 1" second="Lot 1">Schnitt zwischen Gerade 1 und Lot 1</Intersection>
+<Circle name="Kreis 1" hidden="true" through="P" midpoint="Schnitt 1">Kreis um Schnitt 1 durch P</Circle>
+<Intersection name="Schnitt 2" hidden="true" first="Lot 1" second="Kreis 1" closeto="P" which="first">Schnitt zwischen Lot 1 und Kreis 1</Intersection>
+<Intersection name="Schnitt 3" first="Lot 1" second="Kreis 1" awayfrom="P" which="second">Schnitt zwischen Lot 1 und Kreis 1</Intersection>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Auf den Seiten eines Dreiecks werden gleichschenklige,
+ähnliche Dreiecke errichtet. Dann schneiden sich die blauen
+Verbindungsgeraden in einem Punkt. Zur Demonstration bewege
+man den fetten grünen Punkt.</P>
+<P>Grenzfälle sind der Schnittpunkt der Seitenhalbierenden und
+der Höhen.</P>
+</Comment>
+<Objects>
+<Point name="P2" parameter="true" x="-2.8859060402684564" y="-2.902684563758389">Punkt in -2.8859060402684564, -2.902684563758389</Point>
+<Point name="P3" parameter="true" mainparameter="true" x="-0.9899328859060406" y="3.3389261744966436">Punkt in -0.9899328859060406, 3.3389261744966436</Point>
+<Segment name="s1" type="thick" mainparameter="true" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Point name="P4" x="3.154362416107382" y="-0.8053691275167782">Punkt in 3.154362416107382, -0.8053691275167782</Point>
+<Segment name="s2" type="thick" from="P3" to="P4">Strecke von P3 nach P4</Segment>
+<Segment name="s3" type="thick" from="P4" to="P2">Strecke von P4 nach P2</Segment>
+<Midpoint name="M12" color="1" hidden="true" mainparameter="true" first="P3" second="P4">Mitte zwischen P3 und P4</Midpoint>
+<Plumb name="l1" color="1" hidden="true" point="M12" line="s2">Lot durch M12 zu s2</Plumb>
+<PointOn name="OP1" color="1" type="thick" mainparameter="true" on="l1" x="1.751368513451203" y="1.935932271840465">Punkt auf l1</PointOn>
+<Segment name="s23" color="1" from="P3" to="OP1">Strecke von P3 nach OP1</Segment>
+<Segment name="s24" color="1" from="OP1" to="P4">Strecke von OP1 nach P4</Segment>
+<Midpoint name="M13" color="1" hidden="true" first="P2" second="P3">Mitte zwischen P2 und P3</Midpoint>
+<Plumb name="l2" color="1" hidden="true" point="M13" line="s1">Lot durch M13 zu s1</Plumb>
+<Line name="g1" color="1" hidden="true" from="M13" to="P3">Gerade durch M13 und P3</Line>
+<Circle3 name="k11" color="1" hidden="true" midpoint="M13" from="M12" to="P3">Kreis um M12 mit Radius von P3 nach M13</Circle3>
+<Circle3 name="k12" color="1" hidden="true" midpoint="M13" from="M12" to="OP1">Kreis um M12 mit Radius von OP1 nach M13</Circle3>
+<Intersection name="S15" color="1" hidden="true" first="g1" second="k11" other="S16">Schnitt zwischen g1 und k11</Intersection>
+<OtherIntersection name="S16" color="1" hidden="true">Schnitt zwischen g1 und k11</OtherIntersection>
+<Intersection name="S17" color="1" hidden="true" first="l2" second="k12" other="S18">Schnitt zwischen l2 und k12</Intersection>
+<OtherIntersection name="S18" color="1" hidden="true">Schnitt zwischen l2 und k12</OtherIntersection>
+<Segment name="s25" color="1" hidden="true" from="S15" to="S17">Strecke von S15 nach S17</Segment>
+<Parallel name="p1" color="1" hidden="true" point="P3" line="s25">Parallele durch P3 zu s25</Parallel>
+<Intersection name="S19" color="1" first="l2" second="p1">Schnitt zwischen l2 und p1</Intersection>
+<Segment name="s26" color="1" from="P2" to="S19">Strecke von P2 nach S19</Segment>
+<Segment name="s27" color="1" from="S19" to="P3">Strecke von S19 nach P3</Segment>
+<Midpoint name="M14" color="1" hidden="true" first="P4" second="P2">Mitte zwischen P4 und P2</Midpoint>
+<Plumb name="l3" color="1" hidden="true" point="M14" line="s3">Lot durch M14 zu s3</Plumb>
+<Line name="g2" color="1" hidden="true" from="P4" to="P2">Gerade durch P4 und P2</Line>
+<Circle3 name="k13" color="1" hidden="true" midpoint="M14" from="M12" to="P3">Kreis um M12 mit Radius von P3 nach M14</Circle3>
+<Circle3 name="k14" color="1" hidden="true" midpoint="M14" from="M12" to="OP1">Kreis um M12 mit Radius von OP1 nach M14</Circle3>
+<Intersection name="S20" color="1" hidden="true" first="g2" second="k13" other="S21">Schnitt zwischen g2 und k13</Intersection>
+<OtherIntersection name="S21" color="1" hidden="true">Schnitt zwischen g2 und k13</OtherIntersection>
+<Intersection name="S22" color="1" hidden="true" first="l3" second="k14" other="S23">Schnitt zwischen l3 und k14</Intersection>
+<OtherIntersection name="S23" color="1" hidden="true">Schnitt zwischen l3 und k14</OtherIntersection>
+<Line name="g3" color="1" hidden="true" from="S20" to="S22">Gerade durch S20 und S22</Line>
+<Parallel name="p2" color="1" hidden="true" point="P2" line="g3">Parallele durch P2 zu g3</Parallel>
+<Intersection name="S24" color="1" first="l3" second="p2">Schnitt zwischen l3 und p2</Intersection>
+<Segment name="s28" color="1" from="P2" to="S24">Strecke von P2 nach S24</Segment>
+<Segment name="s29" color="1" from="P4" to="S24">Strecke von P4 nach S24</Segment>
+<Segment name="s30" color="2" from="P2" to="OP1">Strecke von P2 nach OP1</Segment>
+<Segment name="s31" color="2" from="S19" to="P4">Strecke von S19 nach P4</Segment>
+<Segment name="s32" color="2" from="S24" to="P3">Strecke von S24 nach P3</Segment>
+<Intersection name="S25" color="2" first="s30" second="s31">Schnitt zwischen s30 und s31</Intersection>
+<Angle name="w2" color="2" showvalue="true" first="P4" root="S25" second="OP1">Winkel P4 - S25 - OP1</Angle>
+</Objects>
+</Construction>
+</CaR>

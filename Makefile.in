@@ -1,0 +1,276 @@
+#!/usr/bin/make -f
+
+# $Id: Makefile.in,v 1.21 2005/11/30 14:52:36 jnarboux Exp $
+
+YFLAGS=-v
+
+ICONSVG =   icons/anglebisector_svg.ml \
+	icons/rooster_svg.ml \
+	icons/lightbulb_svg.ml \
+	icons/filesaveas_svg.ml \
+	icons/perpendicular_svg.ml \
+	icons/testcollinear_svg.ml \
+	icons/angle_svg.ml \
+	icons/filesave_svg.ml \
+	icons/pointcircle_svg.ml \
+	icons/testeqpoints_svg.ml \
+	icons/area_svg.ml \
+	icons/grid_svg.ml \
+	icons/pointline_svg.ml \
+	icons/testleftturn_svg.ml \
+	icons/between_svg.ml \
+	icons/intersectionCircles_svg.ml \
+	icons/point_svg.ml \
+	icons/point_coords_svg.ml \
+	icons/testparallel_svg.ml \
+	icons/centralsymmetry_svg.ml \
+	icons/intersection_svg.ml \
+	icons/preferences_svg.ml \
+	icons/testperpendicular_svg.ml \
+	icons/circlebcp_svg.ml \
+	icons/labelpoint_svg.ml \
+	icons/redo_svg.ml \
+	icons/translation_svg.ml \
+	icons/circlebtp_svg.ml \
+	icons/label_svg.ml \
+	icons/revert_svg.ml \
+	icons/trash_svg.ml \
+	icons/circlediam_svg.ml \
+	icons/launch_svg.ml \
+	icons/save_as_svg.ml \
+	icons/undo_svg.ml \
+	icons/circlelineintersection_svg.ml \
+	icons/left_turn_svg.ml \
+	icons/save_svg.ml \
+	icons/vector_svg.ml \
+	icons/congruent_angles_svg.ml \
+	icons/line_svg.ml \
+	icons/half_line_svg.ml \
+	icons/segment_svg.ml \
+	icons/viewmag1_svg.ml \
+	icons/congruent_segments_svg.ml \
+	icons/mediatrice_svg.ml \
+	icons/select_svg.ml \
+	icons/viewmagfit_svg.ml \
+	icons/distance_svg.ml \
+	icons/midpoint_svg.ml \
+	icons/stock_close_svg.ml \
+	icons/viewmagminus_svg.ml \
+	icons/geoproof_svg.ml \
+	icons/mirrorpoint_svg.ml \
+	icons/stock_directory_open_svg.ml \
+	icons/viewmagplus_svg.ml \
+	icons/edit_svg.ml \
+	icons/move_svg.ml \
+	icons/stock_ok_svg.ml \
+	icons/window_fullscreen_svg.ml \
+	icons/eraser_svg.ml \
+	icons/new_svg.ml \
+	icons/stock_stop_svg.ml \
+	icons/filenew_svg.ml \
+	icons/open_svg.ml \
+	icons/stop_svg.ml \
+	icons/fileopen_svg.ml \
+	icons/parallel_svg.ml \
+	icons/testbetween_svg.ml \
+	icons/apropos_svg.ml \
+	icons/quit_svg.ml \
+	icons/pointing_finger_svg.ml 
+
+ML = debug.ml \
+	autoconf.ml \
+	font.ml \
+	i18n.ml \
+	types_de_base.ml \
+	couleurs.ml \
+	lib/fifo.mli lib/fifo.ml \
+	lib/cdk/printf2.mli lib/cdk/printf2.ml \
+	lib/cdk/printexc2.mli lib/cdk/printexc2.ml \
+	lib/cdk/unix2.ml \
+	lib/cdk/genlex2.mli lib/cdk/genlex2.ml \
+	lib/cdk/filepath.mli lib/cdk/filepath.ml \
+	lib/cdk/string2.mli lib/cdk/string2.ml \
+	lib/cdk/filename2.mli lib/cdk/filename2.ml \
+	lib/cdk/list2.mli lib/cdk/list2.ml \
+	lib/intmap.mli lib/intmap.ml \
+	lib/options.ml \
+	icons.ml \
+	optionsdeconfiguration.ml \
+	@COMPUTATION_FILE@ \
+	geometric_functions.ml \
+	ast_expressions.ml \
+	repere.ml \
+	fonctions.ml \
+	couche.ml \
+	objets_graphiques.ml \
+	objets_repere.ml \
+	document_managment.ml \
+	construction.ml \
+	parser_expressions.mly \
+	lexer_expressions.mll \
+	typing_expressions.ml \
+	evaluation_expressions.ml \
+	mark_management.ml \
+	studied_facts.ml \
+	object_studied_fact.ml \
+	objets_texte.ml \
+	objets_point.ml \
+	objets_texte_clique.ml \
+	objets_texte_point.ml \
+	objets_test_congruent_segments.ml \
+	objets_point_clique.ml \
+	objets_point_milieu.ml \
+	objects_point_left_turn.ml \
+	objects_point_between.ml \
+	objects_segment_marks.ml \
+	objets_ligne.ml \
+	objets_droite.ml \
+	objets_segment.ml \
+	objets_demi_droite.ml \
+	objets_point_sur_droite.ml \
+	objets_cercle.ml \
+	objets_point_sur_cercle.ml \
+	objets_intersection_droites.ml \
+	objets_intersection_cercle_droite.ml \
+	objets_intersection_cercles.ml \
+	objets_droite_deux_points.ml \
+	objets_droite_mediatrice.ml \
+	objets_droite_bissectrice.ml \
+	objets_segment_deux_points.ml \
+	objets_demi_droite_deux_points.ml \
+	objets_vecteur.ml \
+	objets_vecteur_deux_points.ml \
+	objets_droite_orthogonale.ml \
+	objets_droite_parallele.ml \
+	objets_cercle_centre_point.ml \
+	objets_cercle_trois_points.ml \
+	objets_cercle_diametre.ml \
+	objets_point_transforme.ml \
+	objets_droite_transforme.ml \
+	objets_cercle_transforme.ml \
+	createur_de_noms.ml \
+	analyse_semantique_langue_naturelle.ml \
+	parser_langue_naturelle.mly \
+	lexer_langue_naturelle.mll \
+	parser_logic.mly \
+	lexer_logic.mll \
+	output_fonctions.ml \
+	output_natural_language.ml \
+	output_svg.ml \
+	output_car.ml \
+	output_kig.ml \
+	output_coq.ml \
+	output_drg.ml \
+	output_eukleides.ml \
+	output_pst_eucl.ml \
+	input_langue_naturelle.ml \
+	input_exceptions.ml \
+	input_xml_CaR.ml \
+	input_xml_Kig.ml \
+	input_xml_Coq.ml \
+	input_xml_Drg.ml \
+	input_xml_constructive_theorems.ml \
+	input_xml.ml \
+	theorems.ml \
+	coq_proofs.ml \
+	automatic_proofs.ml \
+	apropos.ml \
+	input_coords.ml \
+	document_gui.ml \
+	interface.ml \
+	window_expressions.ml \
+	automate.ml \
+	main.ml
+
+
+SOURCES = $(ICONSVG) $(ML) $(MLI)
+
+DATE=$(shell date -I)
+TAG=-$(DATE)
+BASENAME=geoproof
+
+RESULT  = $(BASENAME)$(TAG)
+
+INCDIRS = +lablgtk2
+INCDIRS += +@CREALLIB@ #creal is optional
+
+THREADS = yes
+
+LIBS = nums xml-light lablrsvg
+LIBS += @CREALLIB@ #creal is optional
+
+#OCAMLDOCFLAGS = -I $(OCAML_DEFAULT_DIRS) -I .
+
+OCAMLBLDFLAGS = lablgtk.cma gtkInit.cmo gtkThread.cmo
+OCAMLNLDFLAGS = lablgtk.cmxa gtkInit.cmx gtkThread.cmx 
+
+#MINGW = yes
+
+# where to install the binaries
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+BINDIR=@bindir@
+
+OCAMLC = @OCAMLC@
+OCAMLOPT = @OCAMLOPT@
+OCAMLLEX = @OCAMLLEX@
+OCAMLYACC= @OCAMLYACC@
+
+# GeoProof / Local configuration
+
+INCDIRS+= ./atp
+LIBDIRS+= ./atp 
+LIBS+= libATP
+
+#if test "$MINGW" = "1"; then
+#   echo "Compiling win32 resource file"
+#   windres -o resfile.o config/ressource.rc
+#fi
+
+
+all: @OCAMLBEST@
+
+byte: atp-byte byte-code
+
+opt: atp-opt native-code
+
+atp-best:
+	cd atp ; make @OCAMLBEST@
+
+atp-byte:
+	cd atp ; make byte
+
+atp-opt:
+	cd atp ; make opt
+
+-include OCamlMakefile
+
+install:
+	cp $(RESULT) $(BINDIR)/$(BASENAME)
+
+graphdot:
+	ocamldep *.mli *.ml > geoproof-graph.dep
+	ocamldot geoproof-graph.dep > geoproof-graph.dot
+	# to display the dep graph, use :
+	# dotty atp.dot 
+
+cvs-snapshot:
+	mkdir sandbox
+	cd sandbox/
+	export CVSROOT=$(USER)@cvs.gna.org:/cvs/geoproof
+	cvs co geoproof
+	tar cv geoproof/ > geoproof-cvs$(DATE).tar
+	bzip2 geoproof-cvs$(DATE).tar
+	rm -Rf sandbox
+
+NSIS = "/cygdrive/c/Program Files/NSIS/makensis.exe"
+
+windows-installer:
+	cp $(RESULT) $(BASENAME)
+	$(NSIS) distrib/windows/geoproof.nsi
+
+GNA_USER=jnarboux
+#edit if you need to upload
+
+upload-installer:
+	scp distrib/windows/GeoProof*win32_installer.exe $(GNA_USER)@download.gna.org:/upload/geoproof/windows/

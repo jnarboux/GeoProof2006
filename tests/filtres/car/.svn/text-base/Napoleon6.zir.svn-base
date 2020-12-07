@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Diesesmal wurde die Konstuktion umgekehrt. Die
+Transversalen wurden zuerst konstruiert. Dann wurde der
+fette grüne Punkt auf einer Transversalen gewählt und die
+anderen braunen Punkte so konstruiert, dass jeweils die
+beiden Winkel an einer Dreiecksspitze gleich sind.</P>
+<P>Dabei liegt liegen immer die enstehenden grünen Punkte auf
+den Transversalen.</P>
+</Comment>
+<Objects>
+<Point name="P1" x="-2.9227053140096633" y="-2.004830917874396">Punkt in -2.922705314009662, -2.004830917874396</Point>
+<Point name="P2" x="-0.7648953301127216" y="2.6972624798711773">Punkt in -0.7648953301127213, 2.697262479871176</Point>
+<Segment name="s1" type="thick" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="2.4879227053140105" y="0.1529790660225441">Punkt in 2.48792270531401, 0.15297906602254407</Point>
+<Segment name="s2" type="thick" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" type="thick" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Point name="P4" color="2" type="thick" x="-0.45302013422818815" y="0.520134228187919">Punkt in -0.4530201342281881, 0.5201342281879189</Point>
+<Ray name="r1" color="2" from="P2" to="P4">Strahl von P2 in Richtung P4</Ray>
+<Ray name="r2" color="2" from="P3" to="P4">Strahl von P3 in Richtung P4</Ray>
+<Ray name="r3" color="2" from="P1" to="P4">Strahl von P1 in Richtung P4</Ray>
+<PointOn name="OP1" color="1" type="thick" on="r3" x="1.2842010665535035" y="2.2962403565659573">Punkt auf r3</PointOn>
+<Segment name="s4" color="1" from="P2" to="OP1">Strecke von P2 nach OP1</Segment>
+<Line name="g1" color="3" hidden="true" from="OP1" to="P2">Gerade durch OP1 und P2</Line>
+<Line name="g2" color="3" hidden="true" from="P2" to="P3">Gerade durch P2 und P3</Line>
+<Parallel name="p1" color="3" hidden="true" point="P2" line="g1">Parallele durch P2 zu g1</Parallel>
+<Parallel name="p2" color="3" hidden="true" point="P2" line="g2">Parallele durch P2 zu g2</Parallel>
+<Circle name="k1" color="3" hidden="true" midpoint="P2" through="P1" partial="true">Kreis um P2 durch P1</Circle>
+<Intersection name="S1" color="3" hidden="true" first="p1" second="k1" other="S2" shape="diamond">Schnitt zwischen p1 und k1</Intersection>
+<OtherIntersection name="S2" color="3" hidden="true" shape="diamond">Schnitt zwischen p1 und k1</OtherIntersection>
+<Intersection name="S3" color="3" hidden="true" first="p2" second="k1" other="S4" shape="diamond">Schnitt zwischen p2 und k1</Intersection>
+<OtherIntersection name="S4" color="3" hidden="true" shape="diamond">Schnitt zwischen p2 und k1</OtherIntersection>
+<Circle3 name="k2" color="3" hidden="true" midpoint="P1" from="S2" to="S3">Kreis um S2 mit Radius von S3 nach P1</Circle3>
+<Intersection name="S5" color="3" hidden="true" target="true" first="k1" second="k2" other="S6">Schnitt zwischen k1 und k2</Intersection>
+<OtherIntersection name="S6" color="3" hidden="true" target="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Line name="g3" color="3" hidden="true" from="P2" to="S5">Gerade durch P2 und S5</Line>
+<Intersection name="S7" color="1" first="r2" second="g3">Schnitt zwischen r2 und g3</Intersection>
+<Segment name="s5" color="1" from="P2" to="S7">Strecke von P2 nach S7</Segment>
+<Segment name="s6" color="1" from="S7" to="P1">Strecke von S7 nach P1</Segment>
+<Segment name="s7" color="1" from="OP1" to="P3">Strecke von OP1 nach P3</Segment>
+<Line name="g4" color="3" hidden="true" from="S7" to="P1">Gerade durch S7 und P1</Line>
+<Line name="g5" color="3" hidden="true" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Parallel name="p3" color="3" hidden="true" point="P1" line="g4">Parallele durch P1 zu g4</Parallel>
+<Parallel name="p4" color="3" hidden="true" point="P1" line="g5">Parallele durch P1 zu g5</Parallel>
+<Circle name="k3" color="3" hidden="true" midpoint="P1" through="P3" partial="true">Kreis um P1 durch P3</Circle>
+<Intersection name="S8" color="3" hidden="true" first="p3" second="k3" other="S9" shape="diamond">Schnitt zwischen p3 und k3</Intersection>
+<OtherIntersection name="S9" color="3" hidden="true" shape="diamond">Schnitt zwischen p1 und k1</OtherIntersection>
+<Intersection name="S10" color="3" hidden="true" first="p4" second="k3" other="S11" shape="diamond">Schnitt zwischen p4 und k3</Intersection>
+<OtherIntersection name="S11" color="3" hidden="true" shape="diamond">Schnitt zwischen p2 und k1</OtherIntersection>
+<Circle3 name="k4" color="3" hidden="true" midpoint="P3" from="S9" to="S10">Kreis um S9 mit Radius von S10 nach P3</Circle3>
+<Intersection name="S12" color="3" hidden="true" target="true" first="k3" second="k4" other="S13">Schnitt zwischen k3 und k4</Intersection>
+<OtherIntersection name="S13" color="3" hidden="true" target="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Line name="g6" color="3" hidden="true" from="P1" to="S12">Gerade durch P1 und S12</Line>
+<Line name="g7" color="3" hidden="true" from="P2" to="P3">Gerade durch P2 und P3</Line>
+<Line name="g8" color="3" hidden="true" from="P3" to="OP1">Gerade durch P3 und OP1</Line>
+<Parallel name="p5" color="3" hidden="true" point="P3" line="g7">Parallele durch P3 zu g7</Parallel>
+<Parallel name="p6" color="3" hidden="true" point="P3" line="g8">Parallele durch P3 zu g8</Parallel>
+<Circle name="k5" color="3" hidden="true" midpoint="P3" through="P1" partial="true">Kreis um P3 durch P1</Circle>
+<Intersection name="S14" color="3" hidden="true" first="p5" second="k5" other="S15" shape="diamond">Schnitt zwischen p5 und k5</Intersection>
+<OtherIntersection name="S15" color="3" hidden="true" shape="diamond">Schnitt zwischen p1 und k1</OtherIntersection>
+<Intersection name="S16" color="3" hidden="true" first="p6" second="k5" other="S17" shape="diamond">Schnitt zwischen p6 und k5</Intersection>
+<OtherIntersection name="S17" color="3" hidden="true" shape="diamond">Schnitt zwischen p2 und k1</OtherIntersection>
+<Circle3 name="k6" color="3" hidden="true" midpoint="P1" from="S15" to="S16">Kreis um S15 mit Radius von S16 nach P1</Circle3>
+<Intersection name="S18" color="3" hidden="true" target="true" first="k5" second="k6" other="S19">Schnitt zwischen k5 und k6</Intersection>
+<OtherIntersection name="S19" color="3" hidden="true" target="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Line name="g9" color="3" hidden="true" from="P3" to="S19">Gerade durch P3 und S19</Line>
+<Intersection name="S20" color="1" first="g9" second="g6">Schnitt zwischen g9 und g6</Intersection>
+<Segment name="s8" color="1" from="P1" to="S20">Strecke von P1 nach S20</Segment>
+<Segment name="s9" color="1" from="S20" to="P3">Strecke von S20 nach P3</Segment>
+<Angle name="w2" color="3" first="P3" root="P2" second="OP1" display="small">Winkel P3 - P2 - OP1</Angle>
+<Angle name="w4" color="3" first="S7" root="P2" second="P1" display="small">Winkel S7 - P2 - P1</Angle>
+</Objects>
+</Construction>
+</CaR>

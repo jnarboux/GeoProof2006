@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.767766952966368"/>
+<Track track="Q" on="g" move="X"/>
+<Objects>
+<Point name="Punkt 1" showvalue="true" x="0.0" y="0.0" shape="circle" fixed="true">Punkt in &quot;0.0&quot;, &quot;0.0&quot;</Point>
+<Point name="Punkt 2" showvalue="true" x="1.0" y="0.0" shape="diamond" fixed="true">Punkt in &quot;1.0&quot;, &quot;0.0&quot;</Point>
+<Line name="g" from="Punkt 1" to="Punkt 2">Gerade durch Punkt 1 und Punkt 2</Line>
+<Point name="Punkt 3" showvalue="true" x="0.0" y="1.0" shape="diamond" fixed="true">Punkt in &quot;0.0&quot;, &quot;1.0&quot;</Point>
+<Plumb name="Lot 1" point="Punkt 3" line="g">Lot durch Punkt 3 zu g</Plumb>
+<PointOn name="X" type="thick" showname="true" on="g" x="0.5375341518424381" y="0.0">Punkt auf g</PointOn>
+<Plumb name="Lot 2" color="1" point="X" line="g">Lot durch X zu g</Plumb>
+<Segment name="x" color="2" showvalue="true" from="Punkt 1" to="X">Strecke von Punkt 1 nach X</Segment>
+<Point name="Q" color="2" x="x(X)" y="x(X)*x(X)*x(X)-x(X)" shape="circle" fixed="true">Punkt in &quot;x(X)&quot;, &quot;x(X)*x(X)*x(X)-x(X)&quot;</Point>
+<Segment name="y" color="2" showname="true" showvalue="true" from="X" to="Q">Strecke von X nach Q</Segment>
+</Objects>
+</Construction>
+</CaR>

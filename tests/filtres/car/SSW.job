@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction job="true" last="Winkel 1" target1="C">
+<Window x="0.0" y="0.0" w="1.0"/>
+<Assignment>
+<P>Construct a triangle with sides c and a and the give angle
+at C*.</P>
+</Assignment>
+<Objects>
+<Point name="A" showname="true" x="-0.6059602649006622" y="-0.3675496688741722">Point at -0.6059602649006622, -0.3675496688741722</Point>
+<Point name="B" showname="true" x="0.26490066225165565" y="-0.3509933774834437">Point at 0.26490066225165565, -0.3509933774834437</Point>
+<Segment name="c" type="thick" showname="true" xcoffset="-0.006482982171799027" ycoffset="-0.09076175040518637" from="A" to="B">Strecke von A nach B</Segment>
+<Point name="C*" showname="true" x="0.2317880794701988" y="0.20198675496688745">Point at 0.2317880794701988, 0.20198675496688745</Point>
+<Segment name="a" type="thick" showname="true" xcoffset="0.08427876823338736" ycoffset="-0.045380875202593186" from="B" to="C*">Strecke von B nach C*</Segment>
+<Point name="Punkt 4" hidden="true" x="0.09271523178807953" y="0.0331125827814569">Point at 0.09271523178807953, 0.0331125827814569</Point>
+<Ray name="Strahl 1" type="thick" from="C*" to="Punkt 4">Strahl von C* in Richtung Punkt 4</Ray>
+<Angle name="Winkel 1" type="thick" first="Punkt 4" root="C*" second="B">Winkel Punkt 4 - C* - B</Angle>
+<Line name="Gerade 1" color="1" hidden="true" from="B" to="C*">Gerade durch B und C*</Line>
+<Parallel name="Parallele 1" color="1" hidden="true" point="A" line="Strahl 1">Parallele durch A zu Strahl 1</Parallel>
+<Midpoint name="Mitte 1" color="2" hidden="true" first="B" second="A">Mitte zwischen B und A</Midpoint>
+<Plumb name="Lot 1" color="2" hidden="true" point="Mitte 1" line="c" valid="true">Lot durch Mitte 1 zu c</Plumb>
+<Intersection name="Schnitt 1" color="2" first="Gerade 1" second="Parallele 1">Schnitt zwischen Gerade 1 und Parallele 1</Intersection>
+<Midpoint name="Mitte 2" color="2" hidden="true" first="B" second="Schnitt 1">Mitte zwischen B und Schnitt 1</Midpoint>
+<Plumb name="Lot 2" color="2" hidden="true" point="Mitte 2" line="Gerade 1" valid="true">Lot durch Mitte 2 zu Gerade 1</Plumb>
+<Intersection name="Schnitt 2" color="2" hidden="true" first="Lot 1" second="Lot 2">Schnitt zwischen Lot 1 und Lot 2</Intersection>
+<Circle name="Kreis 1" color="2" through="B" midpoint="Schnitt 2">Kreis um Schnitt 2 durch B</Circle>
+<Circle name="Kreis 2" color="3" hidden="true" through="C*" midpoint="B">Kreis um B durch C*</Circle>
+<Intersection name="Schnitt 3" color="3" hidden="true" first="Kreis 1" second="Kreis 2" which="first">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<Intersection name="C" showname="true" first="Kreis 1" second="Kreis 2" which="second">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<Segment name="Strecke 3" from="A" to="C">Strecke von A nach C</Segment>
+<Segment name="Strecke 4" from="B" to="C">Strecke von B nach C</Segment>
+<Segment name="Strecke 5" color="1" from="B" to="Schnitt 1">Strecke von B nach Schnitt 1</Segment>
+<Segment name="Strecke 6" color="1" from="Schnitt 1" to="A">Strecke von Schnitt 1 nach A</Segment>
+<Angle name="Winkel 2" color="1" first="A" root="Schnitt 1" second="B">Winkel A - Schnitt 1 - B</Angle>
+</Objects>
+</Construction>
+</CaR>

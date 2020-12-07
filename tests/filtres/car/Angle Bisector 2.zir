@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction job="true" last="g1" target="g2">
+<Window x="0.0" y="0.0" w="8.0"/>
+<Assignment>
+<P>Konstruieren Sie die andere Winkelhalbierende bei A.</P>
+</Assignment>
+<Objects>
+<Point name="B" showname="true" x="-3.9874608150000013" y="-2.0438871473000004">Punkt in -3.9874608150000013, -2.0438871473000004</Point>
+<Point name="C" showname="true" x="-1.7304075235000005" y="2.8965517241000014">Punkt in -1.7304075235000005, 2.896551724100001</Point>
+<Segment name="s1" from="B" to="C">Strecke von B nach C</Segment>
+<Point name="A" showname="true" x="2.9341692789968654" y="0.48902821316614364">Punkt in 2.9341692789968654, 0.48902821316614364</Point>
+<Segment name="s2" from="C" to="A">Strecke von C nach A</Segment>
+<Segment name="s3" from="A" to="B">Strecke von A nach B</Segment>
+<Ray name="r2" color="1" type="thin" hidden="true" from="B" to="C">Strahl von B in Richtung C</Ray>
+<Circle name="k3" color="1" type="thin" hidden="true" through="A" midpoint="B">Kreis um B durch A</Circle>
+<Intersection name="S3" color="1" hidden="true" first="r2" second="k3" which="first">Schnitt zwischen r2 und k3</Intersection>
+<Circle name="k4" color="1" type="thin" hidden="true" through="A" midpoint="S3" partial="true">Kreis um S3 durch A</Circle>
+<Circle name="k5" color="1" type="thin" hidden="true" through="S3" midpoint="A" partial="true">Kreis um A durch S3</Circle>
+<Intersection name="S5" color="1" hidden="true" first="k4" second="k5" which="first">Schnitt zwischen k4 und k5</Intersection>
+<Intersection name="S6" color="1" hidden="true" first="k4" second="k5" which="second">Schnitt zwischen k4 und k5</Intersection>
+<Line name="g1" color="1" from="S5" to="S6">Gerade durch S5 und S6</Line>
+<Ray name="r3" color="1" type="thin" hidden="true" from="A" to="B">Strahl von A in Richtung B</Ray>
+<Circle name="k6" color="1" type="thin" hidden="true" through="C" midpoint="A">Kreis um A durch C</Circle>
+<Intersection name="S7" color="1" hidden="true" first="r3" second="k6" which="first">Schnitt zwischen r3 und k6</Intersection>
+<Circle name="k7" color="1" type="thin" hidden="true" through="C" midpoint="S7" partial="true">Kreis um S7 durch C</Circle>
+<Circle name="k8" color="1" type="thin" hidden="true" through="S7" midpoint="C" partial="true">Kreis um C durch S7</Circle>
+<Intersection name="S8" color="1" hidden="true" first="k7" second="k8" which="first">Schnitt zwischen k7 und k8</Intersection>
+<Intersection name="S9" color="1" hidden="true" first="k7" second="k8" which="second">Schnitt zwischen k7 und k8</Intersection>
+<Line name="g2" color="1" from="S8" to="S9">Gerade durch S8 und S9</Line>
+<Ray name="r4" color="1" type="thin" hidden="true" from="C" to="B">Strahl von C in Richtung B</Ray>
+<Circle name="k10" color="1" type="thin" hidden="true" through="A" midpoint="C">Kreis um C durch A</Circle>
+<Intersection name="S12" color="1" hidden="true" first="r4" second="k10" which="first">Schnitt zwischen r4 und k10</Intersection>
+<Circle name="k11" color="1" type="thin" hidden="true" through="A" midpoint="S12" partial="true">Kreis um S12 durch A</Circle>
+<Circle name="k12" color="1" type="thin" hidden="true" through="S12" midpoint="A" partial="true">Kreis um A durch S12</Circle>
+<Intersection name="S13" color="1" hidden="true" first="k11" second="k12" which="first">Schnitt zwischen k11 und k12</Intersection>
+<Intersection name="S14" color="1" hidden="true" first="k11" second="k12" which="second">Schnitt zwischen k11 und k12</Intersection>
+<Line name="g3" color="1" from="S13" to="S14">Gerade durch S13 und S14</Line>
+</Objects>
+</Construction>
+</CaR>

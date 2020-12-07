@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Diesmal sind die grünen Dreiecke ähnlich. Dann ist das
+Dreieck, das die Transversalen bilden gleichseitig. D.h.,
+die Transversalen schneiden sich paarweise in 60 Grad
+Winkeln.</P>
+</Comment>
+<Objects>
+<Point name="P10" mainparameter="true" x="-2.9227053140096624" y="-2.9227053140096615">Punkt in -2.922705314009662, -2.9227053140096615</Point>
+<Point name="P11" mainparameter="true" x="-1.6988727858293078" y="2.536231884057972">Punkt in -1.6988727858293076, 2.5362318840579716</Point>
+<Segment name="s2" type="thick" from="P10" to="P11">Strecke von P10 nach P11</Segment>
+<Point name="P12" mainparameter="true" x="2.729468599033816" y="-0.31400966183574885">Punkt in 2.729468599033816, -0.31400966183574885</Point>
+<Segment name="s3" type="thick" from="P11" to="P12">Strecke von P11 nach P12</Segment>
+<Segment name="s4" type="thick" from="P12" to="P10">Strecke von P12 nach P10</Segment>
+<Point name="P13" color="1" type="thick" mainparameter="true" x="1.8120805369127515" y="1.8120805369127515">Punkt in 1.8120805369127515, 1.8120805369127515</Point>
+<Segment name="s5" color="1" from="P11" to="P13">Strecke von P11 nach P13</Segment>
+<Segment name="s6" color="1" from="P13" to="P12">Strecke von P13 nach P12</Segment>
+<Line name="g13" color="1" hidden="true" from="P13" to="P12">Gerade durch P13 und P12</Line>
+<Line name="g14" color="1" hidden="true" from="P12" to="P11">Gerade durch P12 und P11</Line>
+<Parallel name="p13" color="1" hidden="true" point="P10" line="g13">Parallele durch P10 zu g13</Parallel>
+<Parallel name="p14" color="1" hidden="true" point="P10" line="g14">Parallele durch P10 zu g14</Parallel>
+<Circle name="k13" color="1" hidden="true" midpoint="P10" through="P12" partial="true">Kreis um P10 durch P12</Circle>
+<Intersection name="S37" color="1" hidden="true" first="p13" second="k13" other="S38" shape="diamond">Schnitt zwischen p13 und k13</Intersection>
+<OtherIntersection name="S38" color="1" hidden="true" shape="diamond">Schnitt zwischen p1 und k1</OtherIntersection>
+<Intersection name="S39" color="1" hidden="true" first="p14" second="k13" other="S40" shape="diamond">Schnitt zwischen p14 und k13</Intersection>
+<OtherIntersection name="S40" color="1" hidden="true" shape="diamond">Schnitt zwischen p2 und k1</OtherIntersection>
+<Circle3 name="k14" color="1" hidden="true" midpoint="P12" from="S38" to="S39">Kreis um S38 mit Radius von S39 nach P12</Circle3>
+<Intersection name="S41" color="1" hidden="true" first="k13" second="k14" other="S42">Schnitt zwischen k13 und k14</Intersection>
+<OtherIntersection name="S42" color="1" hidden="true" shape="diamond">Schnitt zwischen k1 und k2</OtherIntersection>
+<Line name="g15" color="1" hidden="true" from="P10" to="S41">Gerade durch P10 und S41</Line>
+<Line name="g16" color="1" hidden="true" from="P12" to="P11">Gerade durch P12 und P11</Line>
+<Line name="g17" color="1" hidden="true" from="P11" to="P13">Gerade durch P11 und P13</Line>
+<Parallel name="p15" color="1" hidden="true" point="P12" line="g16">Parallele durch P12 zu g16</Parallel>
+<Parallel name="p16" color="1" hidden="true" point="P12" line="g17">Parallele durch P12 zu g17</Parallel>
+<Circle name="k15" color="1" hidden="true" midpoint="P12" through="P10" partial="true">Kreis um P12 durch P10</Circle>
+<Intersection name="S43" color="1" hidden="true" first="p15" second="k15" other="S44" shape="diamond">Schnitt zwischen p15 und k15</Intersection>
+<OtherIntersection name="S44" color="1" hidden="true" shape="diamond">Schnitt zwischen p1 und k1</OtherIntersection>
+<Intersection name="S45" color="1" hidden="true" first="p16" second="k15" other="S46" shape="diamond">Schnitt zwischen p16 und k15</Intersection>
+<OtherIntersection name="S46" color="1" hidden="true" shape="diamond">Schnitt zwischen p2 und k1</OtherIntersection>
+<Circle3 name="k16" color="1" hidden="true" midpoint="P10" from="S44" to="S45">Kreis um S44 mit Radius von S45 nach P10</Circle3>
+<Intersection name="S47" color="1" hidden="true" first="k15" second="k16" other="S48" shape="diamond">Schnitt zwischen k15 und k16</Intersection>
+<OtherIntersection name="S48" color="1" hidden="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Line name="g18" color="1" hidden="true" from="P12" to="S48">Gerade durch P12 und S48</Line>
+<Intersection name="S49" color="1" target="true" first="g15" second="g18">Schnitt zwischen g15 und g18</Intersection>
+<Segment name="s11" color="1" from="P10" to="S49">Strecke von P10 nach S49</Segment>
+<Segment name="s12" color="1" from="S49" to="P12">Strecke von S49 nach P12</Segment>
+<Line name="g19" color="1" hidden="true" from="P13" to="P12">Gerade durch P13 und P12</Line>
+<Line name="g20" color="1" hidden="true" from="P12" to="P11">Gerade durch P12 und P11</Line>
+<Parallel name="p17" color="1" hidden="true" point="P11" line="g19">Parallele durch P11 zu g19</Parallel>
+<Parallel name="p18" color="1" hidden="true" point="P11" line="g20">Parallele durch P11 zu g20</Parallel>
+<Circle name="k17" color="1" hidden="true" midpoint="P11" through="P10" partial="true">Kreis um P11 durch P10</Circle>
+<Intersection name="S50" color="1" hidden="true" first="p17" second="k17" other="S51" shape="diamond">Schnitt zwischen p17 und k17</Intersection>
+<OtherIntersection name="S51" color="1" hidden="true" shape="diamond">Schnitt zwischen p1 und k1</OtherIntersection>
+<Intersection name="S52" color="1" hidden="true" first="p18" second="k17" other="S53" shape="diamond">Schnitt zwischen p18 und k17</Intersection>
+<OtherIntersection name="S53" color="1" hidden="true" shape="diamond">Schnitt zwischen p2 und k1</OtherIntersection>
+<Circle3 name="k18" color="1" hidden="true" midpoint="P10" from="S51" to="S52">Kreis um S51 mit Radius von S52 nach P10</Circle3>
+<Intersection name="S54" color="1" hidden="true" first="k17" second="k18" other="S55">Schnitt zwischen k17 und k18</Intersection>
+<OtherIntersection name="S55" color="1" hidden="true" target="true" shape="diamond">Schnitt zwischen k1 und k2</OtherIntersection>
+<Line name="g21" color="1" hidden="true" from="P11" to="S54">Gerade durch P11 und S54</Line>
+<Line name="g22" color="1" hidden="true" from="P12" to="P11">Gerade durch P12 und P11</Line>
+<Line name="g23" color="1" hidden="true" from="P11" to="P13">Gerade durch P11 und P13</Line>
+<Parallel name="p19" color="1" hidden="true" point="P10" line="g22">Parallele durch P10 zu g22</Parallel>
+<Parallel name="p20" color="1" hidden="true" point="P10" line="g23">Parallele durch P10 zu g23</Parallel>
+<Circle name="k19" color="1" hidden="true" midpoint="P10" through="P11" partial="true">Kreis um P10 durch P11</Circle>
+<Intersection name="S56" color="1" hidden="true" first="p19" second="k19" other="S57" shape="diamond">Schnitt zwischen p19 und k19</Intersection>
+<OtherIntersection name="S57" color="1" hidden="true" shape="diamond">Schnitt zwischen p1 und k1</OtherIntersection>
+<Intersection name="S58" color="1" hidden="true" first="p20" second="k19" other="S59" shape="diamond">Schnitt zwischen p20 und k19</Intersection>
+<OtherIntersection name="S59" color="1" hidden="true" shape="diamond">Schnitt zwischen p2 und k1</OtherIntersection>
+<Circle3 name="k20" color="1" hidden="true" midpoint="P11" from="S57" to="S58">Kreis um S57 mit Radius von S58 nach P11</Circle3>
+<Intersection name="S60" color="1" hidden="true" first="k19" second="k20" other="S61" shape="diamond">Schnitt zwischen k19 und k20</Intersection>
+<OtherIntersection name="S61" color="1" hidden="true" target="true">Schnitt zwischen k1 und k2</OtherIntersection>
+<Line name="g24" color="1" hidden="true" from="P10" to="S61">Gerade durch P10 und S61</Line>
+<Intersection name="S62" color="1" first="g24" second="g21">Schnitt zwischen g24 und g21</Intersection>
+<Segment name="s13" color="1" from="P11" to="S62">Strecke von P11 nach S62</Segment>
+<Segment name="s14" color="1" from="S62" to="P10">Strecke von S62 nach P10</Segment>
+<Segment name="s15" color="2" from="P11" to="S49">Strecke von P11 nach S49</Segment>
+<Segment name="s16" color="2" from="S62" to="P12">Strecke von S62 nach P12</Segment>
+<Segment name="s17" color="2" from="P13" to="P10">Strecke von P13 nach P10</Segment>
+<Intersection name="S63" color="2" first="s15" second="s16" shape="dot">Schnitt zwischen s15 und s16</Intersection>
+<Intersection name="S64" color="2" first="s16" second="s17" shape="dot">Schnitt zwischen s16 und s17</Intersection>
+<Intersection name="S65" color="2" first="s15" second="s17" shape="dot">Schnitt zwischen s15 und s17</Intersection>
+<Segment name="s18" color="2" type="thick" from="S63" to="S65">Strecke von S63 nach S65</Segment>
+<Segment name="s19" color="2" type="thick" from="S65" to="S64">Strecke von S65 nach S64</Segment>
+<Segment name="s20" color="2" type="thick" from="S64" to="S63">Strecke von S64 nach S63</Segment>
+</Objects>
+</Construction>
+</CaR>

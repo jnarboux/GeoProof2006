@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.8923902664756844" y="2.2604413903066347" w="6.72717132202978"/>
+<Objects>
+<Point name="P9" hidden="true" x="6.36" y="-1.61">Punkt in 6.36, -1.61</Point>
+<Point name="P8" hidden="true" x="3.2" y="-1.61">Punkt in 3.2, -1.61</Point>
+<Segment name="s16" type="thin" hidden="true" background="true" from="P8" to="P9">Strecke von P8 nach P9</Segment>
+<Midpoint name="M1" hidden="true" first="P8" second="P9">Mitte zwischen P8 und P9</Midpoint>
+<Segment name="s15" color="5" type="thick" from="M1" to="P9">Strecke von M1 nach P9</Segment>
+<PointOn name="P12" type="thick" on="s16" x="3.9196173613890846" y="-1.61">Punkt auf s16</PointOn>
+<Segment name="s14" color="1" type="thick" from="P8" to="M1">Strecke von P8 nach M1</Segment>
+<Point name="P6" hidden="true" x="5.0" y="3.0">Punkt in 5.0, 3.0</Point>
+<Point name="A" color="1" type="thick" x="-4.76" y="2.87" shape="circle">Punkt in -4.76, 2.87</Point>
+<Circle name="k1" hidden="true" fixed="5.98" midpoint="A" acute="true">Kreis um A mit Radius 5.978723</Circle>
+<Point name="X" color="1" type="thick" x="6.778665173251742" y="2.954180932890956" shape="diamond">Punkt in 6.778665173251742, 2.954180932890956</Point>
+<Circle name="k3" hidden="true" fixed="k1" midpoint="X" acute="true">Kreis um X mit Radius 6.95</Circle>
+<Intersection name="B" type="thick" first="k1" second="k3" shape="circle" which="first">Schnitt zwischen k1 und k3</Intersection>
+<Angle name="a" hidden="true" first="X" root="B" second="A">Winkel X - B - A</Angle>
+<Segment name="s" color="1" type="thick" from="A" to="B">Strecke von A nach B</Segment>
+<Segment name="s2" color="1" type="thick" from="B" to="X">Strecke von B nach X</Segment>
+<Circle name="k4" hidden="true" fixed="1.0" midpoint="B" acute="true">Kreis um B mit Radius 1.0</Circle>
+<Line name="g1" hidden="true" from="B" to="A">Gerade durch B und A</Line>
+<Intersection name="S3" hidden="true" first="s2" second="k4" which="first">Schnitt zwischen s2 und k4</Intersection>
+<Plumb name="l1" hidden="true" point="S3" line="g1" valid="true">Lot durch S3 zu g1</Plumb>
+<Intersection name="P" hidden="true" first="l1" second="g1">Schnitt zwischen l1 und g1</Intersection>
+<Point name="P5" hidden="true" x="3.0" y="3.0">Punkt in 3.0, 3.0</Point>
+<Circle name="k5" color="3" background="true" fixed="3.77" midpoint="P5" filled="true" acute="true">Kreis um P5 mit Radius 3.773758</Circle>
+<Line name="g2" hidden="true" from="P5" to="P6">Gerade durch P5 und P6</Line>
+<Intersection name="Start" first="g2" second="k5" shape="circle" which="first">Schnitt zwischen g2 und k5</Intersection>
+<Circle name="k11" hidden="true" fixed="1.5" midpoint="B" acute="true">Kreis um B mit Radius 1.0</Circle>
+<Intersection name="S18" type="thick" first="s2" second="k11" shape="circle" which="first">Schnitt zwischen s2 und k11</Intersection>
+<Plumb name="l4" hidden="true" point="B" line="s2" valid="true">Lot durch B zu s2</Plumb>
+<Circle name="k12" hidden="true" fixed="0.6000000000000003" midpoint="B" acute="true">Kreis um B mit Radius 0.46</Circle>
+<Intersection name="S19" hidden="true" first="l4" second="k12" which="first">Schnitt zwischen l4 und k12</Intersection>
+<Intersection name="S20" hidden="true" first="l4" second="k12" which="second">Schnitt zwischen l4 und k12</Intersection>
+<Segment name="s6" type="thick" hidden="true" from="S19" to="S20">Strecke von S19 nach S20</Segment>
+<Segment name="s7" type="thick" from="B" to="S18">Strecke von B nach S18</Segment>
+<Circle name="k13" hidden="true" fixed="0.67" midpoint="B" acute="true">Kreis um B mit Radius 0.67</Circle>
+<Intersection name="S21" hidden="true" first="s2" second="k13" which="first">Schnitt zwischen s2 und k13</Intersection>
+<Plumb name="l5" hidden="true" point="S21" line="s2" valid="true">Lot durch S21 zu s2</Plumb>
+<Circle name="k14" hidden="true" fixed="0.5000000000000003" midpoint="S21" acute="true">Kreis um S21 mit Radius 0.36</Circle>
+<Intersection name="S22" hidden="true" first="l5" second="k14" which="first">Schnitt zwischen l5 und k14</Intersection>
+<Circle name="k15" through="S21" midpoint="S22" filled="true" acute="true">Kreis um S22 durch S21</Circle>
+<Intersection name="S23" hidden="true" first="l5" second="k15" which="first">Schnitt zwischen l5 und k15</Intersection>
+<PointOn name="P10" hidden="true" on="k1" alpha="1.423921335691262">Punkt auf k1</PointOn>
+<Angle name="b" hidden="true" first="B" root="A" second="P10" acute="true">Winkel B - A - P10</Angle>
+<Expression name="F" hidden="true" showvalue="true" x="-1.040071" y="-2.112593" value="sum(d(b)*cos(a),scale(d(P8,P12),0.0,d(P8,P9)/2.0))/180.0*pi*s^2.0" prompt="Wert">Ausdruck &quot;sum(d(b)*cos(a),scale(d(P8,P12),0.0,d(P8,P9)/2.0))/180.0*pi*s^2.0&quot; in -1.04, -2.11</Expression>
+<Point name="P7" color="5" type="thick" hidden="true" x="x(B)+(y(X)-y(B))/s*k12*cos(F*s/k12)*sign(sin(F*s/k12))" y="y(B)-(x(X)-x(B))/s*k12*cos(F*s/k12)*sign(sin(F*s/k12))" shape="circle" fixed="true">Punkt in &quot;x(B)+(y(X)-y(B))/s*k12*cos(F*s/k12)*sign(sin(F*s/k12))&quot;, &quot;y(B)-(x(X)-x(B))/s*k12*cos(F*s/k12)*sign(sin(F*s/k12))&quot;</Point>
+<Plumb name="l6" hidden="true" point="S19" line="s6" valid="true">Lot durch S19 zu s6</Plumb>
+<Plumb name="l7" hidden="true" point="S20" line="s6" valid="true">Lot durch S20 zu s6</Plumb>
+<Circle name="k16" hidden="true" fixed="0.08" midpoint="S20" acute="true">Kreis um S20 mit Radius 0.077869</Circle>
+<Intersection name="S24" hidden="true" first="l7" second="k16" shape="diamond" which="first">Schnitt zwischen l7 und k16</Intersection>
+<Parallel name="p1" hidden="true" point="S24" line="s6">Parallele durch S24 zu s6</Parallel>
+<Intersection name="S31" hidden="true" first="l6" second="p1">Schnitt zwischen l6 und p1</Intersection>
+<Polygon name="A3" point1="S19" point2="S31" point3="S24" point4="S20">Vieleck S19, S31, S24, S20</Polygon>
+<Plumb name="l8" hidden="true" point="P7" line="l4" valid="true">Lot durch P7 zu l4</Plumb>
+<Intersection name="S32" hidden="true" first="l8" second="p1">Schnitt zwischen l8 und p1</Intersection>
+<Segment name="s8" color="5" type="thick" from="P7" to="S32">Strecke von P7 nach S32</Segment>
+<Segment name="s9" type="thick" hidden="true" from="S31" to="S24">Strecke von S31 nach S24</Segment>
+<Segment name="s10" type="thick" hidden="true" from="S19" to="S20">Strecke von S19 nach S20</Segment>
+<Segment name="s11" type="thick" hidden="true" from="S19" to="S31">Strecke von S19 nach S31</Segment>
+<Segment name="s12" type="thick" hidden="true" from="S20" to="S24">Strecke von S20 nach S24</Segment>
+<Angle name="w2" hidden="true" first="S23" root="S22" fixed="F*5.0">Fester Winkel S23 - S22 mit Größe F*5.0</Angle>
+<Intersection name="S33" type="thick" hidden="true" first="w2" second="k15" which="first">Schnitt zwischen w2 und k15</Intersection>
+<Intersection name="S34" type="thick" first="w2" second="k15" which="second">Schnitt zwischen w2 und k15</Intersection>
+<Segment name="s13" type="thick" from="S22" to="S33">Strecke von S22 nach S33</Segment>
+<Circle name="k17" color="1" background="true" fixed="0.33" midpoint="A" filled="true" acute="true">Kreis um A mit Radius 0.327963</Circle>
+<Expression name="AD2" showname="true" showvalue="true" x="-3.73254" y="-1.775861" value="F" prompt="Anzeige">Ausdruck &quot;F&quot; in -3.73, -1.78</Expression>
+<Expression name="AD3" color="3" showvalue="true" x="1.943511" y="4.446772" value="k5^2.0*pi" prompt="Fläche">Ausdruck &quot;k5^2.0*pi&quot; in 1.94, 4.45</Expression>
+</Objects>
+</Construction>
+</CaR>

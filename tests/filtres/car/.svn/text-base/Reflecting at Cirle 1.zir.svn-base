@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="P*" on="k8" move="P"/>
+<Objects>
+<Point name="M" showname="true" x="-3.67" y="0.1">Punkt in -3.675, 0.10000000000000053</Point>
+<Circle name="k1" fixed="2.7" midpoint="M" acute="true">Kreis um M mit Radius 2.7</Circle>
+<Point name="Q" type="thick" showname="true" x="4.2" y="1.05">Punkt in 4.199999999999999, 1.0499999999999998</Point>
+<Circle name="k5" hidden="super" through="M" midpoint="Q" acute="true">Kreis um Q durch M</Circle>
+<Intersection name="S7" hidden="super" first="k1" second="k5" which="second">Schnitt zwischen k1 und k5</Intersection>
+<Circle name="k6" hidden="super" through="M" midpoint="S7" acute="true">Kreis um S7 durch M</Circle>
+<Intersection name="S8" hidden="super" first="k1" second="k5" which="first">Schnitt zwischen k1 und k5</Intersection>
+<Circle name="k7" hidden="super" through="M" midpoint="S8" acute="true">Kreis um S8 durch M</Circle>
+<Intersection name="Q*" showname="true" first="k6" second="k7" awayfrom="M" which="second">Schnitt zwischen k6 und k7</Intersection>
+<Circle name="k8" color="2" fixed="4.92" midpoint="Q" acute="true">Kreis um Q mit Radius 4.917443</Circle>
+<PointOn name="P" showname="true" xoffset="-22" yoffset="-23" on="k8" alpha="2.283331010065345">Punkt auf k8</PointOn>
+<Circle name="k9" hidden="super" through="M" midpoint="P" acute="true">Kreis um P durch M</Circle>
+<Intersection name="S10" hidden="super" first="k1" second="k9" which="second">Schnitt zwischen k1 und k9</Intersection>
+<Circle name="k10" hidden="super" through="M" midpoint="S10" acute="true">Kreis um S10 durch M</Circle>
+<Intersection name="S11" hidden="super" first="k1" second="k9" which="first">Schnitt zwischen k1 und k9</Intersection>
+<Circle name="k11" hidden="super" through="M" midpoint="S11" acute="true">Kreis um S11 durch M</Circle>
+<Intersection name="P*" color="1" showname="true" xoffset="-18" yoffset="-26" first="k10" second="k11" awayfrom="M" which="second">Schnitt zwischen k10 und k11</Intersection>
+<Segment name="s1" type="thin" from="M" to="Q">Strecke von M nach Q</Segment>
+</Objects>
+</Construction>
+</CaR>

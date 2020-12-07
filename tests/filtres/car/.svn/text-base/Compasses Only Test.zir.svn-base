@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Macro Name="Double a Segment">
+<Parameter name="P3">A</Parameter>
+<Parameter name="P2">B</Parameter>
+<Comment>
+<P>Finds a point C on the line AB such that AC=2AB.</P>
+</Comment>
+<Objects>
+<Point name="P2" mainparameter="true" x="-1.8022690437601296" y="0.07779578606158832">Point at -1.8022690437601296, 0.07779578606158832</Point>
+<Point name="P3" mainparameter="true" x="-4.706645056726094" y="0.414910858995138">Point at -4.706645056726094, 0.414910858995138</Point>
+<Circle name="c1" hidden="true" through="P3" midpoint="P2" acute="true">Circle around P2 through P3</Circle>
+<Circle name="c2" hidden="true" through="P2" midpoint="P3" acute="true">Circle around P3 through P2</Circle>
+<Intersection name="I1" hidden="true" first="c2" second="c1" which="second">Intersection between c2 and c1</Intersection>
+<Circle name="c3" hidden="true" through="P2" midpoint="I1" acute="true">Circle around I1 through P2</Circle>
+<Intersection name="I2" hidden="true" first="c1" second="c3" which="first">Intersection between c1 and c3</Intersection>
+<Circle name="c4" hidden="true" through="I1" midpoint="I2" acute="true">Circle around I2 through I1</Circle>
+<Intersection name="I3" target="true" first="c4" second="c1" which="second">Intersection between c4 and c1</Intersection>
+</Objects>
+</Macro>
+<Macro Name="Center of a Segment">
+<Parameter name="P1">A</Parameter>
+<Parameter name="P2">B</Parameter>
+<Comment>
+<P>Construct the middle point in a segment AB.</P>
+</Comment>
+<Objects>
+<Point name="P1" mainparameter="true" x="-3.124797406807131" y="-0.3630470016207452">Point at -3.124797406807131, -0.3630470016207452</Point>
+<Point name="P2" mainparameter="true" x="1.050243111831442" y="-0.2593192868719605">Point at 1.050243111831442, -0.2593192868719605</Point>
+<Circle name="c1" hidden="true" through="P1" midpoint="P2" acute="true">Circle around P2 through P1</Circle>
+<Circle name="c2" hidden="true" through="P2" midpoint="P1" acute="true">Circle around P1 through P2</Circle>
+<Intersection name="I1" hidden="true" first="c2" second="c1" which="second">Intersection between c2 and c1</Intersection>
+<Circle name="c3" hidden="true" through="P2" midpoint="I1" acute="true">Circle around I1 through P2</Circle>
+<Intersection name="I2" hidden="true" first="c1" second="c3" which="first">Intersection between c1 and c3</Intersection>
+<Circle name="c4" hidden="true" through="I1" midpoint="I2" acute="true">Circle around I2 through I1</Circle>
+<Intersection name="I3" hidden="true" first="c4" second="c1" which="second">Intersection between c4 and c1</Intersection>
+<Circle name="c5" hidden="true" through="P1" midpoint="I3" acute="true">Circle around I3 through P1</Circle>
+<Intersection name="I4" hidden="true" first="c5" second="c2" which="first">Intersection between c5 and c2</Intersection>
+<Circle name="c6" hidden="true" through="P1" midpoint="I4" acute="true">Circle around I4 through P1</Circle>
+<Intersection name="I5" hidden="true" first="c5" second="c2" which="second">Intersection between c5 and c2</Intersection>
+<Circle name="c7" hidden="true" through="P1" midpoint="I5" acute="true">Circle around I5 through P1</Circle>
+<Intersection name="I6" target="true" first="c7" second="c6" awayfrom="P1" which="first">Intersection between c7 and c6</Intersection>
+</Objects>
+</Macro>
+<Macro Name="Circle of Thales">
+<Parameter name="P5">A</Parameter>
+<Parameter name="P6">B</Parameter>
+<Comment>
+<P>Construct the circle of Thales on AB.</P>
+</Comment>
+<Objects>
+<Point name="P5" mainparameter="true" x="-3.3322528363047006" y="-0.025931928687196404">Point at -3.3322528363047006, -0.025931928687196404</Point>
+<Point name="P6" mainparameter="true" x="2.8654781199351707" y="0.05186385737439192">Point at 2.8654781199351707, 0.05186385737439192</Point>
+<Circle name="c1" hidden="true" through="P5" midpoint="P6" acute="true">Circle around P6 through P5</Circle>
+<Circle name="c2" hidden="true" through="P6" midpoint="P5" acute="true">Circle around P5 through P6</Circle>
+<Intersection name="I1" hidden="true" first="c2" second="c1" which="second">Intersection between c2 and c1</Intersection>
+<Circle name="c3" hidden="true" through="P6" midpoint="I1" acute="true">Circle around I1 through P6</Circle>
+<Intersection name="I2" hidden="true" first="c1" second="c3" which="first">Intersection between c1 and c3</Intersection>
+<Circle name="c4" hidden="true" through="I1" midpoint="I2" acute="true">Circle around I2 through I1</Circle>
+<Intersection name="I3" hidden="true" first="c4" second="c1" which="second">Intersection between c4 and c1</Intersection>
+<Circle name="c5" hidden="true" through="P5" midpoint="I3" acute="true">Circle around I3 through P5</Circle>
+<Intersection name="I4" hidden="true" first="c5" second="c2" which="first">Intersection between c5 and c2</Intersection>
+<Circle name="c6" hidden="true" through="P5" midpoint="I4" acute="true">Circle around I4 through P5</Circle>
+<Intersection name="I5" hidden="true" first="c5" second="c2" which="second">Intersection between c5 and c2</Intersection>
+<Circle name="c7" hidden="true" through="P5" midpoint="I5" acute="true">Circle around I5 through P5</Circle>
+<Intersection name="I6" hidden="true" first="c7" second="c6" awayfrom="P5" which="first">Intersection between c7 and c6</Intersection>
+<Circle name="c8" target="true" through="P5" midpoint="I6" acute="true">Circle around I6 through P5</Circle>
+</Objects>
+</Macro>
+<Macro Name="Reflection on a Circle">
+<Parameter name="c1">c</Parameter>
+<Parameter name="P3">P</Parameter>
+<Comment>
+<P>Reflect a point P with respect to a circle c.</P>
+</Comment>
+<Objects>
+<Point name="P1" parameter="true" x="-2.761750405186386" y="-0.8298217179902752">Point at -2.761750405186386, -0.8298217179902752</Point>
+<Circle name="c1" mainparameter="true" midpoint="P1">???</Circle>
+<Point name="P3" mainparameter="true" x="4.213938411669368" y="0.49270664505672634">Point at 4.213938411669368, 0.49270664505672634</Point>
+<Circle name="c2" hidden="true" through="P3" midpoint="P1" acute="true">Circle around P1 through P3</Circle>
+<Circle name="c3" hidden="true" through="P1" midpoint="P3" acute="true">Circle around P3 through P1</Circle>
+<Intersection name="I1" hidden="true" first="c3" second="c2" which="second">Intersection between c3 and c2</Intersection>
+<Circle name="c4" hidden="true" through="P1" midpoint="I1" acute="true">Circle around I1 through P1</Circle>
+<Intersection name="I2" hidden="true" first="c2" second="c4" which="first">Intersection between c2 and c4</Intersection>
+<Circle name="c5" hidden="true" through="I1" midpoint="I2" acute="true">Circle around I2 through I1</Circle>
+<Intersection name="I3" hidden="true" first="c5" second="c2" which="second">Intersection between c5 and c2</Intersection>
+<Circle name="c6" hidden="true" through="P3" midpoint="I3" acute="true">Circle around I3 through P3</Circle>
+<Intersection name="I4" hidden="true" first="c6" second="c3" which="first">Intersection between c6 and c3</Intersection>
+<Circle name="c7" hidden="true" through="P3" midpoint="I4" acute="true">Circle around I4 through P3</Circle>
+<Intersection name="I5" hidden="true" first="c6" second="c3" which="second">Intersection between c6 and c3</Intersection>
+<Circle name="c8" hidden="true" through="P3" midpoint="I5" acute="true">Circle around I5 through P3</Circle>
+<Intersection name="I6" hidden="true" first="c8" second="c7" awayfrom="P3" which="first">Intersection between c8 and c7</Intersection>
+<Circle name="c9" hidden="true" through="P3" midpoint="I6" acute="true">Circle around I6 through P3</Circle>
+<Intersection name="I7" hidden="true" first="c9" second="c1" which="second">Intersection between c9 and c1</Intersection>
+<Intersection name="I8" hidden="true" first="c9" second="c1" which="first">Intersection between c9 and c1</Intersection>
+<Circle name="c10" hidden="true" through="I7" midpoint="I8" acute="true">Circle around I8 through I7</Circle>
+<Circle name="c11" hidden="true" through="I8" midpoint="I7" acute="true">Circle around I7 through I8</Circle>
+<Intersection name="I9" hidden="true" first="c11" second="c10" which="second">Intersection between c11 and c10</Intersection>
+<Circle name="c12" hidden="true" through="I8" midpoint="I9" acute="true">Circle around I9 through I8</Circle>
+<Intersection name="I10" hidden="true" first="c10" second="c12" which="first">Intersection between c10 and c12</Intersection>
+<Circle name="c13" hidden="true" through="I9" midpoint="I10" acute="true">Circle around I10 through I9</Circle>
+<Intersection name="I11" hidden="true" first="c13" second="c10" which="second">Intersection between c13 and c10</Intersection>
+<Circle name="c14" hidden="true" through="I7" midpoint="I11" acute="true">Circle around I11 through I7</Circle>
+<Intersection name="I12" hidden="true" first="c14" second="c11" which="first">Intersection between c14 and c11</Intersection>
+<Circle name="c15" hidden="true" through="I7" midpoint="I12" acute="true">Circle around I12 through I7</Circle>
+<Intersection name="I13" hidden="true" first="c14" second="c11" which="second">Intersection between c14 and c11</Intersection>
+<Circle name="c16" hidden="true" through="I7" midpoint="I13" acute="true">Circle around I13 through I7</Circle>
+<Intersection name="I14" target="true" first="c16" second="c15" awayfrom="I7" which="first">Intersection between c16 and c15</Intersection>
+</Objects>
+</Macro>
+<Macro Name="Reflection to the Outside of a Circle">
+<Parameter name="c1">c</Parameter>
+<Parameter name="P4">P</Parameter>
+<Comment>
+<P>Reflects a point P to the outside of a circle c (with
+center M). Works only, if MP is more than half of the
+radius of c.</P>
+</Comment>
+<Objects>
+<Point name="P1" parameter="true" x="-2.66" y="-0.39">Point at -2.66, -0.39</Point>
+<Circle name="c1" mainparameter="true" midpoint="P1">???</Circle>
+<Point name="P4" mainparameter="true" x="-0.19" y="-0.34">Point at -0.19, -0.34</Point>
+<Circle name="c2" hidden="true" through="P1" midpoint="P4" acute="true">Circle around P4 through P1</Circle>
+<Circle name="c3" hidden="true" through="P4" midpoint="P1" acute="true">Circle around P1 through P4</Circle>
+<Intersection name="I1" hidden="true" first="c3" second="c2" which="second">Intersection between c3 and c2</Intersection>
+<Circle name="c4" hidden="true" through="P4" midpoint="I1" acute="true">Circle around I1 through P4</Circle>
+<Intersection name="I2" hidden="true" first="c2" second="c4" which="first">Intersection between c2 and c4</Intersection>
+<Circle name="c5" hidden="true" through="I1" midpoint="I2" acute="true">Circle around I2 through I1</Circle>
+<Intersection name="I3" hidden="true" first="c5" second="c2" which="second">Intersection between c5 and c2</Intersection>
+<Circle name="c6" hidden="true" through="I3" midpoint="P1" acute="true">Circle around P1 through I3</Circle>
+<Circle name="c7" hidden="true" through="P1" midpoint="I3" acute="true">Circle around I3 through P1</Circle>
+<Intersection name="I4" hidden="true" first="c7" second="c6" which="second">Intersection between c7 and c6</Intersection>
+<Circle name="c8" hidden="true" through="P1" midpoint="I4" acute="true">Circle around I4 through P1</Circle>
+<Intersection name="I5" hidden="true" first="c6" second="c8" which="first">Intersection between c6 and c8</Intersection>
+<Circle name="c9" hidden="true" through="I4" midpoint="I5" acute="true">Circle around I5 through I4</Circle>
+<Intersection name="I6" hidden="true" first="c9" second="c6" which="second">Intersection between c9 and c6</Intersection>
+<Circle name="c10" hidden="true" through="I3" midpoint="I6" acute="true">Circle around I6 through I3</Circle>
+<Intersection name="I7" hidden="true" first="c10" second="c7" which="first">Intersection between c10 and c7</Intersection>
+<Circle name="c11" hidden="true" through="I3" midpoint="I7" acute="true">Circle around I7 through I3</Circle>
+<Intersection name="I8" hidden="true" first="c10" second="c7" which="second">Intersection between c10 and c7</Intersection>
+<Circle name="c12" hidden="true" through="I3" midpoint="I8" acute="true">Circle around I8 through I3</Circle>
+<Intersection name="I9" hidden="true" first="c12" second="c11" awayfrom="I3" which="first">Intersection between c12 and c11</Intersection>
+<Circle name="c13" hidden="true" through="I3" midpoint="I9" acute="true">Circle around I9 through I3</Circle>
+<Intersection name="I10" hidden="true" first="c13" second="c1" which="second">Intersection between c13 and c1</Intersection>
+<Intersection name="I11" hidden="true" first="c13" second="c1" which="first">Intersection between c13 and c1</Intersection>
+<Circle name="c14" hidden="true" through="I10" midpoint="I11" acute="true">Circle around I11 through I10</Circle>
+<Circle name="c15" hidden="true" through="I11" midpoint="I10" acute="true">Circle around I10 through I11</Circle>
+<Intersection name="I12" hidden="true" first="c15" second="c14" which="second">Intersection between c15 and c14</Intersection>
+<Circle name="c16" hidden="true" through="I11" midpoint="I12" acute="true">Circle around I12 through I11</Circle>
+<Intersection name="I13" hidden="true" first="c14" second="c16" which="first">Intersection between c14 and c16</Intersection>
+<Circle name="c17" hidden="true" through="I12" midpoint="I13" acute="true">Circle around I13 through I12</Circle>
+<Intersection name="I14" hidden="true" first="c17" second="c14" which="second">Intersection between c17 and c14</Intersection>
+<Circle name="c18" hidden="true" through="I10" midpoint="I14" acute="true">Circle around I14 through I10</Circle>
+<Intersection name="I15" hidden="true" first="c18" second="c15" which="first">Intersection between c18 and c15</Intersection>
+<Circle name="c19" hidden="true" through="I10" midpoint="I15" acute="true">Circle around I15 through I10</Circle>
+<Intersection name="I16" hidden="true" first="c18" second="c15" which="second">Intersection between c18 and c15</Intersection>
+<Circle name="c20" hidden="true" through="I10" midpoint="I16" acute="true">Circle around I16 through I10</Circle>
+<Intersection name="I17" hidden="true" first="c20" second="c19" awayfrom="I10" which="first">Intersection between c20 and c19</Intersection>
+<Circle name="c21" hidden="true" through="P1" midpoint="I17" acute="true">Circle around I17 through P1</Circle>
+<Circle name="c22" hidden="true" through="I17" midpoint="P1" acute="true">Circle around P1 through I17</Circle>
+<Intersection name="I18" hidden="true" first="c22" second="c21" which="second">Intersection between c22 and c21</Intersection>
+<Circle name="c23" hidden="true" through="I17" midpoint="I18" acute="true">Circle around I18 through I17</Circle>
+<Intersection name="I19" hidden="true" first="c21" second="c23" which="first">Intersection between c21 and c23</Intersection>
+<Circle name="c24" hidden="true" through="I18" midpoint="I19" acute="true">Circle around I19 through I18</Circle>
+<Intersection name="I20" target="true" first="c24" second="c21" which="second">Intersection between c24 and c21</Intersection>
+</Objects>
+</Macro>
+<Macro Name="Reflection of Line on a Circle">
+<Parameter name="c1">c</Parameter>
+<Parameter name="P3">A</Parameter>
+<Parameter name="P4">B</Parameter>
+<Comment>
+<P>Reflects a line AB inside of a circle c.</P>
+</Comment>
+<Objects>
+<Point name="P1" parameter="true" x="-1.9837925445705027" y="-0.8816855753646671">Point at -1.9837925445705027, -0.8816855753646671</Point>
+<Circle name="c1" mainparameter="true" midpoint="P1">???</Circle>
+<Point name="P3" mainparameter="true" x="5.19935170178282" y="4.641815235008103">Point at 5.19935170178282, 4.641815235008103</Point>
+<Point name="P4" mainparameter="true" x="5.1474878444084275" y="-5.056726094003241">Point at 5.1474878444084275, -5.056726094003241</Point>
+<Circle name="c2" color="1" hidden="true" through="P1" midpoint="P3" acute="true">Circle around P3 through P1</Circle>
+<Circle name="c3" color="1" hidden="true" through="P3" midpoint="P1" acute="true">Circle around P1 through P3</Circle>
+<Intersection name="I1" color="1" hidden="true" first="c3" second="c2" which="second">Intersection between c3 and c2</Intersection>
+<Circle name="c4" color="1" hidden="true" through="P3" midpoint="I1" acute="true">Circle around I1 through P3</Circle>
+<Intersection name="I2" color="1" hidden="true" first="c2" second="c4" which="first">Intersection between c2 and c4</Intersection>
+<Circle name="c5" color="1" hidden="true" through="I1" midpoint="I2" acute="true">Circle around I2 through I1</Circle>
+<Intersection name="I3" color="1" hidden="true" first="c5" second="c2" which="second">Intersection between c5 and c2</Intersection>
+<Circle name="c6" color="1" hidden="true" through="P1" midpoint="I3" acute="true">Circle around I3 through P1</Circle>
+<Intersection name="I4" color="1" hidden="true" first="c6" second="c3" which="first">Intersection between c6 and c3</Intersection>
+<Circle name="c7" color="1" hidden="true" through="P1" midpoint="I4" acute="true">Circle around I4 through P1</Circle>
+<Intersection name="I5" color="1" hidden="true" first="c6" second="c3" which="second">Intersection between c6 and c3</Intersection>
+<Circle name="c8" color="1" hidden="true" through="P1" midpoint="I5" acute="true">Circle around I5 through P1</Circle>
+<Intersection name="I6" color="1" hidden="true" first="c8" second="c7" awayfrom="P1" which="first">Intersection between c8 and c7</Intersection>
+<Circle name="c9" color="1" hidden="true" through="P1" midpoint="I6" acute="true">Circle around I6 through P1</Circle>
+<Circle name="c10" color="1" hidden="true" through="P4" midpoint="P1" acute="true">Circle around P1 through P4</Circle>
+<Circle name="c11" color="1" hidden="true" through="P1" midpoint="P4" acute="true">Circle around P4 through P1</Circle>
+<Intersection name="I7" color="1" hidden="true" first="c11" second="c10" which="second">Intersection between c11 and c10</Intersection>
+<Circle name="c12" color="1" hidden="true" through="P1" midpoint="I7" acute="true">Circle around I7 through P1</Circle>
+<Intersection name="I8" color="1" hidden="true" first="c10" second="c12" which="first">Intersection between c10 and c12</Intersection>
+<Circle name="c13" color="1" hidden="true" through="I7" midpoint="I8" acute="true">Circle around I8 through I7</Circle>
+<Intersection name="I9" color="1" hidden="true" first="c13" second="c10" which="second">Intersection between c13 and c10</Intersection>
+<Circle name="c14" color="1" hidden="true" through="P4" midpoint="I9" acute="true">Circle around I9 through P4</Circle>
+<Intersection name="I10" color="1" hidden="true" first="c14" second="c11" which="first">Intersection between c14 and c11</Intersection>
+<Circle name="c15" color="1" hidden="true" through="P4" midpoint="I10" acute="true">Circle around I10 through P4</Circle>
+<Intersection name="I11" color="1" hidden="true" first="c14" second="c11" which="second">Intersection between c14 and c11</Intersection>
+<Circle name="c16" color="1" hidden="true" through="P4" midpoint="I11" acute="true">Circle around I11 through P4</Circle>
+<Intersection name="I12" color="1" hidden="true" first="c16" second="c15" awayfrom="P4" which="first">Intersection between c16 and c15</Intersection>
+<Circle name="c17" color="1" hidden="true" through="P4" midpoint="I12" acute="true">Circle around I12 through P4</Circle>
+<Intersection name="I13" color="1" hidden="true" first="c17" second="c9" which="first">Intersection between c17 and c9</Intersection>
+<Circle name="c18" color="1" hidden="true" through="I13" midpoint="P1" acute="true">Circle around P1 through I13</Circle>
+<Circle name="c19" color="1" hidden="true" through="P1" midpoint="I13" acute="true">Circle around I13 through P1</Circle>
+<Intersection name="I14" color="1" hidden="true" first="c19" second="c18" which="second">Intersection between c19 and c18</Intersection>
+<Circle name="c20" color="1" hidden="true" through="P1" midpoint="I14" acute="true">Circle around I14 through P1</Circle>
+<Intersection name="I15" color="1" hidden="true" first="c18" second="c20" which="first">Intersection between c18 and c20</Intersection>
+<Circle name="c21" color="1" hidden="true" through="I14" midpoint="I15" acute="true">Circle around I15 through I14</Circle>
+<Intersection name="I16" color="1" hidden="true" first="c21" second="c18" which="second">Intersection between c21 and c18</Intersection>
+<Circle name="c22" color="1" hidden="true" through="I13" midpoint="I16" acute="true">Circle around I16 through I13</Circle>
+<Intersection name="I17" color="1" hidden="true" first="c22" second="c19" which="first">Intersection between c22 and c19</Intersection>
+<Circle name="c23" color="1" hidden="true" through="I13" midpoint="I17" acute="true">Circle around I17 through I13</Circle>
+<Intersection name="I18" color="1" hidden="true" first="c22" second="c19" which="second">Intersection between c22 and c19</Intersection>
+<Circle name="c24" color="1" hidden="true" through="I13" midpoint="I18" acute="true">Circle around I18 through I13</Circle>
+<Intersection name="I19" color="1" hidden="true" first="c24" second="c23" awayfrom="I13" which="first">Intersection between c24 and c23</Intersection>
+<Circle name="c25" color="1" hidden="true" through="I13" midpoint="I19" acute="true">Circle around I19 through I13</Circle>
+<Intersection name="I20" color="1" hidden="true" first="c25" second="c1" which="second">Intersection between c25 and c1</Intersection>
+<Intersection name="I21" color="1" hidden="true" first="c25" second="c1" which="first">Intersection between c25 and c1</Intersection>
+<Circle name="c26" color="1" hidden="true" through="I20" midpoint="I21" acute="true">Circle around I21 through I20</Circle>
+<Circle name="c27" color="1" hidden="true" through="I21" midpoint="I20" acute="true">Circle around I20 through I21</Circle>
+<Intersection name="I22" color="1" hidden="true" first="c27" second="c26" which="second">Intersection between c27 and c26</Intersection>
+<Circle name="c28" color="1" hidden="true" through="I21" midpoint="I22" acute="true">Circle around I22 through I21</Circle>
+<Intersection name="I23" color="1" hidden="true" first="c26" second="c28" which="first">Intersection between c26 and c28</Intersection>
+<Circle name="c29" color="1" hidden="true" through="I22" midpoint="I23" acute="true">Circle around I23 through I22</Circle>
+<Intersection name="I24" color="1" hidden="true" first="c29" second="c26" which="second">Intersection between c29 and c26</Intersection>
+<Circle name="c30" color="1" hidden="true" through="I20" midpoint="I24" acute="true">Circle around I24 through I20</Circle>
+<Intersection name="I25" color="1" hidden="true" first="c30" second="c27" which="first">Intersection between c30 and c27</Intersection>
+<Circle name="c31" color="1" hidden="true" through="I20" midpoint="I25" acute="true">Circle around I25 through I20</Circle>
+<Intersection name="I26" color="1" hidden="true" first="c30" second="c27" which="second">Intersection between c30 and c27</Intersection>
+<Circle name="c32" color="1" hidden="true" through="I20" midpoint="I26" acute="true">Circle around I26 through I20</Circle>
+<Intersection name="I27" color="1" hidden="true" first="c32" second="c31" awayfrom="I20" which="first">Intersection between c32 and c31</Intersection>
+<Circle name="c33" color="2" hidden="true" through="P1" midpoint="I27" acute="true">Circle around I27 through P1</Circle>
+<Circle name="c34" color="2" hidden="true" through="I27" midpoint="P1" acute="true">Circle around P1 through I27</Circle>
+<Intersection name="I28" color="2" hidden="true" first="c34" second="c33" which="second">Intersection between c34 and c33</Intersection>
+<Circle name="c35" color="2" hidden="true" through="I27" midpoint="I28" acute="true">Circle around I28 through I27</Circle>
+<Intersection name="I29" color="2" hidden="true" first="c33" second="c35" which="first">Intersection between c33 and c35</Intersection>
+<Circle name="c36" color="2" hidden="true" through="I28" midpoint="I29" acute="true">Circle around I29 through I28</Circle>
+<Intersection name="I30" color="2" hidden="true" first="c36" second="c33" which="second">Intersection between c36 and c33</Intersection>
+<Circle name="c37" color="2" hidden="true" through="P1" midpoint="I30" acute="true">Circle around I30 through P1</Circle>
+<Intersection name="I31" color="2" hidden="true" first="c37" second="c34" which="first">Intersection between c37 and c34</Intersection>
+<Circle name="c38" color="2" hidden="true" through="P1" midpoint="I31" acute="true">Circle around I31 through P1</Circle>
+<Intersection name="I32" color="2" hidden="true" first="c37" second="c34" which="second">Intersection between c37 and c34</Intersection>
+<Circle name="c39" color="2" hidden="true" through="P1" midpoint="I32" acute="true">Circle around I32 through P1</Circle>
+<Intersection name="I33" color="2" hidden="true" first="c39" second="c38" awayfrom="P1" which="first">Intersection between c39 and c38</Intersection>
+<Circle name="c40" color="2" target="true" through="P1" midpoint="I33" acute="true">Circle around I33 through P1</Circle>
+</Objects>
+</Macro>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+</Objects>
+</Construction>
+</CaR>

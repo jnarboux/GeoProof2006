@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-1.6" y="-1.6" w="8.0"/>
+<Animate animate="P5" via0="k1"/>
+<Objects>
+<Point name="P1" hidden="true" x="-2.1020408163000006" y="-1.3775510204000003">Punkt in -2.1020408163000006, -1.3775510204000003</Point>
+<Point name="P2" hidden="true" x="2.465375284853394" y="-1.3508905670429572">Punkt in 2.465375284853394, -1.3508905670429572</Point>
+<Line name="g1" hidden="true" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Point name="P3" hidden="true" x="5.8979591836734695" y="3.336734693877551">Punkt in 5.8979591836734695, 3.336734693877551</Point>
+<Point name="P4" hidden="true" x="6.7343283582089555" y="2.3402985074626876">Punkt in 6.7343283582089555, 2.3402985074626876</Point>
+<Circle name="k1" hidden="true" through="P4" midpoint="P3" acute="true">Kreis um P3 durch P4</Circle>
+<PointOn name="P5" type="thick" hidden="true" on="k1" alpha="-2.685278257676316" shape="diamond">Punkt auf k1</PointOn>
+<Segment name="s2" hidden="true" from="P3" to="P5">Strecke von P3 nach P5</Segment>
+<Point name="P6" type="thick" x="-0.5065839626000002" y="-0.16886132090000006">Punkt in -0.5065839626000002, -0.16886132090000006</Point>
+<Segment name="s3" from="P1" to="P6">Strecke von P1 nach P6</Segment>
+<Circle name="k3" color="2" through="P2" midpoint="P1" acute="true">Kreis um P1 durch P2</Circle>
+<Plumb name="l2" color="2" hidden="true" point="P1" line="g1">Lot durch P1 zu g1</Plumb>
+<Intersection name="S3" color="2" hidden="true" first="l2" second="k3" which="first">Schnitt zwischen l2 und k3</Intersection>
+<Parallel name="p2" color="2" hidden="true" point="P1" line="s2">Parallele durch P1 zu s2</Parallel>
+<Intersection name="S5" color="2" hidden="true" first="p2" second="k3" which="first">Schnitt zwischen p2 und k3</Intersection>
+<Plumb name="l3" color="2" hidden="true" point="S5" line="g1">Lot durch S5 zu g1</Plumb>
+<Plumb name="l4" color="2" hidden="true" point="S5" line="l2">Lot durch S5 zu l2</Plumb>
+<Intersection name="S7" color="2" hidden="true" first="g1" second="l3">Schnitt zwischen g1 und l3</Intersection>
+<Intersection name="S8" color="2" hidden="true" first="l2" second="l4">Schnitt zwischen l2 und l4</Intersection>
+<Line name="g3" color="2" hidden="true" from="P1" to="P6">Gerade durch P1 und P6</Line>
+<Line name="g4" color="2" hidden="true" from="S3" to="P6">Gerade durch S3 und P6</Line>
+<Parallel name="p4" color="2" hidden="true" point="S8" line="g4">Parallele durch S8 zu g4</Parallel>
+<Intersection name="S10" color="2" hidden="true" first="g3" second="p4">Schnitt zwischen g3 und p4</Intersection>
+<Parallel name="p5" color="2" hidden="true" point="S7" line="g3">Parallele durch S7 zu g3</Parallel>
+<Parallel name="p6" color="2" hidden="true" point="S10" line="g1">Parallele durch S10 zu g1</Parallel>
+<Intersection name="S11" color="2" hidden="true" first="p5" second="p6" shape="diamond">Schnitt zwischen p5 und p6</Intersection>
+<Line name="g5" color="2" hidden="true" from="P1" to="S11">Gerade durch P1 und S11</Line>
+<PointOn name="P7" color="2" hidden="true" on="k1" alpha="0.5277210065424376">Punkt auf k1</PointOn>
+<Line name="g6" color="2" hidden="true" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Segment name="s5" color="2" hidden="true" from="P3" to="P7">Strecke von P3 nach P7</Segment>
+<Circle name="k4" color="2" hidden="true" through="P2" midpoint="P1" acute="true">Kreis um P1 durch P2</Circle>
+<Plumb name="l5" color="2" hidden="true" point="P1" line="g6">Lot durch P1 zu g6</Plumb>
+<Parallel name="p7" color="2" hidden="true" point="P1" line="s5">Parallele durch P1 zu s5</Parallel>
+<Intersection name="S12" color="2" hidden="true" first="p7" second="k4" which="first">Schnitt zwischen p7 und k4</Intersection>
+<Plumb name="l6" color="2" hidden="true" point="S12" line="g6">Lot durch S12 zu g6</Plumb>
+<Plumb name="l7" color="2" hidden="true" point="S12" line="l5">Lot durch S12 zu l5</Plumb>
+<Intersection name="S13" color="2" hidden="true" first="g6" second="l6">Schnitt zwischen g6 und l6</Intersection>
+<Intersection name="S14" color="2" hidden="true" first="l5" second="l7">Schnitt zwischen l5 und l7</Intersection>
+<Line name="g7" color="2" hidden="true" from="P1" to="P6">Gerade durch P1 und P6</Line>
+<Line name="g8" color="2" hidden="true" from="S3" to="P6">Gerade durch S3 und P6</Line>
+<Parallel name="p8" color="2" hidden="true" point="S14" line="g8">Parallele durch S14 zu g8</Parallel>
+<Intersection name="S15" color="2" hidden="true" first="g7" second="p8">Schnitt zwischen g7 und p8</Intersection>
+<Parallel name="p9" color="2" hidden="true" point="S13" line="g7">Parallele durch S13 zu g7</Parallel>
+<Parallel name="p10" color="2" hidden="true" point="S15" line="g6">Parallele durch S15 zu g6</Parallel>
+<Intersection name="S16" color="2" hidden="true" first="p9" second="p10">Schnitt zwischen p9 und p10</Intersection>
+<Intersection name="S18" hidden="true" first="g1" second="k3" awayfrom="P2" which="second">Schnitt zwischen g1 und k3</Intersection>
+<Circle name="k5" hidden="true" through="P6" midpoint="P1" acute="true">Kreis um P1 durch P6</Circle>
+<Intersection name="S19" hidden="true" first="g7" second="k5" which="first">Schnitt zwischen g7 und k5</Intersection>
+<Intersection name="S20" hidden="true" first="g7" second="k5" which="second">Schnitt zwischen g7 und k5</Intersection>
+<Quadric name="Q1" point1="P2" point2="S16" point3="P6" point4="S18" point5="S20">Quadrik durch P2, S16, P6, S18, S20</Quadric>
+<PointOn name="P8" color="1" hidden="true" on="k3" alpha="0.617024109723454">Punkt auf k3</PointOn>
+<Plumb name="l8" color="1" hidden="true" point="P8" line="g1">Lot durch P8 zu g1</Plumb>
+<Plumb name="l9" color="1" hidden="true" point="P8" line="l2">Lot durch P8 zu l2</Plumb>
+<Intersection name="S21" color="1" hidden="true" first="g1" second="l8">Schnitt zwischen g1 und l8</Intersection>
+<Intersection name="S22" color="1" hidden="true" first="l2" second="l9">Schnitt zwischen l2 und l9</Intersection>
+<Line name="g10" color="1" hidden="true" from="P2" to="S11">Gerade durch P2 und S11</Line>
+<Parallel name="p12" color="1" hidden="true" point="S21" line="g10">Parallele durch S21 zu g10</Parallel>
+<Intersection name="S24" color="1" hidden="true" first="g5" second="p12">Schnitt zwischen g5 und p12</Intersection>
+<Parallel name="p13" color="1" hidden="true" point="S24" line="l2">Parallele durch S24 zu l2</Parallel>
+<Parallel name="p14" color="1" hidden="true" point="S22" line="g5">Parallele durch S22 zu g5</Parallel>
+<Intersection name="S25" color="1" hidden="true" first="p14" second="p13">Schnitt zwischen p14 und p13</Intersection>
+<Intersection name="S26" color="1" hidden="true" first="l5" second="k4" which="first">Schnitt zwischen l5 und k4</Intersection>
+<Intersection name="S27" color="1" hidden="true" first="l5" second="k4" which="second">Schnitt zwischen l5 und k4</Intersection>
+<Circle name="k6" color="1" hidden="true" through="S11" midpoint="P1" acute="true">Kreis um P1 durch S11</Circle>
+<Intersection name="S29" color="1" hidden="true" first="g5" second="k6" awayfrom="S11" which="second">Schnitt zwischen g5 und k6</Intersection>
+<Quadric name="Q2" color="1" point1="S25" point2="S26" point3="S29" point4="S27" point5="S11">Quadrik durch S25, S26, S29, S27, S11</Quadric>
+<Segment name="s6" color="1" from="P1" to="S3">Strecke von P1 nach S3</Segment>
+<Segment name="s7" color="2" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Segment name="s8" color="1" from="P1" to="S29">Strecke von P1 nach S29</Segment>
+</Objects>
+</Construction>
+</CaR>

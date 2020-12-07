@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="S11" on="k1" move="P3" animate="true"/>
+<Objects>
+<Point name="P1" x="-3.1015384615384614" y="0.08615384615384603">Punkt in -3.1015384615384614, 0.08615384615384603</Point>
+<Circle name="k1" fixed="3.11" midpoint="P1" acute="true">Kreis um P1 mit Radius 3.106321</Circle>
+<Point name="P2" x="3.1507692307692317" y="-0.3076923076923075">Punkt in 3.1507692307692317, -0.3076923076923075</Point>
+<Circle name="k2" fixed="1.95" midpoint="P2" acute="true">Kreis um P2 mit Radius 1.950992</Circle>
+<PointOn name="P3" color="1" on="k1" x="-4.901606818924831" y="2.622263841547645">Punkt auf k1</PointOn>
+<Line name="g1" color="1" hidden="true" from="P3" to="P1">Gerade durch P3 und P1</Line>
+<Circle name="k5" color="3" hidden="true" fixed="k2" midpoint="P3" acute="true">Kreis um P3 mit Radius 1.855892</Circle>
+<Intersection name="S9" color="3" hidden="true" first="g1" second="k5" which="first">Schnitt zwischen g1 und k5</Intersection>
+<Line name="g3" color="3" hidden="true" from="S9" to="P2">Gerade durch S9 und P2</Line>
+<Midpoint name="M2" color="3" hidden="true" first="S9" second="P2">Mitte zwischen S9 und P2</Midpoint>
+<Plumb name="l2" color="3" hidden="true" point="M2" line="g3" valid="true">Lot durch M2 zu g3</Plumb>
+<Intersection name="S11" color="2" first="g1" second="l2">Schnitt zwischen g1 und l2</Intersection>
+<Circle name="k6" color="2" through="P3" midpoint="S11" acute="true">Kreis um S11 durch P3</Circle>
+</Objects>
+</Construction>
+</CaR>

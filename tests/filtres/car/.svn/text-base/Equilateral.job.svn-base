@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction job="true" last="A" target1="Strecke 4">
+<Window x="-0.282842712474619" y="0.0" w="0.7071067811865475"/>
+<Comment>
+<P>Construction of an equilateral with corners on given
+parallels.</P>
+<P></P>
+<P>This is one possible solution using similarities. It starts
+with P and B, then finds S ans uses ABS=ABS* (why?).</P>
+<P></P>
+<P>For a better solution, see another construction.</P>
+</Comment>
+<Assignment>
+<P>Construct an equilateral triangle with corners on the
+parallel lines. One of the corners (A) is given.</P>
+<P></P>
+<P>You can use the point P, if you need. But there are several
+solutions.</P>
+</Assignment>
+<Objects>
+<Point name="Punkt 1" hidden="true" x="-0.07175572519083974" y="-0.24580152671755728">Point at -0.07175572519083974, -0.24580152671755728</Point>
+<Point name="Punkt 2" hidden="true" x="0.38015267175572526" y="0.20916030534351157">Point at 0.38015267175572526, 0.20916030534351157</Point>
+<Line name="Gerade 1" from="Punkt 1" to="Punkt 2">Gerade durch Punkt 1 und Punkt 2</Line>
+<Point name="Punkt 3" hidden="true" x="0.05038167938931305" y="0.20610687022900762">Point at 0.05038167938931305, 0.20610687022900762</Point>
+<Parallel name="Parallele 1" point="Punkt 3" line="Gerade 1">Parallele durch Punkt 3 zu Gerade 1</Parallel>
+<Point name="Punkt 4" hidden="true" x="-0.3587786259541985" y="0.23969465648854973">Point at -0.3587786259541985, 0.23969465648854973</Point>
+<Parallel name="Parallele 2" point="Punkt 4" line="Gerade 1">Parallele durch Punkt 4 zu Gerade 1</Parallel>
+<PointOn name="P" showname="true" on="Gerade 1" x="0.06509739355028311" y="-0.10802372474169711">Point on Gerade 1</PointOn>
+<PointOn name="A" showname="true" xcoffset="-0.06876240983985875" ycoffset="0.04125744590391525" on="Parallele 2" x="-0.5733339333356988" y="0.023689651084201457">Point on Parallele 2</PointOn>
+<Segment name="Strecke 1" color="3" from="A" to="P">Strecke von A nach P</Segment>
+<Circle name="Kreis 1" color="3" hidden="true" through="A" midpoint="P" partial="true">Kreis um P durch A</Circle>
+<Circle name="Kreis 2" color="3" hidden="true" through="P" midpoint="A" partial="true">Kreis um A durch P</Circle>
+<Intersection name="Schnitt 1" first="Strecke 1" second="Kreis 1" which="first">Schnitt zwischen Strecke 1 und Kreis 1</Intersection>
+<Intersection name="Schnitt 2" hidden="true" first="Strecke 1" second="Kreis 1" which="second">Schnitt zwischen Strecke 1 und Kreis 1</Intersection>
+<Intersection name="B" showname="true" first="Kreis 1" second="Kreis 2" which="first">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<Intersection name="Schnitt 4" hidden="true" first="Kreis 1" second="Kreis 2" which="second">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<Segment name="Strecke 2" color="3" from="A" to="B">Strecke von A nach B</Segment>
+<Segment name="Strecke 3" color="3" from="B" to="P">Strecke von B nach P</Segment>
+<Intersection name="S" color="2" showname="true" first="Parallele 1" second="Strecke 1">Schnitt zwischen Parallele 1 und Strecke 1</Intersection>
+<Line name="Gerade 2" color="2" from="S" to="B">Gerade durch S und B</Line>
+<Midpoint name="Mitte 1" color="1" hidden="true" first="S" second="A">Mitte zwischen S und A</Midpoint>
+<Plumb name="Lot 1" color="1" hidden="true" point="Mitte 1" line="Strecke 1" valid="true">Lot durch Mitte 1 zu Strecke 1</Plumb>
+<Midpoint name="Mitte 2" color="1" hidden="true" first="A" second="B">Mitte zwischen A und B</Midpoint>
+<Plumb name="Lot 2" color="1" hidden="true" point="Mitte 2" line="Strecke 2" valid="true">Lot durch Mitte 2 zu Strecke 2</Plumb>
+<Intersection name="Schnitt 6" hidden="true" first="Lot 1" second="Lot 2">Schnitt zwischen Lot 1 und Lot 2</Intersection>
+<Circle name="k" color="1" showname="true" xcoffset="0.10085153443179283" ycoffset="0.35527245083927017" through="A" midpoint="Schnitt 6">Kreis um Schnitt 6 durch A</Circle>
+<Intersection name="B*" showname="true" first="Parallele 1" second="k" which="first">Schnitt zwischen Parallele 1 und k</Intersection>
+<Intersection name="Schnitt 8" first="Parallele 1" second="k" which="second">Schnitt zwischen Parallele 1 und Kreis 3</Intersection>
+<Segment name="Strecke 4" type="thick" from="A" to="B*">Strecke von A nach B*</Segment>
+<Circle name="Kreis 4" through="A" midpoint="B*" partial="true">Kreis um B* durch A</Circle>
+<Intersection name="Schnitt 9" hidden="true" first="Gerade 1" second="Kreis 4" which="first">Schnitt zwischen Gerade 1 und Kreis 4</Intersection>
+<Intersection name="P*" showname="true" first="Gerade 1" second="Kreis 4" which="second">Schnitt zwischen Gerade 1 und Kreis 4</Intersection>
+<Segment name="Strecke 5" type="thick" target="true" from="B*" to="P*">Strecke von B* nach P*</Segment>
+<Segment name="Strecke 6" type="thick" target="true" from="P*" to="A">Strecke von P* nach A</Segment>
+<Angle name="Winkel 2" color="2" first="A" root="B" second="Schnitt 8">Winkel A - B - Schnitt 8</Angle>
+<Angle name="Winkel 3" color="2" first="A" root="B*" second="Schnitt 8">Winkel A - B* - Schnitt 8</Angle>
+<Intersection name="S*" showname="true" xcoffset="-0.07563865082384462" ycoffset="0.034381204919929374" first="Parallele 1" second="Strecke 6">Schnitt zwischen Parallele 1 und Strecke 6</Intersection>
+</Objects>
+</Construction>
+</CaR>

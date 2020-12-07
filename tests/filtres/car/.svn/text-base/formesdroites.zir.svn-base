@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-4.8047337278106514" y="1.0650887573964498">Point à -4.8047337278106514, 1.0650887573964498</Point>
+<Point name="P2" x="-0.33136094674556205" y="3.1479289940828394">Point à -0.33136094674556205, 3.1479289940828394</Point>
+<Line name="l1" from="P1" to="P2">Droite passant par P1 et P2</Line>
+<Point name="P3" x="-4.662721893491124" y="-0.8520710059171597">Point à -4.662721893491124, -0.8520710059171597</Point>
+<Point name="P4" x="0.9230769230769234" y="1.8698224852071004">Point à 0.9230769230769234, 1.8698224852071004</Point>
+<Line name="l2" type="thick" from="P3" to="P4">Droite passant par P3 et P4</Line>
+<Point name="P5" x="-3.715976331360947" y="-2.130177514792899">Point à -3.715976331360947, -2.130177514792899</Point>
+<Point name="P6" x="1.1834319526627226" y="0.662721893491125">Point à 1.1834319526627226, 0.662721893491125</Point>
+<Line name="l3" type="thin" from="P5" to="P6">Droite passant par P5 et P6</Line>
+<Point name="P7" x="-2.4615384615384617" y="-2.9585798816568047">Point à -2.4615384615384617, -2.9585798816568047</Point>
+<Point name="P8" x="1.8461538461538467" y="-0.4733727810650894">Point à 1.8461538461538467, -0.4733727810650894</Point>
+<Line name="l4" type="invisible" from="P7" to="P8">Droite passant par P7 et P8</Line>
+<Point name="P9" x="-0.6863905325443787" y="-3.8579881656804735">Point à -0.6863905325443787, -3.8579881656804735</Point>
+<Point name="P10" x="2.1775147928994087" y="-1.6568047337278111">Point à 2.1775147928994087, -1.6568047337278111</Point>
+<Line name="l5" from="P9" to="P10">Droite passant par P9 et P10</Line>
+</Objects>
+</Construction>
+</CaR>

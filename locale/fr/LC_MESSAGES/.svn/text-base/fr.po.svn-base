@@ -1,0 +1,578 @@
+# translation of fr.po to 
+# Drgeocaml.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Julien Narboux <Julien.Narboux@inria.fr>, 2004.
+# Narboux Julien, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fr\n"
+"PO-Revision-Date: 2004-06-03 14:36+0200\n"
+"Last-Translator: Narboux Julien\n"
+"Language-Team:  <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: KBabel 1.3\n"
+
+msgid "'Your command, please?', asked the waiter."
+msgstr "«Votre commande, s'il vous plaît», dit le garçon."
+
+# Reverse the arguments.
+#, c-format
+msgid "%s is replaced by %s."
+msgstr "%2$s remplace %1$s."
+
+msgid "New"
+msgstr "Nouveau"
+
+msgid "Open"
+msgstr "Ouvrir"
+
+msgid "Redo"
+msgstr "Refaire"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Undo"
+msgstr "Défaire"
+
+msgid "Select"
+msgstr "Sélectionner"
+
+msgid "Move"
+msgstr "Déplacer"
+
+msgid "Last construction"
+msgstr "Dernière construction"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Delete object"
+msgstr "Supprimer un objet"
+
+msgid "Stop"
+msgstr "Interrompre"
+
+msgid "Stop current construction"
+msgstr "Interrompre la construction en cours"
+
+msgid "Zoom in"
+msgstr "Zoom avant"
+
+msgid "Zoom out"
+msgstr "Zoom arrière"
+
+msgid "Full screen"
+msgstr "Plein écran"
+
+msgid "Switch to full screen."
+msgstr "Passe en plein écran."
+
+msgid "Color"
+msgstr "Couleur"
+
+msgid "Width"
+msgstr "Épaisseur"
+
+msgid "Fine"
+msgstr "Fin"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Thick"
+msgstr "Épais"
+
+msgid "Very thick"
+msgstr "Très épais"
+
+msgid "Free point"
+msgstr "Point libre"
+
+msgid "Point on circle"
+msgstr "Point sur cercle"
+
+msgid "Point on line"
+msgstr "Point sur droite"
+
+msgid "Midpoint"
+msgstr "Milieu"
+
+msgid "Lines intersection"
+msgstr "Intersection droites"
+
+msgid "Circles intersections"
+msgstr "Intersections cercles"
+
+msgid "Circle/Line intersections"
+msgstr "Intersections cercle/droite"
+
+msgid "Line, two points"
+msgstr "Droite, deux points"
+
+msgid "Segment, two points"
+msgstr "Segment, deux points"
+
+msgid "Vector, two points"
+msgstr "Vecteur, deux points"
+
+msgid "Parallel line"
+msgstr "Droite parallèle"
+
+msgid "Orthogonal line"
+msgstr "Droite orthogonale"
+
+msgid "Circle, center point"
+msgstr "Cercle, centre point"
+
+msgid "Circle, diameter"
+msgstr "Cercle, diamètre"
+
+msgid "Central symetry"
+msgstr "Symétrie centrale"
+
+msgid "Axial symetry"
+msgstr "Symétrie axiale"
+
+msgid "Translation"
+msgstr "Translation"
+
+msgid "File"
+msgstr "Fichier"
+
+msgid "Quit"
+msgstr "Quitter"
+
+msgid "Edit"
+msgstr "Éditer"
+
+msgid "Undo last construction"
+msgstr "Défaire la dernière construction"
+
+msgid "Redo last construction"
+msgstr "Refaire la dernière construction"
+
+msgid "Select all"
+msgstr "Sélectionner tout"
+
+msgid "Select visible objects"
+msgstr "Sélectionner tout objet visible"
+
+msgid "Select hiden objects"
+msgstr "Sélectionner tout objet caché"
+
+msgid "Select lines"
+msgstr "Sélectionner droites"
+
+msgid "Select points"
+msgstr "Sélectionner points"
+
+msgid "Select circles"
+msgstr "Sélectionner cercles"
+
+msgid "Select vectors"
+msgstr "Sélectionner vecteurs"
+
+msgid "Select object"
+msgstr "Sélectionner un objet"
+
+msgid "Select none"
+msgstr "Sélection aucune"
+
+msgid "Invert selection"
+msgstr "Inverser la sélection"
+
+msgid "Show all objects"
+msgstr "Montrer tous les objets"
+
+msgid "Delete selected objects"
+msgstr "Supprimer les objets sélectionnés"
+
+msgid "Selection properties"
+msgstr "Attributs de la sélection"
+
+msgid "Change color"
+msgstr "Changer la couleur"
+
+msgid "Red"
+msgstr "Rouge"
+
+msgid "Green"
+msgstr "Vert"
+
+msgid "Yellow"
+msgstr "Jaune"
+
+msgid "Blue"
+msgstr "Bleu"
+
+msgid "Grey"
+msgstr "Gris"
+
+msgid "Black"
+msgstr "Noir"
+
+msgid "Orange"
+msgstr "Orange"
+
+msgid "Purple"
+msgstr "Violet"
+
+msgid "Pink"
+msgstr "Rose"
+
+msgid "White"
+msgstr "Blanc"
+
+msgid "Change style"
+msgstr "Changer le style"
+
+msgid "Change width"
+msgstr "Changer l'épaisseur"
+
+msgid "Change layer"
+msgstr "Changer la couche"
+
+msgid "1: Layer 1"
+msgstr "1: Couche 1"
+
+msgid "2: Layer 2"
+msgstr "2: Couche 2"
+
+msgid "3: Layer 3"
+msgstr "3: Couche 3"
+
+msgid "4: Layer 4"
+msgstr "4: Couche 4"
+
+msgid "5: Layer 5"
+msgstr "5: Couche 5"
+
+msgid "6: Layer 6"
+msgstr "6: Couche 6"
+
+msgid "7: Layer 7"
+msgstr "7: Couche 7"
+
+msgid "8: Layer 8"
+msgstr "8: Couche 8"
+
+msgid "9: Layer 9"
+msgstr "9: Couche 9"
+
+msgid "10: Layer 10"
+msgstr "10: Couche 10"
+
+msgid "Invert visibility"
+msgstr "Inverser la visibilité"
+
+msgid "Create"
+msgstr "Créer"
+
+msgid "Points"
+msgstr "Points"
+
+msgid "Lines"
+msgstr "Droites"
+
+msgid "Circles"
+msgstr "Cercles"
+
+msgid "Segment"
+msgstr "Segment"
+
+msgid "Vector"
+msgstr "Vecteur"
+
+msgid "Transformations"
+msgstr "Transformations"
+
+msgid "Animations"
+msgstr "Animations"
+
+msgid "Move point"
+msgstr "Déplacer un point"
+
+msgid "Erase some object"
+msgstr "Gomme un objet"
+
+msgid "Corrections"
+msgstr "Corrections"
+
+msgid "Layers"
+msgstr "Couches"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Hiden"
+msgstr "Cachée"
+
+msgid "Layer1"
+msgstr "Couche1"
+
+msgid "Layer2"
+msgstr "Couche2"
+
+msgid "Layer3"
+msgstr "Couche3"
+
+msgid "Layer4"
+msgstr "Couche4"
+
+msgid "Layer5"
+msgstr "Couche5"
+
+msgid "Layer6"
+msgstr "Couche6"
+
+msgid "Layer7"
+msgstr "Couche7"
+
+msgid "Layer8"
+msgstr "Couche8"
+
+msgid "Layer9"
+msgstr "Couche9"
+
+msgid "View"
+msgstr "Vue"
+
+msgid "Configuration"
+msgstr "Configuration"
+
+msgid "Units"
+msgstr "Unités"
+
+msgid "Distances"
+msgstr "Distances"
+
+msgid "Centimeters"
+msgstr "Centimètres"
+
+msgid "Inchs"
+msgstr "Pouces"
+
+msgid "Angles"
+msgstr "Angles"
+
+msgid "Degres"
+msgstr "Degrés"
+
+msgid "Radians"
+msgstr "Radians"
+
+msgid "Background color"
+msgstr "Couleur du fond"
+
+msgid "Default color"
+msgstr "Couleur par défaut"
+
+msgid "Default properties"
+msgstr "Attributs par défaut"
+
+msgid "Default style"
+msgstr "Style par défaut"
+
+msgid "Default width"
+msgstr "Épaisseur par défaut"
+
+msgid "Default layer"
+msgstr "Couche par défaut"
+
+msgid "Hide status bar"
+msgstr "Cacher la barre d'état"
+
+msgid "Toolbars"
+msgstr "Barres d'outils"
+
+msgid "Hide main toolbar"
+msgstr "Cacher barre principale"
+
+msgid "Hide view toolbar"
+msgstr "Cacher barre vue"
+
+msgid "Hide points toolbar"
+msgstr "Cacher barre points"
+
+msgid "Hide lines toolbar"
+msgstr "Cacher barre droites"
+
+msgid "Hide circles toolbar"
+msgstr "Cacher barre cercles"
+
+msgid "Hide transformations toolbar"
+msgstr "Cacher barre transformations"
+
+msgid "Help"
+msgstr "Aide"
+
+msgid "About"
+msgstr "A propos"
+
+msgid "Too far !"
+msgstr "Trop loin !"
+
+msgid "Undo stack is empty"
+msgstr "La pile d'annulation est vide"
+
+msgid "Object deleted"
+msgstr "Objet supprimé"
+
+msgid "Version "
+msgstr "Version "
+
+msgid "and"
+msgstr "et"
+
+msgid " was developed by :"
+msgstr " a été développé par :"
+
+msgid "Please use http://gna.org/bugs/?group=geocaml to report bugs."
+msgstr "Soumettez les bugs sur http://gna.org/bugs/?group=geocaml svp."
+
+msgid " is distributed under GNU General Public Licence Version 2"
+msgstr " est distribué sous la licence GNU General Public Licence Version 2"
+
+msgid "Display the version number"
+msgstr "Affiche le numéro de version"
+
+msgid "List authors"
+msgstr "Affiche la liste des auteurs"
+
+msgid "Display licence"
+msgstr "Affiche les informations de licence"
+
+msgid "Usage : --help for help"
+msgstr "Utilisation : --help pour l'aide"
+
+msgid "The configuration file .drgeocaml/config.ini can not be opened."
+msgstr "Le fichier de configuration .drgeocaml/config.ini n'a pas pu être ouvert."
+
+msgid "Creating configuration file."
+msgstr "Création du fichier du configuration."
+
+msgid "Warning : the directory ."
+msgstr "Attention : le répertoire ."
+
+msgid " must exist."
+msgstr " doit exister"
+
+msgid "Point acquired, select the second point."
+msgstr "Point acquis, choisissez le deuxième point."
+
+msgid "Midpoint created."
+msgstr "Milieu créé."
+
+msgid "Line acquired. Point created."
+msgstr "Droite acquise. Point créé."
+
+msgid "Circle acquired. Point created."
+msgstr "Cercle acquis. Point créé."
+
+msgid "Line acquired, choose the second line."
+msgstr "Droite acquise, choisissez la deuxième droite."
+
+msgid "Point created."
+msgstr "Point créé."
+
+msgid "Circle acquired, choose some line."
+msgstr "Cercle acquis, choisissez une droite."
+
+msgid "Point(s) created"
+msgstr "Point(s) créé(s)"
+
+msgid "Point acquired, choose another point."
+msgstr "Point acquis, choisissez un autre point."
+
+msgid "Line created"
+msgstr "Droite créée."
+
+msgid "Segment created"
+msgstr "Segment créé."
+
+msgid "Vector created"
+msgstr "Vecteur créé."
+
+msgid "Center acquired, choose another point."
+msgstr "Centre acquis, choisissez un point."
+
+msgid "Circle created"
+msgstr "Cercle créé."
+
+msgid "Vector acquired, choose an object to translate."
+msgstr "Vecteur acquis, choisissez un objet à translater."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Not a valid choice."
+msgstr "Clique ambigu, cas non traité."
+
+msgid "Point acquired, just move it !"
+msgstr "Point acquis, vous pouvez le déplacer !"
+
+msgid "Edit Name"
+msgstr "Éditer Nom"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Name :"
+msgstr "Nom :"
+
+msgid "Solid"
+msgstr "Plein"
+
+msgid "Dash"
+msgstr "Pointillé"
+
+msgid "Cross"
+msgstr "Croix"
+
+msgid "Rond"
+msgstr "Rond"
+
+msgid "Rename"
+msgstr "Renommer"
+
+msgid "Hide"
+msgstr "Cacher"
+
+msgid "Style"
+msgstr "Style"
+
+msgid "Layer 1"
+msgstr "Couche 1"
+
+msgid "Layer 2"
+msgstr "Couche 2"
+
+msgid "Layer 3"
+msgstr "Couche 3"
+
+msgid "Layer 4"
+msgstr "Couche 4"
+
+msgid "Layer 5"
+msgstr "Couche 5"
+
+msgid "Layer 6"
+msgstr "Couche 6"
+
+msgid "Layer 7"
+msgstr "Couche 7"
+
+msgid "Layer 8"
+msgstr "Couche 8"
+
+msgid "Layer 9"
+msgstr "Couche 9"
+
+msgid "State : None."
+msgstr "État : Aucun."
+

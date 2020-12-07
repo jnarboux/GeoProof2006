@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="s" on="s3" move="P" animate="true"/>
+<Objects>
+<Point name="P1" x="-3.0" y="-4.2555910543000035" fixed="true">Punkt in &quot;-3.0&quot;, &quot;-4.2555910543000035&quot;</Point>
+<Point name="P2" x="-3.0" y="4.485623003200002" fixed="true">Punkt in &quot;-3.0&quot;, &quot;4.485623003200002&quot;</Point>
+<Line name="g1" hidden="true" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Plumb name="l1" hidden="true" point="P1" line="g1" valid="true">Lot durch P1 zu g1</Plumb>
+<PointOn name="P" type="thick" showname="true" on="s3" alpha="0.6982194512716113">Punkt auf s3</PointOn>
+<Circle3 name="k1" hidden="true" from="P1" to="P2" midpoint="P">Kreis um P1 mit Radius von P2 nach P</Circle3>
+<Intersection name="S1" first="g1" second="k1" which="first">Schnitt zwischen g1 und k1</Intersection>
+<Segment name="s" color="1" showname="true" xoffset="-14" yoffset="27" from="S1" to="P">Strecke von S1 nach P</Segment>
+<Segment name="s2" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Circle name="k2" hidden="true" through="P2" midpoint="P1" acute="true">Kreis um P1 durch P2</Circle>
+<Intersection name="S4" first="l1" second="k2" which="second">Schnitt zwischen l1 und k2</Intersection>
+<Segment name="s3" from="P1" to="S4">Strecke von P1 nach S4</Segment>
+</Objects>
+</Construction>
+</CaR>

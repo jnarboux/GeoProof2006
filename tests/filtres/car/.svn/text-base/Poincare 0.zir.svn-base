@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" hidden="true" x="-0.5492537313000002" y="-0.44179104480000025">Punkt in -0.5492537313000002, -0.44179104480000014</Point>
+<Circle name="k1" color="3" type="thin" background="true" midpoint="P1" fixed="5.0" filled="true">Kreis um P1 mit Radius 5.0151528022</Circle>
+<Point name="U" type="thick" showname="true" x="-1.0014727540500736" y="-1.1664212076583205">Punkt in -1.0014727540500736, -1.1664212076583205</Point>
+<Point name="A" type="thick" showname="true" x="-1.1133428981348636" y="3.5581061692969884">Punkt in -1.1133428981348636, 3.5581061692969875</Point>
+<Line name="g23" hidden="true" from="P1" to="U">Gerade durch P1 und U</Line>
+<Midpoint name="M19" hidden="true" first="P1" second="U">Mitte zwischen P1 und U</Midpoint>
+<Plumb name="l21" hidden="true" point="M19" line="g23">Lot durch M19 zu g23</Plumb>
+<Intersection name="S24" hidden="true" first="l21" second="k1" other="S25">Schnitt zwischen l21 und k1</Intersection>
+<OtherIntersection name="S25" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g24" hidden="true" from="P1" to="S25">Gerade durch P1 und S25</Line>
+<Midpoint name="M20" hidden="true" first="P1" second="S25">Mitte zwischen P1 und S25</Midpoint>
+<Plumb name="l22" hidden="true" point="M20" line="g24">Lot durch M20 zu g24</Plumb>
+<Intersection name="S26" hidden="true" first="g23" second="l22">Schnitt zwischen g23 und l22</Intersection>
+<Line name="g25" hidden="true" from="P1" to="A">Gerade durch P1 und A</Line>
+<Midpoint name="M21" hidden="true" first="P1" second="A">Mitte zwischen P1 und A</Midpoint>
+<Plumb name="l23" hidden="true" point="M21" line="g25">Lot durch M21 zu g25</Plumb>
+<Intersection name="S27" hidden="true" first="l23" second="k1" other="S28">Schnitt zwischen l23 und k1</Intersection>
+<OtherIntersection name="S28" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g26" hidden="true" from="P1" to="S28">Gerade durch P1 und S28</Line>
+<Midpoint name="M22" hidden="true" first="P1" second="S28">Mitte zwischen P1 und S28</Midpoint>
+<Plumb name="l24" hidden="true" point="M22" line="g26">Lot durch M22 zu g26</Plumb>
+<Intersection name="S29" hidden="true" first="g25" second="l24">Schnitt zwischen g25 und l24</Intersection>
+<Line name="g27" hidden="true" from="S26" to="U">Gerade durch S26 und U</Line>
+<Midpoint name="M23" hidden="true" first="S26" second="U">Mitte zwischen S26 und U</Midpoint>
+<Plumb name="l25" hidden="true" point="M23" line="g27">Lot durch M23 zu g27</Plumb>
+<Line name="g28" hidden="true" from="S26" to="S29">Gerade durch S26 und S29</Line>
+<Midpoint name="M24" hidden="true" first="S26" second="S29">Mitte zwischen S26 und S29</Midpoint>
+<Plumb name="l26" hidden="true" point="M24" line="g28">Lot durch M24 zu g28</Plumb>
+<Intersection name="S30" hidden="true" first="l25" second="l26">Schnitt zwischen l25 und l26</Intersection>
+<Line name="g29" hidden="true" from="P1" to="U">Gerade durch P1 und U</Line>
+<Line name="g30" hidden="true" from="S30" to="A">Gerade durch S30 und A</Line>
+<Plumb name="l27" hidden="true" point="A" line="g30">Lot durch A zu g30</Plumb>
+<Intersection name="S31" hidden="true" first="g29" second="l27">Schnitt zwischen g29 und l27</Intersection>
+<Circle name="k6" color="2" target="true" midpoint="S31" through="A">Kreis um S31 durch A</Circle>
+<PointOn name="B" type="thick" showname="true" on="k6" x="3.5293387205945166" y="-0.23122775138201407">Punkt auf k6</PointOn>
+<PointOn name="C" type="thick" showname="true" on="k6" x="-4.4120087487900435" y="-2.618367278280498">Punkt auf k6</PointOn>
+<Line name="g31" color="1" hidden="true" from="P1" to="C">Gerade durch P1 und C</Line>
+<Midpoint name="M25" color="1" hidden="true" first="P1" second="C">Mitte zwischen P1 und C</Midpoint>
+<Plumb name="l28" color="1" hidden="true" point="M25" line="g31">Lot durch M25 zu g31</Plumb>
+<Intersection name="S32" color="1" hidden="true" first="l28" second="k1" other="S33">Schnitt zwischen l28 und k1</Intersection>
+<OtherIntersection name="S33" color="1" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g32" color="1" hidden="true" from="P1" to="S33">Gerade durch P1 und S33</Line>
+<Midpoint name="M26" color="1" hidden="true" first="P1" second="S33">Mitte zwischen P1 und S33</Midpoint>
+<Plumb name="l29" color="1" hidden="true" point="M26" line="g32">Lot durch M26 zu g32</Plumb>
+<Intersection name="S34" color="1" hidden="true" first="g31" second="l29">Schnitt zwischen g31 und l29</Intersection>
+<Line name="g33" color="1" hidden="true" from="P1" to="A">Gerade durch P1 und A</Line>
+<Midpoint name="M27" color="1" hidden="true" first="P1" second="A">Mitte zwischen P1 und A</Midpoint>
+<Plumb name="l30" color="1" hidden="true" point="M27" line="g33">Lot durch M27 zu g33</Plumb>
+<Intersection name="S35" color="1" hidden="true" first="l30" second="k1" other="S36">Schnitt zwischen l30 und k1</Intersection>
+<OtherIntersection name="S36" color="1" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g34" color="1" hidden="true" from="P1" to="S36">Gerade durch P1 und S36</Line>
+<Midpoint name="M28" color="1" hidden="true" first="P1" second="S36">Mitte zwischen P1 und S36</Midpoint>
+<Plumb name="l31" color="1" hidden="true" point="M28" line="g34">Lot durch M28 zu g34</Plumb>
+<Intersection name="S37" color="1" hidden="true" first="g33" second="l31">Schnitt zwischen g33 und l31</Intersection>
+<Line name="g35" color="1" hidden="true" from="S34" to="C">Gerade durch S34 und C</Line>
+<Midpoint name="M29" color="1" hidden="true" first="S34" second="C">Mitte zwischen S34 und C</Midpoint>
+<Plumb name="l32" color="1" hidden="true" point="M29" line="g35">Lot durch M29 zu g35</Plumb>
+<Line name="g36" color="1" hidden="true" from="S34" to="S37">Gerade durch S34 und S37</Line>
+<Midpoint name="M30" color="1" hidden="true" first="S34" second="S37">Mitte zwischen S34 und S37</Midpoint>
+<Plumb name="l33" color="1" hidden="true" point="M30" line="g36">Lot durch M30 zu g36</Plumb>
+<Intersection name="S38" color="1" hidden="true" first="l32" second="l33">Schnitt zwischen l32 und l33</Intersection>
+<Circle name="k7" color="1" target="true" midpoint="S38" through="C">Kreis um S38 durch C</Circle>
+<Line name="g37" color="1" hidden="true" from="P1" to="A">Gerade durch P1 und A</Line>
+<Midpoint name="M31" color="1" hidden="true" first="P1" second="A">Mitte zwischen P1 und A</Midpoint>
+<Plumb name="l34" color="1" hidden="true" point="M31" line="g37">Lot durch M31 zu g37</Plumb>
+<Intersection name="S39" color="1" hidden="true" first="l34" second="k1" other="S40">Schnitt zwischen l34 und k1</Intersection>
+<OtherIntersection name="S40" color="1" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g38" color="1" hidden="true" from="P1" to="S40">Gerade durch P1 und S40</Line>
+<Midpoint name="M32" color="1" hidden="true" first="P1" second="S40">Mitte zwischen P1 und S40</Midpoint>
+<Plumb name="l35" color="1" hidden="true" point="M32" line="g38">Lot durch M32 zu g38</Plumb>
+<Intersection name="S41" color="1" hidden="true" first="g37" second="l35">Schnitt zwischen g37 und l35</Intersection>
+<Line name="g39" color="1" hidden="true" from="P1" to="B">Gerade durch P1 und B</Line>
+<Midpoint name="M33" color="1" hidden="true" first="P1" second="B">Mitte zwischen P1 und B</Midpoint>
+<Plumb name="l36" color="1" hidden="true" point="M33" line="g39">Lot durch M33 zu g39</Plumb>
+<Intersection name="S42" color="1" hidden="true" first="l36" second="k1" other="S43">Schnitt zwischen l36 und k1</Intersection>
+<OtherIntersection name="S43" color="1" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g40" color="1" hidden="true" from="P1" to="S43">Gerade durch P1 und S43</Line>
+<Midpoint name="M34" color="1" hidden="true" first="P1" second="S43">Mitte zwischen P1 und S43</Midpoint>
+<Plumb name="l37" color="1" hidden="true" point="M34" line="g40">Lot durch M34 zu g40</Plumb>
+<Intersection name="S44" color="1" hidden="true" first="g39" second="l37">Schnitt zwischen g39 und l37</Intersection>
+<Line name="g41" color="1" hidden="true" from="S41" to="A">Gerade durch S41 und A</Line>
+<Midpoint name="M35" color="1" hidden="true" first="S41" second="A">Mitte zwischen S41 und A</Midpoint>
+<Plumb name="l38" color="1" hidden="true" point="M35" line="g41">Lot durch M35 zu g41</Plumb>
+<Line name="g42" color="1" hidden="true" from="S41" to="S44">Gerade durch S41 und S44</Line>
+<Midpoint name="M36" color="1" hidden="true" first="S41" second="S44">Mitte zwischen S41 und S44</Midpoint>
+<Plumb name="l39" color="1" hidden="true" point="M36" line="g42">Lot durch M36 zu g42</Plumb>
+<Intersection name="S45" color="1" hidden="true" first="l38" second="l39">Schnitt zwischen l38 und l39</Intersection>
+<Circle name="k8" color="1" target="true" midpoint="S45" through="A">Kreis um S45 durch A</Circle>
+<Line name="g43" color="1" hidden="true" from="P1" to="C">Gerade durch P1 und C</Line>
+<Midpoint name="M37" color="1" hidden="true" first="P1" second="C">Mitte zwischen P1 und C</Midpoint>
+<Plumb name="l40" color="1" hidden="true" point="M37" line="g43">Lot durch M37 zu g43</Plumb>
+<Intersection name="S46" color="1" hidden="true" first="l40" second="k1" other="S47">Schnitt zwischen l40 und k1</Intersection>
+<OtherIntersection name="S47" color="1" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g44" color="1" hidden="true" from="P1" to="S47">Gerade durch P1 und S47</Line>
+<Midpoint name="M38" color="1" hidden="true" first="P1" second="S47">Mitte zwischen P1 und S47</Midpoint>
+<Plumb name="l41" color="1" hidden="true" point="M38" line="g44">Lot durch M38 zu g44</Plumb>
+<Intersection name="S48" color="1" hidden="true" first="g43" second="l41">Schnitt zwischen g43 und l41</Intersection>
+<Line name="g45" color="1" hidden="true" from="P1" to="B">Gerade durch P1 und B</Line>
+<Midpoint name="M39" color="1" hidden="true" first="P1" second="B">Mitte zwischen P1 und B</Midpoint>
+<Plumb name="l42" color="1" hidden="true" point="M39" line="g45">Lot durch M39 zu g45</Plumb>
+<Intersection name="S49" color="1" hidden="true" first="l42" second="k1" other="S50">Schnitt zwischen l42 und k1</Intersection>
+<OtherIntersection name="S50" color="1" hidden="true">Schnitt zwischen l1 und k1</OtherIntersection>
+<Line name="g46" color="1" hidden="true" from="P1" to="S50">Gerade durch P1 und S50</Line>
+<Midpoint name="M40" color="1" hidden="true" first="P1" second="S50">Mitte zwischen P1 und S50</Midpoint>
+<Plumb name="l43" color="1" hidden="true" point="M40" line="g46">Lot durch M40 zu g46</Plumb>
+<Intersection name="S51" color="1" hidden="true" first="g45" second="l43">Schnitt zwischen g45 und l43</Intersection>
+<Line name="g47" color="1" hidden="true" from="S48" to="C">Gerade durch S48 und C</Line>
+<Midpoint name="M41" color="1" hidden="true" first="S48" second="C">Mitte zwischen S48 und C</Midpoint>
+<Plumb name="l44" color="1" hidden="true" point="M41" line="g47">Lot durch M41 zu g47</Plumb>
+<Line name="g48" color="1" hidden="true" from="S48" to="S51">Gerade durch S48 und S51</Line>
+<Midpoint name="M42" color="1" hidden="true" first="S48" second="S51">Mitte zwischen S48 und S51</Midpoint>
+<Plumb name="l45" color="1" hidden="true" point="M42" line="g48">Lot durch M42 zu g48</Plumb>
+<Intersection name="S52" color="1" hidden="true" first="l44" second="l45">Schnitt zwischen l44 und l45</Intersection>
+<Circle name="k9" color="1" target="true" midpoint="S52" through="C">Kreis um S52 durch C</Circle>
+</Objects>
+</Construction>
+</CaR>

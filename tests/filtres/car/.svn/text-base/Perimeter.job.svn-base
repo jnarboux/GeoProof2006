@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction job="true" last="Strecke 3" target1="Kreis 5">
+<Window x="0.0" y="0.0" w="1.0"/>
+<Assignment>
+<P>Construct the Perimeter!</P>
+</Assignment>
+<Objects>
+<Point name="Punkt 1" x="-0.44548286604361387" y="-0.30062305295950165">Point at -0.44548286604361387, -0.30062305295950165</Point>
+<Point name="Punkt 2" x="-0.23364485981308414" y="0.40342679127725867">Point at -0.23364485981308414, 0.40342679127725867</Point>
+<Segment name="Strecke 1" from="Punkt 1" to="Punkt 2">Strecke von Punkt 1 nach Punkt 2</Segment>
+<Point name="Punkt 3" x="0.2928348909657321" y="0.10436137071651089">Point at 0.2928348909657321, 0.10436137071651089</Point>
+<Segment name="Strecke 2" from="Punkt 2" to="Punkt 3">Strecke von Punkt 2 nach Punkt 3</Segment>
+<Segment name="Strecke 3" from="Punkt 3" to="Punkt 1">Strecke von Punkt 3 nach Punkt 1</Segment>
+<Circle name="Kreis 1" color="1" hidden="true" through="Punkt 3" midpoint="Punkt 2">Kreis um Punkt 2 durch Punkt 3</Circle>
+<Circle name="Kreis 2" color="1" hidden="true" through="Punkt 2" midpoint="Punkt 3">Kreis um Punkt 3 durch Punkt 2</Circle>
+<Intersection name="Schnitt 1" color="1" hidden="true" first="Kreis 1" second="Kreis 2" which="first">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<Intersection name="Schnitt 2" color="1" hidden="true" first="Kreis 1" second="Kreis 2" which="second">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<Line name="Gerade 1" color="1" hidden="true" from="Schnitt 2" to="Schnitt 1">Gerade durch Schnitt 2 und Schnitt 1</Line>
+<Circle name="Kreis 3" color="2" hidden="true" through="Punkt 1" midpoint="Punkt 2">Kreis um Punkt 2 durch Punkt 1</Circle>
+<Circle name="Kreis 4" color="2" hidden="true" through="Punkt 2" midpoint="Punkt 1">Kreis um Punkt 1 durch Punkt 2</Circle>
+<Intersection name="Schnitt 3" color="2" hidden="true" first="Kreis 3" second="Kreis 4" which="first">Schnitt zwischen Kreis 3 und Kreis 4</Intersection>
+<Intersection name="Schnitt 4" color="2" hidden="true" first="Kreis 3" second="Kreis 4" which="second">Schnitt zwischen Kreis 3 und Kreis 4</Intersection>
+<Line name="Gerade 2" color="2" hidden="true" from="Schnitt 3" to="Schnitt 4">Gerade durch Schnitt 3 und Schnitt 4</Line>
+<Intersection name="Schnitt 5" hidden="true" first="Gerade 1" second="Gerade 2">Schnitt zwischen Gerade 1 und Gerade 2</Intersection>
+<Circle name="Kreis 5" through="Punkt 2" midpoint="Schnitt 5">Kreis um Schnitt 5 durch Punkt 2</Circle>
+</Objects>
+</Construction>
+</CaR>

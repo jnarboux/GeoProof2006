@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="M1" on="k1" move="P4" animate="true"/>
+<Objects>
+<Point name="P1" hidden="true" x="-0.6356821589205399" y="1.4152923538230884">Punkt in -0.6356821589205399, 1.4152923538230882</Point>
+<Circle name="k1" background="true" fixed="2.879460129354251" midpoint="P1" filled="true" acute="true">Kreis um P1 mit Radius 2.87946</Circle>
+<Point name="P2" hidden="true" x="-6.056972000000002" y="-3.214393000000001">Punkt in -6.056972000000001, -3.2143930000000007</Point>
+<Point name="P3" hidden="true" x="5.337331334332834" y="-3.2383808095952027">Punkt in 4.617691154422788, -3.3823088455772115</Point>
+<Line name="g1" from="P2" to="P3">Gerade durch P2 und P3</Line>
+<PointOn name="P4" on="k1" alpha="-1.0043432047509067">Punkt auf k1</PointOn>
+<Circle name="k2" hidden="true" fixed="3.84" midpoint="P4" acute="true">Kreis um P4 mit Radius 3.837831</Circle>
+<Intersection name="S2" first="g1" second="k2" which="second">Schnitt zwischen g1 und k2</Intersection>
+<Segment name="s1" from="S2" to="P4">Strecke von S2 nach P4</Segment>
+<Midpoint name="M1" color="1" type="thick" first="S2" second="P4">Mitte zwischen S2 und P4</Midpoint>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.0"/>
+<Objects>
+<Point name="Punkt 1" color="1" x="-0.11009174311926606" y="0.3241590214067279">Punkt in -0.11009174311926606, 0.3241590214067279</Point>
+<Point name="Punkt 2" color="1" x="0.14678899082568808" y="-0.3486238532110092">Punkt in 0.14678899082568808, -0.34862385321100914</Point>
+<Point name="Punkt 3" color="2" x="0.3241590214067278" y="0.35474006116207935">Punkt in 0.3241590214067278, 0.35474006116207935</Point>
+<Point name="Punkt 4" color="2" x="-0.11926605504587152" y="-0.48318042813455664">Punkt in -0.11926605504587151, -0.4831804281345566</Point>
+<Point name="Punkt 5" x="-0.7400611620795109" y="-0.10091743119266051">Punkt in -0.7400611620795108, -0.1009174311926605</Point>
+<Point name="Punkt 6" x="-0.25076452599388377" y="0.08562691131498469">Punkt in -0.25382262996941896, 0.030581039755351758</Point>
+<Circle name="Kreis 1" midpoint="Punkt 5" through="Punkt 6">Kreis um Punkt 5 durch Punkt 6</Circle>
+<Circle name="Kreis 2" color="1" hidden="true" midpoint="Punkt 2" through="Punkt 5">Kreis um Punkt 2 durch Punkt 5</Circle>
+<Circle name="Kreis 3" color="1" hidden="true" midpoint="Punkt 5" through="Punkt 2">Kreis um Punkt 5 durch Punkt 2</Circle>
+<Intersection name="Schnitt 1" color="1" hidden="true" first="Kreis 2" second="Kreis 3" other="Schnitt 2">Schnitt zwischen Kreis 2 und Kreis 3</Intersection>
+<OtherIntersection name="Schnitt 2" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 6</OtherIntersection>
+<Circle name="Kreis 4" color="1" hidden="true" midpoint="Schnitt 1" through="Punkt 2">Kreis um Schnitt 1 durch Punkt 2</Circle>
+<Intersection name="Schnitt 3" color="1" hidden="true" first="Kreis 2" second="Kreis 4" other="Schnitt 4">Schnitt zwischen Kreis 2 und Kreis 4</Intersection>
+<OtherIntersection name="Schnitt 4" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 7</OtherIntersection>
+<Circle name="Kreis 5" color="1" hidden="true" midpoint="Schnitt 3" through="Punkt 2">Kreis um Schnitt 3 durch Punkt 2</Circle>
+<Intersection name="Schnitt 5" color="1" hidden="true" first="Kreis 2" second="Kreis 5" other="Schnitt 6">Schnitt zwischen Kreis 2 und Kreis 5</Intersection>
+<OtherIntersection name="Schnitt 6" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 8</OtherIntersection>
+<Circle name="Kreis 6" color="1" hidden="true" midpoint="Schnitt 5" through="Punkt 5">Kreis um Schnitt 5 durch Punkt 5</Circle>
+<Intersection name="Schnitt 7" color="1" hidden="true" first="Kreis 3" second="Kreis 6" other="Schnitt 8">Schnitt zwischen Kreis 3 und Kreis 6</Intersection>
+<OtherIntersection name="Schnitt 8" color="1" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 7" color="1" hidden="true" midpoint="Schnitt 8" through="Punkt 5">Kreis um Schnitt 8 durch Punkt 5</Circle>
+<Circle name="Kreis 8" color="1" hidden="true" midpoint="Schnitt 7" through="Punkt 5">Kreis um Schnitt 7 durch Punkt 5</Circle>
+<Intersection name="Schnitt 9" color="1" hidden="true" first="Kreis 7" second="Kreis 8" other="Schnitt 10">Schnitt zwischen Kreis 7 und Kreis 8</Intersection>
+<OtherIntersection name="Schnitt 10" color="1" hidden="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 9" color="1" hidden="true" midpoint="Schnitt 10" through="Punkt 5">Kreis um Schnitt 10 durch Punkt 5</Circle>
+<Circle name="Kreis 10" color="1" hidden="true" midpoint="Punkt 5" through="Punkt 1">Kreis um Punkt 5 durch Punkt 1</Circle>
+<Circle name="Kreis 11" color="1" hidden="true" midpoint="Punkt 1" through="Punkt 5">Kreis um Punkt 1 durch Punkt 5</Circle>
+<Intersection name="Schnitt 11" color="1" hidden="true" first="Kreis 10" second="Kreis 11" other="Schnitt 12">Schnitt zwischen Kreis 10 und Kreis 11</Intersection>
+<OtherIntersection name="Schnitt 12" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 6</OtherIntersection>
+<Circle name="Kreis 12" color="1" hidden="true" midpoint="Schnitt 11" through="Punkt 5">Kreis um Schnitt 11 durch Punkt 5</Circle>
+<Intersection name="Schnitt 13" color="1" hidden="true" first="Kreis 10" second="Kreis 12" other="Schnitt 14">Schnitt zwischen Kreis 10 und Kreis 12</Intersection>
+<OtherIntersection name="Schnitt 14" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 7</OtherIntersection>
+<Circle name="Kreis 13" color="1" hidden="true" midpoint="Schnitt 13" through="Punkt 5">Kreis um Schnitt 13 durch Punkt 5</Circle>
+<Intersection name="Schnitt 15" color="1" hidden="true" first="Kreis 10" second="Kreis 13" other="Schnitt 16">Schnitt zwischen Kreis 10 und Kreis 13</Intersection>
+<OtherIntersection name="Schnitt 16" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 8</OtherIntersection>
+<Circle name="Kreis 14" color="1" hidden="true" midpoint="Schnitt 15" through="Punkt 1">Kreis um Schnitt 15 durch Punkt 1</Circle>
+<Intersection name="Schnitt 17" color="1" hidden="true" first="Kreis 11" second="Kreis 14" other="Schnitt 18">Schnitt zwischen Kreis 11 und Kreis 14</Intersection>
+<OtherIntersection name="Schnitt 18" color="1" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 15" color="1" hidden="true" midpoint="Schnitt 18" through="Punkt 1">Kreis um Schnitt 18 durch Punkt 1</Circle>
+<Circle name="Kreis 16" color="1" hidden="true" midpoint="Schnitt 17" through="Punkt 1">Kreis um Schnitt 17 durch Punkt 1</Circle>
+<Intersection name="Schnitt 19" color="1" hidden="true" first="Kreis 15" second="Kreis 16" other="Schnitt 20">Schnitt zwischen Kreis 15 und Kreis 16</Intersection>
+<OtherIntersection name="Schnitt 20" color="1" hidden="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 17" color="1" hidden="true" midpoint="Schnitt 20" through="Punkt 1">Kreis um Schnitt 20 durch Punkt 1</Circle>
+<Intersection name="Schnitt 21" color="1" hidden="true" first="Kreis 9" second="Kreis 17" other="Schnitt 22">Schnitt zwischen Kreis 9 und Kreis 17</Intersection>
+<OtherIntersection name="Schnitt 22" color="1" hidden="true" awayfrom="Punkt 5">Schnitt zwischen Kreis 25 und Kreis 33</OtherIntersection>
+<Circle name="Kreis 18" color="1" hidden="true" midpoint="Schnitt 22" through="Punkt 5">Kreis um Schnitt 22 durch Punkt 5</Circle>
+<Intersection name="Schnitt 23" color="1" hidden="true" first="Kreis 1" second="Kreis 18" other="Schnitt 24">Schnitt zwischen Kreis 1 und Kreis 18</Intersection>
+<OtherIntersection name="Schnitt 24" color="1" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 19" color="1" hidden="true" midpoint="Schnitt 24" through="Punkt 5">Kreis um Schnitt 24 durch Punkt 5</Circle>
+<Circle name="Kreis 20" color="1" hidden="true" midpoint="Schnitt 23" through="Punkt 5">Kreis um Schnitt 23 durch Punkt 5</Circle>
+<Intersection name="Schnitt 25" color="1" hidden="true" first="Kreis 19" second="Kreis 20" other="Schnitt 26">Schnitt zwischen Kreis 19 und Kreis 20</Intersection>
+<OtherIntersection name="Schnitt 26" color="1" hidden="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 21" color="1" hidden="true" midpoint="Punkt 5" through="Schnitt 26">Kreis um Punkt 5 durch Schnitt 26</Circle>
+<Circle name="Kreis 22" color="1" hidden="true" midpoint="Schnitt 26" through="Punkt 5">Kreis um Schnitt 26 durch Punkt 5</Circle>
+<Intersection name="Schnitt 27" color="1" hidden="true" first="Kreis 21" second="Kreis 22" other="Schnitt 28">Schnitt zwischen Kreis 21 und Kreis 22</Intersection>
+<OtherIntersection name="Schnitt 28" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 6</OtherIntersection>
+<Circle name="Kreis 23" color="1" hidden="true" midpoint="Schnitt 27" through="Punkt 5">Kreis um Schnitt 27 durch Punkt 5</Circle>
+<Intersection name="Schnitt 29" color="1" hidden="true" first="Kreis 21" second="Kreis 23" other="Schnitt 30">Schnitt zwischen Kreis 21 und Kreis 23</Intersection>
+<OtherIntersection name="Schnitt 30" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 7</OtherIntersection>
+<Circle name="Kreis 24" color="1" hidden="true" midpoint="Schnitt 29" through="Punkt 5">Kreis um Schnitt 29 durch Punkt 5</Circle>
+<Intersection name="Schnitt 31" color="1" hidden="true" first="Kreis 21" second="Kreis 24" other="Schnitt 32">Schnitt zwischen Kreis 21 und Kreis 24</Intersection>
+<OtherIntersection name="Schnitt 32" color="1" hidden="true">Schnitt zwischen Kreis 5 und Kreis 8</OtherIntersection>
+<Circle name="Kreis 25" color="1" hidden="true" midpoint="Schnitt 31" through="Schnitt 26">Kreis um Schnitt 31 durch Schnitt 26</Circle>
+<Intersection name="Schnitt 33" color="1" hidden="true" first="Kreis 22" second="Kreis 25" other="Schnitt 34">Schnitt zwischen Kreis 22 und Kreis 25</Intersection>
+<OtherIntersection name="Schnitt 34" color="1" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 26" color="1" hidden="true" midpoint="Schnitt 34" through="Schnitt 26">Kreis um Schnitt 34 durch Schnitt 26</Circle>
+<Circle name="Kreis 27" color="1" hidden="true" midpoint="Schnitt 33" through="Schnitt 26">Kreis um Schnitt 33 durch Schnitt 26</Circle>
+<Intersection name="Schnitt 35" color="1" hidden="true" first="Kreis 26" second="Kreis 27" other="Schnitt 36">Schnitt zwischen Kreis 26 und Kreis 27</Intersection>
+<OtherIntersection name="Schnitt 36" color="1" hidden="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 28" color="1" target="true" midpoint="Schnitt 36" through="Schnitt 26">Kreis um Schnitt 36 durch Schnitt 26</Circle>
+<Circle name="Kreis 29" color="2" hidden="true" midpoint="Punkt 4" through="Punkt 5">Kreis um Punkt 4 durch Punkt 5</Circle>
+<Circle name="Kreis 30" color="2" hidden="true" midpoint="Punkt 5" through="Punkt 4">Kreis um Punkt 5 durch Punkt 4</Circle>
+<Intersection name="Schnitt 37" color="2" hidden="true" first="Kreis 29" second="Kreis 30" other="Schnitt 38">Schnitt zwischen Kreis 29 und Kreis 30</Intersection>
+<OtherIntersection name="Schnitt 38" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 6</OtherIntersection>
+<Circle name="Kreis 31" color="2" hidden="true" midpoint="Schnitt 37" through="Punkt 4">Kreis um Schnitt 37 durch Punkt 4</Circle>
+<Intersection name="Schnitt 39" color="2" hidden="true" first="Kreis 29" second="Kreis 31" other="Schnitt 40">Schnitt zwischen Kreis 29 und Kreis 31</Intersection>
+<OtherIntersection name="Schnitt 40" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 7</OtherIntersection>
+<Circle name="Kreis 32" color="2" hidden="true" midpoint="Schnitt 39" through="Punkt 4">Kreis um Schnitt 39 durch Punkt 4</Circle>
+<Intersection name="Schnitt 41" color="2" hidden="true" first="Kreis 29" second="Kreis 32" other="Schnitt 42">Schnitt zwischen Kreis 29 und Kreis 32</Intersection>
+<OtherIntersection name="Schnitt 42" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 8</OtherIntersection>
+<Circle name="Kreis 33" color="2" hidden="true" midpoint="Schnitt 41" through="Punkt 5">Kreis um Schnitt 41 durch Punkt 5</Circle>
+<Intersection name="Schnitt 43" color="2" hidden="true" first="Kreis 30" second="Kreis 33" other="Schnitt 44">Schnitt zwischen Kreis 30 und Kreis 33</Intersection>
+<OtherIntersection name="Schnitt 44" color="2" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 34" color="2" hidden="true" midpoint="Schnitt 44" through="Punkt 5">Kreis um Schnitt 44 durch Punkt 5</Circle>
+<Circle name="Kreis 35" color="2" hidden="true" midpoint="Schnitt 43" through="Punkt 5">Kreis um Schnitt 43 durch Punkt 5</Circle>
+<Intersection name="Schnitt 45" color="2" hidden="true" first="Kreis 34" second="Kreis 35" other="Schnitt 46">Schnitt zwischen Kreis 34 und Kreis 35</Intersection>
+<OtherIntersection name="Schnitt 46" color="2" hidden="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 36" color="2" hidden="true" midpoint="Schnitt 46" through="Punkt 5">Kreis um Schnitt 46 durch Punkt 5</Circle>
+<Circle name="Kreis 37" color="2" hidden="true" midpoint="Punkt 5" through="Punkt 3">Kreis um Punkt 5 durch Punkt 3</Circle>
+<Circle name="Kreis 38" color="2" hidden="true" midpoint="Punkt 3" through="Punkt 5">Kreis um Punkt 3 durch Punkt 5</Circle>
+<Intersection name="Schnitt 47" color="2" hidden="true" first="Kreis 37" second="Kreis 38" other="Schnitt 48">Schnitt zwischen Kreis 37 und Kreis 38</Intersection>
+<OtherIntersection name="Schnitt 48" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 6</OtherIntersection>
+<Circle name="Kreis 39" color="2" hidden="true" midpoint="Schnitt 47" through="Punkt 5">Kreis um Schnitt 47 durch Punkt 5</Circle>
+<Intersection name="Schnitt 49" color="2" hidden="true" first="Kreis 37" second="Kreis 39" other="Schnitt 50">Schnitt zwischen Kreis 37 und Kreis 39</Intersection>
+<OtherIntersection name="Schnitt 50" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 7</OtherIntersection>
+<Circle name="Kreis 40" color="2" hidden="true" midpoint="Schnitt 49" through="Punkt 5">Kreis um Schnitt 49 durch Punkt 5</Circle>
+<Intersection name="Schnitt 51" color="2" hidden="true" first="Kreis 37" second="Kreis 40" other="Schnitt 52">Schnitt zwischen Kreis 37 und Kreis 40</Intersection>
+<OtherIntersection name="Schnitt 52" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 8</OtherIntersection>
+<Circle name="Kreis 41" color="2" hidden="true" midpoint="Schnitt 51" through="Punkt 3">Kreis um Schnitt 51 durch Punkt 3</Circle>
+<Intersection name="Schnitt 53" color="2" hidden="true" first="Kreis 38" second="Kreis 41" other="Schnitt 54">Schnitt zwischen Kreis 38 und Kreis 41</Intersection>
+<OtherIntersection name="Schnitt 54" color="2" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 42" color="2" hidden="true" midpoint="Schnitt 54" through="Punkt 3">Kreis um Schnitt 54 durch Punkt 3</Circle>
+<Circle name="Kreis 43" color="2" hidden="true" midpoint="Schnitt 53" through="Punkt 3">Kreis um Schnitt 53 durch Punkt 3</Circle>
+<Intersection name="Schnitt 55" color="2" hidden="true" first="Kreis 42" second="Kreis 43" other="Schnitt 56">Schnitt zwischen Kreis 42 und Kreis 43</Intersection>
+<OtherIntersection name="Schnitt 56" color="2" hidden="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 44" color="2" hidden="true" midpoint="Schnitt 56" through="Punkt 3">Kreis um Schnitt 56 durch Punkt 3</Circle>
+<Intersection name="Schnitt 57" color="2" hidden="true" first="Kreis 36" second="Kreis 44" other="Schnitt 58">Schnitt zwischen Kreis 36 und Kreis 44</Intersection>
+<OtherIntersection name="Schnitt 58" color="2" hidden="true" awayfrom="Punkt 5">Schnitt zwischen Kreis 25 und Kreis 33</OtherIntersection>
+<Circle name="Kreis 45" color="2" hidden="true" midpoint="Schnitt 58" through="Punkt 5">Kreis um Schnitt 58 durch Punkt 5</Circle>
+<Intersection name="Schnitt 59" color="2" hidden="true" first="Kreis 1" second="Kreis 45" other="Schnitt 60">Schnitt zwischen Kreis 1 und Kreis 45</Intersection>
+<OtherIntersection name="Schnitt 60" color="2" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 46" color="2" hidden="true" midpoint="Schnitt 60" through="Punkt 5">Kreis um Schnitt 60 durch Punkt 5</Circle>
+<Circle name="Kreis 47" color="2" hidden="true" midpoint="Schnitt 59" through="Punkt 5">Kreis um Schnitt 59 durch Punkt 5</Circle>
+<Intersection name="Schnitt 61" color="2" hidden="true" first="Kreis 46" second="Kreis 47" other="Schnitt 62">Schnitt zwischen Kreis 46 und Kreis 47</Intersection>
+<OtherIntersection name="Schnitt 62" color="2" hidden="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 48" color="2" hidden="true" midpoint="Punkt 5" through="Schnitt 62">Kreis um Punkt 5 durch Schnitt 62</Circle>
+<Circle name="Kreis 49" color="2" hidden="true" midpoint="Schnitt 62" through="Punkt 5">Kreis um Schnitt 62 durch Punkt 5</Circle>
+<Intersection name="Schnitt 63" color="2" hidden="true" first="Kreis 48" second="Kreis 49" other="Schnitt 64">Schnitt zwischen Kreis 48 und Kreis 49</Intersection>
+<OtherIntersection name="Schnitt 64" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 6</OtherIntersection>
+<Circle name="Kreis 50" color="2" hidden="true" midpoint="Schnitt 63" through="Punkt 5">Kreis um Schnitt 63 durch Punkt 5</Circle>
+<Intersection name="Schnitt 65" color="2" hidden="true" first="Kreis 48" second="Kreis 50" other="Schnitt 66">Schnitt zwischen Kreis 48 und Kreis 50</Intersection>
+<OtherIntersection name="Schnitt 66" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 7</OtherIntersection>
+<Circle name="Kreis 51" color="2" hidden="true" midpoint="Schnitt 65" through="Punkt 5">Kreis um Schnitt 65 durch Punkt 5</Circle>
+<Intersection name="Schnitt 67" color="2" hidden="true" first="Kreis 48" second="Kreis 51" other="Schnitt 68">Schnitt zwischen Kreis 48 und Kreis 51</Intersection>
+<OtherIntersection name="Schnitt 68" color="2" hidden="true">Schnitt zwischen Kreis 5 und Kreis 8</OtherIntersection>
+<Circle name="Kreis 52" color="2" hidden="true" midpoint="Schnitt 67" through="Schnitt 62">Kreis um Schnitt 67 durch Schnitt 62</Circle>
+<Intersection name="Schnitt 69" color="2" hidden="true" first="Kreis 49" second="Kreis 52" other="Schnitt 70">Schnitt zwischen Kreis 49 und Kreis 52</Intersection>
+<OtherIntersection name="Schnitt 70" color="2" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 53" color="2" hidden="true" midpoint="Schnitt 70" through="Schnitt 62">Kreis um Schnitt 70 durch Schnitt 62</Circle>
+<Circle name="Kreis 54" color="2" hidden="true" midpoint="Schnitt 69" through="Schnitt 62">Kreis um Schnitt 69 durch Schnitt 62</Circle>
+<Intersection name="Schnitt 71" color="2" hidden="true" first="Kreis 53" second="Kreis 54" other="Schnitt 72">Schnitt zwischen Kreis 53 und Kreis 54</Intersection>
+<OtherIntersection name="Schnitt 72" color="2" hidden="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 55" color="2" target="true" midpoint="Schnitt 72" through="Schnitt 62">Kreis um Schnitt 72 durch Schnitt 62</Circle>
+<Intersection name="Schnitt 73" color="3" hidden="true" first="Kreis 28" second="Kreis 55" other="Schnitt 74">Schnitt zwischen Kreis 28 und Kreis 55</Intersection>
+<OtherIntersection name="Schnitt 74" color="3">Schnitt zwischen Kreis 28 und Kreis 55</OtherIntersection>
+<Circle name="Kreis 56" color="3" hidden="true" midpoint="Schnitt 74" through="Punkt 5">Kreis um Schnitt 74 durch Punkt 5</Circle>
+<Intersection name="Schnitt 75" color="3" hidden="true" first="Kreis 1" second="Kreis 56" other="Schnitt 76">Schnitt zwischen Kreis 1 und Kreis 56</Intersection>
+<OtherIntersection name="Schnitt 76" color="3" hidden="true">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 57" color="3" hidden="true" midpoint="Schnitt 76" through="Punkt 5">Kreis um Schnitt 76 durch Punkt 5</Circle>
+<Circle name="Kreis 58" color="3" hidden="true" midpoint="Schnitt 75" through="Punkt 5">Kreis um Schnitt 75 durch Punkt 5</Circle>
+<Intersection name="Schnitt 77" color="3" hidden="true" first="Kreis 57" second="Kreis 58" other="Schnitt 78">Schnitt zwischen Kreis 57 und Kreis 58</Intersection>
+<OtherIntersection name="Schnitt 78" color="3" target="true">Schnitt zwischen Kreis 3 und Kreis 4</OtherIntersection>
+<Line name="Gerade 1" color="2" type="thin" from="Punkt 3" to="Punkt 4">Gerade durch Punkt 3 und Punkt 4</Line>
+<Line name="Gerade 2" color="1" type="thin" from="Punkt 2" to="Punkt 1">Gerade durch Punkt 2 und Punkt 1</Line>
+</Objects>
+</Construction>
+</CaR>

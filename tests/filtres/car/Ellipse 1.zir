@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.0"/>
+<Track track="E" on="K" move="P" animate="true"/>
+<Objects>
+<Point name="A" showname="true" xcoffset="-0.06158833063209076" ycoffset="0.0032414910858995136" x="-0.4072847682119207" y="-0.006622516556291425" fixed="true">Point at &quot;-0.4072847682119207&quot;, &quot;-0.006622516556291425&quot;</Point>
+<Point name="B" showname="true" x="0.45695364238410585" y="-0.006622516556291425" fixed="true">Point at &quot;0.45695364238410585&quot;, &quot;-0.006622516556291425&quot;</Point>
+<Segment name="Strecke 1" from="A" to="B">Strecke von A nach B</Segment>
+<Point name="Q" type="thick" showname="true" x="0.22" y="0.67">Point at 0.22, 0.67</Point>
+<Circle name="Kreis 1" hidden="true" through="Q" midpoint="A">Kreis um A durch Q</Circle>
+<PointOn name="P" showname="true" on="K" alpha="0.7450853286006053" shape="circle">Point on K</PointOn>
+<Ray name="Strahl 1" from="A" to="P">Strahl von A in Richtung P</Ray>
+<Intersection name="Schnitt 1" hidden="true" first="Strahl 1" second="Kreis 1" which="first">Schnitt zwischen Strahl 1 und Kreis 1</Intersection>
+<Intersection name="Schnitt 2" hidden="true" first="Strahl 1" second="Kreis 1" which="first">Schnitt zwischen Strahl 1 und Kreis 1</Intersection>
+<Segment name="Strecke 2" color="1" hidden="true" from="B" to="Schnitt 1">Strecke von B nach Schnitt 1</Segment>
+<Midpoint name="Mitte 1" color="1" hidden="true" first="B" second="Schnitt 1">Mitte zwischen B und Schnitt 1</Midpoint>
+<Plumb name="Lot 1" color="1" hidden="true" point="Mitte 1" line="Strecke 2" valid="true">Lot durch Mitte 1 zu Strecke 2</Plumb>
+<Intersection name="E" color="1" showname="true" xcoffset="-0.06482982171799027" ycoffset="0.119935170178282" first="Strahl 1" second="Lot 1">Schnitt zwischen Strahl 1 und Lot 1</Intersection>
+<Segment name="a" color="2" showname="true" from="A" to="E">Strecke von A nach E</Segment>
+<Segment name="b" color="2" showname="true" from="E" to="B">Strecke von E nach B</Segment>
+<Midpoint name="Mitte 2" color="3" first="A" second="B">Mitte zwischen A und B</Midpoint>
+<Circle name="K" color="3" through="Q" midpoint="Mitte 2">Kreis um Mitte 2 durch Q</Circle>
+</Objects>
+</Construction>
+</CaR>

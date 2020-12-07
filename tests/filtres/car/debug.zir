@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" showname="true" x="-5.75" y="4.41">Punkt in -5.75, 4.41</Point>
+<Point name="P2" showvalue="true" x="-4.65" y="4.39" shape="diamond">Punkt in -4.65, 4.39</Point>
+<Point name="P3" x="-5.71" y="5.94" shape="circle">Punkt in -5.71, 5.94</Point>
+<Point name="P4" showname="true" showvalue="true" x="-4.79" y="5.97" shape="dot">Punkt in -4.79, 5.97</Point>
+<Point name="P5" type="thick" x="-6.709284627092846" y="5.528158295281583">Punkt in -6.709284627092846, 5.528158295281583</Point>
+<Point name="P6" type="thick" x="-6.417047184170473" y="5.844748858447488" shape="diamond">Punkt in -6.417047184170473, 5.844748858447488</Point>
+<Point name="P7" type="thick" x="-6.855403348554034" y="5.990867579908676" shape="circle">Punkt in -6.855403348554034, 5.990867579908676</Point>
+<Point name="P8" type="thick" x="-7.0989345509893464" y="5.479452054794519" shape="dot">Punkt in -7.0989345509893464, 5.479452054794519</Point>
+<Point name="P9" type="thin" x="-6.343987823439878" y="4.894977168949772" shape="dot">Punkt in -6.343987823439878, 4.894977168949772</Point>
+<Point name="P10" type="thin" x="-6.75799086757991" y="4.894977168949772">Punkt in -6.75799086757991, 4.894977168949772</Point>
+<Point name="P11" type="thin" x="-7.074581430745814" y="4.968036529680365" shape="diamond">Punkt in -7.074581430745814, 4.968036529680365</Point>
+<Point name="P12" type="thin" x="-6.563165905631659" y="4.529680365296803" shape="circle">Punkt in -6.563165905631659, 4.529680365296803</Point>
+<Point name="P13" x="0.9863013698630141" y="5.016742770167427">Punkt in 0.9863013698630141, 5.016742770167427</Point>
+<Point name="P14" x="-0.5235920852359214" y="1.8751902587519038">Punkt in -0.5235920852359214, 1.8751902587519038</Point>
+<Segment name="s1" showname="true" from="P13" to="P14">Strecke von P13 nach P14</Segment>
+<Point name="P15" type="thick" x="1.5951293759512934" y="4.894977168949772">Punkt in 1.5951293759512934, 4.894977168949772</Point>
+<Point name="P16" type="thick" x="1.08" y="1.41">Punkt in 1.08, 1.41</Point>
+<Segment name="s2" color="3" type="thick" showvalue="true" from="P15" to="P16">Strecke von P15 nach P16</Segment>
+<Point name="P17" type="thin" x="2.0578386605783874" y="4.724505327245053">Punkt in 2.0578386605783874, 4.724505327245053</Point>
+<Point name="P18" type="thin" x="3.1537290715372905" y="2.7762557077625574">Punkt in 3.1537290715372905, 2.7762557077625574</Point>
+<Segment name="s3" type="thin" showname="true" showvalue="true" from="P17" to="P18">Strecke von P17 nach P18</Segment>
+<Point name="P19" x="-2.7884322678843234" y="3.409436834094368">Punkt in -2.7884322678843234, 3.409436834094368</Point>
+<Point name="P20" x="-4.8097412480974135" y="3.385083713850836">Punkt in -4.8097412480974135, 3.385083713850836</Point>
+<Ray name="r1" color="2" from="P19" to="P20">Strahl von P19 in Richtung P20</Ray>
+<Point name="P21" type="thick" x="-4.54185692541857" y="2.7275494672754945">Punkt in -4.54185692541857, 2.7275494672754945</Point>
+<Ray name="r2" type="thick" showname="true" xoffset="-29" yoffset="-18" from="P19" to="P21">Strahl von P19 in Richtung P21</Ray>
+<Point name="P22" type="thin" x="-4.054794520547945" y="2.2648401826484026">Punkt in -4.054794520547945, 2.2648401826484026</Point>
+<Ray name="r3" color="5" type="thin" from="P19" to="P22">Strahl von P19 in Richtung P22</Ray>
+<Point name="P23" x="5.75951293759513" y="4.894977168949772">Punkt in 5.75951293759513, 4.894977168949772</Point>
+<Point name="P24" x="6.538812785388129" y="3.433789954337899">Punkt in 6.538812785388129, 3.433789954337899</Point>
+<Line name="g1" from="P23" to="P24">Gerade durch P23 und P24</Line>
+<Point name="P25" type="thick" x="4.4444444444444455" y="4.407914764079148">Punkt in 4.4444444444444455, 4.407914764079148</Point>
+<Point name="P26" type="thick" x="6.441400304414003" y="1.777777777777777">Punkt in 6.441400304414003, 1.777777777777777</Point>
+<Line name="g2" type="thick" from="P25" to="P26">Gerade durch P25 und P26</Line>
+<Point name="P27" type="thin" x="2.8371385083713854" y="5.357686453576864">Punkt in 2.8371385083713854, 5.357686453576864</Point>
+<Point name="P28" type="thin" x="5.6377473363774735" y="0.6331811263318112">Punkt in 5.6377473363774735, 0.6331811263318112</Point>
+<Line name="g3" color="4" type="thin" showname="true" from="P27" to="P28">Gerade durch P27 und P28</Line>
+<Point name="P29" type="thin" x="5.540334855403349" y="-4.115677321156773">Punkt in 5.540334855403349, -4.115677321156773</Point>
+<Plumb name="l1" color="1" showname="true" point="P29" line="g3" valid="true">Lot durch P29 zu g3</Plumb>
+<Point name="P30" type="thin" x="6.197869101978691" y="-2.5327245053272454">Punkt in 6.197869101978691, -2.5327245053272454</Point>
+<Parallel name="p1" type="thin" showname="true" point="P30" line="l1">Parallele durch P30 zu l1</Parallel>
+<Point name="P31" type="thin" x="-5.126331811263318" y="-2.2404870624048705">Punkt in -5.126331811263318, -2.2404870624048705</Point>
+<Point name="P32" type="thin" x="-5.004566210045662" y="-1.0471841704718416">Punkt in -5.004566210045662, -1.0471841704718416</Point>
+<Circle name="k1" color="1" showname="true" through="P32" midpoint="P31" acute="true">Kreis um P31 durch P32</Circle>
+<Point name="P33" type="thin" x="-3.5190258751902594" y="-0.9254185692541856">Punkt in -3.5190258751902594, -0.9254185692541856</Point>
+<Point name="P34" type="thin" x="-4.4444444444444455" y="-1.7534246575342465">Punkt in -4.4444444444444455, -1.7534246575342465</Point>
+<Circle name="k2" color="2" type="thick" through="P34" midpoint="P33" acute="true">Kreis um P33 durch P34</Circle>
+<Point name="P35" type="thin" x="-2.32572298325723" y="-2.1674277016742773">Punkt in -2.32572298325723, -2.1674277016742773</Point>
+<Point name="P36" type="thin" x="-2.691019786910198" y="-1.3881278538812785">Punkt in -2.691019786910198, -1.3881278538812785</Point>
+<Circle name="k3" type="thin" showvalue="true" through="P36" midpoint="P35" acute="true">Kreis um P35 durch P36</Circle>
+<Point name="P37" type="thin" x="-5.18" y="-3.65">Punkt in -5.18, -3.65</Point>
+<Point name="P38" type="thin" x="-6.100456621004566" y="-4.0669710806697115">Punkt in -6.100456621004566, -4.0669710806697115</Point>
+<Circle name="k4" showname="true" background="true" xoffset="-36" yoffset="-58" through="P38" midpoint="P37" filled="true" acute="true">Kreis um P37 durch P38</Circle>
+<Point name="P39" type="thin" x="-3.84" y="-4.99">Punkt in -3.84, -4.99</Point>
+<Point name="P40" type="thin" x="-5.028919330289194" y="-4.4322678843226795">Punkt in -5.028919330289194, -4.4322678843226795</Point>
+<Circle name="k5" type="thick" showvalue="true" background="true" xoffset="2" yoffset="-16" through="P40" midpoint="P39" filled="true" acute="true">Kreis um P39 durch P40</Circle>
+<Point name="P41" type="thin" x="-2.277016742770168" y="-4.334855403348555">Punkt in -2.277016742770168, -4.334855403348555</Point>
+<Point name="P42" type="thin" x="-3.421613394216134" y="-4.213089802130899">Punkt in -3.421613394216134, -4.213089802130899</Point>
+<Circle name="k6" color="3" type="thin" showname="true" background="true" xoffset="1" yoffset="-8" through="P42" midpoint="P41" filled="true" acute="true">Kreis um P41 durch P42</Circle>
+<Point name="P43" x="4.01" y="-1.1400000000000001">Punkt in 4.01, -1.1400000000000001</Point>
+<Point name="P44" x="0.6697108066971077" y="-1.8751902587519025">Punkt in 0.6697108066971077, -1.8751902587519025</Point>
+<Segment name="s4" from="P43" to="P44">Strecke von P43 nach P44</Segment>
+<Point name="P45" x="2.67" y="0.88">Punkt in 2.67, 0.88</Point>
+<Segment name="s5" from="P44" to="P45">Strecke von P44 nach P45</Segment>
+<Point name="P46" x="0.45" y="1.32">Punkt in 0.45, 1.32</Point>
+<Segment name="s6" from="P44" to="P46">Strecke von P44 nach P46</Segment>
+<Angle name="w1" showname="true" first="P43" root="P44" second="P45" acute="true">Winkel P43 - P44 - P45</Angle>
+<Angle name="w2" background="true" first="P45" root="P44" second="P46" filled="true" acute="true">Winkel P45 - P44 - P46</Angle>
+<Point name="P47" x="-1.4003044140030445" y="0.1704718417047184">Punkt in -1.4003044140030445, 0.1704718417047184</Point>
+<Angle name="w3" color="3" type="thin" background="true" first="P46" root="P44" second="P47" filled="true" acute="true">Winkel P46 - P44 - P47</Angle>
+<Point name="P48" x="0.06" y="-2.7">Punkt in 0.06, -2.7</Point>
+<Angle name="w4" type="thin" first="P47" root="P44" second="P48" acute="true">Winkel P47 - P44 - P48</Angle>
+<Segment name="s7" from="P44" to="P47">Strecke von P44 nach P47</Segment>
+<Segment name="s8" from="P44" to="P48">Strecke von P44 nach P48</Segment>
+<Intersection name="S1" first="g3" second="p1">Schnitt zwischen g3 und p1</Intersection>
+<Angle name="w5" showvalue="true" first="P30" root="S1" second="P28" acute="true">Winkel P30 - S1 - P28</Angle>
+<Intersection name="S2" first="g3" second="l1">Schnitt zwischen g3 und l1</Intersection>
+<Angle name="w6" showvalue="true" background="true" first="P29" root="S2" second="S1" filled="true" acute="true">Winkel P29 - S2 - S1</Angle>
+</Objects>
+</Construction>
+</CaR>

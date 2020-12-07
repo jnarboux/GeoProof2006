@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-5.102773246329527" y="-1.9184339314845031">Punkt in -5.102773246329527, -1.9184339314845031</Point>
+<Point name="P2" x="2.544861337683523" y="-1.9184339314845031">Punkt in 2.544861337683523, -1.9184339314845031</Point>
+<Segment name="s1" target="true" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Plumb name="l1" hidden="true" point="P1" line="s1">Lot durch P1 zu s1</Plumb>
+<Plumb name="l2" hidden="true" point="P2" line="s1">Lot durch P2 zu s1</Plumb>
+<Circle name="k1" hidden="true" midpoint="P2" through="P1">Kreis um P2 durch P1</Circle>
+<Intersection name="S1" target="true" first="l2" second="k1" other="S2">Schnitt zwischen l2 und k1</Intersection>
+<OtherIntersection name="S2" hidden="true">Schnitt zwischen l2 und k1</OtherIntersection>
+<Plumb name="l3" hidden="true" point="S1" line="l2">Lot durch S1 zu l2</Plumb>
+<Intersection name="S3" target="true" first="l1" second="l3">Schnitt zwischen l1 und l3</Intersection>
+<Segment name="s" showname="true" target="true" from="P1" to="S3">Strecke von P1 nach S3</Segment>
+<Segment name="s3" target="true" from="S3" to="S1">Strecke von S3 nach S1</Segment>
+<Segment name="s4" target="true" from="S1" to="P2">Strecke von S1 nach P2</Segment>
+<PointOn name="A" color="1" showname="true" on="s3" x="0.5013068980993376" y="5.729200652528546">Punkt auf s3</PointOn>
+<Segment name="s7" color="1" from="P1" to="A">Strecke von P1 nach A</Segment>
+<PointOn name="OP3" color="2" on="s1" x="-0.8903416919904794" y="-1.9184339314845031">Punkt auf s1</PointOn>
+<Segment name="s8" color="2" from="S3" to="OP3">Strecke von S3 nach OP3</Segment>
+<Intersection name="S4" color="3" first="s7" second="s8">Schnitt zwischen s7 und s8</Intersection>
+<Plumb name="l4" color="3" hidden="true" point="S4" line="s1">Lot durch S4 zu s1</Plumb>
+<Intersection name="S5" color="3" first="s1" second="l4">Schnitt zwischen s1 und l4</Intersection>
+<Segment name="h" color="3" showname="true" from="S4" to="S5">Strecke von S4 nach S5</Segment>
+<Segment name="a" color="1" showname="true" from="S3" to="A">Strecke von S3 nach A</Segment>
+<Segment name="b" color="2" showname="true" xoffset="8" yoffset="34" from="P1" to="OP3">Strecke von P1 nach OP3</Segment>
+<Plumb name="l5" color="3" hidden="true" point="S4" line="s">Lot durch S4 zu s</Plumb>
+<Intersection name="S6" color="3" first="s" second="l5">Schnitt zwischen s und l5</Intersection>
+<Segment name="c" color="3" showname="true" from="S4" to="S6">Strecke von S4 nach S6</Segment>
+<Text name="Text1" x="-3.484502446982056" y="-3.536704730831974">a / c = s  / h = b / (b-c)
+ab - ac = cb
+1/c = 1/a + 1/b</Text>
+</Objects>
+</Construction>
+</CaR>

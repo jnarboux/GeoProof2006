@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2006-06-10T13:12:17.884195Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/distrib/debian"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="control"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="8706226464d345061df20d5d426c3b44"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="4"
+   name="dirs"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="a4dbeb198d9817a5770d68f9e548ba44"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="4"
+   name="files"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="91fcf8367c0457de0970b957cbff7e94"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="14"
+   name="menu"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-06-10T13:12:17.884195Z"
+   checksum="214a9520a2f856b9c66f87584167aa9a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="4"
+   name="changelog"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="6e866f88c9dcb2250001b4d07206e177"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="14"
+   name="rules"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-06-10T13:12:17.884195Z"
+   checksum="ebb0eb44f59dcef0e2e38e36a0f1c71d"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+<entry
+   committed-rev="14"
+   name="README.Debian"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-06-10T13:12:17.884195Z"
+   checksum="2051fe80c662034a9b50fc1232bcf91a"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+</wc-entries>

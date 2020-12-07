@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="g2" on="g1" move="P4"/>
+<Objects>
+<Point name="P1" x="-0.4514106583072097" y="-1.8432601880877737">Punkt in -0.4514106583072097, -1.8432601880877737</Point>
+<Point name="P2" hidden="true" x="-5.366771159874608" y="2.4200626959247646">Punkt in -5.366771159874608, 2.4200626959247646</Point>
+<Point name="P3" hidden="true" x="5.19" y="2.42">Punkt in 5.191222570532915, 2.4200626959247646</Point>
+<Line name="g1" from="P2" to="P3">Gerade durch P2 und P3</Line>
+<PointOn name="P4" color="1" on="g1" x="2.380000000099111" y="2.4200166883932517">Punkt auf g1</PointOn>
+<Circle name="k2" color="1" hidden="true" through="P1" midpoint="P4" acute="true">Kreis um P4 durch P1</Circle>
+<Circle name="k3" color="1" hidden="true" through="P4" midpoint="P1" acute="true">Kreis um P1 durch P4</Circle>
+<Intersection name="S1" color="1" hidden="true" first="k2" second="k3" which="first">Schnitt zwischen k2 und k3</Intersection>
+<Intersection name="S4" color="1" hidden="true" first="k2" second="k3" which="second">Schnitt zwischen k2 und k3</Intersection>
+<Line name="g2" color="1" from="S1" to="S4">Gerade durch S1 und S4</Line>
+<Segment name="s1" color="1" type="thin" from="P1" to="P4">Strecke von P1 nach P4</Segment>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" type="thick" x="-2.357487922705315" y="0.5668276972624797">Punkt in -2.357487922705314, 0.5668276972624797</Point>
+<Point name="P2" type="thick" x="2.280193236714976" y="-1.030595813204509">Punkt in 2.2801932367149753, -1.030595813204509</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Midpoint name="M1" hidden="true" first="P1" second="P2">Mitte zwischen P1 und P2</Midpoint>
+<Circle name="k1" hidden="true" midpoint="M1" through="P1">Kreis um M1 durch P1</Circle>
+<PointOn name="OP1" type="thick" on="k1" x="-0.12515378505211885" y="2.219131800309242">Punkt auf k1</PointOn>
+<Segment name="s2" from="P1" to="OP1">Strecke von P1 nach OP1</Segment>
+<Segment name="s3" from="OP1" to="P2">Strecke von OP1 nach P2</Segment>
+<Plumb name="l1" color="1" hidden="true" point="P1" line="s2">Lot durch P1 zu s2</Plumb>
+<Circle name="k2" color="1" hidden="true" midpoint="P1" through="OP1">Kreis um P1 durch OP1</Circle>
+<Intersection name="S1" color="1" hidden="true" first="l1" second="k2" other="S2">Schnitt zwischen l1 und k2</Intersection>
+<OtherIntersection name="S2" color="1" hidden="true">Schnitt zwischen l1 und k2</OtherIntersection>
+<Plumb name="l2" color="1" hidden="true" point="S1" line="l1">Lot durch S1 zu l1</Plumb>
+<Plumb name="l3" color="1" hidden="true" point="OP1" line="s2">Lot durch OP1 zu s2</Plumb>
+<Intersection name="S3" color="1" hidden="true" first="l2" second="l3">Schnitt zwischen l2 und l3</Intersection>
+<Segment name="s4" color="1" from="P1" to="S1">Strecke von P1 nach S1</Segment>
+<Segment name="s5" color="1" from="S1" to="S3">Strecke von S1 nach S3</Segment>
+<Segment name="s6" color="1" from="S3" to="OP1">Strecke von S3 nach OP1</Segment>
+<Polygon name="A1" color="1" type="thin" background="true" point1="P1" point2="OP1" point3="S3" point4="S1">Vieleck P1, OP1, S3, S1</Polygon>
+<Plumb name="l4" color="2" hidden="true" point="P2" line="s3">Lot durch P2 zu s3</Plumb>
+<Circle name="k3" color="2" hidden="true" midpoint="P2" through="OP1">Kreis um P2 durch OP1</Circle>
+<Intersection name="S4" color="2" hidden="true" first="l4" second="k3" other="S5">Schnitt zwischen l4 und k3</Intersection>
+<OtherIntersection name="S5" color="2" hidden="true">Schnitt zwischen l4 und k3</OtherIntersection>
+<Plumb name="l5" color="2" hidden="true" point="S4" line="l4">Lot durch S4 zu l4</Plumb>
+<Plumb name="l6" color="2" hidden="true" point="OP1" line="s3">Lot durch OP1 zu s3</Plumb>
+<Intersection name="S6" color="2" hidden="true" first="l5" second="l6">Schnitt zwischen l5 und l6</Intersection>
+<Segment name="s7" color="2" from="P2" to="S4">Strecke von P2 nach S4</Segment>
+<Segment name="s8" color="2" from="S4" to="S6">Strecke von S4 nach S6</Segment>
+<Segment name="s9" color="2" from="S6" to="OP1">Strecke von S6 nach OP1</Segment>
+<Plumb name="l7" color="3" hidden="true" point="P2" line="s1">Lot durch P2 zu s1</Plumb>
+<Circle name="k4" color="3" hidden="true" midpoint="P2" through="P1">Kreis um P2 durch P1</Circle>
+<Intersection name="S7" color="3" hidden="true" first="l7" second="k4" other="S8">Schnitt zwischen l7 und k4</Intersection>
+<OtherIntersection name="S8" color="3" hidden="true">Schnitt zwischen l7 und k4</OtherIntersection>
+<Plumb name="l8" color="3" hidden="true" point="S8" line="l7">Lot durch S8 zu l7</Plumb>
+<Plumb name="l9" color="3" hidden="true" point="P1" line="s1">Lot durch P1 zu s1</Plumb>
+<Intersection name="S9" color="3" hidden="true" first="l8" second="l9">Schnitt zwischen l8 und l9</Intersection>
+<Segment name="s10" color="3" from="P1" to="S9">Strecke von P1 nach S9</Segment>
+<Segment name="s11" color="3" from="S9" to="S8">Strecke von S9 nach S8</Segment>
+<Segment name="s14" color="3" from="S8" to="P2">Strecke von S8 nach P2</Segment>
+<Polygon name="A3" color="2" type="thin" background="true" point1="OP1" point2="S6" point3="S4" point4="P2">Vieleck OP1, S6, S4, P2</Polygon>
+<Plumb name="l10" color="2" hidden="true" point="OP1" line="s1">Lot durch OP1 zu s1</Plumb>
+<Intersection name="S11" color="2" hidden="true" first="s1" second="l10">Schnitt zwischen s1 und l10</Intersection>
+<Intersection name="S12" color="2" hidden="true" first="l8" second="l10">Schnitt zwischen l8 und l10</Intersection>
+<Polygon name="A4" color="2" type="thin" background="true" point1="S12" point2="S8" point3="P2" point4="S11">Vieleck S12, S8, P2, S11</Polygon>
+<Polygon name="A5" color="1" type="thin" background="true" point1="S9" point2="S12" point3="S11" point4="P1">Vieleck S9, S12, S11, P1</Polygon>
+</Objects>
+</Construction>
+</CaR>

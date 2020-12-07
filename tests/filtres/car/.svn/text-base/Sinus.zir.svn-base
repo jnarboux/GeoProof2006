@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="2.4142135623730945" y="0.0" w="4.999999999999998"/>
+<Track track="Punkt 5" on="Kreis 1" move="Gebundener Punkt 3" animate="true"/>
+<Objects>
+<Point name="A" hidden="true" x="0.0" y="0.0" fixed="true">Punkt in &quot;0.0&quot;, &quot;0.0&quot;</Point>
+<Point name="B" hidden="true" x="6.283" y="0.0" fixed="true">Punkt in &quot;6.283&quot;, &quot;0.0&quot;</Point>
+<Point name="Punkt 3" hidden="true" x="-1.0" y="0.0" fixed="true">Punkt in &quot;-1.0&quot;, &quot;0.0&quot;</Point>
+<Circle name="Kreis 1" through="A" midpoint="Punkt 3">Kreis um Punkt 3 durch A</Circle>
+<Segment name="AB" from="A" to="B">Strecke von A nach B</Segment>
+<PointOn name="Gebundener Punkt 1" on="Kreis 1" x="-1.6460680662266025" y="0.7632798004678353">Punkt auf Kreis 1</PointOn>
+<PointOn name="X" hidden="true" on="AB" x="2.555722996335358" y="0.0">Punkt auf AB</PointOn>
+<Segment name="Strecke 2" color="1" from="A" to="Punkt 3">Strecke von A nach Punkt 3</Segment>
+<Segment name="Strecke 3" color="1" from="Punkt 3" to="Gebundener Punkt 1">Strecke von Punkt 3 nach Gebundener Punkt 1</Segment>
+<Angle name="a" color="1" first="A" root="Punkt 3" second="Gebundener Punkt 1" display="small">Winkel A - Punkt 3 - Gebundener Punkt 1</Angle>
+<Point name="P" color="1" hidden="true" x="x(X)" y="sin(x(X)/3.1415*180.0+a)" fixed="true">Punkt in &quot;x(X)&quot;, &quot;sin(x(X)/3.1415*180.0+a)&quot;</Point>
+<Plumb name="Lot 1" color="2" hidden="true" point="A" line="AB">Lot durch A zu AB</Plumb>
+<Plumb name="Lot 2" color="2" hidden="true" point="B" line="AB">Lot durch B zu AB</Plumb>
+<Circle3 name="Kreis 2" color="2" hidden="true" from="Punkt 3" to="A" midpoint="A">Kreis um Punkt 3 mit Radius von A nach A</Circle3>
+<Circle3 name="Kreis 3" color="2" hidden="true" from="Punkt 3" to="A" midpoint="B">Kreis um Punkt 3 mit Radius von A nach B</Circle3>
+<Intersection name="Schnitt 1" first="Lot 1" second="Kreis 2" shape="dot" which="first">Schnitt zwischen Lot 1 und Kreis 2</Intersection>
+<Intersection name="Schnitt 2" color="2" first="Lot 1" second="Kreis 2" which="second">Schnitt zwischen Lot 1 und Kreis 2</Intersection>
+<Intersection name="Schnitt 3" first="Lot 2" second="Kreis 3" shape="dot" which="first">Schnitt zwischen Lot 2 und Kreis 3</Intersection>
+<Intersection name="Schnitt 4" first="Lot 2" second="Kreis 3" which="second">Schnitt zwischen Lot 2 und Kreis 3</Intersection>
+<Segment name="Strecke 4" from="Schnitt 2" to="Schnitt 1">Strecke von Schnitt 2 nach Schnitt 1</Segment>
+<Segment name="Strecke 5" from="Schnitt 3" to="Schnitt 4">Strecke von Schnitt 3 nach Schnitt 4</Segment>
+<Plumb name="Lot 3" color="2" hidden="true" point="Gebundener Punkt 1" line="Strecke 4">Lot durch Gebundener Punkt 1 zu Strecke 4</Plumb>
+<Intersection name="Schnitt 5" hidden="true" first="Strecke 4" second="Lot 3">Schnitt zwischen Strecke 4 und Lot 3</Intersection>
+<Segment name="Strecke 6" from="Gebundener Punkt 1" to="Schnitt 5">Strecke von Gebundener Punkt 1 nach Schnitt 5</Segment>
+<PointOn name="Gebundener Punkt 3" on="Kreis 1" x="-1.9141444640357759" y="0.40538857762983904">Punkt auf Kreis 1</PointOn>
+<Angle name="b" hidden="true" first="A" root="Punkt 3" second="Gebundener Punkt 3">Winkel A - Punkt 3 - Gebundener Punkt 3</Angle>
+<Point name="Punkt 5" x="((b-a)/360.0-floor((b-a)/360.0))*AB" y="sin(b)" fixed="true">Punkt in &quot;((b-a)/360.0-floor((b-a)/360.0))*AB&quot;, &quot;sin(b)&quot;</Point>
+<Segment name="Strecke 7" from="Gebundener Punkt 3" to="Punkt 5">Strecke von Gebundener Punkt 3 nach Punkt 5</Segment>
+</Objects>
+</Construction>
+</CaR>

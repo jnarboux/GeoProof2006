@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="-0.46862915010152406" w="7.999999999999998"/>
+<Track track="P10" on="k3" move="P8"/>
+<Objects>
+<Point name="P1" hidden="true" x="-0.35747300000000004" y="-0.8751930000000004">Punkt in -0.35747300000000004, -0.8751930000000001</Point>
+<Circle name="k1" background="true" fixed="1.4000000000000001" midpoint="P1" filled="true" acute="true">Kreis um P1 mit Radius 1.400075</Circle>
+<Point name="P6" hidden="true" x="4.523882896764254" y="2.724191063174115">Punkt in 4.523882896764253, 2.724191063174115</Point>
+<Circle name="k3" hidden="true" fixed="2.23" midpoint="P6" acute="true">Kreis um P6 mit Radius 2.227547</Circle>
+<PointOn name="P7" hidden="true" on="k3" alpha="-0.34464731561802625">Punkt auf k3</PointOn>
+<PointOn name="P8" hidden="true" on="k3" alpha="0.6528466311007743">Punkt auf k3</PointOn>
+<Segment name="s2" hidden="true" from="P6" to="P7">Strecke von P6 nach P7</Segment>
+<Segment name="s3" hidden="true" from="P6" to="P8">Strecke von P6 nach P8</Segment>
+<Angle name="w" hidden="true" showname="true" first="P7" root="P6" second="P8">Winkel P7 - P6 - P8</Angle>
+<PointOn name="P9" hidden="true" on="k1" alpha="0.23038516652739346">Punkt auf k1</PointOn>
+<Angle name="w1" hidden="true" first="P9" root="P1" fixed="8.0*w" acute="true">Fester Winkel P9 - P1 mit Größe 8.0*w</Angle>
+<Intersection name="S1" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+<Intersection name="S2" first="w1" second="k1" which="first">Schnitt zwischen w1 und k1</Intersection>
+<Point name="P10" color="1" type="thick" x="1.527279398862669" y="-1.6039876790481196">Punkt in -2.5809397513308987, 4.198275605729691</Point>
+<Segment name="s4" color="1" type="thick" from="S1" to="P10" fixed="3.13">Strecke von S1 nach P10 mit Länge &quot;3.13&quot;</Segment>
+</Objects>
+</Construction>
+</CaR>

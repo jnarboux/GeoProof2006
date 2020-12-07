@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>The centers of equilateral triangles on the sides of a
+triangle form an equilateral triangle.</P>
+</Comment>
+<Objects>
+<Point name="P6" type="thick" x="1.1240310078000004" y="1.767441860500001">Point at 1.1240310078000004, 1.767441860500001</Point>
+<Point name="P7" type="thick" x="-1.4031007752000006" y="0.7286821705000005">Point at -1.4031007752000006, 0.7286821705000005</Point>
+<Segment name="s3" type="thick" from="P6" to="P7">Strecke von P6 nach P7</Segment>
+<Point name="P8" type="thick" x="-0.7674418604651162" y="-2.124031007751938">Point at -0.7674418604651162, -2.124031007751938</Point>
+<Segment name="s4" type="thick" from="P7" to="P8">Strecke von P7 nach P8</Segment>
+<Segment name="s5" type="thick" from="P8" to="P6">Strecke von P8 nach P6</Segment>
+<Circle name="k3" color="1" hidden="true" through="P8" midpoint="P6" partial="true">Kreis um P6 durch P8</Circle>
+<Circle name="k4" color="1" hidden="true" through="P6" midpoint="P8" partial="true">Kreis um P8 durch P6</Circle>
+<Intersection name="S1" color="1" hidden="true" first="k3" second="k4" which="first">Schnitt zwischen k3 und k4</Intersection>
+<Intersection name="S2" color="1" first="k3" second="k4" which="second">Schnitt zwischen k3 und k4</Intersection>
+<Segment name="s6" color="1" from="P6" to="S2">Strecke von P6 nach S2</Segment>
+<Segment name="s7" color="1" from="P8" to="S2">Strecke von P8 nach S2</Segment>
+<Circle name="k5" color="1" hidden="true" through="P7" midpoint="P8" partial="true">Kreis um P8 durch P7</Circle>
+<Circle name="k6" color="1" hidden="true" through="P8" midpoint="P7" partial="true">Kreis um P7 durch P8</Circle>
+<Intersection name="S3" color="1" hidden="true" first="k5" second="k6" which="first">Schnitt zwischen k5 und k6</Intersection>
+<Intersection name="S4" color="1" target="true" first="k5" second="k6" which="second">Schnitt zwischen k3 und k4</Intersection>
+<Segment name="s8" color="1" target="true" from="P8" to="S4">Strecke von P8 nach S4</Segment>
+<Segment name="s9" color="1" target="true" from="P7" to="S4">Strecke von P7 nach S4</Segment>
+<Circle name="k7" color="1" hidden="true" through="P6" midpoint="P7" partial="true">Kreis um P7 durch P6</Circle>
+<Circle name="k8" color="1" hidden="true" through="P7" midpoint="P6" partial="true">Kreis um P6 durch P7</Circle>
+<Intersection name="S5" color="1" hidden="true" first="k7" second="k8" which="first">Schnitt zwischen k7 und k8</Intersection>
+<Intersection name="S6" color="1" target="true" first="k7" second="k8" which="second">Schnitt zwischen k3 und k4</Intersection>
+<Segment name="s10" color="1" target="true" from="P7" to="S6">Strecke von P7 nach S6</Segment>
+<Segment name="s11" color="1" target="true" from="P6" to="S6">Strecke von P6 nach S6</Segment>
+<Circle name="k9" color="1" hidden="true" through="S2" midpoint="P6">Kreis um P6 durch S2</Circle>
+<Circle name="k10" color="1" hidden="true" through="P6" midpoint="S2">Kreis um S2 durch P6</Circle>
+<Intersection name="S7" color="1" hidden="true" first="k9" second="k10" which="first">Schnitt zwischen k9 und k10</Intersection>
+<Intersection name="S8" color="1" hidden="true" first="k9" second="k10" which="second">Schnitt zwischen k1 und k2</Intersection>
+<Line name="g1" color="1" hidden="true" from="S8" to="S7">Gerade durch S8 und S7</Line>
+<Circle name="k11" color="1" hidden="true" through="P8" midpoint="S2">Kreis um S2 durch P8</Circle>
+<Circle name="k12" color="1" hidden="true" through="S2" midpoint="P8">Kreis um P8 durch S2</Circle>
+<Intersection name="S9" color="1" hidden="true" first="k11" second="k12" which="first">Schnitt zwischen k11 und k12</Intersection>
+<Intersection name="S10" color="1" hidden="true" first="k11" second="k12" which="second">Schnitt zwischen k1 und k2</Intersection>
+<Line name="g2" color="1" hidden="true" from="S10" to="S9">Gerade durch S10 und S9</Line>
+<Intersection name="S11" color="2" target="true" first="g1" second="g2" shape="circle">Schnitt zwischen g1 und g2</Intersection>
+<Circle name="k13" color="1" hidden="true" through="P6" midpoint="P7">Kreis um P7 durch P6</Circle>
+<Circle name="k14" color="1" hidden="true" through="P7" midpoint="P6">Kreis um P6 durch P7</Circle>
+<Intersection name="S12" color="1" hidden="true" first="k13" second="k14" which="first">Schnitt zwischen k13 und k14</Intersection>
+<Intersection name="S13" color="1" hidden="true" first="k13" second="k14" which="second">Schnitt zwischen k1 und k2</Intersection>
+<Line name="g3" color="1" hidden="true" from="S13" to="S12">Gerade durch S13 und S12</Line>
+<Circle name="k15" color="1" hidden="true" through="S6" midpoint="P6">Kreis um P6 durch S6</Circle>
+<Circle name="k16" color="1" hidden="true" through="P6" midpoint="S6">Kreis um S6 durch P6</Circle>
+<Intersection name="S14" color="1" hidden="true" first="k15" second="k16" which="first">Schnitt zwischen k15 und k16</Intersection>
+<Intersection name="S15" color="1" hidden="true" first="k15" second="k16" which="second">Schnitt zwischen k1 und k2</Intersection>
+<Line name="g4" color="1" hidden="true" from="S15" to="S14">Gerade durch S15 und S14</Line>
+<Intersection name="S16" color="2" target="true" first="g3" second="g4" shape="circle">Schnitt zwischen g3 und g4</Intersection>
+<Circle name="k17" color="1" hidden="true" through="P7" midpoint="P8">Kreis um P8 durch P7</Circle>
+<Circle name="k18" color="1" hidden="true" through="P8" midpoint="P7">Kreis um P7 durch P8</Circle>
+<Intersection name="S17" color="1" hidden="true" first="k17" second="k18" which="first">Schnitt zwischen k17 und k18</Intersection>
+<Intersection name="S18" color="1" hidden="true" first="k17" second="k18" which="second">Schnitt zwischen k1 und k2</Intersection>
+<Line name="g5" color="1" hidden="true" from="S18" to="S17">Gerade durch S18 und S17</Line>
+<Circle name="k19" color="1" hidden="true" through="S4" midpoint="P7">Kreis um P7 durch S4</Circle>
+<Circle name="k20" color="1" hidden="true" through="P7" midpoint="S4">Kreis um S4 durch P7</Circle>
+<Intersection name="S19" color="1" hidden="true" first="k19" second="k20" which="first">Schnitt zwischen k19 und k20</Intersection>
+<Intersection name="S20" color="1" hidden="true" first="k19" second="k20" which="second">Schnitt zwischen k1 und k2</Intersection>
+<Line name="g6" color="1" hidden="true" from="S20" to="S19">Gerade durch S20 und S19</Line>
+<Intersection name="S21" color="2" target="true" first="g5" second="g6" shape="circle">Schnitt zwischen g5 und g6</Intersection>
+<Segment name="s12" color="2" from="S16" to="S21">Strecke von S16 nach S21</Segment>
+<Segment name="s13" color="2" from="S21" to="S11">Strecke von S21 nach S11</Segment>
+<Segment name="s14" color="2" from="S11" to="S16">Strecke von S11 nach S16</Segment>
+</Objects>
+</Construction>
+</CaR>

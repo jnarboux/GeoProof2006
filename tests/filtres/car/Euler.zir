@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Comment>
+<P>Euler line.</P>
+<P></P>
+<P>H = orthocenter</P>
+<P>S = barycenter</P>
+<P>U = center of circumference</P>
+</Comment>
+<Objects>
+<Point name="P1" x="-3.0415944540727917" y="-1.837088388214905">Point at -3.0415944540727917, -1.837088388214905</Point>
+<Point name="P2" x="-0.025996533795494162" y="2.9289428076256505">Point at -0.025996533795494162, 2.9289428076256505</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="1.9774919614147914" y="-0.49839228295819954">Point at 1.9774919614147914, -0.49839228295819954</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<Plumb name="l2" color="1" hidden="true" point="P1" line="s2" valid="true">Lot durch P1 zu s2</Plumb>
+<Plumb name="l3" color="1" hidden="true" point="P2" line="s3" valid="true">Lot durch P2 zu s3</Plumb>
+<Intersection name="H" color="1" showname="true" first="l2" second="l3">Schnitt zwischen l2 und l3</Intersection>
+<Midpoint name="M5" color="2" hidden="true" first="P1" second="P2">Mitte zwischen P1 und P2</Midpoint>
+<Midpoint name="M8" color="2" hidden="true" first="P2" second="P3">Mitte zwischen P2 und P3</Midpoint>
+<Segment name="s6" color="2" hidden="true" from="M5" to="P3">Strecke von M5 nach P3</Segment>
+<Segment name="s7" color="2" hidden="true" from="M8" to="P1">Strecke von M8 nach P1</Segment>
+<Intersection name="S" color="2" showname="true" first="s6" second="s7">Schnitt zwischen s6 und s7</Intersection>
+<Plumb name="l4" color="3" hidden="true" point="M8" line="s2" valid="true">Lot durch M8 zu s2</Plumb>
+<Plumb name="l5" color="3" hidden="true" point="M5" line="s1" valid="true">Lot durch M5 zu s1</Plumb>
+<Intersection name="U" color="3" showname="true" first="l4" second="l5">Schnitt zwischen l4 und l5</Intersection>
+<Segment name="s8" from="U" to="H">Strecke von U nach H</Segment>
+</Objects>
+</Construction>
+</CaR>

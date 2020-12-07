@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-2.3275039745627977" y="-0.27980922098569216">Punkt in -2.3275039745627977, -0.27980922098569216</Point>
+<Point name="P2" x="-5.507154213036566" y="3.1033386327503987">Punkt in -5.507154213036566, 3.1033386327503987</Point>
+<Circle name="k1" midpoint="P1" through="P2">Kreis um P1 durch P2</Circle>
+<Point name="P" showname="true" x="5.965023847376788" y="-3.357710651828299">Punkt in 5.965023847376788, -3.357710651828299</Point>
+<PointOn name="A&apos;" color="2" showname="true" xoffset="-10" yoffset="-34" on="k1" x="-3.1489381251848756" y="4.2897762061025455">Punkt auf k1</PointOn>
+<Ray name="r1" color="2" hidden="true" from="P" to="A&apos;">Strahl von P in Richtung A&apos;</Ray>
+<Intersection name="S1" color="2" hidden="true" first="r1" second="k1" other="A">Schnitt zwischen r1 und k1</Intersection>
+<OtherIntersection name="A" color="2" showname="true" xoffset="6" yoffset="-26">Schnitt zwischen r1 und k1</OtherIntersection>
+<Segment name="s1" color="2" from="P" to="A&apos;">Strecke von P nach A&apos;</Segment>
+<PointOn name="B&apos;" color="3" showname="true" xoffset="-20" yoffset="1" on="k1" x="-5.316965316414107" y="-3.832130423360552">Punkt auf k1</PointOn>
+<Ray name="r2" color="3" hidden="true" from="P" to="B&apos;">Strahl von P in Richtung B&apos;</Ray>
+<Intersection name="S3" color="3" hidden="true" first="r2" second="k1" other="B">Schnitt zwischen r2 und k1</Intersection>
+<OtherIntersection name="B" color="3" showname="true">Schnitt zwischen r2 und k1</OtherIntersection>
+<Segment name="s2" color="3" from="P" to="B&apos;">Strecke von P nach B&apos;</Segment>
+<Segment name="s3" color="2" from="A&apos;" to="B">Strecke von A&apos; nach B</Segment>
+<Segment name="s4" color="3" from="A" to="B&apos;">Strecke von A nach B&apos;</Segment>
+<Segment name="s5" color="1" from="B" to="A">Strecke von B nach A</Segment>
+<Angle name="w1" color="1" first="B" root="A&apos;" second="A">Winkel B - A&apos; - A</Angle>
+<Angle name="w2" color="1" first="B" root="B&apos;" second="A">Winkel B - B&apos; - A</Angle>
+<Angle name="w3" first="A&apos;" root="P" second="B&apos;">Winkel A&apos; - P - B&apos;</Angle>
+<Text name="Text1" x="1.8950715421303652" y="4.349761526232113">PA&apos; / PB = PB&apos; / PA
+PA * PA&apos; = PB * PB&apos; = PC^2</Text>
+<Midpoint name="M1" hidden="true" first="P1" second="P">Mitte zwischen P1 und P</Midpoint>
+<Circle name="k2" hidden="true" midpoint="M1" through="P1">Kreis um M1 durch P1</Circle>
+<Intersection name="S5" hidden="true" first="k1" second="k2" other="C">Schnitt zwischen k1 und k2</Intersection>
+<OtherIntersection name="C" showname="true" xoffset="5" yoffset="-17">Schnitt zwischen k1 und k2</OtherIntersection>
+<Segment name="s6" from="P" to="C">Strecke von P nach C</Segment>
+</Objects>
+</Construction>
+</CaR>

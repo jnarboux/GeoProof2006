@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstructionSequence>
+<Construction>
+<Objects>
+<Point name="A"></Point>
+<Point name="B"></Point>
+<Point name="C"></Point>
+<Midpoint name="C'" first="A" second="B"></Midpoint>
+<Midpoint name="B'" first="A" second="C"></Midpoint>
+<Segment name="s1" from="A" to="B"></Segment>
+<Segment name="s2" from="A" to="C"></Segment>
+<Line name="l1" from="B'" to="C'"></Line>
+<Line name="l2" from="B" to="C"></Line>
+</Objects>
+</Construction>
+<Facts>
+<Parallel first="l1" second="l2"></Parallel>	
+</Facts>	
+</ConstructionSequence>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-4.763458401305057" y="-3.7455138662316476">Punkt in -4.763458401305057, -3.7455138662316476</Point>
+<Point name="P2" x="-0.9787928221859703" y="4.711256117455139">Punkt in -0.9787928221859703, 4.711256117455139</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="4.99836867862969" y="-2.4404567699836868">Punkt in 4.99836867862969, -2.4404567699836868</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Segment name="s3" from="P3" to="P1">Strecke von P3 nach P1</Segment>
+<PointOn name="OP1" color="1" type="thick" on="s1" x="-2.0821642667249862" y="2.245791648278303">Punkt auf s1</PointOn>
+<PointOn name="OP2" color="1" type="thick" on="s2" x="1.4059876045571835" y="1.8578507160244655">Punkt auf s2</PointOn>
+<Segment name="s4" color="1" from="P1" to="OP2">Strecke von P1 nach OP2</Segment>
+<Segment name="s5" color="1" from="P3" to="OP1">Strecke von P3 nach OP1</Segment>
+<Intersection name="S1" color="1" hidden="true" first="s4" second="s5">Schnitt zwischen s4 und s5</Intersection>
+<Line name="g1" color="1" hidden="true" from="P2" to="S1">Gerade durch P2 und S1</Line>
+<Intersection name="S2" color="1" first="s3" second="g1">Schnitt zwischen s3 und g1</Intersection>
+<Segment name="s6" color="1" from="P2" to="S2">Strecke von P2 nach S2</Segment>
+<Segment name="a" showname="true" from="P1" to="OP1">Strecke von P1 nach OP1</Segment>
+<Segment name="a*" showname="true" from="OP1" to="P2">Strecke von OP1 nach P2</Segment>
+<Segment name="b" showname="true" from="P2" to="OP2">Strecke von P2 nach OP2</Segment>
+<Segment name="b*" showname="true" from="OP2" to="P3">Strecke von OP2 nach P3</Segment>
+<Segment name="c" showname="true" from="P3" to="S2">Strecke von P3 nach S2</Segment>
+<Segment name="c*" showname="true" from="S2" to="P1">Strecke von S2 nach P1</Segment>
+<Expression name="E1" showname="true" showvalue="true" x="1.1615008157" y="4.3458401305" value="&quot;a&quot;*&quot;b&quot;*&quot;c&quot;/(&quot;a*&quot;*&quot;b*&quot;*&quot;c*&quot;)" prompt="abc / a*b*c*">Ausdruck &quot;&quot;a&quot;*&quot;b&quot;*&quot;c&quot;/(&quot;a*&quot;*&quot;b*&quot;*&quot;c*&quot;)&quot; in 1.1615, 4.34584</Expression>
+</Objects>
+</Construction>
+</CaR>

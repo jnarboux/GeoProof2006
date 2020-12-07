@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction job="true" last="s3" target1="P9" target2="P10" target3="P11" target4="s6" target5="s4" target6="s5">
+<Window x="0.0" y="0.0" w="8.0" showgrid="true"/>
+<Assignment>
+<P>Spiegele das Dreieck an der y-Achse g!</P>
+</Assignment>
+<Objects>
+<Point name="P1" type="thick" hidden="true" x="0.0" y="5.0">Punkt in 0.0, 5.0</Point>
+<Point name="P2" type="thick" hidden="true" x="0.0" y="-5.0">Punkt in 0.0, -5.0</Point>
+<Line name="g" type="thick" showname="true" from="P1" to="P2">Gerade durch P1 und P2</Line>
+<Point name="P5" color="1" type="thick" x="-4.0" y="2.0">Punkt in -4.037617554858935, 1.931034482758621</Point>
+<Point name="P6" color="1" type="thick" x="-5.0" y="-1.0">Punkt in -4.990595611285267, -1.053291536050157</Point>
+<Point name="P7" color="1" type="thick" x="-2.0" y="-2.0">Punkt in -1.9811912225705326, -2.0815047021943567</Point>
+<Segment name="s1" color="1" type="thick" from="P5" to="P6">Strecke von P5 nach P6</Segment>
+<Segment name="s2" color="1" type="thick" from="P6" to="P7">Strecke von P6 nach P7</Segment>
+<Segment name="s3" color="1" type="thick" from="P7" to="P5">Strecke von P7 nach P5</Segment>
+<Point name="P9" color="2" type="thick" x="2.0" y="-2.0">Punkt in 2.0, -2.0</Point>
+<Point name="P10" color="2" type="thick" x="4.0" y="2.0">Punkt in 3.93730407523511, 1.9561128526645764</Point>
+<Segment name="s4" color="2" type="thick" from="P9" to="P10">Strecke von P9 nach P10</Segment>
+<Point name="P11" color="2" type="thick" x="5.0" y="-1.0">Punkt in 4.990595611285267, -1.0282131661442007</Point>
+<Segment name="s5" color="2" type="thick" from="P11" to="P10">Strecke von P11 nach P10</Segment>
+<Segment name="s6" color="2" type="thick" from="P11" to="P9">Strecke von P11 nach P9</Segment>
+</Objects>
+</Construction>
+</CaR>

@@ -1,0 +1,1 @@
+soit le segment [A B];

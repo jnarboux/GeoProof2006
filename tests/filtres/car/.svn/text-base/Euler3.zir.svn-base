@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="5.0"/>
+<Objects>
+<Point name="B" showname="true" x="-3.700173310225306" y="-2.218370883882149">Punkt in -3.7001733102253036, -2.218370883882149</Point>
+<Point name="A" showname="true" x="-0.9965337954939345" y="3.1889081455805885">Punkt in -0.9965337954939342, 3.1889081455805885</Point>
+<Segment name="s1" from="B" to="A">Strecke von B nach A</Segment>
+<Point name="C" showname="true" x="2.5563258232235717" y="-2.4436741767764305">Punkt in 2.5563258232235704, -2.4436741767764296</Point>
+<Segment name="s2" from="A" to="C">Strecke von A nach C</Segment>
+<Segment name="s3" from="C" to="B">Strecke von C nach B</Segment>
+<Point name="S" color="2" type="thick" showname="true" x="-0.7019064125000003" y="-0.4852686308000002">Punkt in -0.7019064125000002, -0.48526863080000016</Point>
+<Line name="g2" color="1" hidden="true" from="S" to="B">Gerade durch S und B</Line>
+<Circle name="k2" color="1" hidden="true" midpoint="S" through="B" partial="true">Kreis um S durch B</Circle>
+<Intersection name="S3" color="1" hidden="true" first="g2" second="k2" other="S4">Schnitt zwischen g2 und k2</Intersection>
+<OtherIntersection name="S4" color="1" hidden="true">Schnitt zwischen g1 und k1</OtherIntersection>
+<Midpoint name="B*" color="1" showname="true" target="true" first="S" second="S4" shape="diamond">Mitte zwischen S und S4</Midpoint>
+<Line name="g3" color="1" hidden="true" from="S" to="A">Gerade durch S und A</Line>
+<Circle name="k3" color="1" hidden="true" midpoint="S" through="A" partial="true">Kreis um S durch A</Circle>
+<Intersection name="S5" color="1" hidden="true" first="g3" second="k3" other="S6">Schnitt zwischen g3 und k3</Intersection>
+<OtherIntersection name="S6" color="1" hidden="true">Schnitt zwischen g1 und k1</OtherIntersection>
+<Midpoint name="A*" color="1" showname="true" target="true" first="S" second="S6" shape="diamond">Mitte zwischen S und S6</Midpoint>
+<Line name="g4" color="1" hidden="true" from="S" to="C">Gerade durch S und C</Line>
+<Circle name="k4" color="1" hidden="true" midpoint="S" through="C" partial="true">Kreis um S durch C</Circle>
+<Intersection name="S7" color="1" hidden="true" first="g4" second="k4" other="S8">Schnitt zwischen g4 und k4</Intersection>
+<OtherIntersection name="S8" color="1" hidden="true">Schnitt zwischen g1 und k1</OtherIntersection>
+<Midpoint name="C*" color="1" showname="true" target="true" first="S" second="S8" shape="diamond">Mitte zwischen S und S8</Midpoint>
+<Segment name="s4" color="1" from="C*" to="A*">Strecke von C* nach A*</Segment>
+<Segment name="s5" color="1" from="A*" to="B*">Strecke von A* nach B*</Segment>
+<Segment name="s6" color="1" from="B*" to="C*">Strecke von B* nach C*</Segment>
+<Segment name="s7" color="3" type="thin" from="A" to="A*" arrow="true">Strecke von A nach A*</Segment>
+<Segment name="s8" color="3" type="thin" from="B" to="B*" arrow="true">Strecke von B nach B*</Segment>
+<Segment name="s9" color="3" type="thin" from="C" to="C*" arrow="true">Strecke von C nach C*</Segment>
+</Objects>
+</Construction>
+</CaR>

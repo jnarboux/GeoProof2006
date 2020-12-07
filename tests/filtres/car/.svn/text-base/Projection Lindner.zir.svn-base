@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0" showgrid="true"/>
+<Comment>
+<P>Projektion</P>
+</Comment>
+<Objects>
+<Point name="P1" x="0.0" y="0.0">Punkt in 0.0, 0.010126582278481067</Point>
+<Circle name="k1" hidden="true" midpoint="P1" fixed="5.0">Kreis um P1 mit Radius 5.0227950184</Circle>
+<Point name="P2" x="4.343096626466974" y="2.4774001883367958" shape="circle">Punkt in 4.313924050632911, 2.4607594936708868</Point>
+<Segment name="s1" color="3" from="P1" to="P2" fixed="5.0" arrow="true">Strecke von P1 nach P2 mit Länge &quot;5.0&quot;</Segment>
+<Point name="P5" color="2" x="3.0" y="0.0" shape="dot">Punkt in 3.0, 0.0</Point>
+<Segment name="s4" color="2" from="P1" to="P5" arrow="true">Strecke von P1 nach P5</Segment>
+<Line name="g3" from="P1" to="P5">Gerade durch P1 und P5</Line>
+<Plumb name="l5" color="1" point="P2" line="g3">Lot durch P2 zu g3</Plumb>
+<Intersection name="S4" color="2" first="l5" second="g3" shape="diamond">Schnitt zwischen l5 und g3</Intersection>
+<Intersection name="S5" hidden="true" first="s4" second="g3">Schnitt zwischen s4 und g3</Intersection>
+<Angle name="w1" first="S5" root="P1" display="small" fixed="19.456321291499094">Fester Winkel S5 - P1 mit Größe 19.456321291499094</Angle>
+<Intersection name="S6" hidden="true" first="s4" second="g3">Schnitt zwischen s4 und g3</Intersection>
+<Angle name="w2" first="S6" root="P1" fixed="17.553544826339873">Fester Winkel S6 - P1 mit Größe 17.553544826339873</Angle>
+<Expression name="E1" showvalue="true" x="1.0" y="-1.0" value="x(S4)" prompt="Wert">Ausdruck &quot;x(S4)&quot; in 1.0, -1.0</Expression>
+<Angle name="w6" showvalue="true" first="P5" root="P1" second="P2">Winkel P5 - P1 - P2</Angle>
+</Objects>
+</Construction>
+</CaR>

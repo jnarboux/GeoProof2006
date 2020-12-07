@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4"
+   name=""
+   committed-date="2005-12-13T12:09:49.831847Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/lib"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="4"
+   name="intmap.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="303389a31768c6430d63befc538986f4"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:23.000000Z"/>
+<entry
+   name="libgettext-ocaml-0.1"
+   kind="dir"/>
+<entry
+   name="cdk"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="options.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="25beba29ed74981b00508afa8f132d32"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="fifo.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="36a43f7a6a645bd8433b000a7be5a3ea"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="options.ml4"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="b5f3f98be0d4fa1d607576494e0fdc85"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="intmap.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="dad166488a173001112c1bed7f587f1e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="fifo.ml"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="9d074f7d6211558e09c1a1f272f05537"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+<entry
+   committed-rev="4"
+   name="options.mli"
+   text-time="2006-08-24T14:31:24.000000Z"
+   committed-date="2005-12-13T12:09:49.831847Z"
+   checksum="30b379bc169265209958076f05289492"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:24.000000Z"/>
+</wc-entries>

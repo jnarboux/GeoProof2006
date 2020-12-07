@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-0.7249602543720188" y="0.07631160572337059">Punkt in -0.7249602543720188, 0.07631160572337059</Point>
+<Point name="P2" x="0.34340222575516677" y="4.553259141494436">Punkt in 0.34340222575516677, 4.553259141494436</Point>
+<Circle name="k1" midpoint="P1" through="P2">Kreis um P1 durch P2</Circle>
+<PointOn name="OP1" on="k1" x="-3.730525644145537" y="-3.409521768777724">Punkt auf k1</PointOn>
+<PointOn name="OP2" on="k1" x="1.911297670876059" y="-3.696565516388722">Punkt auf k1</PointOn>
+<Segment name="s1" color="2" from="OP1" to="OP2">Strecke von OP1 nach OP2</Segment>
+<Line name="g1" color="1" hidden="true" from="OP1" to="P1">Gerade durch OP1 und P1</Line>
+<Intersection name="S1" first="g1" second="k1" other="S2">Schnitt zwischen g1 und k1</Intersection>
+<OtherIntersection name="S2" hidden="true">Schnitt zwischen g1 und k1</OtherIntersection>
+<Segment name="s2" color="1" from="OP1" to="S1">Strecke von OP1 nach S1</Segment>
+<Segment name="s3" color="1" from="S1" to="OP2">Strecke von S1 nach OP2</Segment>
+<Segment name="s4" color="1" type="thin" from="P1" to="OP2">Strecke von P1 nach OP2</Segment>
+<Angle name="w1" color="1" showvalue="true" xoffset="-9" yoffset="1" first="OP1" root="P1" second="OP2">Winkel OP1 - P1 - OP2</Angle>
+<Angle name="w2" color="1" showvalue="true" first="OP1" root="S1" second="OP2">Winkel OP1 - S1 - OP2</Angle>
+<Parallel name="p1" color="2" type="thin" hidden="true" point="P1" line="s3">Parallele durch P1 zu s3</Parallel>
+<Intersection name="S3" color="2" type="thin" first="s1" second="p1">Schnitt zwischen s1 und p1</Intersection>
+<Segment name="s5" color="2" type="thin" from="P1" to="S3">Strecke von P1 nach S3</Segment>
+</Objects>
+</Construction>
+</CaR>

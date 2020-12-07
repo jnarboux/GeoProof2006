@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="7.999999999999998"/>
+<Objects>
+<Point name="P1" type="thick" x="-4.236722306500003" y="3.289833080400001">Punkt in -4.236722306500001, 3.289833080400001</Point>
+<Point name="P2" type="thick" x="0.23065250379362645" y="-3.993930197268589">Punkt in 0.23065250379362645, -3.993930197268589</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Midpoint name="M1" hidden="true" first="P1" second="P2">Mitte zwischen P1 und P2</Midpoint>
+<Circle name="k1" hidden="true" through="P1" midpoint="M1">Kreis um M1 durch P1</Circle>
+<PointOn name="P4" type="thick" on="k1" alpha="0.13209344712886056">Punkt auf k1</PointOn>
+<Segment name="s3" from="P1" to="P4">Strecke von P1 nach P4</Segment>
+<Segment name="s4" from="P4" to="P2">Strecke von P4 nach P2</Segment>
+<Angle name="w1" showvalue="true" first="P1" root="P4" second="P2" display="small" acute="true">Winkel P1 - P4 - P2</Angle>
+<Midpoint name="M2" hidden="true" first="P1" second="P4">Mitte zwischen P1 und P4</Midpoint>
+<Circle name="k2" color="1" background="true" through="P4" midpoint="M2" filled="true" start="P4" end="P1">Kreis um M2 durch P4</Circle>
+<Midpoint name="M3" hidden="true" first="P4" second="P2">Mitte zwischen P4 und P2</Midpoint>
+<Circle name="k3" color="1" background="true" through="P4" midpoint="M3" filled="true" start="P2" end="P4">Kreis um M3 durch P4</Circle>
+<Midpoint name="M4" hidden="true" first="P2" second="P1">Mitte zwischen P2 und P1</Midpoint>
+<Circle name="k4" color="3" type="thin" background="true" through="P2" midpoint="M4" filled="true" start="P2" end="P1">Kreis um M4 durch P2</Circle>
+<Polygon name="A1" background="true" point1="P1" point2="P4" point3="P2">Vieleck P1, P4, P2</Polygon>
+<Circle name="k5" color="1" through="P1" midpoint="M4" start="P2" end="P1">Kreis um M4 durch P1</Circle>
+</Objects>
+</Construction>
+</CaR>

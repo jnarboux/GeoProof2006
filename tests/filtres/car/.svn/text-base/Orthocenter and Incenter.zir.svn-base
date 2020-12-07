@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="I" track0="H" on="p1" move="C"/>
+<Objects>
+<Point name="A" type="thick" showname="true" x="-5.5" y="-3.75">Punkt in -5.5, -3.75</Point>
+<Point name="B" type="thick" showname="true" x="6.28" y="-3.73">Punkt in 6.275, -3.7250000000000005</Point>
+<Segment name="s1" from="A" to="B">Strecke von A nach B</Segment>
+<PointOn name="C" type="thick" showname="true" on="p1" alpha="5.946006738939079">Punkt auf p1</PointOn>
+<Segment name="s4" from="A" to="C">Strecke von A nach C</Segment>
+<Segment name="s5" from="C" to="B">Strecke von C nach B</Segment>
+<Plumb name="l2" color="1" hidden="true" point="A" line="s5" valid="true">Lot durch A zu s5</Plumb>
+<Plumb name="l3" color="1" hidden="true" point="B" line="s4" valid="true">Lot durch B zu s4</Plumb>
+<Intersection name="H" color="1" showname="true" first="l2" second="l3">Schnitt zwischen l2 und l3</Intersection>
+<Circle name="k1" color="2" hidden="true" fixed="3.24" midpoint="A" acute="true">Kreis um A mit Radius 3.24</Circle>
+<Circle name="k2" color="2" hidden="true" fixed="3.0300000000000002" midpoint="B" acute="true">Kreis um B mit Radius 3.03</Circle>
+<Intersection name="S5" color="2" hidden="true" first="s5" second="k2" which="second">Schnitt zwischen s5 und k2</Intersection>
+<Intersection name="S7" color="2" hidden="true" first="s1" second="k2" which="second">Schnitt zwischen s1 und k2</Intersection>
+<Circle name="k3" color="2" hidden="true" through="S7" midpoint="S5" acute="true">Kreis um S5 durch S7</Circle>
+<Circle name="k4" color="2" hidden="true" through="S5" midpoint="S7" acute="true">Kreis um S7 durch S5</Circle>
+<Intersection name="S8" color="2" hidden="true" first="s4" second="k1" which="first">Schnitt zwischen s4 und k1</Intersection>
+<Intersection name="S10" color="2" hidden="true" first="s1" second="k1" which="first">Schnitt zwischen s1 und k1</Intersection>
+<Circle name="k5" color="2" hidden="true" through="S10" midpoint="S8" acute="true">Kreis um S8 durch S10</Circle>
+<Circle name="k6" color="2" hidden="true" through="S8" midpoint="S10" acute="true">Kreis um S10 durch S8</Circle>
+<Intersection name="S12" color="2" hidden="true" first="k5" second="k6" which="first">Schnitt zwischen k5 und k6</Intersection>
+<Intersection name="S16" color="2" hidden="true" first="k3" second="k4" which="first">Schnitt zwischen k3 und k4</Intersection>
+<Intersection name="S19" color="2" hidden="true" first="k3" second="k4" which="second">Schnitt zwischen k3 und k4</Intersection>
+<Line name="g5" color="2" hidden="true" from="S16" to="S19">Gerade durch S16 und S19</Line>
+<Point name="P" color="3" type="thick" showname="true" x="-3.42" y="3.58">Punkt in -3.425, 3.575</Point>
+<Parallel name="p1" color="3" point="P" line="s1">Parallele durch P zu s1</Parallel>
+<Intersection name="S20" color="2" hidden="true" first="k5" second="k6" which="second">Schnitt zwischen k5 und k6</Intersection>
+<Line name="g3" color="2" hidden="true" from="S12" to="S20">Gerade durch S12 und S20</Line>
+<Intersection name="I" color="2" showname="true" first="g5" second="g3">Schnitt zwischen g5 und g3</Intersection>
+</Objects>
+</Construction>
+</CaR>

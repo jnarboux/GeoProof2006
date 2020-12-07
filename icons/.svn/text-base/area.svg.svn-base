@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="0.41"
+   sodipodi:docname="area.svg"
+   sodipodi:docbase="/home/jnarboux/geocaml/drgeocaml/icons"
+   xml:space="preserve"
+   height="500pt"
+   width="500pt"
+   sodipodi:version="0.32"
+   id="svg602">
+  <metadata
+     id="metadata1941" />
+  <defs
+     id="defs604">
+    <linearGradient
+       id="linearGradient679">
+      <stop
+         id="stop681"
+         style="stop-color:#ffffff;stop-opacity:0.6907;"
+         offset="0" />
+      <stop
+         id="stop680"
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient670">
+      <stop
+         id="stop675"
+         style="stop-color:#0e56db;stop-opacity:1;"
+         offset="0" />
+      <stop
+         id="stop672"
+         style="stop-color:#071176;stop-opacity:1;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient606">
+      <stop
+         id="stop607"
+         offset="0"
+         style="stop-color:#dc210c;stop-opacity:1;" />
+      <stop
+         id="stop608"
+         offset="1"
+         style="stop-color:#751107;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="objectBoundingBox"
+       spreadMethod="pad"
+       fy="0.27344343"
+       fx="0.29457065"
+       r="1.16108024"
+       cy="0.27344343"
+       cx="0.29457065"
+       id="radialGradient609"
+       xlink:href="#linearGradient606" />
+    <linearGradient
+       gradientTransform="translate(-1.632656e-5,-7.217397e-6)"
+       gradientUnits="userSpaceOnUse"
+       y2="466.278503"
+       x2="520.571655"
+       y1="506.287231"
+       x1="520.571655"
+       id="linearGradient611"
+       xlink:href="#linearGradient606" />
+    <linearGradient
+       gradientTransform="translate(-1.632656e-5,-7.217397e-6)"
+       gradientUnits="userSpaceOnUse"
+       y2="505.084503"
+       x2="522.941833"
+       y1="469.499176"
+       x1="522.941833"
+       id="linearGradient625"
+       xlink:href="#linearGradient606" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg602"
+     inkscape:window-y="336"
+     inkscape:window-x="281"
+     inkscape:window-height="590"
+     inkscape:window-width="813"
+     inkscape:cy="250.00000"
+     inkscape:cx="250.00000"
+     inkscape:zoom="0.61000000"
+     id="base" />
+  <path
+     sodipodi:nodetypes="cccc"
+     id="path1949"
+     d="M 59.963214,272.79685 L 355.39549,129.93626 L 292.85402,535.04826 L 59.963214,272.79685 z "
+     style="fill:#ffff00;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+  <path
+     id="path1526"
+     d="M 365.611 127.0052 L 48.29271 283.1419 "
+     style="font-size:12;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:37.5;stroke-linecap:round;" />
+  <path
+     id="path1523"
+     d="M 303.1056 527.7474 L 353.5165 177.707 "
+     style="font-size:12;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:37.5;stroke-linecap:round;" />
+  <g
+     transform="matrix(0.343393,-1.809908e-2,1.404165e-2,0.41977,232.003,486.2124)"
+     id="g667">
+    <defs
+       id="defs668">
+      <linearGradient
+         id="linearGradient669">
+        <stop
+           id="stop670"
+           offset="0.0000000"
+           style="stop-color:#ffffff;stop-opacity:0.69072163;" />
+        <stop
+           id="stop671"
+           offset="1.0000000"
+           style="stop-color:#ffffff;stop-opacity:0.0000000;" />
+      </linearGradient>
+      <linearGradient
+         id="linearGradient672">
+        <stop
+           id="stop673"
+           offset="0.0000000"
+           style="stop-color:#0e56db;stop-opacity:1.0000000;" />
+        <stop
+           id="stop674"
+           offset="1.0000000"
+           style="stop-color:#071176;stop-opacity:1.0000000;" />
+      </linearGradient>
+      <radialGradient
+         gradientUnits="userSpaceOnUse"
+         r="15.301119"
+         fy="473.03323"
+         fx="522.89911"
+         cy="481.86633"
+         cx="522.89532"
+         id="radialGradient675"
+         xlink:href="#linearGradient1702"
+         collect="always" />
+      <linearGradient
+         y2="466.27850"
+         x2="520.57166"
+         y1="506.28723"
+         x1="520.57166"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient676"
+         xlink:href="#linearGradient1697"
+         collect="always" />
+      <linearGradient
+         y2="505.08450"
+         x2="522.94183"
+         y1="469.49918"
+         x1="522.94183"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient677"
+         xlink:href="#linearGradient1697"
+         collect="always" />
+      <linearGradient
+         y2="463.47311"
+         x2="214.59154"
+         y1="183.48366"
+         x1="213.82799"
+         gradientTransform="matrix(1.553900,0.000000,0.000000,0.643542,-1.017928,2.842171e-14)"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient678"
+         xlink:href="#linearGradient1702"
+         collect="always" />
+    </defs>
+    <sodipodi:namedview
+       window-y="46"
+       window-x="0"
+       window-height="914"
+       window-width="1276"
+       current-layer="layer1"
+       cy="95.645583"
+       cx="360.10710"
+       zoom="0.43415836"
+       pageshadow="2"
+       pageopacity="0.0"
+       borderopacity="1.0"
+       bordercolor="#666666"
+       pagecolor="#ffffff"
+       id="namedview679" />
+    <g
+       id="g680"
+       groupmode="layer"
+       label="Layer 1">
+      <path
+         transform="matrix(9.161179,0.000000,0.000000,9.161179,-4590.921,-4258.674)"
+         d="M 544.0663 487.0623 A 20.78375 20.78375 0 1 0 502.4988 487.0623 A 20.78375 20.78375 0 1 0  544.0663 487.0623 z"
+         sodipodi:ry="20.783747"
+         sodipodi:rx="20.783747"
+         sodipodi:cy="487.06226"
+         sodipodi:cx="523.28259"
+         id="path681"
+         style="fill:url(#linearGradient1076);fill-opacity:1.0000000;fill-rule:nonzero;stroke:url(#linearGradient1077);stroke-width:1.3644532;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(-130.2947,-93.64933)"
+         sodipodi:nodetypes="cccccc"
+         id="path682"
+         d="M 471.57287,246.88604 C 515.94005,245.91925 459.17273,123.73318 335.89188,123.08327 C 201.33036,122.39615 173.79593,234.04463 195.17242,236.08049 C 195.17242,236.08049 232.03659,241.14310 267.11200,250.93655 C 323.58465,266.86736 392.66113,237.86733 419.88074,233.65297 C 450.22324,228.95509 467.25417,249.04539 471.57287,246.88604 z "
+         style="opacity:0.89999998;fill:url(#linearGradient1078);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;" />
+    </g>
+    <metadata
+       id="metadata683">
+      <rdf:RDF
+         id="RDF1667">
+        <Work
+           id="Work1669"
+           rdf:about="">
+          <dc:title
+             id="title1671">button-blue</dc:title>
+          <dc:description
+             id="description1673" />
+          <dc:subject
+             id="subject1675">
+            <rdf:Bag
+               id="Bag1677">
+              <rdf:li
+                 id="li1679">webpage</rdf:li>
+              <rdf:li
+                 id="li1681" />
+              <rdf:li
+                 id="li1683">button</rdf:li>
+              <rdf:li
+                 id="li1685">shape</rdf:li>
+            </rdf:Bag>
+          </dc:subject>
+          <dc:publisher
+             id="publisher1687">
+            <Agent
+               id="Agent1689"
+               rdf:about="http://www.openclipart.org">
+              <dc:title
+                 id="title1691">Benji Park</dc:title>
+            </Agent>
+          </dc:publisher>
+          <dc:creator
+             id="creator1693">
+            <Agent
+               id="Agent1695"
+               rdf:about="">
+              <dc:title
+                 id="title1697">Benji Park</dc:title>
+            </Agent>
+          </dc:creator>
+          <dc:rights
+             id="rights1699">
+            <Agent
+               id="Agent1701"
+               rdf:about="">
+              <dc:title
+                 id="title1703">Benji Park</dc:title>
+            </Agent>
+          </dc:rights>
+          <dc:date
+             id="date1705" />
+          <dc:format
+             id="format1707">image/svg+xml</dc:format>
+          <dc:type
+             id="type1709"
+             rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+          <license
+             id="license1711"
+             rdf:resource="Public Domain">
+            <dc:date
+               id="date1713" />
+          </license>
+          <dc:language
+             id="language1715">en</dc:language>
+        </Work>
+        <License
+           id="License1717"
+           rdf:about="Public Domain">
+          <permits
+             id="permits1719"
+             rdf:resource="http://web.resource.org/cc/Reproduction" />
+          <permits
+             id="permits1721"
+             rdf:resource="http://web.resource.org/cc/Distribution" />
+          <permits
+             id="permits1723"
+             rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        </License>
+        <cc:Work
+           id="Work1943"
+           rdf:about="">
+          <dc:format
+             id="format1945">image/svg+xml</dc:format>
+          <dc:type
+             rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+             id="type1947" />
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+  </g>
+  <text
+     transform="scale(16.32313,11.25984)"
+     xml:space="preserve"
+     sodipodi:linespacing="100%"
+     id="text1250"
+     y="22.429822"
+     x="23.0553798"
+     style="fill:#a30000;stroke:none;font-family:Bitstream Charter;font-style:italic;font-weight:bold;font-size:32;fill-opacity:1;stroke-opacity:1;stroke-width:1pt;stroke-linejoin:miter;stroke-linecap:butt;text-anchor:start;writing-mode:lr;"><tspan
+       style="fill:#a30000;fill-opacity:1;"
+       id="tspan1253"
+       sodipodi:role="line"
+       y="22.429823"
+       x="23.055380">?</tspan></text>
+  <path
+     id="path1474"
+     d="M 306.0072 557.955 L 47.21653 268.8588 "
+     style="font-size:12;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:37.5;stroke-linecap:round;stroke-dasharray:none;" />
+  <g
+     transform="matrix(0.290263,-2.796113e-3,2.722993e-3,0.282674,2.484107,217.5853)"
+     id="g626">
+    <defs
+       id="defs3">
+      <linearGradient
+         xlink:href="#linearGradient679"
+         spreadMethod="pad"
+         gradientUnits="objectBoundingBox"
+         y2="0"
+         x2="1"
+         y1="0"
+         x1="0"
+         id="linearGradient1702" />
+      <linearGradient
+         xlink:href="#linearGradient670"
+         spreadMethod="pad"
+         gradientUnits="objectBoundingBox"
+         y2="0"
+         x2="1"
+         y1="0"
+         x1="0"
+         id="linearGradient1697" />
+      <radialGradient
+         gradientUnits="userSpaceOnUse"
+         r="15.301119"
+         fy="473.03323"
+         fx="522.89911"
+         cy="481.86633"
+         cx="522.89532"
+         id="radialGradient1706"
+         xlink:href="#linearGradient1702"
+         collect="always" />
+      <linearGradient
+         y2="466.27850"
+         x2="520.57166"
+         y1="506.28723"
+         x1="520.57166"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1076"
+         xlink:href="#linearGradient1697"
+         collect="always" />
+      <linearGradient
+         y2="505.08450"
+         x2="522.94183"
+         y1="469.49918"
+         x1="522.94183"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1077"
+         xlink:href="#linearGradient1697"
+         collect="always" />
+      <linearGradient
+         y2="463.47311"
+         x2="214.59154"
+         y1="183.48366"
+         x1="213.82799"
+         gradientTransform="matrix(1.553900,0.000000,0.000000,0.643542,-1.017928,2.842171e-14)"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1078"
+         xlink:href="#linearGradient1702"
+         collect="always" />
+    </defs>
+    <sodipodi:namedview
+       window-y="46"
+       window-x="0"
+       window-height="914"
+       window-width="1276"
+       current-layer="layer1"
+       cy="95.645583"
+       cx="360.10710"
+       zoom="0.43415836"
+       pageshadow="2"
+       pageopacity="0.0"
+       borderopacity="1.0"
+       bordercolor="#666666"
+       pagecolor="#ffffff"
+       id="namedview638" />
+    <g
+       id="layer1"
+       groupmode="layer"
+       label="Layer 1">
+      <path
+         transform="matrix(9.161179,0.000000,0.000000,9.161179,-4590.921,-4258.674)"
+         d="M 544.0663 487.0623 A 20.78375 20.78375 0 1 0 502.4988 487.0623 A 20.78375 20.78375 0 1 0  544.0663 487.0623 z"
+         sodipodi:ry="20.783747"
+         sodipodi:rx="20.783747"
+         sodipodi:cy="487.06226"
+         sodipodi:cx="523.28259"
+         id="path1070"
+         style="fill:url(#linearGradient1076);fill-opacity:1.0000000;fill-rule:nonzero;stroke:url(#linearGradient1077);stroke-width:1.3644532;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(-130.2947,-93.64933)"
+         sodipodi:nodetypes="cccccc"
+         id="path1713"
+         d="M 471.57287,246.88604 C 515.94005,245.91925 459.17273,123.73318 335.89188,123.08327 C 201.33036,122.39615 173.79593,234.04463 195.17242,236.08049 C 195.17242,236.08049 232.03659,241.14310 267.11200,250.93655 C 323.58465,266.86736 392.66113,237.86733 419.88074,233.65297 C 450.22324,228.95509 467.25417,249.04539 471.57287,246.88604 z "
+         style="opacity:0.89999998;fill:url(#linearGradient1078);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;" />
+    </g>
+    <metadata
+       id="metadata642">
+      <rdf:RDF
+         id="RDF1741">
+        <Work
+           id="Work1743"
+           rdf:about="">
+          <dc:title
+             id="title1745">button-blue</dc:title>
+          <dc:description
+             id="description1747" />
+          <dc:subject
+             id="subject1749">
+            <rdf:Bag
+               id="Bag1751">
+              <rdf:li
+                 id="li1753">webpage</rdf:li>
+              <rdf:li
+                 id="li1755" />
+              <rdf:li
+                 id="li1757">button</rdf:li>
+              <rdf:li
+                 id="li1759">shape</rdf:li>
+            </rdf:Bag>
+          </dc:subject>
+          <dc:publisher
+             id="publisher1761">
+            <Agent
+               id="Agent1763"
+               rdf:about="http://www.openclipart.org">
+              <dc:title
+                 id="title1765">Benji Park</dc:title>
+            </Agent>
+          </dc:publisher>
+          <dc:creator
+             id="creator1767">
+            <Agent
+               id="Agent1769"
+               rdf:about="">
+              <dc:title
+                 id="title1771">Benji Park</dc:title>
+            </Agent>
+          </dc:creator>
+          <dc:rights
+             id="rights1773">
+            <Agent
+               id="Agent1775"
+               rdf:about="">
+              <dc:title
+                 id="title1777">Benji Park</dc:title>
+            </Agent>
+          </dc:rights>
+          <dc:date
+             id="date1779" />
+          <dc:format
+             id="format1781">image/svg+xml</dc:format>
+          <dc:type
+             id="type1783"
+             rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+          <license
+             id="license1785"
+             rdf:resource="Public Domain">
+            <dc:date
+               id="date1787" />
+          </license>
+          <dc:language
+             id="language1789">en</dc:language>
+        </Work>
+        <License
+           id="License1791"
+           rdf:about="Public Domain">
+          <permits
+             id="permits1793"
+             rdf:resource="http://web.resource.org/cc/Reproduction" />
+          <permits
+             id="permits1795"
+             rdf:resource="http://web.resource.org/cc/Distribution" />
+          <permits
+             id="permits1797"
+             rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        </License>
+      </rdf:RDF>
+    </metadata>
+  </g>
+  <g
+     transform="matrix(0.290263,-2.796112e-3,2.722993e-3,0.282674,239.1346,490.6436)"
+     id="g1493">
+    <defs
+       id="defs1494">
+      <linearGradient
+         xlink:href="#linearGradient679"
+         spreadMethod="pad"
+         gradientUnits="objectBoundingBox"
+         y2="0"
+         x2="1"
+         y1="0"
+         x1="0"
+         id="linearGradient1495" />
+      <linearGradient
+         xlink:href="#linearGradient670"
+         spreadMethod="pad"
+         gradientUnits="objectBoundingBox"
+         y2="0"
+         x2="1"
+         y1="0"
+         x1="0"
+         id="linearGradient1496" />
+      <radialGradient
+         gradientUnits="userSpaceOnUse"
+         r="15.301119"
+         fy="473.03323"
+         fx="522.89911"
+         cy="481.86633"
+         cx="522.89532"
+         id="radialGradient1497"
+         xlink:href="#linearGradient1702"
+         collect="always" />
+      <linearGradient
+         y2="466.27850"
+         x2="520.57166"
+         y1="506.28723"
+         x1="520.57166"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1498"
+         xlink:href="#linearGradient1697"
+         collect="always" />
+      <linearGradient
+         y2="505.08450"
+         x2="522.94183"
+         y1="469.49918"
+         x1="522.94183"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1499"
+         xlink:href="#linearGradient1697"
+         collect="always" />
+      <linearGradient
+         y2="463.47311"
+         x2="214.59154"
+         y1="183.48366"
+         x1="213.82799"
+         gradientTransform="matrix(1.553900,0.000000,0.000000,0.643542,-1.017928,2.842171e-14)"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1500"
+         xlink:href="#linearGradient1702"
+         collect="always" />
+    </defs>
+    <sodipodi:namedview
+       window-y="46"
+       window-x="0"
+       window-height="914"
+       window-width="1276"
+       current-layer="layer1"
+       cy="95.645583"
+       cx="360.10710"
+       zoom="0.43415836"
+       pageshadow="2"
+       pageopacity="0.0"
+       borderopacity="1.0"
+       bordercolor="#666666"
+       pagecolor="#ffffff"
+       id="namedview1501" />
+    <g
+       id="g1502"
+       groupmode="layer"
+       label="Layer 1">
+      <path
+         transform="matrix(9.161179,0.000000,0.000000,9.161179,-4590.921,-4258.674)"
+         d="M 544.0663 487.0623 A 20.78375 20.78375 0 1 0 502.4988 487.0623 A 20.78375 20.78375 0 1 0  544.0663 487.0623 z"
+         sodipodi:ry="20.783747"
+         sodipodi:rx="20.783747"
+         sodipodi:cy="487.06226"
+         sodipodi:cx="523.28259"
+         id="path1503"
+         style="fill:url(#linearGradient1076);fill-opacity:1.0000000;fill-rule:nonzero;stroke:url(#linearGradient1077);stroke-width:1.3644532;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(-130.2947,-93.64933)"
+         sodipodi:nodetypes="cccccc"
+         id="path1504"
+         d="M 471.57287,246.88604 C 515.94005,245.91925 459.17273,123.73318 335.89188,123.08327 C 201.33036,122.39615 173.79593,234.04463 195.17242,236.08049 C 195.17242,236.08049 232.03659,241.14310 267.11200,250.93655 C 323.58465,266.86736 392.66113,237.86733 419.88074,233.65297 C 450.22324,228.95509 467.25417,249.04539 471.57287,246.88604 z "
+         style="opacity:0.89999998;fill:url(#linearGradient1078);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;" />
+    </g>
+    <metadata
+       id="metadata1505">
+      <rdf:RDF
+         id="RDF1812">
+        <Work
+           id="Work1814"
+           rdf:about="">
+          <dc:title
+             id="title1816">button-blue</dc:title>
+          <dc:description
+             id="description1818" />
+          <dc:subject
+             id="subject1820">
+            <rdf:Bag
+               id="Bag1822">
+              <rdf:li
+                 id="li1824">webpage</rdf:li>
+              <rdf:li
+                 id="li1826" />
+              <rdf:li
+                 id="li1828">button</rdf:li>
+              <rdf:li
+                 id="li1830">shape</rdf:li>
+            </rdf:Bag>
+          </dc:subject>
+          <dc:publisher
+             id="publisher1832">
+            <Agent
+               id="Agent1834"
+               rdf:about="http://www.openclipart.org">
+              <dc:title
+                 id="title1836">Benji Park</dc:title>
+            </Agent>
+          </dc:publisher>
+          <dc:creator
+             id="creator1838">
+            <Agent
+               id="Agent1840"
+               rdf:about="">
+              <dc:title
+                 id="title1842">Benji Park</dc:title>
+            </Agent>
+          </dc:creator>
+          <dc:rights
+             id="rights1844">
+            <Agent
+               id="Agent1846"
+               rdf:about="">
+              <dc:title
+                 id="title1848">Benji Park</dc:title>
+            </Agent>
+          </dc:rights>
+          <dc:date
+             id="date1850" />
+          <dc:format
+             id="format1852">image/svg+xml</dc:format>
+          <dc:type
+             id="type1854"
+             rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+          <license
+             id="license1856"
+             rdf:resource="Public Domain">
+            <dc:date
+               id="date1858" />
+          </license>
+          <dc:language
+             id="language1860">en</dc:language>
+        </Work>
+        <License
+           id="License1862"
+           rdf:about="Public Domain">
+          <permits
+             id="permits1864"
+             rdf:resource="http://web.resource.org/cc/Reproduction" />
+          <permits
+             id="permits1866"
+             rdf:resource="http://web.resource.org/cc/Distribution" />
+          <permits
+             id="permits1868"
+             rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        </License>
+      </rdf:RDF>
+    </metadata>
+  </g>
+  <g
+     transform="matrix(0.290263,-2.796113e-3,2.722993e-3,0.282674,299.8142,75.9996)"
+     id="g1510">
+    <defs
+       id="defs1511">
+      <linearGradient
+         xlink:href="#linearGradient679"
+         spreadMethod="pad"
+         gradientUnits="objectBoundingBox"
+         y2="0"
+         x2="1"
+         y1="0"
+         x1="0"
+         id="linearGradient1512" />
+      <linearGradient
+         xlink:href="#linearGradient670"
+         spreadMethod="pad"
+         gradientUnits="objectBoundingBox"
+         y2="0"
+         x2="1"
+         y1="0"
+         x1="0"
+         id="linearGradient1513" />
+      <radialGradient
+         gradientUnits="userSpaceOnUse"
+         r="15.301119"
+         fy="473.03323"
+         fx="522.89911"
+         cy="481.86633"
+         cx="522.89532"
+         id="radialGradient1514"
+         xlink:href="#linearGradient1702"
+         collect="always" />
+      <linearGradient
+         y2="466.27850"
+         x2="520.57166"
+         y1="506.28723"
+         x1="520.57166"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1515"
+         xlink:href="#linearGradient1697"
+         collect="always" />
+      <linearGradient
+         y2="505.08450"
+         x2="522.94183"
+         y1="469.49918"
+         x1="522.94183"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1516"
+         xlink:href="#linearGradient1697"
+         collect="always" />
+      <linearGradient
+         y2="463.47311"
+         x2="214.59154"
+         y1="183.48366"
+         x1="213.82799"
+         gradientTransform="matrix(1.553900,0.000000,0.000000,0.643542,-1.017928,2.842171e-14)"
+         gradientUnits="userSpaceOnUse"
+         id="linearGradient1517"
+         xlink:href="#linearGradient1702"
+         collect="always" />
+    </defs>
+    <sodipodi:namedview
+       window-y="46"
+       window-x="0"
+       window-height="914"
+       window-width="1276"
+       current-layer="layer1"
+       cy="95.645583"
+       cx="360.10710"
+       zoom="0.43415836"
+       pageshadow="2"
+       pageopacity="0.0"
+       borderopacity="1.0"
+       bordercolor="#666666"
+       pagecolor="#ffffff"
+       id="namedview1518" />
+    <g
+       id="g1519"
+       groupmode="layer"
+       label="Layer 1">
+      <path
+         transform="matrix(9.161179,0.000000,0.000000,9.161179,-4590.921,-4258.674)"
+         d="M 544.0663 487.0623 A 20.78375 20.78375 0 1 0 502.4988 487.0623 A 20.78375 20.78375 0 1 0  544.0663 487.0623 z"
+         sodipodi:ry="20.783747"
+         sodipodi:rx="20.783747"
+         sodipodi:cy="487.06226"
+         sodipodi:cx="523.28259"
+         id="path1520"
+         style="fill:url(#linearGradient1076);fill-opacity:1.0000000;fill-rule:nonzero;stroke:url(#linearGradient1077);stroke-width:1.3644532;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(-130.2947,-93.64933)"
+         sodipodi:nodetypes="cccccc"
+         id="path1521"
+         d="M 471.57287,246.88604 C 515.94005,245.91925 459.17273,123.73318 335.89188,123.08327 C 201.33036,122.39615 173.79593,234.04463 195.17242,236.08049 C 195.17242,236.08049 232.03659,241.14310 267.11200,250.93655 C 323.58465,266.86736 392.66113,237.86733 419.88074,233.65297 C 450.22324,228.95509 467.25417,249.04539 471.57287,246.88604 z "
+         style="opacity:0.89999998;fill:url(#linearGradient1078);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:0.25000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;" />
+    </g>
+    <metadata
+       id="metadata1522">
+      <rdf:RDF
+         id="RDF1883">
+        <Work
+           id="Work1885"
+           rdf:about="">
+          <dc:title
+             id="title1887">button-blue</dc:title>
+          <dc:description
+             id="description1889" />
+          <dc:subject
+             id="subject1891">
+            <rdf:Bag
+               id="Bag1893">
+              <rdf:li
+                 id="li1895">webpage</rdf:li>
+              <rdf:li
+                 id="li1897" />
+              <rdf:li
+                 id="li1899">button</rdf:li>
+              <rdf:li
+                 id="li1901">shape</rdf:li>
+            </rdf:Bag>
+          </dc:subject>
+          <dc:publisher
+             id="publisher1903">
+            <Agent
+               id="Agent1905"
+               rdf:about="http://www.openclipart.org">
+              <dc:title
+                 id="title1907">Benji Park</dc:title>
+            </Agent>
+          </dc:publisher>
+          <dc:creator
+             id="creator1909">
+            <Agent
+               id="Agent1911"
+               rdf:about="">
+              <dc:title
+                 id="title1913">Benji Park</dc:title>
+            </Agent>
+          </dc:creator>
+          <dc:rights
+             id="rights1915">
+            <Agent
+               id="Agent1917"
+               rdf:about="">
+              <dc:title
+                 id="title1919">Benji Park</dc:title>
+            </Agent>
+          </dc:rights>
+          <dc:date
+             id="date1921" />
+          <dc:format
+             id="format1923">image/svg+xml</dc:format>
+          <dc:type
+             id="type1925"
+             rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+          <license
+             id="license1927"
+             rdf:resource="Public Domain">
+            <dc:date
+               id="date1929" />
+          </license>
+          <dc:language
+             id="language1931">en</dc:language>
+        </Work>
+        <License
+           id="License1933"
+           rdf:about="Public Domain">
+          <permits
+             id="permits1935"
+             rdf:resource="http://web.resource.org/cc/Reproduction" />
+          <permits
+             id="permits1937"
+             rdf:resource="http://web.resource.org/cc/Distribution" />
+          <permits
+             id="permits1939"
+             rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        </License>
+      </rdf:RDF>
+    </metadata>
+  </g>
+</svg>

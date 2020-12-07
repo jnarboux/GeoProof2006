@@ -1,0 +1,3 @@
+?package(geoproof):needs="X11" section="Apps/Math"\
+  title="GeoProof" command="/usr/bin/geoproof"
+

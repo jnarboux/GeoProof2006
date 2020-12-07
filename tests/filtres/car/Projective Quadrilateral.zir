@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" type="thick" x="-3.301794453500001" y="2.0228384992000006">Punkt in -3.301794453500001, 2.0228384992000006</Point>
+<Point name="P2" type="thick" x="-3.615008156600001" y="-4.345840130500001">Punkt in -3.615008156600001, -4.345840130500001</Point>
+<Segment name="s1" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Point name="P3" type="thick" x="2.5970636215000007" y="-1.6835236542000005">Punkt in 2.5970636215000007, -1.6835236542000005</Point>
+<Segment name="s2" from="P2" to="P3">Strecke von P2 nach P3</Segment>
+<Point name="P4" type="thick" x="0.8482871126000002" y="1.9706362153000005">Punkt in 0.8482871126000002, 1.9706362153000005</Point>
+<Segment name="s3" from="P3" to="P4">Strecke von P3 nach P4</Segment>
+<Segment name="s4" from="P4" to="P1">Strecke von P4 nach P1</Segment>
+<Line name="g1" color="1" type="thin" hidden="true" from="P1" to="P4">Gerade durch P1 und P4</Line>
+<Line name="g2" color="1" type="thin" hidden="true" from="P2" to="P3">Gerade durch P2 und P3</Line>
+<Line name="g3" color="2" type="thin" hidden="true" from="P2" to="P1">Gerade durch P2 und P1</Line>
+<Line name="g4" color="2" type="thin" hidden="true" from="P3" to="P4">Gerade durch P3 und P4</Line>
+<Segment name="s6" color="3" type="thin" from="P1" to="P3">Strecke von P1 nach P3</Segment>
+<Segment name="s7" color="3" type="thin" from="P4" to="P2">Strecke von P4 nach P2</Segment>
+<Intersection name="S1" color="3" hidden="true" first="g1" second="g2">Schnitt zwischen g1 und g2</Intersection>
+<Intersection name="S2" color="3" first="s6" second="s7">Schnitt zwischen s6 und s7</Intersection>
+<Line name="g5" color="3" hidden="true" from="S1" to="S2">Gerade durch S1 und S2</Line>
+<Intersection name="S3" color="3" hidden="true" first="g3" second="g4">Schnitt zwischen g3 und g4</Intersection>
+<Line name="g6" color="3" hidden="true" from="S3" to="S2">Gerade durch S3 und S2</Line>
+<Intersection name="S4" color="3" first="s1" second="g5">Schnitt zwischen s1 und g5</Intersection>
+<Intersection name="S5" color="3" first="s3" second="g5">Schnitt zwischen s3 und g5</Intersection>
+<Intersection name="S6" color="3" first="s2" second="g6">Schnitt zwischen s2 und g6</Intersection>
+<Intersection name="S7" color="3" first="s4" second="g6">Schnitt zwischen s4 und g6</Intersection>
+<Segment name="s8" color="3" from="S4" to="S5">Strecke von S4 nach S5</Segment>
+<Segment name="s9" color="3" from="S7" to="S6">Strecke von S7 nach S6</Segment>
+<Segment name="s10" color="3" type="thin" from="S5" to="S6">Strecke von S5 nach S6</Segment>
+<Segment name="s11" color="3" type="thin" from="S6" to="S4">Strecke von S6 nach S4</Segment>
+<Segment name="s12" color="3" type="thin" from="S4" to="S7">Strecke von S4 nach S7</Segment>
+<Segment name="s13" color="3" type="thin" from="S7" to="S5">Strecke von S7 nach S5</Segment>
+<Intersection name="S8" color="3" first="s6" second="s12">Schnitt zwischen s6 und s12</Intersection>
+<Intersection name="S9" color="3" first="s7" second="s11">Schnitt zwischen s7 und s11</Intersection>
+<Line name="g7" color="3" type="thin" hidden="true" from="S8" to="S9">Gerade durch S8 und S9</Line>
+<Intersection name="S10" color="3" first="s7" second="s13">Schnitt zwischen s7 und s13</Intersection>
+<Intersection name="S11" color="3" first="s6" second="s10">Schnitt zwischen s6 und s10</Intersection>
+<Line name="g8" color="3" type="thin" hidden="true" from="S10" to="S11">Gerade durch S10 und S11</Line>
+<Intersection name="S12" color="3" first="s4" second="g7">Schnitt zwischen s4 und g7</Intersection>
+<Intersection name="S13" color="3" first="s4" second="g8">Schnitt zwischen s4 und g8</Intersection>
+<Intersection name="S14" color="3" first="s8" second="g7">Schnitt zwischen s8 und g7</Intersection>
+<Intersection name="S15" color="3" first="s2" second="g7">Schnitt zwischen s2 und g7</Intersection>
+<Intersection name="S16" color="3" first="s2" second="g8">Schnitt zwischen s2 und g8</Intersection>
+<Line name="g10" color="3" type="thin" hidden="true" from="S9" to="S11">Gerade durch S9 und S11</Line>
+<Line name="g11" color="3" type="thin" hidden="true" from="S8" to="S10">Gerade durch S8 und S10</Line>
+<Intersection name="S17" color="3" first="s1" second="g11">Schnitt zwischen s1 und g11</Intersection>
+<Intersection name="S18" color="3" first="s9" second="g11">Schnitt zwischen s9 und g11</Intersection>
+<Intersection name="S19" color="3" first="s3" second="g11">Schnitt zwischen s3 und g11</Intersection>
+<Intersection name="S20" color="3" first="s3" second="g10">Schnitt zwischen s3 und g10</Intersection>
+<Intersection name="S21" color="3" first="s9" second="g10">Schnitt zwischen s9 und g10</Intersection>
+<Intersection name="S22" color="3" first="s1" second="g10">Schnitt zwischen s1 und g10</Intersection>
+<Segment name="s14" color="3" from="S12" to="S15">Strecke von S12 nach S15</Segment>
+<Segment name="s15" color="3" from="S22" to="S20">Strecke von S22 nach S20</Segment>
+<Segment name="s16" color="3" from="S17" to="S19">Strecke von S17 nach S19</Segment>
+<Segment name="s17" color="3" from="S13" to="S16">Strecke von S13 nach S16</Segment>
+</Objects>
+</Construction>
+</CaR>

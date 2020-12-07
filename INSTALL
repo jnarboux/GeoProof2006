@@ -1,0 +1,119 @@
+INSTALLATION
+
+*********************************************
+*                                           *
+*  A - Linux Installation                   *
+*                                           *
+*********************************************
+
+To install GeoProof on linux you can either install from the rpm or
+from source.
+
+*********************************************
+1 - Rpm install
+*********************************************
+
+WARNING : This rpm file has been tested only on Linux Mandriva 2006.0
+system.
+
+To install GeoProof on a Mandriva system download the rpm files for GeoProof here :
+http://download.gna.org/geoproof/
+
+*********************************************
+2 - Compilation from sources
+*********************************************
+
+To compile GeoProof you will need :
+ - Ocaml >= 3.08 (http://caml.inria.fr/)
+ - LablGtk2 (http://wwwfun.kurims.kyoto-u.ac.jp/soft/olabl/lablgtk.html)
+   Warning : 
+	   - You need to compile lablgtk2 withlibrsvg support.
+		Warning : You need a not too old version of librsvg,
+			  otherwise the icons will look strange.
+	   - You need GTK >= 2.4
+ - Xml-light (http://tech.motion-twin.com/xmllight)
+
+If you want to perform computations using arbitrary precision you need : 
+
+ - CReal (http://www.lri.fr/~filliatr/software.en.html)
+
+Just unpack the tarball and do:
+
+./configure
+
+or 
+
+./configure -disable-creal
+
+if you do not want arbitray precision computations.
+
+Then to build GeoProof do:
+
+make
+
+To install GeoProof you need to go root:
+
+su
+
+Here type your root password and then type:
+
+make install
+
+If you want to see the (not quite) documented sources, type 
+
+make doc
+
+and explore the doc/html directory with your favorite browser. 
+
+USAGE
+
+After compilation, you will get a binary which normally can
+run on its own. Just type 
+
+./geoproof.sh
+
+You will see a graphic window. Menus enable the different drawing
+options.
+
+
+***********************************************
+*                                             *
+* B - Windows Intallation                     *
+*                                             *
+***********************************************
+
+1 - The easy way :
+
+Just run the self installer, you can find it here :
+
+http://download.gna.org/geoproof/windows/
+
+2 - Compilation from source :
+
+You need to download :
+
+lablgtk-2.6.0-win32.zip
+gtk-2.6.8-dlls-win32.zip
+lablrsvg-2.0-win32.zip
+librsvg-2.4.0-dlls-win32.zip
+
+on the lablgtk web site :
+
+http://wwwfun.kurims.kyoto-u.ac;jp/soft/olabl/lablgtk.html
+
+You need to have cygwin installed.
+
+Unzip gtk-2.6.8-dlls-win32.zip and librsvg-2.4.0-dlls-win32.zip in your cygwin directory (usually c:\cygwin).
+
+Install lablgtk and lablrsvg as explained in their READMEs.
+
+Copy liblablrsvg.lib to liblablrsvg.a in the `ocamlc -where`\lablgtk2\ directory.
+
+Copy librsvg-2.dll.a in the GeoProof directory. 
+(Ok it is not clean, it needs to be fixed) 
+
+Then compile GeoProof using make.
+
+To list the .dll used by GeoProof type :
+
+objdump.exe -p geoproof-the-date.exe | grep "DLL Name"

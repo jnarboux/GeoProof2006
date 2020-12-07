@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Track track="M1" on="k3" move="P7" animate="true"/>
+<Objects>
+<Point name="P5" x="-3.9075500770416034" y="-0.8258859784283514">Punkt in -3.907550077041602, -0.8258859784283512</Point>
+<Circle name="k3" background="true" fixed="3.322712164784505" midpoint="P5" filled="true" acute="true">Kreis um P5 mit Radius 3.322712</Circle>
+<Point name="P6" x="4.737631184407796" y="0.0719640179910046">Punkt in 4.737631184407796, 0.0719640179910046</Point>
+<Circle name="k4" background="true" fixed="3.015722656878613" midpoint="P6" filled="true" acute="true">Kreis um P6 mit Radius 3.015723</Circle>
+<PointOn name="P7" type="thick" on="k3" alpha="0.3993316300762969">Punkt auf k3</PointOn>
+<Circle name="k5" hidden="true" fixed="5.16" midpoint="P7" acute="true">Kreis um P7 mit Radius 5.155572</Circle>
+<Intersection name="S1" first="k4" second="k5" which="second">Schnitt zwischen k4 und k5</Intersection>
+<Segment name="s1" from="P5" to="P7">Strecke von P5 nach P7</Segment>
+<Segment name="s2" from="P7" to="S1">Strecke von P7 nach S1</Segment>
+<Segment name="s3" from="S1" to="P6">Strecke von S1 nach P6</Segment>
+<Midpoint name="M1" color="1" type="thick" first="P7" second="S1">Mitte zwischen P7 und S1</Midpoint>
+</Objects>
+</Construction>
+</CaR>

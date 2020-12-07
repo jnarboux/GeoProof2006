@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-3.73" y="-3.87">Punkt in -3.7300613496932513, -3.8650306748466257</Point>
+<Point name="P2" x="1.9877300613496924" y="-0.6012269938650308">Punkt in 1.9877300613496924, -0.6012269938650308</Point>
+<Segment name="s1" from="P1" to="P2" arrow="true">Strecke von P1 nach P2</Segment>
+<Point name="P3" x="-1.62" y="1.56">Punkt in -1.6196319018404912, 1.558282208588957</Point>
+<Segment name="a" showname="true" from="P1" to="P3" arrow="true">Strecke von P1 nach P3</Segment>
+<Point name="P4" x="-4.957055214723926" y="1.7300613496932513">Punkt in -4.957055214723926, 1.7300613496932513</Point>
+<Segment name="a*" showname="true" from="P3" to="P4" arrow="true">Strecke von P3 nach P4</Segment>
+<Parallel name="p1" color="1" hidden="true" point="P3" line="s1">Parallele durch P3 zu s1</Parallel>
+<Parallel name="p2" color="1" hidden="true" point="P2" line="a">Parallele durch P2 zu a</Parallel>
+<Intersection name="S1" color="1" first="p1" second="p2">Schnitt zwischen p1 und p2</Intersection>
+<Parallel name="p3" color="1" hidden="true" point="S1" line="a*">Parallele durch S1 zu a*</Parallel>
+<Parallel name="p4" color="1" hidden="true" point="P4" line="p1">Parallele durch P4 zu p1</Parallel>
+<Segment name="s4" from="P3" to="S1" arrow="true">Strecke von P3 nach S1</Segment>
+<Segment name="a+a*" color="2" showname="true" from="P1" to="P4" arrow="true">Strecke von P1 nach P4</Segment>
+<Intersection name="S2" color="2" first="p3" second="p4">Schnitt zwischen p3 und p4</Intersection>
+<Segment name="s6" color="2" from="P2" to="S2" arrow="true">Strecke von P2 nach S2</Segment>
+<Polygon name="A1" color="1" showvalue="true" background="true" point1="P1" point2="P3" point3="S1" point4="P2">Vieleck P1, P3, S1, P2</Polygon>
+<Polygon name="A2" color="1" showvalue="true" background="true" point1="P3" point2="S1" point3="S2" point4="P4">Vieleck P3, S1, S2, P4</Polygon>
+<Polygon name="A3" color="2" showvalue="true" background="true" point1="P1" point2="P2" point3="S2" point4="P4">Vieleck P1, P2, S2, P4</Polygon>
+</Objects>
+</Construction>
+</CaR>

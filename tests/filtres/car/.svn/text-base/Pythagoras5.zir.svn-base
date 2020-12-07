@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Objects>
+<Point name="P1" x="-5.354531001589825" y="-3.4721780604133543">Punkt in -5.354531001589825, -3.4721780604133543</Point>
+<Point name="P2" x="3.980922098569158" y="1.8950715421303652">Punkt in 3.980922098569158, 1.8950715421303652</Point>
+<Segment name="c" showname="true" xoffset="3" yoffset="35" from="P1" to="P2">Strecke von P1 nach P2</Segment>
+<Midpoint name="M1" hidden="true" first="P1" second="P2">Mitte zwischen P1 und P2</Midpoint>
+<Circle name="k1" hidden="true" midpoint="M1" through="P1">Kreis um M1 durch P1</Circle>
+<PointOn name="OP1" on="k1" x="-4.693294425251635" y="2.808327516006446">Punkt auf k1</PointOn>
+<Segment name="a" showname="true" from="P1" to="OP1">Strecke von P1 nach OP1</Segment>
+<Segment name="b" showname="true" from="OP1" to="P2">Strecke von OP1 nach P2</Segment>
+<Plumb name="l1" hidden="true" point="OP1" line="c">Lot durch OP1 zu c</Plumb>
+<Intersection name="S1" first="c" second="l1">Schnitt zwischen c und l1</Intersection>
+<Segment name="h" showname="true" from="OP1" to="S1">Strecke von OP1 nach S1</Segment>
+<Segment name="p" showname="true" from="P1" to="S1">Strecke von P1 nach S1</Segment>
+<Segment name="q" showname="true" from="S1" to="P2">Strecke von S1 nach P2</Segment>
+<Angle name="w1" first="P1" root="OP1" second="S1">Winkel P1 - OP1 - S1</Angle>
+<Angle name="w2" first="OP1" root="P2" second="S1">Winkel OP1 - P2 - S1</Angle>
+<Angle name="w3" showvalue="true" first="P1" root="OP1" second="P2" display="small">Winkel P1 - OP1 - P2</Angle>
+<Angle name="w4" showvalue="true" first="P2" root="S1" second="OP1" display="small">Winkel P2 - S1 - OP1</Angle>
+<Text name="Text1" x="1.4880763116057238" y="-1.5389507154213042">a/p = c/a
+b/q = c/b
+a^2 = cp
+b^2 = cq
+a^2+b^2 = c(p+q) = c^2</Text>
+</Objects>
+</Construction>
+</CaR>

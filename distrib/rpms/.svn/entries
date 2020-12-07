@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2006-06-10T13:12:17.884195Z"
+   url="http://svn.gna.org/svn/geoproof/trunk/distrib/rpms"
+   last-author="jnarboux"
+   kind="dir"
+   uuid="30785b90-cc07-0410-b14e-c8b1d7bfd205"
+   repos="http://svn.gna.org/svn/geoproof"
+   revision="29"/>
+<entry
+   committed-rev="14"
+   name="geoproof.spec.in"
+   text-time="2006-08-24T14:31:12.000000Z"
+   committed-date="2006-06-10T13:12:17.884195Z"
+   checksum="f237643e7f9d4be09c516c1563648d1e"
+   last-author="jnarboux"
+   kind="file"
+   prop-time="2006-08-24T14:31:12.000000Z"/>
+</wc-entries>

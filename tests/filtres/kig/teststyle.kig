@@ -1,0 +1,186 @@
+<KigDocument axes="1" grid="1" CompatibilityVersion="0.7.0" Version="0.9.1" >
+ <CoordinateSystem>Euclidean</CoordinateSystem>
+ <Hierarchy>
+  <Data type="double" id="1" >-1.49276</Data>
+  <Data type="double" id="2" >1.21212</Data>
+  <Data type="double" id="3" >0.143523</Data>
+  <Data type="double" id="4" >-4.24934</Data>
+  <Data type="double" id="5" >-3.71504</Data>
+  <Data type="double" id="6" >-3.9488</Data>
+  <Data type="double" id="7" >-4.03228</Data>
+  <Data type="double" id="8" >-1.22722</Data>
+  <Data type="double" id="9" >2.18053</Data>
+  <Data type="double" id="10" >-2.42779</Data>
+  <Data type="double" id="11" >0.62773</Data>
+  <Data type="double" id="12" >-0.407472</Data>
+  <Data type="double" id="13" >0.00994835</Data>
+  <Data type="double" id="14" >-3.98219</Data>
+  <Data type="double" id="15" >-3.9154</Data>
+  <Data type="double" id="16" >1.71302</Data>
+  <Data type="double" id="17" >0.62773</Data>
+  <Data type="double" id="18" >1.19542</Data>
+  <Data type="double" id="19" >-1.96028</Data>
+  <Data type="double" id="20" >-1.16043</Data>
+  <Data type="double" id="21" >-1.09204</Data>
+  <Data type="double" id="22" >-1.89349</Data>
+  <Data type="double" id="23" >-4.31613</Data>
+  <Data type="double" id="24" >-1.37749</Data>
+  <Data type="double" id="25" >-1.37749</Data>
+  <Data type="double" id="26" >1.66293</Data>
+  <Data type="double" id="27" >-1.39418</Data>
+  <Data type="double" id="28" >-1.27731</Data>
+  <Data type="double" id="29" >-3.98219</Data>
+  <Data type="double" id="30" >-1.19382</Data>
+  <Data type="double" id="31" >-4.08237</Data>
+  <Data type="double" id="32" >-1.17713</Data>
+  <Data type="double" id="33" >0.666946</Data>
+  <Data type="double" id="34" >-0.52435</Data>
+  <Data type="double" id="35" >-1.47607</Data>
+  <Data type="double" id="36" >-1.21052</Data>
+  <Data type="double" id="37" >-0.99186</Data>
+  <Data type="int" id="38" >0</Data>
+  <Data type="string" id="39" >%1</Data>
+  <Data type="string" id="40" >toto</Data>
+  <Object type="FixedPoint" id="41" >
+   <Parent id="4" />
+   <Parent id="2" />
+  </Object>
+  <Object type="FixedPoint" id="42" >
+   <Parent id="6" />
+   <Parent id="3" />
+  </Object>
+  <Object type="FixedPoint" id="43" >
+   <Parent id="5" />
+   <Parent id="10" />
+  </Object>
+  <Object type="FixedPoint" id="44" >
+   <Parent id="8" />
+   <Parent id="13" />
+  </Object>
+  <Object type="FixedPoint" id="45" >
+   <Parent id="7" />
+   <Parent id="17" />
+  </Object>
+  <Object type="FixedPoint" id="46" >
+   <Parent id="15" />
+   <Parent id="19" />
+  </Object>
+  <Object type="FixedPoint" id="47" >
+   <Parent id="20" />
+   <Parent id="22" />
+  </Object>
+  <Object type="FixedPoint" id="48" >
+   <Parent id="24" />
+   <Parent id="16" />
+  </Object>
+  <Object type="FixedPoint" id="49" >
+   <Parent id="25" />
+   <Parent id="9" />
+  </Object>
+  <Object type="FixedPoint" id="50" >
+   <Parent id="23" />
+   <Parent id="26" />
+  </Object>
+  <Object type="FixedPoint" id="51" >
+   <Parent id="27" />
+   <Parent id="18" />
+  </Object>
+  <Object type="FixedPoint" id="52" >
+   <Parent id="28" />
+   <Parent id="11" />
+  </Object>
+  <Object type="FixedPoint" id="53" >
+   <Parent id="29" />
+   <Parent id="1" />
+  </Object>
+  <Object type="FixedPoint" id="54" >
+   <Parent id="30" />
+   <Parent id="21" />
+  </Object>
+  <Object type="FixedPoint" id="55" >
+   <Parent id="31" />
+   <Parent id="12" />
+  </Object>
+  <Object type="FixedPoint" id="56" >
+   <Parent id="32" />
+   <Parent id="35" />
+  </Object>
+  <Object type="FixedPoint" id="57" >
+   <Parent id="36" />
+   <Parent id="34" />
+  </Object>
+  <Object type="FixedPoint" id="58" >
+   <Parent id="14" />
+   <Parent id="37" />
+  </Object>
+  <Object type="SegmentAB" id="59" >
+   <Parent id="43" />
+   <Parent id="47" />
+  </Object>
+  <Object type="SegmentAB" id="60" >
+   <Parent id="41" />
+   <Parent id="48" />
+  </Object>
+  <Object type="SegmentAB" id="61" >
+   <Parent id="50" />
+   <Parent id="49" />
+  </Object>
+  <Object type="SegmentAB" id="62" >
+   <Parent id="45" />
+   <Parent id="51" />
+  </Object>
+  <Object type="SegmentAB" id="63" >
+   <Parent id="42" />
+   <Parent id="52" />
+  </Object>
+  <Object type="SegmentAB" id="64" >
+   <Parent id="53" />
+   <Parent id="54" />
+  </Object>
+  <Object type="SegmentAB" id="65" >
+   <Parent id="55" />
+   <Parent id="44" />
+  </Object>
+  <Object type="SegmentAB" id="66" >
+   <Parent id="46" />
+   <Parent id="56" />
+  </Object>
+  <Object type="SegmentAB" id="67" >
+   <Parent id="58" />
+   <Parent id="57" />
+  </Object>
+  <Object type="ConstrainedPoint" id="68" >
+   <Parent id="33" />
+   <Parent id="65" />
+  </Object>
+ </Hierarchy>
+ <View>
+  <Draw width="7" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#00ffff" object="63" />
+  <Draw width="-1" point-style="RectangularEmpty" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="52" />
+  <Draw width="9" point-style="Round" namecalcer="40" style="SolidLine" shown="true" color="#ffff00" object="65" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#000000" object="61" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="42" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="50" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="46" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="47" />
+  <Draw width="11" point-style="Round" namecalcer="none" style="DashLine" shown="true" color="#800000" object="67" />
+  <Draw width="3" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#a0a0a4" object="60" />
+  <Draw width="5" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#00ff00" object="62" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="53" />
+  <Draw width="13" point-style="Round" namecalcer="none" style="DashDotLine" shown="true" color="#0000ff" object="64" />
+  <Draw width="-1" point-style="Cross" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="44" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="57" />
+  <Draw width="-1" point-style="RoundEmpty" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="49" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="54" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="55" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="58" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="DashDotDotLine" shown="true" color="#0000ff" object="59" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="43" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="DotLine" shown="true" color="#0000ff" object="66" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="45" />
+  <Draw width="-1" point-style="Rectangular" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="51" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="48" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="56" />
+  <Draw width="-1" point-style="Round" namecalcer="none" style="SolidLine" shown="true" color="#0000ff" object="41" />
+ </View>
+</KigDocument>

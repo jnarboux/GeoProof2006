@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction job="true" last="M" target1="Kreis 4">
+<Window x="0.0" y="0.0" w="1.0"/>
+<Comment>
+<P>Die Lösung beruht auf dem Parallelogram durch M, A und B.
+Zunächst wird der Mittelpunkt Z von MB konstruiert. Danach
+der Spiegelpunkt von B bezüglich Z. Dies ist der gesuchte
+vierte Eckpunkt des Parallelogramms.</P>
+</Comment>
+<Assignment>
+<P>Construct a circle around M with radius AB, using only
+classical tools.</P>
+</Assignment>
+<Restrict icons=" back undo color hidden showcolor zoom info point line segment circle move hide "/>
+<Objects>
+<Point name="A" showname="true" x="0.7125382262996943" y="-0.20795107033639149">Point at 0.7125382262996943, -0.20795107033639149</Point>
+<Point name="B" showname="true" x="0.24464831804281345" y="0.17737003058103973">Point at 0.24464831804281345, 0.17737003058103973</Point>
+<Segment name="Strecke 2" from="A" to="B">Strecke von A nach B</Segment>
+<Point name="M" showname="true" x="-0.43730886850152906" y="-0.2018348623853211">Point at -0.43730886850152906, -0.2018348623853211</Point>
+<Circle name="Kreis 1" color="1" through="M" midpoint="B" partial="true">Kreis um B durch M</Circle>
+<Circle name="Kreis 2" color="1" through="B" midpoint="M" partial="true">Kreis um M durch B</Circle>
+<Segment name="Strecke 3" color="1" from="M" to="B">Strecke von M nach B</Segment>
+<Intersection name="Schnitt 1" color="1" first="Kreis 1" second="Kreis 2" which="first">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<Intersection name="Schnitt 2" color="1" first="Kreis 1" second="Kreis 2" which="second">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<Segment name="Strecke 4" color="1" from="Schnitt 2" to="Schnitt 1">Strecke von Schnitt 2 nach Schnitt 1</Segment>
+<Intersection name="Z" color="2" showname="true" first="Strecke 3" second="Strecke 4">Schnitt zwischen Strecke 3 und Strecke 4</Intersection>
+<Ray name="Strahl 1" color="2" from="A" to="Z">Strahl von A in Richtung Z</Ray>
+<Circle name="Kreis 3" color="2" through="A" midpoint="Z" partial="true">Kreis um Z durch A</Circle>
+<Intersection name="Schnitt 4" color="2" first="Strahl 1" second="Kreis 3" which="first">Schnitt zwischen Strahl 1 und Kreis 3</Intersection>
+<Intersection name="Schnitt 5" color="2" first="Strahl 1" second="Kreis 3" which="second">Schnitt zwischen Strahl 1 und Kreis 3</Intersection>
+<Circle name="Kreis 4" through="Schnitt 4" midpoint="M">Kreis um M durch Schnitt 4</Circle>
+<Segment name="Strecke 5" from="B" to="Schnitt 4">Strecke von B nach Schnitt 4</Segment>
+<Segment name="Strecke 6" from="Schnitt 4" to="M">Strecke von Schnitt 4 nach M</Segment>
+<Segment name="Strecke 7" from="M" to="A">Strecke von M nach A</Segment>
+</Objects>
+</Construction>
+</CaR>

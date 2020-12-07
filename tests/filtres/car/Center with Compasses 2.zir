@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction job="true" last="B" target="M">
+<Window x="0.0" y="0.0" w="1.0"/>
+<Comment>
+<P>Diese Konstruktion finden die Mitte M zwischen A und B mit
+dem Zirkel alleine. </P>
+<P>Sie beruht darauf, dass AX = CX = 2 AB = 2 AC ist. Die
+Dreiecke ACM und ACS sind außerdem ähnlich, so dass AC/AM =
+AX/AC gilt, woraus AB/AM=2 folgt.</P>
+</Comment>
+<Assignment>
+<P>Konstruieren Sie die Mitte M zwischen A und B mit dem
+Zirkel alleine.</P>
+</Assignment>
+<Objects>
+<Point name="A" showname="true" x="-0.382262996941896" y="-0.058103975535168224">Punkt in -0.4067278287461774, -0.07645259938837923</Point>
+<Point name="B" showname="true" x="0.11926605504587152" y="-0.051987767584097844">Punkt in 0.4067278287461773, -0.05504587155963303</Point>
+<Circle name="Kreis 1" color="1" midpoint="B" through="A">Kreis um B durch A</Circle>
+<Circle name="Kreis 2" color="1" midpoint="A" through="B" partial="true">Kreis um A durch B</Circle>
+<Intersection name="Schnitt 1" color="1" first="Kreis 1" second="Kreis 2" other="Schnitt 2">Schnitt zwischen Kreis 1 und Kreis 2</Intersection>
+<OtherIntersection name="Schnitt 2" color="1">Schnitt zwischen Kreis 1 und Kreis 2</OtherIntersection>
+<Circle name="Kreis 3" color="1" midpoint="Schnitt 1" through="A" partial="true">Kreis um Schnitt 1 durch A</Circle>
+<Intersection name="Schnitt 3" color="1" first="Kreis 1" second="Kreis 3" other="Schnitt 4">Schnitt zwischen Kreis 1 und Kreis 3</Intersection>
+<OtherIntersection name="Schnitt 4" color="1">Schnitt zwischen Kreis 1 und Kreis 3</OtherIntersection>
+<Circle name="Kreis 4" color="1" midpoint="Schnitt 3" through="Schnitt 1" partial="true">Kreis um Schnitt 3 durch Schnitt 1</Circle>
+<Intersection name="X" color="1" showname="true" first="Kreis 1" second="Kreis 4" other="Schnitt 6">Schnitt zwischen Kreis 1 und Kreis 4</Intersection>
+<OtherIntersection name="Schnitt 6" color="1">Schnitt zwischen Kreis 1 und Kreis 4</OtherIntersection>
+<Circle name="Kreis 5" color="2" midpoint="X" through="A" partial="true">Kreis um X durch A</Circle>
+<Intersection name="Schnitt 7" color="2" first="Kreis 2" second="Kreis 5" other="C">Schnitt zwischen Kreis 2 und Kreis 5</Intersection>
+<OtherIntersection name="C" color="2" showname="true">Schnitt zwischen Kreis 2 und Kreis 5</OtherIntersection>
+<Circle name="Kreis 6" color="2" midpoint="Schnitt 7" through="A" partial="true">Kreis um Schnitt 7 durch A</Circle>
+<Circle name="Kreis 7" color="2" midpoint="C" through="A" partial="true">Kreis um C durch A</Circle>
+<Intersection name="M" showname="true" first="Kreis 6" second="Kreis 7" other="Schnitt 10">Schnitt zwischen Kreis 6 und Kreis 7</Intersection>
+<OtherIntersection name="Schnitt 10">Schnitt zwischen Kreis 6 und Kreis 7</OtherIntersection>
+<Segment name="Strecke 1" color="2" from="A" to="C">Strecke von A nach C</Segment>
+<Segment name="Strecke 2" color="2" from="C" to="M">Strecke von C nach M</Segment>
+<Segment name="Strecke 3" color="1" from="X" to="C">Strecke von X nach C</Segment>
+</Objects>
+</Construction>
+</CaR>

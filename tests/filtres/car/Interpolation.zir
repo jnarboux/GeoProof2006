@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="1.767766952966368"/>
+<Comment>
+<P>Interpolation with a parabola.</P>
+<P></P>
+<P>This is a computed construction.</P>
+</Comment>
+<Objects>
+<Point name="Punkt 1" showvalue="true" x="0.0" y="0.0" shape="circle" fixed="true">Point at &quot;0.0&quot;, &quot;0.0&quot;</Point>
+<Point name="Punkt 2" showvalue="true" x="1.0" y="0.0" shape="diamond" fixed="true">Point at &quot;1.0&quot;, &quot;0.0&quot;</Point>
+<Line name="g" from="Punkt 1" to="Punkt 2">Gerade durch Punkt 1 und Punkt 2</Line>
+<Point name="Punkt 3" showvalue="true" x="0.0" y="1.0" shape="diamond" fixed="true">Point at &quot;0.0&quot;, &quot;1.0&quot;</Point>
+<Line name="g2" from="Punkt 1" to="Punkt 3">Gerade durch Punkt 1 und Punkt 3</Line>
+<Plumb name="l3" color="1" point="Punkt 2" line="g" valid="true">Lot durch Punkt 2 zu g</Plumb>
+<PointOn name="OP2" type="thick" on="g" x="-0.95" y="0.0">Point on g</PointOn>
+<Plumb name="l4" color="1" point="OP2" line="g" valid="true">Lot durch OP2 zu g</Plumb>
+<PointOn name="A" type="thick" showname="true" on="l4" x="-0.95" y="0.68">Point on l4</PointOn>
+<PointOn name="B" type="thick" showname="true" on="g2" x="0.0" y="-0.56">Point on g2</PointOn>
+<PointOn name="C" type="thick" showname="true" on="l3" x="1.0" y="0.49969548810000014">Point on l3</PointOn>
+<Expression name="c" type="thick" showname="true" showvalue="true" x="-1.5969682135493277" y="-0.5123962182511211" value="y(B)" prompt="c">Ausdruck &quot;y(&quot;B&quot;)&quot; in -1.6, -0.51</Expression>
+<Expression name="b" type="thick" showname="true" showvalue="true" x="-1.5855816309215252" y="-0.18787861335874445" value="(y(A)-c-x(A)*x(A)*(y(C)-c))/(x(A)-x(A)*x(A))" prompt="b">Ausdruck &quot;(y(&quot;A&quot;)-&quot;c&quot;-x(&quot;A&quot;)*x(&quot;A&quot;)*(y(&quot;C&quot;)-&quot;c&quot;))/(x(&quot;A&quot;)-x(&quot;A&quot;)*x(&quot;A&quot;))&quot; in -1.59, -0.19</Expression>
+<Expression name="a" type="thick" showname="true" showvalue="true" x="-1.5912749222354265" y="-0.34729077014798215" value="y(C)-b-c" prompt="a">Ausdruck &quot;y(&quot;C&quot;)-&quot;b&quot;-&quot;c&quot;&quot; in -1.59, -0.35</Expression>
+<PointOn name="X" color="2" type="thick" on="g" x="0.5799999999999998" y="0.0">Point on g</PointOn>
+<Plumb name="l5" color="2" type="thin" point="X" line="g" valid="true">Lot durch X zu g</Plumb>
+<Point name="P5" color="2" x="x(X)" y="c+x(X)*(a*x(X)+b)" fixed="true">Point at &quot;x(X)&quot;, &quot;c+x(X)*(a*x(X)+b)&quot;</Point>
+<Track name="Tr1" point="X" on="g" track="P5">Track of P5 while X move on g</Track>
+</Objects>
+</Construction>
+</CaR>

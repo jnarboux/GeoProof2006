@@ -1,0 +1,1 @@
+soit C1 le cercle de centre B passant par A.
